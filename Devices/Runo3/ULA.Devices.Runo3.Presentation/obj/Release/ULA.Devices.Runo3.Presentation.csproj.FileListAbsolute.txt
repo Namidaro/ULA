@@ -1,0 +1,176 @@
+C:\Users\Гусачок\Desktop\ULA\Devices\Runo3\ULA.Devices.Runo3.Presentation\obj\Release\ULA.Devices.Runo3.Presentation.csprojResolveAssemblyReference.cache
+C:\Users\Гусачок\Desktop\ULA\Devices\Runo3\ULA.Devices.Runo3.Presentation\obj\Release\Views\UserControls\RunoConfigCheckBoxControlView.baml
+C:\Users\Гусачок\Desktop\ULA\Devices\Runo3\ULA.Devices.Runo3.Presentation\obj\Release\Views\RunoConfigurationModeView.g.cs
+C:\Users\Гусачок\Desktop\ULA\Devices\Runo3\ULA.Devices.Runo3.Presentation\obj\Release\Views\UserControls\RunoConfigCheckBoxControlView.g.cs
+C:\Users\Гусачок\Desktop\ULA\Devices\Runo3\ULA.Devices.Runo3.Presentation\obj\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\Гусачок\Desktop\ULA\Devices\Runo3\ULA.Devices.Runo3.Presentation\obj\Release\ULA.Devices.Runo3.Presentation_MarkupCompile.cache
+C:\Users\Гусачок\Desktop\ULA\Devices\Runo3\ULA.Devices.Runo3.Presentation\obj\Release\ULA.Devices.Runo3.Presentation_MarkupCompile.lref
+C:\Users\Гусачок\Desktop\ULA\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\Files\ULA.chm
+C:\Users\Гусачок\Desktop\ULA\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\NLog.config
+C:\Users\Гусачок\Desktop\ULA\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\ULA.Devices.Runo3.Presentation.dll.config
+C:\Users\Гусачок\Desktop\ULA\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\ULA.Devices.Runo3.Presentation.dll
+C:\Users\Гусачок\Desktop\ULA\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\ULA.Devices.Runo3.Presentation.pdb
+C:\Users\Гусачок\Desktop\ULA\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Гусачок\Desktop\ULA\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\Гусачок\Desktop\ULA\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\Microsoft.Practices.Unity.dll
+C:\Users\Гусачок\Desktop\ULA\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\Users\Гусачок\Desktop\ULA\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\NLog.dll
+C:\Users\Гусачок\Desktop\ULA\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\Prism.dll
+C:\Users\Гусачок\Desktop\ULA\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\Prism.Unity.Wpf.dll
+C:\Users\Гусачок\Desktop\ULA\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\Prism.Wpf.dll
+C:\Users\Гусачок\Desktop\ULA\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\System.Windows.Interactivity.dll
+C:\Users\Гусачок\Desktop\ULA\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\ULA.AddinsHost.dll
+C:\Users\Гусачок\Desktop\ULA\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\ULA.ApplicationConnectionService.dll
+C:\Users\Гусачок\Desktop\ULA\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\ULA.Business.dll
+C:\Users\Гусачок\Desktop\ULA\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\ULA.Business.Infrastructure.dll
+C:\Users\Гусачок\Desktop\ULA\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\ULA.Devices.Runo3.Business.dll
+C:\Users\Гусачок\Desktop\ULA\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\ULA.Interceptors.dll
+C:\Users\Гусачок\Desktop\ULA\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\ULA.Localization.dll
+C:\Users\Гусачок\Desktop\ULA\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\ULA.Presentation.dll
+C:\Users\Гусачок\Desktop\ULA\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\ULA.Presentation.Infrastructure.dll
+C:\Users\Гусачок\Desktop\ULA\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\YP.Toolkit.System.dll
+C:\Users\Гусачок\Desktop\ULA\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\NModBus4.dll
+C:\Users\Гусачок\Desktop\ULA\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\ULA.Common.dll
+C:\Users\Гусачок\Desktop\ULA\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\ULA.Log.dll
+C:\Users\Гусачок\Desktop\ULA\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\ULA.Presentation.SharedResourses.dll
+C:\Users\Гусачок\Desktop\ULA\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\FluentValidation.dll
+C:\Users\Гусачок\Desktop\ULA\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\Гусачок\Desktop\ULA\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\ULA.Devices.Presentation.dll
+C:\Users\Гусачок\Desktop\ULA\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\FirstFloor.ModernUI.dll
+C:\Users\Гусачок\Desktop\ULA\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\Microsoft.Practices.Unity.Interception.dll
+C:\Users\Гусачок\Desktop\ULA\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\ULA.ApplicationConnectionService.pdb
+C:\Users\Гусачок\Desktop\ULA\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\ULA.Business.Infrastructure.pdb
+C:\Users\Гусачок\Desktop\ULA\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\ULA.Business.pdb
+C:\Users\Гусачок\Desktop\ULA\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\ULA.AddinsHost.pdb
+C:\Users\Гусачок\Desktop\ULA\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\ULA.Interceptors.pdb
+C:\Users\Гусачок\Desktop\ULA\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\ULA.Localization.pdb
+C:\Users\Гусачок\Desktop\ULA\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\ULA.Presentation.Infrastructure.pdb
+C:\Users\Гусачок\Desktop\ULA\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\ULA.Presentation.pdb
+C:\Users\Гусачок\Desktop\ULA\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\YP.Toolkit.System.pdb
+C:\Users\Гусачок\Desktop\ULA\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\YP.Toolkit.System.xml
+C:\Users\Гусачок\Desktop\ULA\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\ULA.Devices.Runo3.Business.pdb
+C:\Users\Гусачок\Desktop\ULA\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\Гусачок\Desktop\ULA\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\Microsoft.Practices.ServiceLocation.xml
+C:\Users\Гусачок\Desktop\ULA\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\Microsoft.Practices.Unity.xml
+C:\Users\Гусачок\Desktop\ULA\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\Гусачок\Desktop\ULA\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\Microsoft.Practices.Unity.RegistrationByConvention.xml
+C:\Users\Гусачок\Desktop\ULA\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\NLog.xml
+C:\Users\Гусачок\Desktop\ULA\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\Prism.xml
+C:\Users\Гусачок\Desktop\ULA\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\Prism.Unity.Wpf.xml
+C:\Users\Гусачок\Desktop\ULA\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\Prism.Wpf.xml
+C:\Users\Гусачок\Desktop\ULA\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\NModBus4.pdb
+C:\Users\Гусачок\Desktop\ULA\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\ULA.Common.pdb
+C:\Users\Гусачок\Desktop\ULA\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\ULA.Log.pdb
+C:\Users\Гусачок\Desktop\ULA\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\ULA.Presentation.SharedResourses.pdb
+C:\Users\Гусачок\Desktop\ULA\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\FluentValidation.pdb
+C:\Users\Гусачок\Desktop\ULA\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\FluentValidation.xml
+C:\Users\Гусачок\Desktop\ULA\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Users\Гусачок\Desktop\ULA\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\ULA.Devices.Presentation.pdb
+C:\Users\Гусачок\Desktop\ULA\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\FirstFloor.ModernUI.xml
+C:\Users\Гусачок\Desktop\ULA\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\Microsoft.Practices.Unity.Interception.xml
+C:\Users\Гусачок\Desktop\ULA\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\de\FluentValidation.resources.dll
+C:\Users\Гусачок\Desktop\ULA\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\es\FluentValidation.resources.dll
+C:\Users\Гусачок\Desktop\ULA\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\fi\FluentValidation.resources.dll
+C:\Users\Гусачок\Desktop\ULA\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\fr\FluentValidation.resources.dll
+C:\Users\Гусачок\Desktop\ULA\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\it\FluentValidation.resources.dll
+C:\Users\Гусачок\Desktop\ULA\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\ko\FluentValidation.resources.dll
+C:\Users\Гусачок\Desktop\ULA\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\nl\FluentValidation.resources.dll
+C:\Users\Гусачок\Desktop\ULA\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\pl\FluentValidation.resources.dll
+C:\Users\Гусачок\Desktop\ULA\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\pt\FluentValidation.resources.dll
+C:\Users\Гусачок\Desktop\ULA\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\ru\FluentValidation.resources.dll
+C:\Users\Гусачок\Desktop\ULA\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\sv\FluentValidation.resources.dll
+C:\Users\Гусачок\Desktop\ULA\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\tr\FluentValidation.resources.dll
+C:\Users\Гусачок\Desktop\ULA\Devices\Runo3\ULA.Devices.Runo3.Presentation\obj\Release\Views\RunoConfigurationModeView.baml
+C:\Users\Гусачок\Desktop\ULA\Devices\Runo3\ULA.Devices.Runo3.Presentation\obj\Release\ULA.Devices.Runo3.Presentation.g.resources
+C:\Users\Гусачок\Desktop\ULA\Devices\Runo3\ULA.Devices.Runo3.Presentation\obj\Release\ULA.Devices.Runo3.Presentation.Properties.Resources.resources
+C:\Users\Гусачок\Desktop\ULA\Devices\Runo3\ULA.Devices.Runo3.Presentation\obj\Release\ULA.Devices.Runo3.Presentation.csproj.GenerateResource.Cache
+C:\Users\Гусачок\Desktop\ULA\Devices\Runo3\ULA.Devices.Runo3.Presentation\obj\Release\ULA.Devices.Runo3.Presentation.dll
+C:\Users\Гусачок\Desktop\ULA\Devices\Runo3\ULA.Devices.Runo3.Presentation\obj\Release\ULA.Devices.Runo3.Presentation.pdb
+c:\ULA 2k17\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\Files\ULA.chm
+c:\ULA 2k17\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\NLog.config
+c:\ULA 2k17\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\ULA.Devices.Runo3.Presentation.dll.config
+c:\ULA 2k17\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\ULA.Devices.Runo3.Presentation.dll
+c:\ULA 2k17\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\ULA.Devices.Runo3.Presentation.pdb
+c:\ULA 2k17\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\Microsoft.Practices.ServiceLocation.dll
+c:\ULA 2k17\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\Microsoft.Practices.Unity.Configuration.dll
+c:\ULA 2k17\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\Microsoft.Practices.Unity.dll
+c:\ULA 2k17\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\Microsoft.Practices.Unity.RegistrationByConvention.dll
+c:\ULA 2k17\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\NLog.dll
+c:\ULA 2k17\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\Prism.dll
+c:\ULA 2k17\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\Prism.Unity.Wpf.dll
+c:\ULA 2k17\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\Prism.Wpf.dll
+c:\ULA 2k17\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\System.Windows.Interactivity.dll
+c:\ULA 2k17\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\ULA.AddinsHost.dll
+c:\ULA 2k17\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\ULA.ApplicationConnectionService.dll
+c:\ULA 2k17\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\ULA.Business.dll
+c:\ULA 2k17\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\ULA.Business.Infrastructure.dll
+c:\ULA 2k17\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\ULA.Devices.Runo3.Business.dll
+c:\ULA 2k17\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\ULA.Interceptors.dll
+c:\ULA 2k17\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\ULA.Localization.dll
+c:\ULA 2k17\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\ULA.Presentation.dll
+c:\ULA 2k17\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\ULA.Presentation.Infrastructure.dll
+c:\ULA 2k17\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\YP.Toolkit.System.dll
+c:\ULA 2k17\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\NModBus4.dll
+c:\ULA 2k17\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\ULA.Common.dll
+c:\ULA 2k17\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\ULA.Log.dll
+c:\ULA 2k17\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\ULA.Presentation.SharedResourses.dll
+c:\ULA 2k17\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\FluentValidation.dll
+c:\ULA 2k17\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+c:\ULA 2k17\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\ULA.Devices.Presentation.dll
+c:\ULA 2k17\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\FirstFloor.ModernUI.dll
+c:\ULA 2k17\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\Microsoft.Practices.Unity.Interception.dll
+c:\ULA 2k17\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\ULA.ApplicationConnectionService.pdb
+c:\ULA 2k17\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\ULA.Business.Infrastructure.pdb
+c:\ULA 2k17\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\ULA.Business.pdb
+c:\ULA 2k17\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\ULA.AddinsHost.pdb
+c:\ULA 2k17\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\ULA.Interceptors.pdb
+c:\ULA 2k17\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\ULA.Localization.pdb
+c:\ULA 2k17\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\ULA.Presentation.Infrastructure.pdb
+c:\ULA 2k17\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\ULA.Presentation.pdb
+c:\ULA 2k17\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\YP.Toolkit.System.pdb
+c:\ULA 2k17\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\YP.Toolkit.System.xml
+c:\ULA 2k17\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\ULA.Devices.Runo3.Business.pdb
+c:\ULA 2k17\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\Microsoft.Practices.ServiceLocation.pdb
+c:\ULA 2k17\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\Microsoft.Practices.ServiceLocation.xml
+c:\ULA 2k17\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\Microsoft.Practices.Unity.xml
+c:\ULA 2k17\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\Microsoft.Practices.Unity.Configuration.xml
+c:\ULA 2k17\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\Microsoft.Practices.Unity.RegistrationByConvention.xml
+c:\ULA 2k17\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\NLog.xml
+c:\ULA 2k17\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\Prism.xml
+c:\ULA 2k17\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\Prism.Unity.Wpf.xml
+c:\ULA 2k17\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\Prism.Wpf.xml
+c:\ULA 2k17\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\NModBus4.pdb
+c:\ULA 2k17\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\ULA.Common.pdb
+c:\ULA 2k17\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\ULA.Log.pdb
+c:\ULA 2k17\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\ULA.Presentation.SharedResourses.pdb
+c:\ULA 2k17\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\FluentValidation.pdb
+c:\ULA 2k17\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\FluentValidation.xml
+c:\ULA 2k17\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.xml
+c:\ULA 2k17\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\ULA.Devices.Presentation.pdb
+c:\ULA 2k17\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\FirstFloor.ModernUI.xml
+c:\ULA 2k17\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\Microsoft.Practices.Unity.Interception.xml
+c:\ULA 2k17\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\de\FluentValidation.resources.dll
+c:\ULA 2k17\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\es\FluentValidation.resources.dll
+c:\ULA 2k17\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\fi\FluentValidation.resources.dll
+c:\ULA 2k17\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\fr\FluentValidation.resources.dll
+c:\ULA 2k17\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\it\FluentValidation.resources.dll
+c:\ULA 2k17\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\ko\FluentValidation.resources.dll
+c:\ULA 2k17\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\nl\FluentValidation.resources.dll
+c:\ULA 2k17\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\pl\FluentValidation.resources.dll
+c:\ULA 2k17\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\pt\FluentValidation.resources.dll
+c:\ULA 2k17\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\ru\FluentValidation.resources.dll
+c:\ULA 2k17\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\sv\FluentValidation.resources.dll
+c:\ULA 2k17\Devices\Runo3\ULA.Devices.Runo3.Presentation\bin\Release\tr\FluentValidation.resources.dll
+c:\ULA 2k17\Devices\Runo3\ULA.Devices.Runo3.Presentation\obj\Release\ULA.Devices.Runo3.Presentation.csprojResolveAssemblyReference.cache
+c:\ULA 2k17\Devices\Runo3\ULA.Devices.Runo3.Presentation\obj\Release\Views\UserControls\RunoConfigCheckBoxControlView.baml
+c:\ULA 2k17\Devices\Runo3\ULA.Devices.Runo3.Presentation\obj\Release\Views\RunoConfigurationModeView.g.cs
+c:\ULA 2k17\Devices\Runo3\ULA.Devices.Runo3.Presentation\obj\Release\Views\UserControls\RunoConfigCheckBoxControlView.g.cs
+c:\ULA 2k17\Devices\Runo3\ULA.Devices.Runo3.Presentation\obj\Release\GeneratedInternalTypeHelper.g.cs
+c:\ULA 2k17\Devices\Runo3\ULA.Devices.Runo3.Presentation\obj\Release\ULA.Devices.Runo3.Presentation_MarkupCompile.cache
+c:\ULA 2k17\Devices\Runo3\ULA.Devices.Runo3.Presentation\obj\Release\ULA.Devices.Runo3.Presentation_MarkupCompile.lref
+c:\ULA 2k17\Devices\Runo3\ULA.Devices.Runo3.Presentation\obj\Release\Views\RunoConfigurationModeView.baml
+c:\ULA 2k17\Devices\Runo3\ULA.Devices.Runo3.Presentation\obj\Release\ULA.Devices.Runo3.Presentation.g.resources
+c:\ULA 2k17\Devices\Runo3\ULA.Devices.Runo3.Presentation\obj\Release\ULA.Devices.Runo3.Presentation.Properties.Resources.resources
+c:\ULA 2k17\Devices\Runo3\ULA.Devices.Runo3.Presentation\obj\Release\ULA.Devices.Runo3.Presentation.csproj.GenerateResource.Cache
+c:\ULA 2k17\Devices\Runo3\ULA.Devices.Runo3.Presentation\obj\Release\ULA.Devices.Runo3.Presentation.dll
+c:\ULA 2k17\Devices\Runo3\ULA.Devices.Runo3.Presentation\obj\Release\ULA.Devices.Runo3.Presentation.pdb

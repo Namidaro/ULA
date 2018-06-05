@@ -1,0 +1,2279 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ULA.AddinsHost</name>
+    </assembly>
+    <members>
+        <member name="T:ULA.AddinsHost.Business.Device.Context.AomDeviceContextEntity">
+            <summary>
+                Represents device context entity in AOM notation
+                Представляет контекст сущности устройства в AOM нотации (см. AOM паттерн)
+            </summary>
+        </member>
+        <member name="M:ULA.AddinsHost.Business.Device.Context.AomDeviceContextEntity.#ctor">
+            <summary>
+                Creates an instance of <see cref="T:ULA.AddinsHost.Business.Device.Context.AomDeviceContextEntity" />
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.Business.Device.Context.AomDeviceContextEntity.DeviceName">
+            <summary>
+                Gets or sets the name of current device
+                Имя устройства
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.Business.Device.Context.AomDeviceContextEntity.DeviceDescription">
+            <summary>
+                Gets or sets the desciption of current device
+                описание устройства
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.Business.Device.Context.AomDeviceContextEntity.DeviceType">
+            <summary>
+                Gets or sets the type of current device
+                Тип устройства
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.Business.Device.Context.AomDeviceContextEntity.AnalogMeterType">
+            <summary>
+                Gets or sets the type of current device meter
+                Тип счетчика устройства
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.Business.Device.Context.AomDeviceContextEntity.RelatedDriverId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.Business.Device.Context.AomDeviceContextEntity.Starter1Description">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.Business.Device.Context.AomDeviceContextEntity.TransformKoefA">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.Business.Device.Context.AomDeviceContextEntity.DeviceNumber">
+            <summary>
+            номер устройства
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.Business.Device.Context.AomDeviceContextEntity.DataTable">
+            <summary>
+                Gets or sets an instance  that represents current device data table
+                Таблица данных устройства
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.Business.Device.Context.AomDeviceContextEntity.SchemeTable">
+            <summary>
+                Gets or sets an instance of <see cref="T:ULA.AddinsHost.Business.Device.SchemeTable.IConfiguratedDeviceSchemeTable" /> that represents current device scheme table
+                Таблица схемы устройства
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.Business.Device.Context.AomDeviceContextEntity.CustomDeviceSchemeTable">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:ULA.AddinsHost.Business.Device.Context.AomDeviceContextEntity.CreateTypeMetadata">
+            <summary>
+                Создает метаданные для устройства
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:ULA.AddinsHost.Business.Device.Context.AomDeviceContextEntityBuilder">
+            <summary>
+                Represents device context entity in AOM notation builder functionality
+                Представляет строитель контекста сущности устройства в AOM нотации (см. AOM паттерн)
+            </summary>
+        </member>
+        <member name="M:ULA.AddinsHost.Business.Device.Context.AomDeviceContextEntityBuilder.SetDeviceName(System.String)">
+            <summary>
+                Sets the name of the device
+                Устанавливает имя устройства
+            </summary>
+            <param name="deviceName">The name of the device</param>
+        </member>
+        <member name="M:ULA.AddinsHost.Business.Device.Context.AomDeviceContextEntityBuilder.SetDeviceDescription(System.String)">
+            <summary>
+                Sets the description of the device
+                Устанавливает описание устройства
+            </summary>
+            <param name="deviceDescription">The device description</param>
+        </member>
+        <member name="M:ULA.AddinsHost.Business.Device.Context.AomDeviceContextEntityBuilder.SetDeviceType(System.String)">
+            <summary>
+                Sets the type of the device
+                Устанавливает тип устройства
+            </summary>
+            <param name="deviceType">The type of the device</param>
+        </member>
+        <member name="M:ULA.AddinsHost.Business.Device.Context.AomDeviceContextEntityBuilder.SeAnalogMeterType(System.String)">
+            <summary>
+                Sets the type of the device
+                Устанавливает тип устройства
+            </summary>
+            <param name="analogMeterType">The type of the device</param>
+        </member>
+        <member name="M:ULA.AddinsHost.Business.Device.Context.AomDeviceContextEntityBuilder.SetAnalogMeterKoefs(System.Int32,System.Int32,System.Int32)">
+            <summary>
+                Sets the type of the device
+                Устанавливает тип устройства
+            </summary>
+        </member>
+        <member name="M:ULA.AddinsHost.Business.Device.Context.AomDeviceContextEntityBuilder.SetCustomFiders(System.Collections.Generic.List{ULA.AddinsHost.Business.Device.SchemeTable.CustomTableItems.ICustomFider})">
+            <summary>
+                Устанавливает фидеры
+            </summary>
+            <param name="customFiders"></param>
+        </member>
+        <member name="M:ULA.AddinsHost.Business.Device.Context.AomDeviceContextEntityBuilder.SetCustomSignals(System.Collections.Generic.List{ULA.AddinsHost.Business.Device.SchemeTable.CustomTableItems.ICustomSignal})">
+            <summary>
+                Устанавливает фидеры
+            </summary>
+            <param name="customSignals"></param>
+        </member>
+        <member name="M:ULA.AddinsHost.Business.Device.Context.AomDeviceContextEntityBuilder.SetCustomIndicators(System.Collections.Generic.List{ULA.AddinsHost.Business.Device.SchemeTable.CustomTableItems.ICustomIndicator})">
+            <summary>
+                Устанавливает фидеры
+            </summary>
+            <param name="customFiders"></param>
+        </member>
+        <member name="M:ULA.AddinsHost.Business.Device.Context.AomDeviceContextEntityBuilder.SetCustomCascade(System.Collections.Generic.List{ULA.AddinsHost.Business.Device.SchemeTable.CustomTableItems.ICascadeIndicator})">
+            <summary>
+                Устанавливает фидеры
+            </summary>
+            <param name="cascadeIndicators"></param>
+        </member>
+        <member name="M:ULA.AddinsHost.Business.Device.Context.AomDeviceContextEntityBuilder.SetDriverId(System.String)">
+            <summary>
+                Sets the unique identifier of the driver with which current device is associated
+                Устанавливает id устройства
+            </summary>
+            <param name="driverId"></param>
+        </member>
+        <member name="M:ULA.AddinsHost.Business.Device.Context.AomDeviceContextEntityBuilder.Build">
+            <summary>
+                Builds an instance of <see cref="T:ULA.AddinsHost.Business.Device.Context.AomDeviceContextEntity" />
+                Строит AOM контекст сущность (см. AOM паттерн)
+            </summary>
+            <returns>
+                Built instance of <see cref="T:ULA.AddinsHost.Business.Device.Context.AomDeviceContextEntity" />
+            </returns>
+        </member>
+        <member name="T:ULA.AddinsHost.Business.Device.Context.IDeviceContext">
+            <summary>
+                Описывает контекст устройства
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.Business.Device.Context.IDeviceContext.DeviceName">
+            <summary>
+                Gets or sets the name of current device
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.Business.Device.Context.IDeviceContext.DeviceDescription">
+            <summary>
+                Gets or sets the desciption of current device
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.Business.Device.Context.IDeviceContext.DeviceType">
+            <summary>
+                Gets or sets the type of current device
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.Business.Device.Context.IDeviceContext.AnalogMeterType">
+            <summary>
+                Gets or sets the type of meter current device
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.Business.Device.Context.IDeviceContext.RelatedDriverId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.Business.Device.Context.IDeviceContext.DeviceNumber">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.Business.Device.Context.IDeviceContext.DataTable">
+            <summary>
+               
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.Business.Device.Context.IDeviceContext.SchemeTable">
+            <summary>
+                Gets or sets an instance of <see cref="T:ULA.AddinsHost.Business.Device.SchemeTable.IConfiguratedDeviceSchemeTable" /> that represents current device scheme table
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.Business.Device.Context.IDeviceContext.CustomDeviceSchemeTable">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:ULA.AddinsHost.Business.Device.DataTables.DefaultDataRow">
+             <summary>
+                 Represents device data row functionality
+                 Представляет строку данных из таблицы данных устройства
+             </summary>
+            
+        </member>
+        <member name="P:ULA.AddinsHost.Business.Device.DataTables.DefaultDataRow.Tag">
+            <summary>
+                Gets or sets the tag name of current data row
+                Тэг(имя) строки
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.Business.Device.DataTables.DefaultDataRow.DriverDataId">
+            <summary>
+                Gets or sets the driver unique identifier od the value that is associated with current value
+                Id строки данных драйвера включающую эту строку
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.Business.Device.DataTables.DefaultDataRow.Formatter">
+            <summary>
+                Gets or sets an instance of <see cref="T:ULA.Common.Formatters.IValueFormatter" /> for current value
+                Сущность для форматирования данного
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.Business.Device.DataTables.DefaultDataRow.Value">
+            <summary>
+                Get a value 
+                Значение
+            </summary>
+        </member>
+        <member name="M:ULA.AddinsHost.Business.Device.DataTables.DefaultDataRow.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:ULA.AddinsHost.Business.Device.DataTables.DefaultTagNamedObjectCollection`1">
+            <summary>
+                Represents default device data table functionality
+               Реализация таблицы данных устройства
+            </summary>
+        </member>
+        <member name="M:ULA.AddinsHost.Business.Device.DataTables.DefaultTagNamedObjectCollection`1.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:ULA.AddinsHost.Business.Device.DataTables.DefaultTagNamedObjectCollection`1.AddObject(`0)">
+            <summary>
+                Adds an instance of <see cref="T:ULA.AddinsHost.Business.Device.DataTables.IDeviceDataTableRow" /> to a collection of rows
+                Добавить строку данных в таблицу
+            </summary>
+            <param name="row">
+                Aninstance of <see cref="T:ULA.AddinsHost.Business.Device.DataTables.IDeviceDataTableRow" /> to add to a collection
+            </param>
+        </member>
+        <member name="M:ULA.AddinsHost.Business.Device.DataTables.DefaultTagNamedObjectCollection`1.GetObjectByTag(System.String)">
+            <summary>
+                Get data row by device Id and Tag
+                Вернуть строку данных из таблицы
+            </summary>
+            <param name="tag">Tag of value
+                Тэг строки</param>
+            <returns>Requires data row or null-value when row not found</returns>
+        </member>
+        <member name="M:ULA.AddinsHost.Business.Device.DataTables.DefaultTagNamedObjectCollection`1.GetDataRowsByDriverData(System.Guid)">
+            <summary>
+                Get all rows with equal device and driver id
+                Вернет все строки с данным driverDataId - id данного в драйвере
+            </summary>
+            <param name="driverDataId">driverDataId</param>
+            <returns>all rows with equal device and driver id</returns>
+        </member>
+        <member name="P:ULA.AddinsHost.Business.Device.DataTables.DefaultTagNamedObjectCollection`1.Item(System.String)">
+            <summary>
+                Индексатор для получения доступа к _content
+            </summary>
+            <param name="tag">Tag для Row</param>
+            <returns></returns>
+        </member>
+        <member name="M:ULA.AddinsHost.Business.Device.DataTables.DefaultTagNamedObjectCollection`1.GetEnumeratorObjects">
+            <summary>
+                Get Enumerator for this data table
+                Вернет IEnumerable для таблицы данных устройства
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ULA.AddinsHost.Business.Device.DataTables.DefaultTagNamedObjectCollection`1.TryDeleteObjectByTag(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="tag"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ULA.AddinsHost.Business.Device.DataTables.ITagNamedObjectCollection`1">
+            <summary>
+                Exposes a device data table functionality
+            </summary>
+        </member>
+        <member name="M:ULA.AddinsHost.Business.Device.DataTables.ITagNamedObjectCollection`1.AddObject(`0)">
+            <summary>
+                Adds an instance of <see cref="T:ULA.AddinsHost.Business.Device.DataTables.IDeviceDataTableRow" /> to a collection of rows
+            </summary>
+            <param name="row">
+                Aninstance of <see cref="T:ULA.AddinsHost.Business.Device.DataTables.IDeviceDataTableRow" /> to add to a collection
+            </param>
+        </member>
+        <member name="M:ULA.AddinsHost.Business.Device.DataTables.ITagNamedObjectCollection`1.GetObjectByTag(System.String)">
+            <summary>
+                Get data row by device Id and Tag
+            </summary>
+            <param name="tag">Tag of value</param>
+            <returns>Requires data row</returns>
+        </member>
+        <member name="P:ULA.AddinsHost.Business.Device.DataTables.ITagNamedObjectCollection`1.Item(System.String)">
+            <summary>
+                Индексатор для получения доступа к _content
+            </summary>
+            <param name="tag">Tag для Row</param>
+            <returns></returns>
+        </member>
+        <member name="M:ULA.AddinsHost.Business.Device.DataTables.ITagNamedObjectCollection`1.GetEnumeratorObjects">
+            <summary>
+                Get Enumerator for this data table
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ULA.AddinsHost.Business.Device.DataTables.ITagNamedObjectCollection`1.TryDeleteObjectByTag(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="tag"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ULA.AddinsHost.Business.Device.DataTables.ITagNamedObjectCollection`1.IsObjectExists(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="tag"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ULA.AddinsHost.Business.Device.DataTables.IDeviceDataTableRow">
+            <summary>
+                Exposees device data table row functionality
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.Business.Device.DataTables.IDeviceDataTableRow.DriverDataId">
+            <summary>
+                Gets the unique identifier of the driver's data that this value is associated with
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.Business.Device.DataTables.IDeviceDataTableRow.Formatter">
+            <summary>
+                Gets an instance of <see cref="T:ULA.Common.Formatters.IValueFormatter" /> that represetns the strategy of formatting current value
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.Business.Device.DataTables.IDeviceDataTableRow.Value">
+            <summary>
+                Get a value 
+            </summary>
+        </member>
+        <member name="T:ULA.AddinsHost.Business.Device.DefaultRuntimeLogicalDeviceMomento">
+            <summary>
+                Represents default configuration logical device momento functionality
+                Представляет состояние логического устройства в режиме реального времени(см. паттрн Momento)
+            </summary>
+        </member>
+        <member name="M:ULA.AddinsHost.Business.Device.DefaultRuntimeLogicalDeviceMomento.#ctor(ULA.AddinsHost.Business.Device.Context.IDeviceContext)">
+            <summary>
+                Creates an instance of <see cref="T:ULA.AddinsHost.Business.Device.DefaultConfigLogicalDeviceMomento" />
+            </summary>
+            <param name="state">
+                An instance of <see cref="T:ULA.AddinsHost.Business.Device.Context.IDeviceContext" /> that represents a device state
+            </param>
+        </member>
+        <member name="P:ULA.AddinsHost.Business.Device.DefaultRuntimeLogicalDeviceMomento.State">
+            <summary>
+                Gets the state of a momento object
+                Возвращает состояние(контекст) увтройства
+            </summary>
+        </member>
+        <member name="T:ULA.AddinsHost.Business.Device.Enums.WidgetState">
+            <summary>
+                Represent a state of widget(device)
+                Представляет набор состояний устройства(нормально, авария, нет связи, ремонт)
+            </summary>
+        </member>
+        <member name="F:ULA.AddinsHost.Business.Device.Enums.WidgetState.Norm">
+            <summary>
+            в нормальном режиме
+            </summary>
+        </member>
+        <member name="F:ULA.AddinsHost.Business.Device.Enums.WidgetState.Crash">
+            <summary>
+            в режиме аварии
+            </summary>
+        </member>
+        <member name="F:ULA.AddinsHost.Business.Device.Enums.WidgetState.NoConnection">
+            <summary>
+            режим нет подключения
+            </summary>
+        </member>
+        <member name="F:ULA.AddinsHost.Business.Device.Enums.WidgetState.Repair">
+            <summary>
+            режим ремонта
+            </summary>
+        </member>
+        <member name="T:ULA.AddinsHost.Business.Device.IConfigDeviceViewModel">
+            <summary>
+            устройство в режиме конфигурирования
+            </summary>
+        </member>
+        <member name="T:ULA.AddinsHost.Business.Device.IConfigDeviceViewModelFactory">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:ULA.AddinsHost.Business.Device.IConfigDeviceViewModelFactory.CreateConfigDeviceViewModel(ULA.AddinsHost.Business.Device.IConfigLogicalDevice)">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:ULA.AddinsHost.Business.Device.ILogicalDeviceFactory">
+            <summary>
+                Exposes logical device factory functionality
+                Описывает функционал фабрики догических устройств
+            </summary>
+        </member>
+        <member name="M:ULA.AddinsHost.Business.Device.ILogicalDeviceFactory.CreateLogicalDevice(ULA.AddinsHost.Business.Device.IDeviceMomento)">
+            <summary>
+                Creates an instance of <see cref="T:ULA.AddinsHost.ViewModel.Device.IRuntimeDeviceViewModel" />
+            </summary>
+            <param name="deviceMomento"></param>
+            <returns>
+                Created instance of <see cref="T:ULA.AddinsHost.ViewModel.Device.IRuntimeDeviceViewModel" />
+            </returns>
+        </member>
+        <member name="T:ULA.AddinsHost.Business.Device.Keys.DeviceEntityKeys">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:ULA.AddinsHost.Business.Device.Keys.DeviceEntityKeys.TAG">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:ULA.AddinsHost.Business.Device.Keys.DeviceEntityKeys.DeviceDataTable">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:ULA.AddinsHost.Business.Device.Keys.DeviceEntityKeys.DeviceDataTable.DATATABLE_CONTENT">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:ULA.AddinsHost.Business.Device.Keys.DeviceEntityKeys.DeviceDataTable.DATATABLE_DATADRIVER_ID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:ULA.AddinsHost.Business.Device.Keys.DeviceEntityKeys.DeviceDataTable.DATATABLE_FORMATTER">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:ULA.AddinsHost.Business.Device.Keys.DeviceEntityKeys.DeviceDataTable.DATATABLE_FIDERS">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:ULA.AddinsHost.Business.Device.Keys.DeviceEntityKeys.DeviceDataTable.DATATABLE_SIGNALS">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:ULA.AddinsHost.Business.Device.Keys.DeviceEntityKeys.DeviceDataTable.DATATABLE_INDICATORS">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:ULA.AddinsHost.Business.Device.Keys.DeviceEntityKeys.DeviceDataTable.DATATABLE_CASCADE">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:ULA.AddinsHost.Business.Device.Keys.DeviceEntityKeys.CustomSchemeKeys">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:ULA.AddinsHost.Business.Device.Keys.DeviceEntityKeys.CustomSchemeKeys.IS_ENABLED_RESISTOR1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:ULA.AddinsHost.Business.Device.Keys.DeviceEntityKeys.CustomSchemeKeys.IS_ENABLED_RESISTOR2">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:ULA.AddinsHost.Business.Device.Keys.DeviceEntityKeys.CustomSchemeKeys.IS_ENABLED_RESISTOR3">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:ULA.AddinsHost.Business.Device.Keys.DeviceEntityKeys.CustomSchemeKeys.MODULE_RESISTOR1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:ULA.AddinsHost.Business.Device.Keys.DeviceEntityKeys.CustomSchemeKeys.MODULE_RESISTOR2">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:ULA.AddinsHost.Business.Device.Keys.DeviceEntityKeys.CustomSchemeKeys.MODULE_RESISTOR3">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:ULA.AddinsHost.Business.Device.Keys.DeviceEntityKeys.CustomSchemeKeys.NUMBER_RESISTOR1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:ULA.AddinsHost.Business.Device.Keys.DeviceEntityKeys.CustomSchemeKeys.NUMBER_RESISTOR2">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:ULA.AddinsHost.Business.Device.Keys.DeviceEntityKeys.CustomSchemeKeys.NUMBER_RESISTOR3">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:ULA.AddinsHost.Business.Device.Keys.DeviceEntityKeys.CustomSchemeKeys.NUMBER_RESISTOR">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:ULA.AddinsHost.Business.Device.Keys.DeviceEntityKeys.CustomSchemeKeys.MODULE_RESISTOR">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:ULA.AddinsHost.Business.Device.SchemeTable.CustomCollections.CustomFidersCollection">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:ULA.AddinsHost.Business.Device.SchemeTable.CustomDeviceSchemeTable">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:ULA.AddinsHost.Business.Device.SchemeTable.CustomDeviceSchemeTable.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.Business.Device.SchemeTable.CustomDeviceSchemeTable.FidersTable">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:ULA.AddinsHost.Business.Device.SchemeTable.CustomTableItems.CustomFider">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:ULA.AddinsHost.Business.Device.SchemeTable.CustomTableItems.CustomFider.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.Business.Device.SchemeTable.CustomTableItems.CustomFider.IsEnabledResistor1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.Business.Device.SchemeTable.CustomTableItems.CustomFider.IsEnabledResistor2">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.Business.Device.SchemeTable.CustomTableItems.CustomFider.IsEnabledResistor3">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.Business.Device.SchemeTable.CustomTableItems.CustomFider.ModuleResistor1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.Business.Device.SchemeTable.CustomTableItems.CustomFider.ModuleResistor2">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.Business.Device.SchemeTable.CustomTableItems.CustomFider.ModuleResistor3">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.Business.Device.SchemeTable.CustomTableItems.CustomFider.NumberResistor1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.Business.Device.SchemeTable.CustomTableItems.CustomFider.NumberResistor2">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.Business.Device.SchemeTable.CustomTableItems.CustomFider.NumberResistor3">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.Business.Device.SchemeTable.CustomTableItems.CustomFider.Tag">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:ULA.AddinsHost.Business.Device.SchemeTable.CustomTableItems.ICustomFider">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.Business.Device.SchemeTable.CustomTableItems.ICustomFider.IsEnabledResistor1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.Business.Device.SchemeTable.CustomTableItems.ICustomFider.IsEnabledResistor2">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.Business.Device.SchemeTable.CustomTableItems.ICustomFider.IsEnabledResistor3">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.Business.Device.SchemeTable.CustomTableItems.ICustomFider.ModuleResistor1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.Business.Device.SchemeTable.CustomTableItems.ICustomFider.ModuleResistor2">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.Business.Device.SchemeTable.CustomTableItems.ICustomFider.ModuleResistor3">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.Business.Device.SchemeTable.CustomTableItems.ICustomFider.NumberResistor1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.Business.Device.SchemeTable.CustomTableItems.ICustomFider.NumberResistor2">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.Business.Device.SchemeTable.CustomTableItems.ICustomFider.NumberResistor3">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:ULA.AddinsHost.Business.Device.SchemeTable.DefaultResistorRow">
+            <summary>
+                Represent device scheme data table Resistor row functionally
+                Реализует строку предохранителя в таблице схемы устройства
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.Business.Device.SchemeTable.DefaultResistorRow.ResistorId">
+            <summary>
+                Id of resistor
+                Id предохранителя
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.Business.Device.SchemeTable.DefaultResistorRow.ResistorDescription">
+            <summary>
+                Description of resistor
+                Описание предохранителя
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.Business.Device.SchemeTable.DefaultResistorRow.ParentStarterId">
+            <summary>
+                Id of parent starter
+                Id пускателя которому принадлежит данный предохранитель </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.Business.Device.SchemeTable.DefaultResistorRow.ResistorModul">
+            <summary>
+            Modul 
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.Business.Device.SchemeTable.DefaultResistorRow.ResistorDiskret">
+            <summary>
+            Diskret
+            </summary>
+        </member>
+        <member name="T:ULA.AddinsHost.Business.Device.SchemeTable.DefaultSchemeTable">
+            <summary>
+                Represent a device scheme table functionality
+                Реализация талицы схемы устройства
+            </summary>
+        </member>
+        <member name="M:ULA.AddinsHost.Business.Device.SchemeTable.DefaultSchemeTable.AddStarterRow(ULA.AddinsHost.Business.Device.SchemeTable.IDeviceStarterRow)">
+            <summary>
+                Add instance of <see cref="T:ULA.AddinsHost.Business.Device.SchemeTable.IDeviceStarterRow"/> to scheme table. MaxSize = 2
+                Добавить строку-пускатель в таблицу схемы
+            </summary>
+            <param name="starterRow">Adding instance of <see cref="T:ULA.AddinsHost.Business.Device.SchemeTable.IDeviceStarterRow"/></param>
+        </member>
+        <member name="M:ULA.AddinsHost.Business.Device.SchemeTable.DefaultSchemeTable.AddResistorRow(ULA.AddinsHost.Business.Device.SchemeTable.IDeviceResistorRow)">
+            <summary>
+                Add instance of <see cref="T:ULA.AddinsHost.Business.Device.SchemeTable.IDeviceResistorRow"/> to scheme table
+            Добавить строку-предохранитель в таблицу схемы
+            </summary>
+            <param name="resistorRow">Adding instance of <see cref="T:ULA.AddinsHost.Business.Device.SchemeTable.IDeviceResistorRow"/></param>
+        </member>
+        <member name="M:ULA.AddinsHost.Business.Device.SchemeTable.DefaultSchemeTable.GetStarterRow(System.Int32)">
+            <summary>
+                Get a instance of <see cref="T:ULA.AddinsHost.Business.Device.SchemeTable.IDeviceStarterRow"/> from device scheme table. Если Пускателя с таким id нет, то вернет null
+            Вернуть строку-пускатель из таблицы схемы(по Id)
+            </summary>
+            <param name="starterId">Id of requered starter</param>
+            <returns>Requeres instance of <see cref="T:ULA.AddinsHost.Business.Device.SchemeTable.IDeviceStarterRow"/> or null if this id not found</returns>
+        </member>
+        <member name="M:ULA.AddinsHost.Business.Device.SchemeTable.DefaultSchemeTable.GetResistorRow(System.Int32)">
+            <summary>
+                Get a instance of <see cref="T:ULA.AddinsHost.Business.Device.SchemeTable.IDeviceResistorRow"/> from device scheme table. Если резистора с таким id нет, то вернет null
+            Вернуть строку неиспользованного предохранителя из таблицы схемы(по Id)
+            </summary>
+            <param name="resistorId">Id of requered resistor</param>
+            <returns>Requeres instance of <see cref="T:ULA.AddinsHost.Business.Device.SchemeTable.IDeviceResistorRow"/> or null if this id not found</returns>
+        </member>
+        <member name="M:ULA.AddinsHost.Business.Device.SchemeTable.DefaultSchemeTable.GetResistorEnumerable">
+            <summary>
+                Get a IEnumerable for instancs IDeviceResistorRow  
+                Вернет итератор по предохраниелям
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ULA.AddinsHost.Business.Device.SchemeTable.DefaultSchemeTable.GetChannelsEnumerable">
+            <summary>
+                 Get a instance of <see cref="T:ULA.AddinsHost.Business.Device.SchemeTable.IDeviceStarterRow"/> from device scheme table
+                Вернет итератор по пускателям
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ULA.AddinsHost.Business.Device.SchemeTable.DefaultSchemeTable.GetStarterByIndex(System.Int32)">
+            <summary>
+                Get starter with index
+                Вернет пускатель по его индексу
+            </summary>
+            <param name="index">index</param>
+            <returns>starter</returns>
+        </member>
+        <member name="M:ULA.AddinsHost.Business.Device.SchemeTable.DefaultSchemeTable.GetResistorByIndex(System.Int32)">
+            <summary>
+                Get resistor with index
+                Вернет предохранитель по индексу
+            </summary>
+            <param name="index">index</param>
+            <returns>resistor</returns>
+        </member>
+        <member name="T:ULA.AddinsHost.Business.Device.SchemeTable.DefaultStarterRow">
+            <summary>
+                Represents device scheme data table Starter row functionally
+                Реализует строку пускателя в таблице схемы устройства
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.Business.Device.SchemeTable.DefaultStarterRow.StarterId">
+            <summary>
+                StarterId
+                Id пускателя
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.Business.Device.SchemeTable.DefaultStarterRow.StarterDescription">
+            <summary>
+                Description of starter
+                Описание пускателя
+            </summary>
+        </member>
+        <member name="T:ULA.AddinsHost.Business.Device.SchemeTable.ICustomDeviceSchemeTable">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.Business.Device.SchemeTable.ICustomDeviceSchemeTable.FidersTable">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.Business.Device.SchemeTable.ICustomDeviceSchemeTable.SignalsTable">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.Business.Device.SchemeTable.ICustomDeviceSchemeTable.IndicatorsTable">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.Business.Device.SchemeTable.ICustomDeviceSchemeTable.CascadeIndicatorsTable">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:ULA.AddinsHost.Business.Device.SchemeTable.IDeviceResistorRow">
+            <summary>
+                Exposes device scheme data table Resistor row functionally
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.Business.Device.SchemeTable.IDeviceResistorRow.ResistorId">
+            <summary>
+                Id of resistor
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.Business.Device.SchemeTable.IDeviceResistorRow.ResistorModul">
+            <summary>
+            modul of resistor
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.Business.Device.SchemeTable.IDeviceResistorRow.ResistorDiskret">
+            <summary>
+            diskret of resistor
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.Business.Device.SchemeTable.IDeviceResistorRow.ResistorDescription">
+            <summary>
+                Description of resistor
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.Business.Device.SchemeTable.IDeviceResistorRow.ParentStarterId">
+            <summary>
+                Id os parent starter
+            </summary>
+        </member>
+        <member name="T:ULA.AddinsHost.Business.Device.SchemeTable.IConfiguratedDeviceSchemeTable">
+            <summary>
+                Exposes a device scheme table functionality
+            </summary>
+        </member>
+        <member name="M:ULA.AddinsHost.Business.Device.SchemeTable.IConfiguratedDeviceSchemeTable.AddStarterRow(ULA.AddinsHost.Business.Device.SchemeTable.IDeviceStarterRow)">
+            <summary>
+                Add instance of <see cref="T:ULA.AddinsHost.Business.Device.SchemeTable.IDeviceStarterRow"/> to scheme table
+            </summary>
+            <param name="starterRow">Adding instance of <see cref="T:ULA.AddinsHost.Business.Device.SchemeTable.IDeviceStarterRow"/></param>
+        </member>
+        <member name="M:ULA.AddinsHost.Business.Device.SchemeTable.IConfiguratedDeviceSchemeTable.AddResistorRow(ULA.AddinsHost.Business.Device.SchemeTable.IDeviceResistorRow)">
+            <summary>
+                Add instance of <see cref="T:ULA.AddinsHost.Business.Device.SchemeTable.IDeviceResistorRow"/> to scheme table
+            </summary>
+            <param name="resistorRow">Adding instance of <see cref="T:ULA.AddinsHost.Business.Device.SchemeTable.IDeviceResistorRow"/></param>
+        </member>
+        <member name="M:ULA.AddinsHost.Business.Device.SchemeTable.IConfiguratedDeviceSchemeTable.GetStarterRow(System.Int32)">
+            <summary>
+                Get a instance of <see cref="T:ULA.AddinsHost.Business.Device.SchemeTable.IDeviceStarterRow"/> from device scheme table. Если Пускателя с таким id нет, то вернет null
+            </summary>
+            <param name="starterId">Id of requered starter</param>
+            <returns>Requeres instance of <see cref="T:ULA.AddinsHost.Business.Device.SchemeTable.IDeviceStarterRow"/> or null if this id not found</returns>
+        </member>
+        <member name="M:ULA.AddinsHost.Business.Device.SchemeTable.IConfiguratedDeviceSchemeTable.GetResistorRow(System.Int32)">
+            <summary>
+                Get a instance of <see cref="T:ULA.AddinsHost.Business.Device.SchemeTable.IDeviceResistorRow"/> from device scheme table. Если Резистора с таким id нет, то вернет null
+            </summary>
+            <param name="resistorId">Id of requered resistor</param>
+            <returns>Requeres instance of <see cref="T:ULA.AddinsHost.Business.Device.SchemeTable.IDeviceResistorRow"/> or null if this id not found</returns>
+        </member>
+        <member name="M:ULA.AddinsHost.Business.Device.SchemeTable.IConfiguratedDeviceSchemeTable.GetResistorEnumerable">
+            <summary>
+                Get a IEnumerable for instancs IDeviceResistorRow  
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ULA.AddinsHost.Business.Device.SchemeTable.IConfiguratedDeviceSchemeTable.GetChannelsEnumerable">
+            <summary>
+                 Get a instance of <see cref="T:ULA.AddinsHost.Business.Device.SchemeTable.IDeviceStarterRow"/> from device scheme table
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ULA.AddinsHost.Business.Device.SchemeTable.IConfiguratedDeviceSchemeTable.GetStarterByIndex(System.Int32)">
+            <summary>
+                Get starter with index
+            </summary>
+            <param name="index">index</param>
+            <returns>starter</returns>
+        </member>
+        <member name="M:ULA.AddinsHost.Business.Device.SchemeTable.IConfiguratedDeviceSchemeTable.GetResistorByIndex(System.Int32)">
+            <summary>
+                Get resistor with index
+            </summary>
+            <param name="index">index</param>
+            <returns>resistor</returns>
+        </member>
+        <member name="T:ULA.AddinsHost.Business.Device.SchemeTable.IDeviceStarterRow">
+            <summary>
+                Exposes device scheme data table Starter row functionally
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.Business.Device.SchemeTable.IDeviceStarterRow.StarterId">
+            <summary>
+                StarterId
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.Business.Device.SchemeTable.IDeviceStarterRow.StarterDescription">
+            <summary>
+                Description of starter
+            </summary>
+        </member>
+        <member name="T:ULA.AddinsHost.Business.Device.DefaultConfigLogicalDeviceMomento">
+            <summary>
+                Represents default configuration logical device momento functionality
+                Представляет состояние логического устройства в режиме конфигурации(см. паттрн Momento)
+            </summary>
+        </member>
+        <member name="M:ULA.AddinsHost.Business.Device.DefaultConfigLogicalDeviceMomento.#ctor(ULA.AddinsHost.Business.Device.Context.IDeviceContext)">
+            <summary>
+                Creates an instance of <see cref="T:ULA.AddinsHost.Business.Device.DefaultConfigLogicalDeviceMomento" />
+            </summary>
+            <param name="state">
+                An instance of <see cref="T:ULA.AddinsHost.Business.Device.Context.IDeviceContext" /> that represents a device state
+            </param>
+        </member>
+        <member name="P:ULA.AddinsHost.Business.Device.DefaultConfigLogicalDeviceMomento.State">
+            <summary>
+                Gets the state of a momento object
+                возвращает состояние(контекст) увтройства
+            </summary>
+        </member>
+        <member name="T:ULA.AddinsHost.Business.Device.IConfigLogicalDevice">
+            <summary>
+                Exposes configuration logic device functionality
+                Аналогично <see cref="T:ULA.AddinsHost.ViewModel.Device.IRuntimeDeviceViewModel"/>
+            </summary>
+        </member>
+        <member name="M:ULA.AddinsHost.Business.Device.IConfigLogicalDevice.CreateMomento">
+            <summary>
+                Creates an instance of <see cref="T:ULA.AddinsHost.Business.Device.IDeviceMomento" /> that reprents current device state momento
+            </summary>
+            <returns>
+                An instance of <see cref="T:ULA.AddinsHost.Business.Device.IDeviceMomento" /> that represents current device state momento
+            </returns>
+        </member>
+        <member name="M:ULA.AddinsHost.Business.Device.IConfigLogicalDevice.SetMomentoAsync(ULA.AddinsHost.Business.Device.IDeviceMomento)">
+            <summary>
+                Sets an instance of <see cref="T:ULA.AddinsHost.Business.Device.IDeviceMomento" /> that represents current device state momento asynchronously
+            </summary>
+            <param name="momento">
+                An instance of <see cref="T:ULA.AddinsHost.Business.Device.IDeviceMomento" /> to restore current device state from
+            </param>
+            <returns>An instance of System.Threading.Tasks.Task that represents cyrrent asynchronous operation</returns>
+        </member>
+        <member name="P:ULA.AddinsHost.Business.Device.IConfigLogicalDevice.RestoreDataTableFromMemento">
+            <summary>
+                Пытается достать DeviceDataTable. Сокращает (CreateMomento().State.DataTable) 
+            </summary>
+        </member>
+        <member name="M:ULA.AddinsHost.Business.Device.IConfigLogicalDevice.InitializeAsync(ULA.AddinsHost.Business.Device.Context.IDeviceContext)">
+            <summary>
+                Initialize current device asynchronously
+                Асинхронно инициализирует устройство
+            </summary>
+            <param name="context">
+                An instance of <see cref="T:ULA.AddinsHost.Business.Device.Context.IDeviceContext" /> that represents current device context
+            </param>
+            <returns>An instance of System.Threading.Tasks.Task that represents current asynchronous operation</returns>
+        </member>
+        <member name="P:ULA.AddinsHost.Business.Device.IConfigLogicalDevice.DeviceType">
+            <summary>
+               Даст тип устройства
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.Business.Device.IConfigLogicalDevice.AnalogMeterType">
+            <summary>
+               Даст тип счетчика устройства
+            </summary>
+        </member>
+        <member name="T:ULA.AddinsHost.Business.Device.IDeviceMomento">
+            <summary>
+                Exposes device momento structure
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.Business.Device.IDeviceMomento.State">
+            <summary>
+                Gets the state of a momento object
+            </summary>
+        </member>
+        <member name="T:ULA.AddinsHost.Business.Device.ILogicalDevice">
+            <summary>
+                Exposes basic logical device functionality
+                Описывает базовый функционал логического устройства
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.Business.Device.ILogicalDevice.DeviceId">
+            <summary>
+                Gets or sets an instance of <see cref="T:System.Guid" /> that represents device unique identifier
+                Id устройства
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.Business.Device.ILogicalDevice.DeviceName">
+            <summary>
+                Gets the name of the device
+                Имя устройства
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.Business.Device.ILogicalDevice.DeviceDescription">
+            <summary>
+                Gets the desciption of the device
+                Описание устройства
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.Business.Device.ILogicalDevice.DeviceMomento">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.Business.Device.ILogicalDevice.DriverMomento">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.Business.Device.ILogicalDevice.DeviceNumber">
+            <summary>
+            номер устройства
+            </summary>
+        </member>
+        <member name="T:ULA.AddinsHost.Business.DataContentContainer">
+            <summary>
+                Represents device content container
+                Контейнер данных устройства
+            </summary>
+        </member>
+        <member name="M:ULA.AddinsHost.Business.DataContentContainer.AddValue(System.String,System.Object)">
+            <summary>
+                Adds value to a container
+                Добавить значение в контэйнер
+            </summary>
+            <param name="name">The name of data</param>
+            <param name="value">The value of data</param>
+        </member>
+        <member name="M:ULA.AddinsHost.Business.DataContentContainer.AddValues(System.String,System.Object)">
+            <summary>
+                Adds value to a container
+                Добавить значения в контэйнер
+            </summary>
+            <param name="name">The name of data</param>
+            <param name="value">The value of data</param>
+        </member>
+        <member name="M:ULA.AddinsHost.Business.DataContentContainer.GetValue``1(System.String)">
+            <summary>
+                Gets a value from a container
+                Вернуть значение из контэйнера
+            </summary>
+            <typeparam name="T">
+                <see cref="T:System.Type" /> of value
+            </typeparam>
+            <param name="name">The name of data</param>
+            <returns>Resulted data value</returns>
+        </member>
+        <member name="M:ULA.AddinsHost.Business.DataContentContainer.GetValues``1(System.String)">
+            <summary>
+                Gets a value from a container
+                Вернуть значения из контэйнера
+            </summary>
+            <typeparam name="T">
+                <see cref="T:System.Type" /> of value
+            </typeparam>
+            <param name="name">The name of data</param>
+            <returns>Resulted data value</returns>
+        </member>
+        <member name="T:ULA.AddinsHost.Business.Driver.ConfigLogicalDriverBase">
+            <summary>
+                Represents basic logical driver finctionality
+                представляет сущность логического драйвера в режиме  конфигурации
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.Business.Driver.ConfigLogicalDriverBase.DataContainer">
+            <summary>
+                Gets an instance of <see cref="T:ULA.AddinsHost.Business.IDataContentContainer" /> that represents current device data container
+                Контейнер данных срецифичных для устройства
+            </summary>
+        </member>
+        <member name="M:ULA.AddinsHost.Business.Driver.ConfigLogicalDriverBase.InitializeAsync(ULA.AddinsHost.Business.Driver.Context.IDriverContext)">
+            <summary>
+                Initialize current driver asynchronously
+                Асинхронная инициализация драйвера
+            </summary>
+            <param name="context">
+                An instance of <see cref="T:ULA.AddinsHost.Business.Driver.Context.IDriverContext" /> that represents current driver context
+            </param>
+            <returns>An instance of System.Threading.Tasks.Task that represents current asynchronous operation</returns>
+        </member>
+        <member name="P:ULA.AddinsHost.Business.Driver.ConfigLogicalDriverBase.ULA#AddinsHost#Business#Driver#ILogicalDriver#DriverId">
+            <summary>
+                Gets or sets an instance of <see cref="T:System.Guid" /> that represents driver's unique identifier
+                Id драйвера
+            </summary>
+        </member>
+        <member name="M:ULA.AddinsHost.Business.Driver.ConfigLogicalDriverBase.Equals(ULA.AddinsHost.Business.Driver.Context.IDriverCommonContext)">
+            <summary>
+                Indicates whether the current object is equal to another object of the same type.
+                Сравнивает текущий контекст драйвера с контекстом полученным в параметрах
+            </summary>
+            <returns>
+                true if the current object is equal to the <paramref name="other" /> parameter; otherwise, false.
+            </returns>
+            <param name="other">An object to compare with this object.</param>
+        </member>
+        <member name="M:ULA.AddinsHost.Business.Driver.ConfigLogicalDriverBase.CreateMomento">
+            <summary>
+                Creates an instance of <see cref="T:ULA.AddinsHost.Business.Driver.IDriverMomento" /> that represents current driver state
+                Возвращает состояние драйвера
+            </summary>
+            <returns>
+                An instance of <see cref="T:ULA.AddinsHost.Business.Driver.IDriverMomento" /> that represents current driver state
+            </returns>
+        </member>
+        <member name="M:ULA.AddinsHost.Business.Driver.ConfigLogicalDriverBase.SetMomento(ULA.AddinsHost.Business.Driver.IDriverMomento)">
+            <summary>
+                Sets a momento to current driver
+                Сохраняет состояние драйвера
+            </summary>
+            <param name="momento">
+                An instance of <see cref="T:ULA.AddinsHost.Business.Driver.IDriverMomento" /> that represents current the state of current driver
+            </param>
+        </member>
+        <member name="M:ULA.AddinsHost.Business.Driver.ConfigLogicalDriverBase.OnInitializeAsync">
+            <summary>
+                Initialize current driver asynchronously
+                Асинхронно инициализирует драйвер
+            </summary>
+            <returns>An instance of System.Threading.Tasks.Task that represents current asynchronous operation</returns>
+        </member>
+        <member name="M:ULA.AddinsHost.Business.Driver.ConfigLogicalDriverBase.CreateDataTableRowType">
+            <summary>
+                Creates an instance of <see cref="T:ULA.Common.AOM.AomEntityType" /> that represents current driver data table row template
+                Создает шаблон строки данных драйвера
+            </summary>
+            <returns>
+                Created instance of <see cref="T:ULA.Common.AOM.AomEntityType" /> that represents current driver data table row template
+            </returns>
+        </member>
+        <member name="T:ULA.AddinsHost.Business.Driver.Context.AomTcpDriverContextEntity">
+            <summary>
+                Represents device context entity in AOM notation.
+                TODO: When mnore than one driver type exists this entity should be refactored!!!!!
+            
+                Представляет сущность контекста устройства в AOM нотации (см. паттерн AOM)
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.Business.Driver.Context.AomTcpDriverContextEntity.TcpAddress">
+            <summary>
+                Gets or sets the address of tcp driver end point.
+                TODO: When mnore than one driver type exists this entity should be refactored!!!!!
+                Tcp Ip - адрес
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.Business.Driver.Context.AomTcpDriverContextEntity.TcpPortNumber">
+            <summary>
+                Gets or sets the port number of tcp driver end point.
+                TODO: When mnore than one driver type exists this entity should be refactored!!!!!
+            
+                Tcp порт
+            </summary>
+        </member>
+        <member name="M:ULA.AddinsHost.Business.Driver.Context.AomTcpDriverContextEntity.#ctor">
+            <summary>
+                Creates an instance of <see cref="T:ULA.AddinsHost.Business.Device.Context.AomDeviceContextEntity" />
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.Business.Driver.Context.AomTcpDriverContextEntity.DriverType">
+            <summary>
+                Gets or sets the type of current driver
+                Тип драйвера
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.Business.Driver.Context.AomTcpDriverContextEntity.DataContainer">
+            <summary>
+                Gets an instance of <see cref="T:ULA.AddinsHost.Business.IDataContentContainer" /> that represents current device content
+                Контейнер данных специфичных для устройства
+            </summary>
+        </member>
+        <member name="M:ULA.AddinsHost.Business.Driver.Context.AomTcpDriverContextEntity.GetTcpAddress">
+            <summary>
+                Get a tcp address
+                Вернет TcpIp адрес
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ULA.AddinsHost.Business.Driver.Context.AomTcpDriverContextEntity.GetTcpPort">
+            <summary>
+                Get a tcp port
+                Вернет Tcp порт
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ULA.AddinsHost.Business.Driver.Context.AomTcpDriverContextEntity.Equals(ULA.AddinsHost.Business.Driver.Context.IDriverCommonContext)">
+            <summary>
+                Indicates whether the current object is equal to another object of the same type.
+                метод проерки двух объектов на равенство
+            </summary>
+            <returns>
+                true if the current object is equal to the <paramref name="other" /> parameter; otherwise, false.
+            </returns>
+            <param name="other">An object to compare with this object.</param>
+        </member>
+        <member name="M:ULA.AddinsHost.Business.Driver.Context.AomTcpDriverContextEntity.CreateTypeMetadata">
+            <summary>
+                СОздает метаданные для данного типа
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:ULA.AddinsHost.Business.Driver.Context.AomTcpDriverContextEntityBuilder">
+            <summary>
+                Represents device context entity in AOM notation builder functionality.
+                TODO: When more than one driver type exists this builder should be refactored!!!!
+                Представляет строителя сущности контекста устройства в AOM нотации(см. паттерн AOM)
+            </summary>
+        </member>
+        <member name="M:ULA.AddinsHost.Business.Driver.Context.AomTcpDriverContextEntityBuilder.SetTcpAddress(System.String)">
+            <summary>
+                Sets the tcp address value of tcp driver's endpoint
+                установка Tcp Ip адреса
+            </summary>
+            <param name="address">The tcp address value to set</param>
+        </member>
+        <member name="M:ULA.AddinsHost.Business.Driver.Context.AomTcpDriverContextEntityBuilder.SetTcpPortNumber(System.Int32)">
+            <summary>
+                Sets the tcp port number value of tcp driver's endpoint
+                Установка Tcp порт
+            </summary>
+            <param name="portNumber">The tcp port number value</param>
+        </member>
+        <member name="M:ULA.AddinsHost.Business.Driver.Context.AomTcpDriverContextEntityBuilder.SetDriverType(System.String)">
+            <summary>
+                Sets the type of the device
+                Установка типа драйвера
+            </summary>
+            <param name="driverType">The type of the device</param>
+        </member>
+        <member name="M:ULA.AddinsHost.Business.Driver.Context.AomTcpDriverContextEntityBuilder.Build">
+            <summary>
+                Builds an instance of <see cref="T:ULA.AddinsHost.Business.Driver.Context.AomTcpDriverContextEntity" />
+                Создает сущность контекста драйвера(<see cref="T:ULA.AddinsHost.Business.Driver.Context.AomTcpDriverContextEntity" />)
+            </summary>
+            <returns>
+                Built instance of <see cref="T:ULA.AddinsHost.Business.Driver.Context.AomTcpDriverContextEntity" />
+            </returns>
+        </member>
+        <member name="T:ULA.AddinsHost.Business.Driver.Context.IDriverCommonContext">
+            <summary>
+                Exposes common driver context information
+                Описывает общий контекст драйвера.
+            </summary>
+        </member>
+        <member name="T:ULA.AddinsHost.Business.Driver.Context.IDriverContext">
+            <summary>
+                Exposes driver context functionality
+                Описывает функциональность контекста драйвера
+            </summary>
+        </member>
+        <member name="M:ULA.AddinsHost.Business.Driver.Context.IDriverContext.GetTcpAddress">
+            <summary>
+                Get a tcp address
+                Tcp Ip-адрес
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ULA.AddinsHost.Business.Driver.Context.IDriverContext.GetTcpPort">
+            <summary>
+                Get a tcp port
+                Tcp порт
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:ULA.AddinsHost.Business.Driver.Context.IDriverContext.DriverType">
+            <summary>
+                Gets or sets the type of current driver
+                Тип драйвера
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.Business.Driver.Context.IDriverContext.DataContainer">
+            <summary>
+                Gets an instance of <see cref="T:ULA.AddinsHost.Business.IDataContentContainer" /> that represents current driver content
+                Контент драйвера(его специфические данные)
+            </summary>
+        </member>
+        <member name="T:ULA.AddinsHost.Business.Driver.DataTables.AomDataTableRowEntity">
+            <summary>
+                Represents data table row in the AOM notation
+                Представляет строку таблицы данных в AOM нотации
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.Business.Driver.DataTables.AomDataTableRowEntity.Id">
+            <summary>
+                Gets the unique identifier of the data table row
+                Id строки данных драйвера
+            </summary>
+        </member>
+        <member name="M:ULA.AddinsHost.Business.Driver.DataTables.AomDataTableRowEntity.#ctor(System.Guid,ULA.Common.AOM.AomEntityType)">
+            <summary>
+                Creates an instance of <see cref="T:ULA.AddinsHost.Business.Driver.DataTables.AomDataTableRowEntity" />
+            </summary>
+            <param name="id">
+                An instance of <see cref="T:System.Guid" /> that represents the unique identifier of current data table row
+            </param>
+            <param name="type">
+                An instance of <see cref="T:ULA.Common.AOM.AomEntityType" /> that represents current type
+            </param>
+        </member>
+        <member name="T:ULA.AddinsHost.Business.Driver.DataTables.DriverDataTable">
+            <summary>
+                Represents driver data table functionality
+                Представляет таблицу данных драйвера
+            </summary>
+        </member>
+        <member name="M:ULA.AddinsHost.Business.Driver.DataTables.DriverDataTable.#ctor">
+            <summary>
+                Creates an instance of <see cref="T:ULA.Common.AOM.AomEntity" />. It is used ONLY for deserialization purpose.
+            </summary>
+        </member>
+        <member name="M:ULA.AddinsHost.Business.Driver.DataTables.DriverDataTable.#ctor(ULA.Common.AOM.AomEntityType)">
+            <summary>
+                Creates an instance of <see cref="T:ULA.AddinsHost.Business.Driver.DataTables.DriverDataTable" />
+            </summary>
+            <param name="dataTableRowType">
+                An instance of <see cref="T:ULA.Common.AOM.AomEntityType" /> that represents the template for data table row
+            </param>
+        </member>
+        <member name="M:ULA.AddinsHost.Business.Driver.DataTables.DriverDataTable.CreateRow">
+            <summary>
+                Creates an instance of <see cref="T:ULA.AddinsHost.Business.Driver.DataTables.AomDataTableRowEntity" /> that represents the row of current data table
+                Создает строку данных для таблицы данных драйвера
+            </summary>
+            <returns>
+                An instance of <see cref="T:ULA.AddinsHost.Business.Driver.DataTables.AomDataTableRowEntity" /> that represents the row of current data table
+            </returns>
+        </member>
+        <member name="M:ULA.AddinsHost.Business.Driver.DataTables.DriverDataTable.PushRow(ULA.AddinsHost.Business.Driver.DataTables.AomDataTableRowEntity)">
+            <summary>
+                Pushes an instance of <see cref="T:ULA.AddinsHost.Business.Driver.DataTables.AomDataTableRowEntity" /> to the collection
+                Вставляет строку данных в таблицу данных драйвера
+            </summary>
+            <param name="dataRow">
+                An instance of <see cref="T:ULA.AddinsHost.Business.Driver.DataTables.AomDataTableRowEntity" /> to push to a collection
+            </param>
+        </member>
+        <member name="M:ULA.AddinsHost.Business.Driver.DataTables.DriverDataTable.GetRowById(System.Guid)">
+            <summary>
+                Get from current driver data table by id
+                Возвращает строку данных из таблицы данных драйвера
+            </summary>
+            <param name="rowId">Id of required row</param>
+            <returns>Represent data row from current driver</returns>
+        </member>
+        <member name="M:ULA.AddinsHost.Business.Driver.DataTables.DriverDataTable.GetRowByName(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="rowName"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ULA.AddinsHost.Business.Driver.DataTables.IDriverDataTable">
+            <summary>
+                Exposes driver data table fucntionality
+                Описывает таблицу данных драйвера
+            </summary>
+        </member>
+        <member name="M:ULA.AddinsHost.Business.Driver.DataTables.IDriverDataTable.CreateRow">
+            <summary>
+                Creates an instance of <see cref="T:ULA.AddinsHost.Business.Driver.DataTables.AomDataTableRowEntity" /> that represents the row of current data table
+                Создает строку в таблице данных драйвера
+            </summary>
+            <returns>
+                An instance of <see cref="T:ULA.AddinsHost.Business.Driver.DataTables.AomDataTableRowEntity" /> that represents the row of current data table
+            </returns>
+        </member>
+        <member name="M:ULA.AddinsHost.Business.Driver.DataTables.IDriverDataTable.PushRow(ULA.AddinsHost.Business.Driver.DataTables.AomDataTableRowEntity)">
+            <summary>
+                Pushes an instance of <see cref="T:ULA.AddinsHost.Business.Driver.DataTables.AomDataTableRowEntity" /> to the collection
+                Вставляет строку данных в таблицу данных драйвера
+            </summary>
+            <param name="dataRow">
+                An instance of <see cref="T:ULA.AddinsHost.Business.Driver.DataTables.AomDataTableRowEntity" /> to push to a collection
+            </param>
+        </member>
+        <member name="M:ULA.AddinsHost.Business.Driver.DataTables.IDriverDataTable.GetRowById(System.Guid)">
+            <summary>
+                Get from current driver data table by id
+                Возвращают строку данных из таблицы данных драйвера по Id строки
+            </summary>
+            <param name="rowId">Id of required row</param>
+            <returns>Represent data row from current driver</returns>
+        </member>
+        <member name="M:ULA.AddinsHost.Business.Driver.DataTables.IDriverDataTable.GetRowByName(System.String)">
+            <summary>
+                Get from current driver data table by id
+                Возвращают строку данных из таблицы данных драйвера по Id строки
+            </summary>
+            <param name="rowName">Id of required row</param>
+            <returns>Represent data row from current driver</returns>
+        </member>
+        <member name="T:ULA.AddinsHost.Business.Driver.DefaultConfigLogicalDriverMomento">
+            <summary>
+                Represents default configuration logical driver momento functionality
+                Представляет состояние логического драйвера в режиме конфигурации
+            </summary>
+        </member>
+        <member name="M:ULA.AddinsHost.Business.Driver.DefaultConfigLogicalDriverMomento.#ctor(ULA.AddinsHost.Business.Driver.Context.IDriverContext)">
+            <summary>
+                Creates an instance of <see cref="T:ULA.AddinsHost.Business.Driver.DefaultConfigLogicalDriverMomento" />
+            </summary>
+            <param name="context">
+                An instance of <see cref="T:ULA.AddinsHost.Business.Driver.Context.IDriverContext" /> that represents the state of a driver
+            </param>
+        </member>
+        <member name="P:ULA.AddinsHost.Business.Driver.DefaultConfigLogicalDriverMomento.State">
+            <summary>
+                Gets or sets the state of a driver
+                Состояние драйвера
+            </summary>
+        </member>
+        <member name="T:ULA.AddinsHost.Business.Driver.DefaultRuntimeLogicalDriverMomento">
+            <summary>
+                Represents default configuration logical driver momento functionality
+                Представляет состояние логического драйвера в режиме реального времени
+            </summary>
+        </member>
+        <member name="M:ULA.AddinsHost.Business.Driver.DefaultRuntimeLogicalDriverMomento.#ctor(ULA.AddinsHost.Business.Driver.Context.IDriverContext)">
+            <summary>
+                Creates an instance of <see cref="T:ULA.AddinsHost.Business.Driver.DefaultRuntimeLogicalDriverMomento" />
+            </summary>
+            <param name="context">
+                An instance of <see cref="T:ULA.AddinsHost.Business.Driver.Context.IDriverContext" /> that represents the state of a driver
+            </param>
+        </member>
+        <member name="P:ULA.AddinsHost.Business.Driver.DefaultRuntimeLogicalDriverMomento.State">
+            <summary>
+                Gets or sets the state of a driver
+                Состояние драйвера
+            </summary>
+        </member>
+        <member name="T:ULA.AddinsHost.Business.Driver.IConfigLogicalDriver">
+            <summary>
+                Exposes driver functionality in the configuration mode
+                Описывает функционал драйвера в режиме конфигурации
+            </summary>
+        </member>
+        <member name="M:ULA.AddinsHost.Business.Driver.IConfigLogicalDriver.CreateMomento">
+            <summary>
+                Creates an instance of <see cref="T:ULA.AddinsHost.Business.Driver.IDriverMomento" /> that represents current driver state
+                Вернет состояние драйвера
+            </summary>
+            <returns>
+                An instance of <see cref="T:ULA.AddinsHost.Business.Driver.IDriverMomento" /> that represents current driver state
+            </returns>
+        </member>
+        <member name="M:ULA.AddinsHost.Business.Driver.IConfigLogicalDriver.SetMomento(ULA.AddinsHost.Business.Driver.IDriverMomento)">
+            <summary>
+                Sets a momento to current driver
+                Сохранить состояние драйвера
+            </summary>
+            <param name="momento">
+                An instance of <see cref="T:ULA.AddinsHost.Business.Driver.IDriverMomento" /> that represents current the state of current driver
+            </param>
+        </member>
+        <member name="T:ULA.AddinsHost.Business.Driver.IDriverMomento">
+            <summary>
+                Exposes driver momento functionality
+                Описывает состояния драйвера (см. паттерн Momento)
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.Business.Driver.IDriverMomento.State">
+            <summary>
+                Gets or sets the state of a driver
+                Состояние драйвера
+            </summary>
+        </member>
+        <member name="T:ULA.AddinsHost.Business.Driver.ILogicalDriver">
+            <summary>
+                Exposes basic driver functinality
+                Описывает базовую функциональность драйвера
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.Business.Driver.ILogicalDriver.DriverId">
+            <summary>
+                Gets or sets an instance of <see cref="T:System.Guid" /> that represents driver's unique identifier
+                Id драйвера
+            </summary>
+        </member>
+        <member name="T:ULA.AddinsHost.Business.Driver.ILogicalDriverFactory">
+            <summary>
+                Exposes logical driver factory functionality
+                Описывает фунциональность фабрики логических драйверов
+            </summary>
+        </member>
+        <member name="M:ULA.AddinsHost.Business.Driver.ILogicalDriverFactory.CreateConfigLogicalDriver">
+            <summary>
+                Creates an instance of <see cref="T:ULA.AddinsHost.Business.Driver.ConfigLogicalDriverBase" /> that represents basic configuration logical driver functionality
+                Создает логический дайвер для режима конфигурации
+            </summary>
+            <returns>
+                Created instance of <see cref="T:ULA.AddinsHost.Business.Driver.ConfigLogicalDriverBase" /> that represents basic configuration logical driver functionality
+            </returns>
+        </member>
+        <member name="M:ULA.AddinsHost.Business.Driver.ILogicalDriverFactory.CreateRuntimeLogicalDriver">
+            <summary>
+                Creates an instance of <see cref="T:ULA.AddinsHost.Business.Driver.RuntimeLogicalDriverBase" /> that represents basic runtime logical driver functionality
+                Создает логический дайвер для режима реального времени
+            </summary>
+            <returns>
+                Created instance of <see cref="T:ULA.AddinsHost.Business.Driver.RuntimeLogicalDriverBase" /> that represents basic runtime logical driver functionality
+            </returns>
+        </member>
+        <member name="T:ULA.AddinsHost.Business.Driver.IRuntimeLogicalDriver">
+            <summary>
+                Exposes driver functionality in the runtime mode
+                Описывает функционал логического драйвера в режиме реального времени
+            </summary>
+        </member>
+        <member name="M:ULA.AddinsHost.Business.Driver.IRuntimeLogicalDriver.CreateMomento">
+            <summary>
+                Creates an instance of <see cref="T:ULA.AddinsHost.Business.Driver.IDriverMomento" /> that represents current driver state
+                Вернет состояние драйвера
+            </summary>
+            <returns>
+                An instance of <see cref="T:ULA.AddinsHost.Business.Driver.IDriverMomento" /> that represents current driver state
+            </returns>
+        </member>
+        <member name="M:ULA.AddinsHost.Business.Driver.IRuntimeLogicalDriver.SetMomento(ULA.AddinsHost.Business.Driver.IDriverMomento)">
+            <summary>
+                Sets a momento to current driver
+                Сохраняет состояние драйвера
+            </summary>
+            <param name="momento">
+                An instance of <see cref="T:ULA.AddinsHost.Business.Driver.IDriverMomento" /> that represents current the state of current driver
+            </param>
+        </member>
+        <member name="T:ULA.AddinsHost.Business.Driver.RuntimeLogicalDriverBase">
+            <summary>
+                Represents basic logical driver finctionality in runtime mode
+                Представляет логический драйвер в режиме реального времени
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.Business.Driver.RuntimeLogicalDriverBase.DataContainer">
+            <summary>
+                Gets an instance of <see cref="T:ULA.AddinsHost.Business.IDataContentContainer" /> that represents current device data container
+            </summary>
+        </member>
+        <member name="M:ULA.AddinsHost.Business.Driver.RuntimeLogicalDriverBase.InitializeAsync(ULA.AddinsHost.Business.Driver.Context.IDriverContext)">
+            <summary>
+                Initialize current driver asynchronously
+                Асинхронная инициализация драйвера
+            </summary>
+            <param name="context">
+                An instance of <see cref="T:ULA.AddinsHost.Business.Driver.Context.IDriverContext" /> that represents current driver context
+            </param>
+            <returns>An instance of System.Threading.Tasks.Task that represents current asynchronous operation</returns>
+        </member>
+        <member name="P:ULA.AddinsHost.Business.Driver.RuntimeLogicalDriverBase.ULA#AddinsHost#Business#Driver#ILogicalDriver#DriverId">
+            <summary>
+                Gets or sets an instance of <see cref="T:System.Guid" /> that represents driver's unique identifier
+                Id драйвера
+            </summary>
+        </member>
+        <member name="M:ULA.AddinsHost.Business.Driver.RuntimeLogicalDriverBase.Equals(ULA.AddinsHost.Business.Driver.Context.IDriverCommonContext)">
+            <summary>
+                Indicates whether the current object is equal to another object of the same type.
+                Проверяет или текущий объект идентичен другому объекту такого же типа
+            </summary>
+            <returns>
+                true if the current object is equal to the <paramref name="other" /> parameter; otherwise, false.
+            </returns>
+            <param name="other">An object to compare with this object.</param>
+        </member>
+        <member name="M:ULA.AddinsHost.Business.Driver.RuntimeLogicalDriverBase.CreateMomento">
+            <summary>
+                Creates an instance of <see cref="T:ULA.AddinsHost.Business.Driver.IDriverMomento" /> that represents current driver state
+                Возвращает состояние драйвера
+            </summary>
+            <returns>
+                An instance of <see cref="T:ULA.AddinsHost.Business.Driver.IDriverMomento" /> that represents current driver state
+            </returns>
+        </member>
+        <member name="M:ULA.AddinsHost.Business.Driver.RuntimeLogicalDriverBase.SetMomento(ULA.AddinsHost.Business.Driver.IDriverMomento)">
+            <summary>
+                Sets a momento to current driver
+                Сохраняет состояние драйвера
+            </summary>
+            <param name="momento">
+                An instance of <see cref="T:ULA.AddinsHost.Business.Driver.IDriverMomento" /> that represents current the state of current driver
+            </param>
+        </member>
+        <member name="M:ULA.AddinsHost.Business.Driver.RuntimeLogicalDriverBase.OnInitializeAsync">
+            <summary>
+                Initialize current driver asynchronously
+                Асинхронно инициализирует драйвер
+            </summary>
+            <returns>An instance of System.Threading.Tasks.Task that represents current asynchronous operation</returns>
+        </member>
+        <member name="M:ULA.AddinsHost.Business.Driver.RuntimeLogicalDriverBase.CreateDataTableRowType">
+            <summary>
+                Creates an instance of <see cref="T:ULA.Common.AOM.AomEntityType" /> that represents current driver data table row template
+                Создает шаблон строки данных из таблицы данных драйвера
+            </summary>
+            <returns>
+                Created instance of <see cref="T:ULA.Common.AOM.AomEntityType" /> that represents current driver data table row template
+            </returns>
+        </member>
+        <member name="T:ULA.AddinsHost.Business.Exceptions.SetupDriverException">
+            <summary>
+                Represents PICONGS device exception that will be thrown if any error occures during driver setup phase
+            </summary>
+        </member>
+        <member name="M:ULA.AddinsHost.Business.Exceptions.SetupDriverException.#ctor(System.String)">
+            <summary>
+                Creates an instance of <see cref="T:ULA.AddinsHost.Business.Exceptions.SetupDriverException" />
+            </summary>
+            <param name="message">The message of the exception</param>
+        </member>
+        <member name="T:ULA.AddinsHost.Business.IDataContentContainer">
+            <summary>
+                Exposes device content container functionality to hold device specific data
+                Описывает контейнер хранения специфичных для устройства данных
+            </summary>
+        </member>
+        <member name="M:ULA.AddinsHost.Business.IDataContentContainer.AddValue(System.String,System.Object)">
+            <summary>
+                Adds value to a container
+                Добавить значение в контэйнер
+            </summary>
+            <param name="name">The name of data</param>
+            <param name="value">The value of data</param>
+        </member>
+        <member name="M:ULA.AddinsHost.Business.IDataContentContainer.AddValues(System.String,System.Object)">
+            <summary>
+                Adds value to a container
+                Добавить значения в контэйнер
+            </summary>
+            <param name="name">The name of data</param>
+            <param name="value">The value of data</param>
+        </member>
+        <member name="M:ULA.AddinsHost.Business.IDataContentContainer.GetValue``1(System.String)">
+            <summary>
+                Gets a value from a container
+                Вернуть значение из контейнера
+            </summary>
+            <typeparam name="T">
+                <see cref="T:System.Type" /> of value
+            </typeparam>
+            <param name="name">The name of data</param>
+            <returns>Resulted data value</returns>
+        </member>
+        <member name="M:ULA.AddinsHost.Business.IDataContentContainer.GetValues``1(System.String)">
+            <summary>
+                Gets a value from a container
+                Вернуть значения из контейнера
+            </summary>
+            <typeparam name="T">
+                <see cref="T:System.Type" /> of value
+            </typeparam>
+            <param name="name">The name of data</param>
+            <returns>Resulted data value</returns>
+        </member>
+        <member name="T:ULA.AddinsHost.Business.Strings.AddressesStrings">
+            <summary>
+            строки с названиями адресов
+            </summary>
+        </member>
+        <member name="F:ULA.AddinsHost.Business.Strings.AddressesStrings.MODUL_DISKRET_FAIL_PATTERN">
+            <summary>
+            строка паттерна неисправности фидера с предохранителем
+            </summary>
+        </member>
+        <member name="F:ULA.AddinsHost.Business.Strings.AddressesStrings.MODUL_DISKRET_STATE_PATTERN">
+            <summary>
+            строка паттерна неисправности фидера с предохранителем
+            </summary>
+        </member>
+        <member name="F:ULA.AddinsHost.Business.Strings.AddressesStrings.FIDER_PATTERN">
+            <summary>
+            строка паттерна фидера 
+            </summary>
+        </member>
+        <member name="F:ULA.AddinsHost.Business.Strings.AddressesStrings.FAIL_STR">
+            <summary>
+            строка неисправность 
+            </summary>
+        </member>
+        <member name="F:ULA.AddinsHost.Business.Strings.AddressesStrings.STATE_STR">
+            <summary>
+            строка состояние 
+            </summary>
+        </member>
+        <member name="F:ULA.AddinsHost.Business.Strings.AddressesStrings.MODUL_STR">
+            <summary>
+            строка модуль
+            </summary>
+        </member>
+        <member name="F:ULA.AddinsHost.Business.Strings.AddressesStrings.DISKRET_STR">
+            <summary>
+            строка дискрет
+            </summary>
+        </member>
+        <member name="F:ULA.AddinsHost.Business.Strings.AddressesStrings.SPLITTER_STR">
+            <summary>
+            строка раздерителя
+            </summary>
+        </member>
+        <member name="F:ULA.AddinsHost.Business.Strings.AddressesStrings.IS_INDICATOR_STR">
+            <summary>
+            строка определяющая нормально включенное состояние сигнала
+            </summary>
+        </member>
+        <member name="T:ULA.AddinsHost.Business.Strings.RequestStrings">
+            <summary>
+            строки с названиями запросов
+            </summary>
+        </member>
+        <member name="F:ULA.AddinsHost.Business.Strings.RequestStrings.SEND_CONFIGURATION">
+            <summary>
+            запрос на отправление конфигурации
+            </summary>
+        </member>
+        <member name="F:ULA.AddinsHost.Business.Strings.RequestStrings.GET_CONFIGURATION">
+            <summary>
+            запрос на получение конфигурации
+            </summary>
+        </member>
+        <member name="F:ULA.AddinsHost.Business.Strings.RequestStrings.GET_CONTROLMODE_DATA">
+            <summary>
+            запрос на получение данных в режиме общего экрана
+            </summary>
+        </member>
+        <member name="F:ULA.AddinsHost.Business.Strings.RequestStrings.GET_DATETIME">
+            <summary>
+            запрос на получение даты и времени
+            </summary>
+        </member>
+        <member name="F:ULA.AddinsHost.Business.Strings.RequestStrings.UPDATE_ANALOG_DATA">
+            <summary>
+            запрос на обновление данных аналогов
+            </summary>
+        </member>
+        <member name="F:ULA.AddinsHost.Business.Strings.RequestStrings.READ_VERSION">
+            <summary>
+            запрос на чтение версий
+            </summary>
+        </member>
+        <member name="F:ULA.AddinsHost.Business.Strings.RequestStrings.UPDATE_METER_DATETIME">
+            <summary>
+            запрос на что-то там
+            </summary>
+        </member>
+        <member name="F:ULA.AddinsHost.Business.Strings.RequestStrings.GET_STARTER_DATA">
+            <summary>
+            запрос на получение данных о пускателях
+            </summary>
+        </member>
+        <member name="T:ULA.AddinsHost.Exceptions.DriverDataTableDataRowExistsException">
+            <summary>
+                Represents driver data table exception that will be thrown if there is already an entity with the same id
+                Представляет исключение повторения таблицы данных драйвера
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.Exceptions.DriverDataTableDataRowExistsException.RowId">
+            <summary>
+                Gets the identifier of failed to add row
+            </summary>
+        </member>
+        <member name="M:ULA.AddinsHost.Exceptions.DriverDataTableDataRowExistsException.#ctor(System.Guid)">
+            <summary>
+                Creates an instance of <see cref="T:ULA.AddinsHost.Exceptions.DriverDataTableDataRowExistsException" />
+            </summary>
+            <param name="rowId">
+                An instance of <see cref="T:System.Guid" /> that represents the identifier of failed to add row
+            </param>
+        </member>
+        <member name="P:ULA.AddinsHost.Exceptions.DriverDataTableDataRowExistsException.Message">
+            <summary>
+                Gets a message that describes the current exception.
+            </summary>
+            <returns>
+                The error message that explains the reason for the exception, or an empty string("").
+            </returns>
+            <filterpriority>1</filterpriority>
+        </member>
+        <member name="T:ULA.AddinsHost.Module.AddinsModule">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:ULA.AddinsHost.Module.AddinsModule.#ctor(Microsoft.Practices.Unity.IUnityContainer)">
+            <summary>
+            
+            </summary>
+            <param name="container"></param>
+        </member>
+        <member name="M:ULA.AddinsHost.Module.AddinsModule.Initialize">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:ULA.AddinsHost.Presentation.IBackgroundPicture">
+            <summary>
+            изображение на фоне
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.Presentation.IBackgroundPicture.BackgroundImageSource">
+            <summary>
+            само изображение
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.Presentation.IBackgroundPicture.ImagePath">
+            <summary>
+            путь к изображению
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.Presentation.IBackgroundPicture.ZIndexValue">
+            <summary>
+            Положение картинки поверх или под остаными частями приложения
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.Presentation.IBackgroundPicture.IsEditMode">
+            <summary>
+            Показывает находится ли картинка в режиме редактирования
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.Presentation.IBackgroundPicture.CanvasTop">
+            <summary>
+            Позиция картинки по верхнему краю канваса
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.Presentation.IBackgroundPicture.CanvasLeft">
+            <summary>
+            Позиция картинки по левому краю канваса
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.Presentation.IBackgroundPicture.ImageHeight">
+            <summary>
+            Позиция картинки по нижнему краю канваса
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.Presentation.IBackgroundPicture.ImageWidth">
+            <summary>
+            Позиция картинки по правому краю канваса
+            </summary>
+        </member>
+        <member name="M:ULA.AddinsHost.Presentation.IBackgroundPicture.Load">
+            <summary>
+            Загрузить картинку
+            </summary>
+        </member>
+        <member name="M:ULA.AddinsHost.Presentation.IBackgroundPicture.Save(System.Boolean)">
+            <summary>
+            Сохранить картинку
+            </summary>
+        </member>
+        <member name="M:ULA.AddinsHost.Presentation.IBackgroundPicture.InitImageFromPath(System.String)">
+            <summary>
+            инициализировать изображение из файла картинки
+            </summary>
+            <param name="fileName"></param>
+        </member>
+        <member name="T:ULA.AddinsHost.ViewModel.Device.IAnalogDataViewModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.ViewModel.Device.IAnalogDataViewModel.SignalLevel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.ViewModel.Device.IAnalogDataViewModel.DateTimeFromDevice">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:ULA.AddinsHost.ViewModel.Device.IAnalogDataViewModel.UpdateSignalLevel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.ViewModel.Device.IAnalogDataViewModel.Model">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:ULA.AddinsHost.ViewModel.Device.IDefectStateViewModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.ViewModel.Device.IDefectStateViewModel.Model">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:ULA.AddinsHost.ViewModel.Device.IDefectStateViewModel.Update">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.ViewModel.Device.IDefectStateViewModel.IsManagementDefect">
+            <summary>
+            неисправность управления
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.ViewModel.Device.IDefectStateViewModel.IsManagementChainsDefect">
+            <summary>
+            неисправность цепей управления
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.ViewModel.Device.IDefectStateViewModel.IsFusesDefect">
+            <summary>
+            неисправность предохранителей
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.ViewModel.Device.IDefectStateViewModel.IsProtectionDefect">
+            <summary>
+            неисправность охраны
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.ViewModel.Device.IDefectStateViewModel.IsNoPowerDefect">
+            <summary>
+            неисправность питания
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.ViewModel.Device.IDefectStateViewModel.HasAnyDefect">
+            <summary>
+            есть ли хоть одна неисправность
+            </summary>
+        </member>
+        <member name="T:ULA.AddinsHost.ViewModel.Device.IDeviceCommandQueueViewModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:ULA.AddinsHost.ViewModel.Device.IDeviceCommandQueueViewModel.SetContext(ULA.AddinsHost.ViewModel.Device.IRuntimeDeviceViewModel)">
+            <summary>
+            
+            </summary>
+            <param name="runtimeDeviceViewModel"></param>
+        </member>
+        <member name="P:ULA.AddinsHost.ViewModel.Device.IDeviceCommandQueueViewModel.SetDateTimeCommand">
+            <summary>
+                Команада синхронизации времени на устройстве
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.ViewModel.Device.IDeviceCommandQueueViewModel.AutoModeAllStartersCommand">
+            <summary>
+                Перевод в авторежим всех пускателей
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.ViewModel.Device.IDeviceCommandQueueViewModel.ManualModeAllStartersCommand">
+            <summary>
+            Перевод в ручной режим все пускатели
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.ViewModel.Device.IDeviceCommandQueueViewModel.StartRepairAllStarter">
+            <summary>
+                Включение режима ремонта на всех пускателей
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.ViewModel.Device.IDeviceCommandQueueViewModel.StopRepairAllStarter">
+            <summary>
+                Отключение режима ремонта на всех пускателях
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.ViewModel.Device.IDeviceCommandQueueViewModel.RunNightlightCommand">
+            <summary>
+                Включить ночное
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.ViewModel.Device.IDeviceCommandQueueViewModel.StopNightlightCommand">
+            <summary>
+                Отключить ночное
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.ViewModel.Device.IDeviceCommandQueueViewModel.RunEveningCommand">
+            <summary>
+                Включить вечернее
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.ViewModel.Device.IDeviceCommandQueueViewModel.StopEveningCommand">
+            <summary>
+                Отключить вечернее
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.ViewModel.Device.IDeviceCommandQueueViewModel.RunFullCommand">
+            <summary>
+                Включить полное
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.ViewModel.Device.IDeviceCommandQueueViewModel.StopFullCommand">
+            <summary>
+                Отключить полное
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.ViewModel.Device.IDeviceCommandQueueViewModel.RunBacklightCommand">
+            <summary>
+                Включить подсветку
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.ViewModel.Device.IDeviceCommandQueueViewModel.StopBacklightCommand">
+            <summary>
+                Отключить подсветку
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.ViewModel.Device.IDeviceCommandQueueViewModel.RunIlluminationCommand">
+            <summary>
+                Включить иллюминацию
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.ViewModel.Device.IDeviceCommandQueueViewModel.StopIlluminationCommand">
+            <summary>
+                Отключить иллюминацию
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.ViewModel.Device.IDeviceCommandQueueViewModel.RunEnergySavingCommand">
+            <summary>
+                Включить энергосбережение
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.ViewModel.Device.IDeviceCommandQueueViewModel.StopEnergySavingCommand">
+            <summary>
+                Отключить энергосбережение
+            </summary>
+        </member>
+        <member name="T:ULA.AddinsHost.ViewModel.Device.IDeviceCommandStateViewModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.ViewModel.Device.IDeviceCommandStateViewModel.CommandType">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.ViewModel.Device.IDeviceCommandStateViewModel.IsCommandSending">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.ViewModel.Device.IDeviceCommandStateViewModel.IsCommandSent">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.ViewModel.Device.IDeviceCommandStateViewModel.IsCommandSucceed">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.ViewModel.Device.IDeviceCommandStateViewModel.Model">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:ULA.AddinsHost.ViewModel.Device.ILogicalDeviceViewModelBase">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.ViewModel.Device.ILogicalDeviceViewModelBase.DeviceDescription">
+            <summary>
+            описание
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.ViewModel.Device.ILogicalDeviceViewModelBase.DeviceName">
+            <summary>
+            имя
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.ViewModel.Device.ILogicalDeviceViewModelBase.DeviceNumber">
+            <summary>
+            номер устройства
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.ViewModel.Device.ILogicalDeviceViewModelBase.Model">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:ULA.AddinsHost.ViewModel.Device.OutgoingLines.IOutgoingLinesViewModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:ULA.AddinsHost.ViewModel.Device.IResistorViewModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:ULA.AddinsHost.ViewModel.Device.IRuntimeDeviceViewModel">
+            <summary>
+                Exposes runtime logical device functionality
+                Описывает функционал устройства в режиме реального времени
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.ViewModel.Device.IRuntimeDeviceViewModel.StarterViewModels">
+            <summary>
+            пускатели
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.ViewModel.Device.IRuntimeDeviceViewModel.DefectStateViewModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.ViewModel.Device.IRuntimeDeviceViewModel.OutgoingLinesViewModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.ViewModel.Device.IRuntimeDeviceViewModel.NavigateToSchemeCommand">
+            <summary>
+            
+            </summary>
+            
+        </member>
+        <member name="P:ULA.AddinsHost.ViewModel.Device.IRuntimeDeviceViewModel.StateWidget">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.ViewModel.Device.IRuntimeDeviceViewModel.AnalogDataViewModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.ViewModel.Device.IRuntimeDeviceViewModel.DeviceSignature">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:ULA.AddinsHost.ViewModel.Device.IStarterCommandViewModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.ViewModel.Device.IStarterCommandViewModel.FinalCommand">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.ViewModel.Device.IStarterCommandViewModel.IsCommandWaitingForAnswer">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:ULA.AddinsHost.ViewModel.Factories.IDeviceCommandStateViewModelFactory">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:ULA.AddinsHost.ViewModel.Factories.IDeviceCommandStateViewModelFactory.CreateDeviceCommandStateViewModel(System.Object)">
+            <summary>
+            
+            </summary>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ULA.AddinsHost.ViewModel.Factories.ILogicalDeviceViewModelFactory">
+            <summary>
+                Exposes logical device factory functionality
+                Описывает функционал фабрики догических устройств
+            </summary>
+        </member>
+        <member name="M:ULA.AddinsHost.ViewModel.Factories.ILogicalDeviceViewModelFactory.CreateRuntimeLogicalDeviceViewModel(ULA.AddinsHost.Business.Device.IDeviceMomento,System.Guid)">
+            <summary>
+                Creates an instance of <see cref="T:ULA.AddinsHost.ViewModel.Device.IRuntimeDeviceViewModel" />
+            </summary>
+            <param name="deviceMomento"></param>
+            <param name="id"></param>
+            <returns>
+                Created instance of <see cref="T:ULA.AddinsHost.ViewModel.Device.IRuntimeDeviceViewModel" />
+            </returns>
+        </member>
+        <member name="M:ULA.AddinsHost.ViewModel.Factories.ILogicalDeviceViewModelFactory.CreateConfigLogicalDevice">
+            <summary>
+                Creates an instance of <see cref="T:ULA.AddinsHost.Business.Device.IConfigLogicalDevice" />
+            </summary>
+            <returns>
+                Created instance of <see cref="T:ULA.AddinsHost.Business.Device.IConfigLogicalDevice" />
+            </returns>
+        </member>
+        <member name="T:ULA.AddinsHost.ViewModel.Factories.IStarterViewModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.ViewModel.Factories.IStarterViewModel.StarterDescription">
+            <summary>
+            описпание пускателя
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.ViewModel.Factories.IStarterViewModel.StarterNumber">
+            <summary>
+            номер пускателя
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.ViewModel.Factories.IStarterViewModel.IsInRepairState">
+            <summary>
+            режим ремонта
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.ViewModel.Factories.IStarterViewModel.IsInManualMode">
+            <summary>
+            ручной режим
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.ViewModel.Factories.IStarterViewModel.IsStarterOn">
+            <summary>
+            включенное состояние
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.ViewModel.Factories.IStarterViewModel.ManagementFuseState">
+            <summary>
+            состояние управления
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.ViewModel.Factories.IStarterViewModel.IsInUndefinedState">
+            <summary>
+            неопределенное состояние
+            </summary>
+        </member>
+        <member name="P:ULA.AddinsHost.ViewModel.Factories.IStarterViewModel.DeviceCommandStateViewModel">
+            <summary>
+            
+            </summary>
+            
+            
+        </member>
+        <member name="P:ULA.AddinsHost.ViewModel.Factories.IStarterViewModel.Model">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:ULA.AddinsHost.ViewModel.Factories.IStarterViewModel.Update">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:ULA.AddinsHost.ViewModel.Factories.IStarterViewModel.SetLostConnection">
+            <summary>
+            
+            </summary>
+        </member>
+    </members>
+</doc>

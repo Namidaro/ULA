@@ -1,0 +1,430 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ULA.Interceptors</name>
+    </assembly>
+    <members>
+        <member name="T:ULA.Interceptors.Application.ApplicationState">
+            <summary>
+                Represents current application state enumeration
+                Представляет перечисление состояний предложения
+            </summary>
+        </member>
+        <member name="F:ULA.Interceptors.Application.ApplicationState.RUNTIME">
+            <summary>
+                Describes current application state as runtime state
+                Режим реального времени
+            </summary>
+        </member>
+        <member name="F:ULA.Interceptors.Application.ApplicationState.CONFIGURATION">
+            <summary>
+                Describes current application state as configuration state
+                Режим конфигурации
+            </summary>
+        </member>
+        <member name="F:ULA.Interceptors.Application.ApplicationState.BOOTSTRAPPING">
+            <summary>
+                Describes current application state as bootstrapping state
+                Описывает состояние бутстрапинга
+            </summary>
+        </member>
+        <member name="F:ULA.Interceptors.Application.ApplicationState.FATAL_ERROR">
+            <summary>
+                Describes current application state as fatal error state
+                Описывает состояние фатальной ошибки
+            </summary>
+        </member>
+        <member name="F:ULA.Interceptors.Application.ApplicationState.UNKNOWN">
+            <summary>
+                Describes current application state as unknown state
+                Описывает неизвестное состояние
+            </summary>
+        </member>
+        <member name="T:ULA.Interceptors.Application.DefaultApplicationState">
+            <summary>
+                Represents default application state functionality
+                Представляет базовый функционал состояния приложения
+            </summary>
+        </member>
+        <member name="P:ULA.Interceptors.Application.DefaultApplicationState.CurrentState">
+            <summary>
+                Gets an instance of <see cref="T:ULA.Interceptors.Application.ApplicationState" /> that represents current application state enumeration
+                Текущее состояние
+            </summary>
+        </member>
+        <member name="P:ULA.Interceptors.Application.DefaultApplicationState.StateId">
+            <summary>
+                Gets an instance of <see cref="T:System.Guid" /> that represents current state unique identifier
+                Id состояния
+            </summary>
+        </member>
+        <member name="P:ULA.Interceptors.Application.DefaultApplicationState.CurrentContext">
+            <summary>
+                Gets an instance of <see cref="T:System.Collections.Generic.IDictionary`2" /> that represents current application state context
+                Представляет контекст текущего состояние
+            </summary>
+        </member>
+        <member name="M:ULA.Interceptors.Application.DefaultApplicationState.SetState(ULA.Interceptors.Application.ApplicationState)">
+            <summary>
+                Sets an instance of <see cref="T:ULA.Interceptors.Application.ApplicationState" /> that represents the state enumeration
+                Метод установки состояния
+            </summary>
+            <param name="state">
+                An instance of <see cref="T:ULA.Interceptors.Application.ApplicationState" /> that represents the state enumeration
+            </param>
+        </member>
+        <member name="M:ULA.Interceptors.Application.DefaultApplicationState.SetContext(System.Collections.Generic.IDictionary{System.Object,System.Object})">
+            <summary>
+                Sets an instance of <see cref="T:System.Collections.Generic.IDictionary`2" /> that represents the state context
+                Устанавливает контекст текущего состояния приложения
+            </summary>
+            <param name="context">
+                An instance of <see cref="T:System.Collections.Generic.IDictionary`2" /> that represents the state context
+            </param>
+        </member>
+        <member name="M:ULA.Interceptors.Application.DefaultApplicationState.SetUid(System.Guid)">
+            <summary>
+                Sets an instance of <see cref="T:System.Guid" /> that represents current state unique identifier
+                Устанавливает Id-к текущего состояния
+            </summary>
+            <param name="uid"></param>
+        </member>
+        <member name="T:ULA.Interceptors.Application.DefaultApplicationStateManger">
+            <summary>
+                Represents default application state manager functionality
+                Представляет функционал менеджера состояний приложения
+            </summary>
+        </member>
+        <member name="M:ULA.Interceptors.Application.DefaultApplicationStateManger.#ctor">
+            <summary>
+                Creates an instance of <see cref="T:ULA.Interceptors.Application.DefaultApplicationStateManger" />
+            </summary>
+        </member>
+        <member name="M:ULA.Interceptors.Application.DefaultApplicationStateManger.GotToNewState(ULA.Interceptors.Application.ApplicationState)">
+            <summary>
+                Goes to a new application state
+                Метод устанавливающий новое состояние приложения
+            </summary>
+            <param name="state">
+                An instance of <see cref="T:ULA.Interceptors.Application.ApplicationState" /> that represent new application state enumeration
+            </param>
+        </member>
+        <member name="P:ULA.Interceptors.Application.DefaultApplicationStateManger.CurrentState">
+            <summary>
+                Gets an instance of <see cref="T:ULA.Interceptors.Application.IApplicationState" /> that represents current state
+                Текущее состояние приложения
+            </summary>
+        </member>
+        <member name="M:ULA.Interceptors.Application.DefaultApplicationStateManger.CreateApplicationContext(System.Guid@)">
+            <summary>
+                Создает контекст состояния приложения
+            </summary>
+            <param name="uid"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ULA.Interceptors.Application.DefaultApplicationStateManger.UpdateApplicationState(ULA.Interceptors.Application.ApplicationState)">
+            <summary>
+                Обновляет состояние приложения
+            </summary>
+            <param name="state"></param>
+        </member>
+        <member name="T:ULA.Interceptors.Application.IApplicationSettingsService">
+            <summary>
+                Exposes application settings service
+                Описывает сервис настроек приложения
+            </summary>
+        </member>
+        <member name="P:ULA.Interceptors.Application.IApplicationSettingsService.DevicesStoragePath">
+            <summary>
+                Gets a full path of the devices storage file
+                Возвращает путь к хранилищу устройств
+            </summary>
+        </member>
+        <member name="P:ULA.Interceptors.Application.IApplicationSettingsService.ApplicationNumber">
+            <summary>
+                Описывает номер экземпляра программы
+            </summary>
+        </member>
+        <member name="P:ULA.Interceptors.Application.IApplicationSettingsService.SettingsPath">
+            <summary>
+                Возвращает путь к файлу с данными о найстройках
+            </summary>
+        </member>
+        <member name="P:ULA.Interceptors.Application.IApplicationSettingsService.JournalFilePath">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.Interceptors.Application.IApplicationSettingsService.AcknowledgeEnabled">
+            <summary>
+            автоквитировнаие
+            </summary>
+        </member>
+        <member name="P:ULA.Interceptors.Application.IApplicationSettingsService.FullTimeoutPeriod">
+            <summary>
+            период обновления на схеме
+            </summary>
+        </member>
+        <member name="P:ULA.Interceptors.Application.IApplicationSettingsService.PartialTimeoutPeriod">
+            <summary>
+            период обновления в списке
+            </summary>
+        </member>
+        <member name="P:ULA.Interceptors.Application.IApplicationSettingsService.QueryTimeoutPeriod">
+            <summary>
+            таймаут обменов
+            </summary>
+        </member>
+        <member name="P:ULA.Interceptors.Application.IApplicationSettingsService.NumberOfLightingCommandRepeat">
+            <summary>
+            повторения комманд освещения
+            </summary>
+        </member>
+        <member name="P:ULA.Interceptors.Application.IApplicationSettingsService.MillisecondRepeatInterval">
+            <summary>
+            интервал повторения комманд освещения
+            </summary>
+        </member>
+        <member name="M:ULA.Interceptors.Application.IApplicationSettingsService.Load">
+            <summary>
+            загрузить настройки
+            </summary>
+        </member>
+        <member name="M:ULA.Interceptors.Application.IApplicationSettingsService.Save">
+            <summary>
+            сохранить настройки
+            </summary>
+        </member>
+        <member name="T:ULA.Interceptors.Application.IApplicationState">
+            <summary>
+                Exposes current application state functionality 
+                Описывает текущее состояние приложения
+            </summary>
+        </member>
+        <member name="P:ULA.Interceptors.Application.IApplicationState.CurrentState">
+            <summary>
+                Gets an instance of <see cref="T:ULA.Interceptors.Application.ApplicationState" /> that represents current application state enumeration
+                Текущее состояние приложения
+            </summary>
+        </member>
+        <member name="P:ULA.Interceptors.Application.IApplicationState.StateId">
+            <summary>
+                Gets an instance of <see cref="T:System.Guid" /> that represents current state unique identifier
+                Id состояние
+            </summary>
+        </member>
+        <member name="P:ULA.Interceptors.Application.IApplicationState.CurrentContext">
+            <summary>
+                Gets an instance of <see cref="T:System.Collections.Generic.IDictionary`2" /> that represents current application state context
+                Описывает контекст состояния приложения
+            </summary>
+        </member>
+        <member name="T:ULA.Interceptors.Application.IApplicationStateManager">
+            <summary>
+                Exposes an application state manager functionality
+                Описывает менеджер состояний приложения
+            </summary>
+        </member>
+        <member name="P:ULA.Interceptors.Application.IApplicationStateManager.CurrentState">
+            <summary>
+                Gets an instance of <see cref="T:ULA.Interceptors.Application.IApplicationState" /> that represents current state
+                Описывает текущее состояние приложение
+            </summary>
+        </member>
+        <member name="M:ULA.Interceptors.Application.IApplicationStateManager.GotToNewState(ULA.Interceptors.Application.ApplicationState)">
+            <summary>
+                Goes to a new application state
+                Переход на новое состояние
+            </summary>
+            <param name="state">
+                An instance of <see cref="T:ULA.Interceptors.Application.ApplicationState" /> that represent new application state enumeration
+            </param>
+        </member>
+        <member name="T:ULA.Interceptors.CommandTypesEnum">
+            <summary>
+                Represents a states of states of resistor, starter, and etc. command blocks
+                Представляет состояния предохранителей, пускателей и т.п.
+            </summary>
+        </member>
+        <member name="F:ULA.Interceptors.CommandTypesEnum.ON">
+            <summary>
+                Represent On state(Work)
+                Включенное состояние
+            </summary>
+        </member>
+        <member name="F:ULA.Interceptors.CommandTypesEnum.OFF">
+            <summary>
+                Represents Off state(Stop)
+                отключенное состояние
+            </summary>
+        </member>
+        <member name="F:ULA.Interceptors.CommandTypesEnum.CONFIG">
+            <summary>
+                Represent config state(not link)
+                Состояние конфигурации(Нет связи)
+            </summary>
+        </member>
+        <member name="F:ULA.Interceptors.CommandTypesEnum.AUTO">
+            <summary>
+                Автоматическое состояние
+            </summary>
+        </member>
+        <member name="F:ULA.Interceptors.CommandTypesEnum.Repair">
+            <summary>
+                Режим ремонта
+            </summary>
+        </member>
+        <member name="F:ULA.Interceptors.CommandTypesEnum.NoRepair">
+            <summary>
+                Режим неремонта
+            </summary>
+        </member>
+        <member name="F:ULA.Interceptors.CommandTypesEnum.MANUAL">
+            <summary>
+            Ручной режим
+            </summary>
+        </member>
+        <member name="T:ULA.Interceptors.IoC.IIoCContainer">
+            <summary>
+                Exposes IoC Container functionality
+                Описывает функционал IoC контейнера
+            </summary>
+        </member>
+        <member name="M:ULA.Interceptors.IoC.IIoCContainer.Resolve``1(System.String)">
+            <summary>
+                Resolves a <see cref="T:System.Type" /> by the name of the mapping
+            </summary>
+            <typeparam name="T"><see cref="T:System.Type" /> to resolve</typeparam>
+            <param name="mappingKey">The name of the mapping to resolve an instance with</param>
+            <returns>An instance of the retrieved object</returns>
+        </member>
+        <member name="M:ULA.Interceptors.IoC.IIoCContainer.Resolve``1">
+            <summary>
+                Resolves a <see cref="T:System.Type" /> by the name of the mapping
+            </summary>
+            <typeparam name="T"><see cref="T:System.Type" /> to resolve</typeparam>
+            <returns>An instance of the retrieved</returns>
+        </member>
+        <member name="T:ULA.Interceptors.IoC.IIocContainerRoot">
+            <summary>
+                Exposes IoC container root functionality
+                Описывает корневой функционал IoC контейнера
+            </summary>
+        </member>
+        <member name="M:ULA.Interceptors.IoC.IIocContainerRoot.RegisterType``2(System.String,System.Boolean)">
+            <summary>
+                Registers an instance mapping in an IoC Container
+            </summary>
+            <typeparam name="TMapTo">
+                <see cref="T:System.Type" /> to map tp
+            </typeparam>
+            <typeparam name="TMapFrom">
+                <see cref="T:System.Type" /> to map from
+            </typeparam>
+            <param name="name">The name of the mapping</param>
+            <param name="isSingleton">A value that indicates whether creating an instance of TMapFrom should be occured only once</param>
+        </member>
+        <member name="M:ULA.Interceptors.IoC.IIocContainerRoot.RegisterType``2(System.Boolean)">
+            <summary>
+                Registers an instance mapping in an IoC Container
+            </summary>
+            <typeparam name="TMapTo">
+                <see cref="T:System.Type" /> to map tp
+            </typeparam>
+            <typeparam name="TMapFrom">
+                <see cref="T:System.Type" /> to map from
+            </typeparam>
+            <param name="isSingleton">A value that indicates whether creating an instance of TMapFrom should be occured only once</param>
+        </member>
+        <member name="T:ULA.Interceptors.LightingCommandResult">
+            <summary>
+                Описывает результат отправки команды управления освещением
+            </summary>
+        </member>
+        <member name="F:ULA.Interceptors.LightingCommandResult.OK">
+            <summary>
+                Команда отправлена
+            </summary>
+        </member>
+        <member name="F:ULA.Interceptors.LightingCommandResult.NO_EXIST">
+            <summary>
+                Пускатель с таким режимом не существует на данном устройстве
+            </summary>
+        </member>
+        <member name="F:ULA.Interceptors.LightingCommandResult.REPAIR">
+            <summary>
+                Пускатель с таким режимом освещения находится в режиме ремонта
+            </summary>
+        </member>
+        <member name="F:ULA.Interceptors.LightingCommandResult.UNDEFINED">
+            <summary>
+                Значение показывает неопределенный результат (сбой в логике)
+            </summary>
+        </member>
+        <member name="T:ULA.Interceptors.LightingModeEnum">
+            <summary>
+                Описывает режимы освещения
+            </summary>
+        </member>
+        <member name="F:ULA.Interceptors.LightingModeEnum.UNDEFINED">
+            <summary>
+                Неопределенное значение графика освещения
+            </summary>
+        </member>
+        <member name="F:ULA.Interceptors.LightingModeEnum.NIGHTLIGHTING">
+            <summary>
+                Ночное освещение
+            </summary>
+        </member>
+        <member name="F:ULA.Interceptors.LightingModeEnum.BACKLIGHT">
+            <summary>
+                подсветка
+            </summary>
+        </member>
+        <member name="F:ULA.Interceptors.LightingModeEnum.ILLUMINATION">
+            <summary>
+                Иллюминация
+            </summary>
+        </member>
+        <member name="F:ULA.Interceptors.LightingModeEnum.ENERGY_SAVING">
+            <summary>
+                Энергосбережение
+            </summary>
+        </member>
+        <member name="F:ULA.Interceptors.LightingModeEnum.HEATING">
+            <summary>
+                Обогрев
+            </summary>
+        </member>
+        <member name="F:ULA.Interceptors.LightingModeEnum.ECONOMY_NIGHTLIGHTING">
+            <summary>
+                Экономия+ночное - Вечернее
+            </summary>
+        </member>
+        <member name="F:ULA.Interceptors.LightingModeEnum.ECONOMY_BACKLIGHT">
+            <summary>
+                Экономия+подсветка
+            </summary>
+        </member>
+        <member name="F:ULA.Interceptors.LightingModeEnum.ECONOMY_ILLUMINATION">
+            <summary>
+               Экономия+иллюминация
+            </summary>
+        </member>
+        <member name="F:ULA.Interceptors.LightingModeEnum.FULL_NIGHTLIGHT">
+            <summary>
+                Полное ночное - это логический режим освещения включающий в себя режимы ночного и вечернего освещения(NIGHTLIGHTING + ECONOMY_NIGHTLIGHTING)
+            </summary>
+        </member>
+        <member name="F:ULA.Interceptors.LightingModeEnum.FULL_BACKLIGHT">
+            <summary>
+                Полное подсветка - это логический режим освещения включающий в себя режимы подсветки и подсветки+экономия
+            </summary>
+        </member>
+        <member name="F:ULA.Interceptors.LightingModeEnum.FULL_ILLUMINATION">
+            <summary>
+                Полное иллюминацию - это логический режим освещения включающий в себя режимы иллюминации и иллюминации+осверщения
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,1036 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ULA.Localization</name>
+    </assembly>
+    <members>
+        <member name="T:ULA.Localization.LocalizationResources">
+            <summary>
+              Represents an application resources accessor functionality
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.Instance">
+            <summary>
+                Gets current instance of <see cref="T:ULA.Localization.LocalizationResources" />
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.Item(System.String)">
+            <summary>
+            Gets a resource by its name
+            </summary>
+            <param name="resource">The name of the resource to obtain</param>
+            <returns>An instance of the obtained resource</returns>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.PortExample">
+            <summary>
+              Looks up a localized string similar to 4444
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.NoDeviceForConfigurationExceptionMessage">
+            <summary>
+              Looks up a localized string similar to Функционал устройства не реализован для режиме конфигурации.
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.UnexpectedErrorMessagePattern">
+            <summary>
+              Looks up a localized string similar to Во время выполнения операции обнаружена ошибка: {0}
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.IpAddressExample">
+            <summary>
+              Looks up a localized string similar to 127.0.0.1
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.ManualmodeCommand">
+            <summary>
+              Looks up a localized string similar to Ручной режим
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.DriverExceptionSimpleMessage">
+            <summary>
+              Looks up a localized string similar to Обнаружена ошибка при работе с драйвером.
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.IpAddressValidationNotSet">
+            <summary>
+              Looks up a localized string similar to IP адрес устройства не задан
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.WantToCreateNewDevice">
+            <summary>
+              Looks up a localized string similar to Хотите ли вы создать новое устройство?
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.SynchronizationTimeTitle">
+            <summary>
+              Looks up a localized string similar to Синхронизация времени
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.AutoMode">
+            <summary>
+              Looks up a localized string similar to Авторежим
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.DeviceNameValidationNotSet">
+            <summary>
+              Looks up a localized string similar to Имя устройства не задано
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.DriverDataTable">
+            <summary>
+              Looks up a localized string similar to Драйвер таблицы данных
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.LogDate">
+            <summary>
+              Looks up a localized string similar to Дата
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.NotRestoreStateOfDriver">
+            <summary>
+              Looks up a localized string similar to Невозможно восстановить состояние драйвера с идентификатором:
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.HelpHeader">
+            <summary>
+              Looks up a localized string similar to Помощь
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.WantCreateDevice">
+            <summary>
+              Looks up a localized string similar to Вы хотите создать новое устройство?
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.LogDescription">
+            <summary>
+              Looks up a localized string similar to Действие
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.NotAccessFromPersistableToDriver">
+            <summary>
+              Looks up a localized string similar to Сохраненный слой не может получить доступ к драйверу с  ID:
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.CitywideCommandsTitle">
+            <summary>
+              Looks up a localized string similar to Управление командами
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.DeviceNameTooltip">
+            <summary>
+              Looks up a localized string similar to Название должно содержать символы или цифры и длина вводимого текста не должна превышать 20 символов
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.TcpIpAddressTooltip">
+            <summary>
+              Looks up a localized string similar to Порт виртуального устройства. Применяется валидация свойственная TCP/IP порту.
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.NoButtonContent">
+            <summary>
+              Looks up a localized string similar to Нет
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.DeviceNameExample">
+            <summary>
+              Looks up a localized string similar to Имя уcтройства 1
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.RepairDefandTitle">
+            <summary>
+              Looks up a localized string similar to Защита
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.DeviceExceptionInfoPartMessageFormat">
+            <summary>
+              Looks up a localized string similar to Ошибка в устройстве: {0}.
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.StopAll">
+            <summary>
+              Looks up a localized string similar to Отключить все
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.Full">
+            <summary>
+              Looks up a localized string similar to Полное
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.DriverDataTableDataRowExistsExceptionMessageFormat">
+            <summary>
+              Looks up a localized string similar to Строка в таблице данных драйвера с идентификатором {0} уже существует
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.Close">
+            <summary>
+              Looks up a localized string similar to Закрыть
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.UnknownDeviceTypeExceptionMessageFormat">
+            <summary>
+              Looks up a localized string similar to Тип устройства {0} не найдет в системе.
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.TCPModbusDriverSettingsTooltip">
+            <summary>
+              Looks up a localized string similar to IP-адрес виртуального устройства. Применяется валидация свойственная для IP-адреса. Части адреса должны быть разделены точками ('.').
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.EditSelectedDeviceHeader">
+            <summary>
+              Looks up a localized string similar to Редактировать
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.UpSymbol">
+            <summary>
+              Looks up a localized string similar to +
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.RuntimeMode">
+            <summary>
+              Looks up a localized string similar to Режим реального времени
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.DeviceDescriptionTooltip">
+            <summary>
+              Looks up a localized string similar to Краткое описание виртуального устройства
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.NoDevicesDetected">
+            <summary>
+              Looks up a localized string similar to Устройства не найдены
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.NewDeviceHeader">
+            <summary>
+              Looks up a localized string similar to Новое
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.Evening">
+            <summary>
+              Looks up a localized string similar to Вечернее
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.DeviceExceptionSimpleMessage">
+            <summary>
+              Looks up a localized string similar to Обнаружена ошибка при работе с устройством.
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.IpPortValidationNotSet">
+            <summary>
+              Looks up a localized string similar to IP порт устройства задан
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.VersionProgram">
+            <summary>
+              Looks up a localized string similar to Версия 5.0
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.DataStorageFilePathExceptionMessage">
+            <summary>
+              Looks up a localized string similar to Путь к хранилищу информации об устройствах задан не верно
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.From">
+            <summary>
+              Looks up a localized string similar to От:
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.AboutHeader">
+            <summary>
+              Looks up a localized string similar to О программе
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.Starters">
+            <summary>
+              Looks up a localized string similar to Пускатели
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.StartAll">
+            <summary>
+              Looks up a localized string similar to Включить все
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.DriverAlreadyExistsExceptionMessageFormat">
+            <summary>
+              Looks up a localized string similar to Драйвер с такими параметрами уже существует. Хост {0}, Порт {1}
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.AomPropertyTypePropertyNameExceptionMessage">
+            <summary>
+              Looks up a localized string similar to Имя свойства не может быть пустым
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.NoAssociatedDriverExceptionMessage">
+            <summary>
+              Looks up a localized string similar to Ассоциируемый драйвер с текущим устройством не найден
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.DeviceDescription">
+            <summary>
+              Looks up a localized string similar to Описание устройства
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.IpAddressValidationFormat">
+            <summary>
+              Looks up a localized string similar to Неверный формат IP адреса устройства
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.To">
+            <summary>
+              Looks up a localized string similar to До:
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.UnknownDriverTypeExceptionMessageFormat">
+            <summary>
+              Looks up a localized string similar to Тип драйвера {0} не найдет в системе.
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.TimeSynchronizationHeader">
+            <summary>
+              Looks up a localized string similar to Синхронизация времени
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.CreateNewDeviceDialogTitle">
+            <summary>
+              Looks up a localized string similar to Создать виртуальное устройство
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.DeviceNameValidationRange">
+            <summary>
+              Looks up a localized string similar to Имя устройства должно содержать от 2-х до 20-ти символов.
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.SubmitCreateButtonContent">
+            <summary>
+              Looks up a localized string similar to Создать
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.Backlight">
+            <summary>
+              Looks up a localized string similar to Подсветка
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.ValidationTemplate">
+            <summary>
+              Looks up a localized string similar to Количество ошибок: {0}
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.VirtualDeviceHeader">
+            <summary>
+              Looks up a localized string similar to Устройство
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.WaitingBusyDialogMessage">
+            <summary>
+              Looks up a localized string similar to Идёт загрузка. Ожидайте....
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.TCPModbusDriverSettings">
+            <summary>
+              Looks up a localized string similar to Драйвер (TCP Modbus)
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.DeviceAlreadyExistsExceptionMessageFormat">
+            <summary>
+              Looks up a localized string similar to Устройство с именем {0} уже существует.
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.StoregEnergy">
+            <summary>
+              Looks up a localized string similar to Энергосбережение
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.CommonDeviceSettings">
+            <summary>
+              Looks up a localized string similar to Общее
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.Time">
+            <summary>
+              Looks up a localized string similar to Время
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.ApplicationTitle">
+            <summary>
+              Looks up a localized string similar to Управление Наружным Освещением
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.BusyDialogTitle">
+            <summary>
+              Looks up a localized string similar to Ожидайте...
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.DriverExceptionInfoPartMessageFormat">
+            <summary>
+              Looks up a localized string similar to Ошибка в драйвере: {0}.
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.CommandOnTemplateTitle">
+            <summary>
+              Looks up a localized string similar to Управление по шаблонам
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.NotWorkWithDriverType">
+            <summary>
+              Looks up a localized string similar to Нет возможности работать с драйвером типа:
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.ErrorHeader">
+            <summary>
+              Looks up a localized string similar to Ошибка
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.NoDeviceDetected">
+            <summary>
+              Looks up a localized string similar to Устройство не найдено
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.DeleteSelectedDeviceHeader">
+            <summary>
+              Looks up a localized string similar to Удалить
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.IpPortValidationRange">
+            <summary>
+              Looks up a localized string similar to IP порт устройства должен быть в пределах от 0 до 9999
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.StarterNoExistMessage">
+            <summary>
+              Looks up a localized string similar to Команда не может быть послана
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.DownSymbol">
+            <summary>
+              Looks up a localized string similar to -
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.OkButtonContent">
+            <summary>
+              Looks up a localized string similar to Ok
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.TcpIpAddress">
+            <summary>
+              Looks up a localized string similar to Ip - адрес устройства
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.YesButtonContent">
+            <summary>
+              Looks up a localized string similar to Да
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.ViewSelectedDeviceSchemaHeader">
+            <summary>
+              Looks up a localized string similar to Перейти на схему
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.RepairDefand">
+            <summary>
+              Looks up a localized string similar to "Устройство находится в режиме ремонта. Управление недоступно"
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.AomEntityTypeNullTypeExceptionMessage">
+            <summary>
+              Looks up a localized string similar to Тип сущности не может быть пустым
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.DataStorageFileFormatExceptionMessage">
+            <summary>
+              Looks up a localized string similar to Формат файла хранилища данных устройства не верен
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.Nighlighting">
+            <summary>
+              Looks up a localized string similar to Ночное
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.TcpIpPort">
+            <summary>
+              Looks up a localized string similar to Порт устройства
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.JournalOfSystemsHeader">
+            <summary>
+              Looks up a localized string similar to Журнал системы
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.DriverNotHaveDataTableSetup">
+            <summary>
+              Looks up a localized string similar to Драйвер с идентификатором {0} не имеет таблицы данных для настройки
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.Synchronize">
+            <summary>
+              Looks up a localized string similar to Синхронизировать
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.CancelButtonContent">
+            <summary>
+              Looks up a localized string similar to Отмена
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.ConfigurationMode">
+            <summary>
+              Looks up a localized string similar to Режим конфигурации
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.AomPropertyNullCollectionExceptionMessage">
+            <summary>
+              Looks up a localized string similar to Коллекция типов свойств в нотации AOM не задана
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.Illumination">
+            <summary>
+              Looks up a localized string similar to Иллюминация
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.AomPropertyTypeNullPropertyTypeExceptionMessage">
+            <summary>
+              Looks up a localized string similar to Тип свойства не может быть пустым
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.IpPortValidationFormat">
+            <summary>
+              Looks up a localized string similar to IP порт устройства имеет неверный формат
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.HistoryHeader">
+            <summary>
+              Looks up a localized string similar to История
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.AboutCopyright">
+            <summary>
+              Looks up a localized string similar to Внимание! Данная программа защищается законом об авторских правах. Незаконное копирование или распространение этой программы или какой-либо её части может повлечь суровые гражданские или уголовные наказания и будет преследоваться по всей строгости закона.
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.CitywideCommandHeader">
+            <summary>
+              Looks up a localized string similar to Общие команды
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.LocalizationResources.DeviceName">
+            <summary>
+              Looks up a localized string similar to Имя устройства
+            </summary>
+        </member>
+        <member name="T:ULA.Localization.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.Properties.Resources.AboutCopyright">
+            <summary>
+              Looks up a localized string similar to Внимание! Данная программа защищается законом об авторских правах. Незаконное копирование или распространение этой программы или какой-либо её части может повлечь суровые гражданские или уголовные наказания и будет преследоваться по всей строгости закона..
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.Properties.Resources.AboutHeader">
+            <summary>
+              Looks up a localized string similar to О программе.
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.Properties.Resources.AomEntityTypeNullTypeExceptionMessage">
+            <summary>
+              Looks up a localized string similar to Тип сущности не может быть пустым.
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.Properties.Resources.AomPropertyNullCollectionExceptionMessage">
+            <summary>
+              Looks up a localized string similar to Коллекция типов свойств в нотации AOM не задана.
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.Properties.Resources.AomPropertyTypeNullPropertyTypeExceptionMessage">
+            <summary>
+              Looks up a localized string similar to Тип свойства не может быть пустым.
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.Properties.Resources.AomPropertyTypePropertyNameExceptionMessage">
+            <summary>
+              Looks up a localized string similar to Имя свойства не может быть пустым.
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.Properties.Resources.ApplicationTitle">
+            <summary>
+              Looks up a localized string similar to Управление Наружным Освещением.
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.Properties.Resources.AutoMode">
+            <summary>
+              Looks up a localized string similar to Авторежим.
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.Properties.Resources.Backlight">
+            <summary>
+              Looks up a localized string similar to Подсветка.
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.Properties.Resources.BusyDialogTitle">
+            <summary>
+              Looks up a localized string similar to Ожидайте....
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.Properties.Resources.CancelButtonContent">
+            <summary>
+              Looks up a localized string similar to Отмена.
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.Properties.Resources.CitywideCommandHeader">
+            <summary>
+              Looks up a localized string similar to Общие команды.
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.Properties.Resources.CitywideCommandsTitle">
+            <summary>
+              Looks up a localized string similar to Управление командами.
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.Properties.Resources.Close">
+            <summary>
+              Looks up a localized string similar to Закрыть.
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.Properties.Resources.CommandOnTemplateTitle">
+            <summary>
+              Looks up a localized string similar to Управление по шаблонам.
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.Properties.Resources.CommonDeviceSettings">
+            <summary>
+              Looks up a localized string similar to Общее.
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.Properties.Resources.ConfigurationMode">
+            <summary>
+              Looks up a localized string similar to Режим конфигурации.
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.Properties.Resources.CreateNewDeviceDialogTitle">
+            <summary>
+              Looks up a localized string similar to Создать виртуальное устройство.
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.Properties.Resources.DataStorageFileFormatExceptionMessage">
+            <summary>
+              Looks up a localized string similar to Формат файла хранилища данных устройства не верен.
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.Properties.Resources.DataStorageFilePathExceptionMessage">
+            <summary>
+              Looks up a localized string similar to Путь к хранилищу информации об устройствах задан не верно.
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.Properties.Resources.DeleteSelectedDeviceHeader">
+            <summary>
+              Looks up a localized string similar to Удалить.
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.Properties.Resources.DeviceAlreadyExistsExceptionMessageFormat">
+            <summary>
+              Looks up a localized string similar to Устройство с именем {0} уже существует..
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.Properties.Resources.DeviceDescription">
+            <summary>
+              Looks up a localized string similar to Описание устройства.
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.Properties.Resources.DeviceDescriptionTooltip">
+            <summary>
+              Looks up a localized string similar to Краткое описание виртуального устройства.
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.Properties.Resources.DeviceExceptionInfoPartMessageFormat">
+            <summary>
+              Looks up a localized string similar to Ошибка в устройстве: {0}..
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.Properties.Resources.DeviceExceptionSimpleMessage">
+            <summary>
+              Looks up a localized string similar to Обнаружена ошибка при работе с устройством..
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.Properties.Resources.DeviceName">
+            <summary>
+              Looks up a localized string similar to Имя устройства.
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.Properties.Resources.DeviceNameExample">
+            <summary>
+              Looks up a localized string similar to Имя уcтройства 1.
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.Properties.Resources.DeviceNameTooltip">
+            <summary>
+              Looks up a localized string similar to Название должно содержать символы или цифры и длина вводимого текста не должна превышать 20 символов.
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.Properties.Resources.DeviceNameValidationNotSet">
+            <summary>
+              Looks up a localized string similar to Имя устройства не задано.
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.Properties.Resources.DeviceNameValidationRange">
+            <summary>
+              Looks up a localized string similar to Имя устройства должно содержать от 2-х до 20-ти символов..
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.Properties.Resources.DownSymbol">
+            <summary>
+              Looks up a localized string similar to -.
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.Properties.Resources.DriverAlreadyExistsExceptionMessageFormat">
+            <summary>
+              Looks up a localized string similar to Драйвер с такими параметрами уже существует. Хост {0}, Порт {1}.
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.Properties.Resources.DriverDataTable">
+            <summary>
+              Looks up a localized string similar to Драйвер таблицы данных.
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.Properties.Resources.DriverDataTableDataRowExistsExceptionMessageFormat">
+            <summary>
+              Looks up a localized string similar to Строка в таблице данных драйвера с идентификатором {0} уже существует.
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.Properties.Resources.DriverExceptionInfoPartMessageFormat">
+            <summary>
+              Looks up a localized string similar to Ошибка в драйвере: {0}..
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.Properties.Resources.DriverExceptionSimpleMessage">
+            <summary>
+              Looks up a localized string similar to Обнаружена ошибка при работе с драйвером..
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.Properties.Resources.DriverNotHaveDataTableSetup">
+            <summary>
+              Looks up a localized string similar to Драйвер с идентификатором {0} не имеет таблицы данных для настройки.
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.Properties.Resources.EditSelectedDeviceHeader">
+            <summary>
+              Looks up a localized string similar to Редактировать.
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.Properties.Resources.ErrorHeader">
+            <summary>
+              Looks up a localized string similar to Ошибка.
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.Properties.Resources.Evening">
+            <summary>
+              Looks up a localized string similar to Вечернее.
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.Properties.Resources.From">
+            <summary>
+              Looks up a localized string similar to От:.
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.Properties.Resources.Full">
+            <summary>
+              Looks up a localized string similar to Полное.
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.Properties.Resources.HelpHeader">
+            <summary>
+              Looks up a localized string similar to Помощь.
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.Properties.Resources.HistoryHeader">
+            <summary>
+              Looks up a localized string similar to История.
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.Properties.Resources.Illumination">
+            <summary>
+              Looks up a localized string similar to Иллюминация.
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.Properties.Resources.IpAddressExample">
+            <summary>
+              Looks up a localized string similar to 127.0.0.1.
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.Properties.Resources.IpAddressValidationFormat">
+            <summary>
+              Looks up a localized string similar to Неверный формат IP адреса устройства.
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.Properties.Resources.IpAddressValidationNotSet">
+            <summary>
+              Looks up a localized string similar to IP адрес устройства не задан.
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.Properties.Resources.IpPortValidationFormat">
+            <summary>
+              Looks up a localized string similar to IP порт устройства имеет неверный формат.
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.Properties.Resources.IpPortValidationNotSet">
+            <summary>
+              Looks up a localized string similar to IP порт устройства задан.
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.Properties.Resources.IpPortValidationRange">
+            <summary>
+              Looks up a localized string similar to IP порт устройства должен быть в пределах от 0 до 9999.
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.Properties.Resources.JournalOfSystemsHeader">
+            <summary>
+              Looks up a localized string similar to Журнал системы.
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.Properties.Resources.LogDate">
+            <summary>
+              Looks up a localized string similar to Дата.
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.Properties.Resources.LogDescription">
+            <summary>
+              Looks up a localized string similar to Действие.
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.Properties.Resources.ManualmodeCommand">
+            <summary>
+              Looks up a localized string similar to Ручной режим.
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.Properties.Resources.NewDeviceHeader">
+            <summary>
+              Looks up a localized string similar to Новое.
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.Properties.Resources.Nighlighting">
+            <summary>
+              Looks up a localized string similar to Ночное.
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.Properties.Resources.NoAssociatedDriverExceptionMessage">
+            <summary>
+              Looks up a localized string similar to Ассоциируемый драйвер с текущим устройством не найден.
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.Properties.Resources.NoButtonContent">
+            <summary>
+              Looks up a localized string similar to Нет.
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.Properties.Resources.NoDeviceDetected">
+            <summary>
+              Looks up a localized string similar to Устройство не найдено.
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.Properties.Resources.NoDeviceForConfigurationExceptionMessage">
+            <summary>
+              Looks up a localized string similar to Функционал устройства не реализован для режиме конфигурации..
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.Properties.Resources.NoDevicesDetected">
+            <summary>
+              Looks up a localized string similar to Устройства не найдены.
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.Properties.Resources.NotAccessFromPersistableToDriver">
+            <summary>
+              Looks up a localized string similar to Сохраненный слой не может получить доступ к драйверу с  ID:.
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.Properties.Resources.NotRestoreStateOfDriver">
+            <summary>
+              Looks up a localized string similar to Невозможно восстановить состояние драйвера с идентификатором:.
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.Properties.Resources.NotWorkWithDriverType">
+            <summary>
+              Looks up a localized string similar to Нет возможности работать с драйвером типа:.
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.Properties.Resources.OkButtonContent">
+            <summary>
+              Looks up a localized string similar to Ok.
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.Properties.Resources.PortExample">
+            <summary>
+              Looks up a localized string similar to 4444.
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.Properties.Resources.RepairDefand">
+            <summary>
+              Looks up a localized string similar to &quot;Устройство находится в режиме ремонта. Управление недоступно&quot;.
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.Properties.Resources.RepairDefandTitle">
+            <summary>
+              Looks up a localized string similar to Защита.
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.Properties.Resources.RuntimeMode">
+            <summary>
+              Looks up a localized string similar to Режим реального времени.
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.Properties.Resources.StartAll">
+            <summary>
+              Looks up a localized string similar to Включить все.
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.Properties.Resources.StarterNoExistMessage">
+            <summary>
+              Looks up a localized string similar to Команда не может быть послана.
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.Properties.Resources.Starters">
+            <summary>
+              Looks up a localized string similar to Пускатели.
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.Properties.Resources.StopAll">
+            <summary>
+              Looks up a localized string similar to Отключить все.
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.Properties.Resources.StoregEnergy">
+            <summary>
+              Looks up a localized string similar to Энергосбережение.
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.Properties.Resources.SubmitCreateButtonContent">
+            <summary>
+              Looks up a localized string similar to Создать.
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.Properties.Resources.SynchronizationTimeTitle">
+            <summary>
+              Looks up a localized string similar to Синхронизация времени.
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.Properties.Resources.Synchronize">
+            <summary>
+              Looks up a localized string similar to Синхронизировать.
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.Properties.Resources.TcpIpAddress">
+            <summary>
+              Looks up a localized string similar to Ip - адрес устройства.
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.Properties.Resources.TcpIpAddressTooltip">
+            <summary>
+              Looks up a localized string similar to Порт виртуального устройства. Применяется валидация свойственная TCP/IP порту..
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.Properties.Resources.TcpIpPort">
+            <summary>
+              Looks up a localized string similar to Порт устройства.
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.Properties.Resources.TCPModbusDriverSettings">
+            <summary>
+              Looks up a localized string similar to Драйвер (TCP Modbus).
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.Properties.Resources.TCPModbusDriverSettingsTooltip">
+            <summary>
+              Looks up a localized string similar to IP-адрес виртуального устройства. Применяется валидация свойственная для IP-адреса. Части адреса должны быть разделены точками (&apos;.&apos;)..
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.Properties.Resources.Time">
+            <summary>
+              Looks up a localized string similar to Время.
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.Properties.Resources.TimeSynchronizationHeader">
+            <summary>
+              Looks up a localized string similar to Синхронизация времени.
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.Properties.Resources.To">
+            <summary>
+              Looks up a localized string similar to До:.
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.Properties.Resources.UnexpectedErrorMessagePattern">
+            <summary>
+              Looks up a localized string similar to Во время выполнения операции обнаружена ошибка: {0}.
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.Properties.Resources.UnknownDeviceTypeExceptionMessageFormat">
+            <summary>
+              Looks up a localized string similar to Тип устройства {0} не найдет в системе..
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.Properties.Resources.UnknownDriverTypeExceptionMessageFormat">
+            <summary>
+              Looks up a localized string similar to Тип драйвера {0} не найдет в системе..
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.Properties.Resources.UpSymbol">
+            <summary>
+              Looks up a localized string similar to +.
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.Properties.Resources.ValidationTemplate">
+            <summary>
+              Looks up a localized string similar to Количество ошибок: {0}.
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.Properties.Resources.VersionProgram">
+            <summary>
+              Looks up a localized string similar to Версия 5.0.
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.Properties.Resources.ViewSelectedDeviceSchemaHeader">
+            <summary>
+              Looks up a localized string similar to Перейти на схему.
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.Properties.Resources.VirtualDeviceHeader">
+            <summary>
+              Looks up a localized string similar to Устройство.
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.Properties.Resources.WaitingBusyDialogMessage">
+            <summary>
+              Looks up a localized string similar to Идёт загрузка. Ожидайте.....
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.Properties.Resources.WantCreateDevice">
+            <summary>
+              Looks up a localized string similar to Вы хотите создать новое устройство?.
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.Properties.Resources.WantToCreateNewDevice">
+            <summary>
+              Looks up a localized string similar to Хотите ли вы создать новое устройство?.
+            </summary>
+        </member>
+        <member name="P:ULA.Localization.Properties.Resources.YesButtonContent">
+            <summary>
+              Looks up a localized string similar to Да.
+            </summary>
+        </member>
+    </members>
+</doc>

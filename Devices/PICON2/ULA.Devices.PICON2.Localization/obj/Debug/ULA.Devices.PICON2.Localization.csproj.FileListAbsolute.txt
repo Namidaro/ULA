@@ -1,0 +1,45 @@
+C:\Users\Гусачок\Desktop\ULA\Devices\PICON2\ULA.Devices.PICON2.Localization\bin\Debug\ULA.Devices.PICON2.Localization.dll.config
+C:\Users\Гусачок\Desktop\ULA\Devices\PICON2\ULA.Devices.PICON2.Localization\bin\Debug\ULA.Devices.PICON2.Localization.dll
+C:\Users\Гусачок\Desktop\ULA\Devices\PICON2\ULA.Devices.PICON2.Localization\bin\Debug\ULA.Devices.PICON2.Localization.pdb
+C:\Users\Гусачок\Desktop\ULA\Devices\PICON2\ULA.Devices.PICON2.Localization\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\Гусачок\Desktop\ULA\Devices\PICON2\ULA.Devices.PICON2.Localization\bin\Debug\Microsoft.Practices.Prism.dll
+C:\Users\Гусачок\Desktop\ULA\Devices\PICON2\ULA.Devices.PICON2.Localization\bin\Debug\Microsoft.Practices.Prism.UnityExtensions.dll
+C:\Users\Гусачок\Desktop\ULA\Devices\PICON2\ULA.Devices.PICON2.Localization\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Гусачок\Desktop\ULA\Devices\PICON2\ULA.Devices.PICON2.Localization\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\Гусачок\Desktop\ULA\Devices\PICON2\ULA.Devices.PICON2.Localization\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\Гусачок\Desktop\ULA\Devices\PICON2\ULA.Devices.PICON2.Localization\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\Users\Гусачок\Desktop\ULA\Devices\PICON2\ULA.Devices.PICON2.Localization\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Гусачок\Desktop\ULA\Devices\PICON2\ULA.Devices.PICON2.Localization\bin\Debug\Microsoft.Practices.Prism.xml
+C:\Users\Гусачок\Desktop\ULA\Devices\PICON2\ULA.Devices.PICON2.Localization\bin\Debug\Microsoft.Practices.Prism.UnityExtensions.xml
+C:\Users\Гусачок\Desktop\ULA\Devices\PICON2\ULA.Devices.PICON2.Localization\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\Гусачок\Desktop\ULA\Devices\PICON2\ULA.Devices.PICON2.Localization\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\Гусачок\Desktop\ULA\Devices\PICON2\ULA.Devices.PICON2.Localization\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\Гусачок\Desktop\ULA\Devices\PICON2\ULA.Devices.PICON2.Localization\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\Гусачок\Desktop\ULA\Devices\PICON2\ULA.Devices.PICON2.Localization\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
+C:\Users\Гусачок\Desktop\ULA\Devices\PICON2\ULA.Devices.PICON2.Localization\obj\Debug\ULA.Devices.PICON2.Localization.Properties.Resources.resources
+C:\Users\Гусачок\Desktop\ULA\Devices\PICON2\ULA.Devices.PICON2.Localization\obj\Debug\ULA.Devices.PICON2.Localization.csproj.GenerateResource.Cache
+C:\Users\Гусачок\Desktop\ULA\Devices\PICON2\ULA.Devices.PICON2.Localization\obj\Debug\ULA.Devices.PICON2.Localization.dll
+C:\Users\Гусачок\Desktop\ULA\Devices\PICON2\ULA.Devices.PICON2.Localization\obj\Debug\ULA.Devices.PICON2.Localization.pdb
+C:\Users\Гусачок\Desktop\ULA\Devices\PICON2\ULA.Devices.PICON2.Localization\obj\Debug\ULA.Devices.PICON2.Localization.csprojResolveAssemblyReference.cache
+C:\ULA 2k17\Devices\PICON2\ULA.Devices.PICON2.Localization\bin\Debug\ULA.Devices.PICON2.Localization.dll.config
+C:\ULA 2k17\Devices\PICON2\ULA.Devices.PICON2.Localization\bin\Debug\ULA.Devices.PICON2.Localization.dll
+C:\ULA 2k17\Devices\PICON2\ULA.Devices.PICON2.Localization\bin\Debug\ULA.Devices.PICON2.Localization.pdb
+C:\ULA 2k17\Devices\PICON2\ULA.Devices.PICON2.Localization\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\ULA 2k17\Devices\PICON2\ULA.Devices.PICON2.Localization\bin\Debug\Microsoft.Practices.Prism.dll
+C:\ULA 2k17\Devices\PICON2\ULA.Devices.PICON2.Localization\bin\Debug\Microsoft.Practices.Prism.UnityExtensions.dll
+C:\ULA 2k17\Devices\PICON2\ULA.Devices.PICON2.Localization\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\ULA 2k17\Devices\PICON2\ULA.Devices.PICON2.Localization\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\ULA 2k17\Devices\PICON2\ULA.Devices.PICON2.Localization\bin\Debug\Microsoft.Practices.Unity.dll
+C:\ULA 2k17\Devices\PICON2\ULA.Devices.PICON2.Localization\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\ULA 2k17\Devices\PICON2\ULA.Devices.PICON2.Localization\bin\Debug\System.Windows.Interactivity.dll
+C:\ULA 2k17\Devices\PICON2\ULA.Devices.PICON2.Localization\bin\Debug\Microsoft.Practices.Prism.xml
+C:\ULA 2k17\Devices\PICON2\ULA.Devices.PICON2.Localization\bin\Debug\Microsoft.Practices.Prism.UnityExtensions.xml
+C:\ULA 2k17\Devices\PICON2\ULA.Devices.PICON2.Localization\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\ULA 2k17\Devices\PICON2\ULA.Devices.PICON2.Localization\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\ULA 2k17\Devices\PICON2\ULA.Devices.PICON2.Localization\bin\Debug\Microsoft.Practices.Unity.xml
+C:\ULA 2k17\Devices\PICON2\ULA.Devices.PICON2.Localization\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\ULA 2k17\Devices\PICON2\ULA.Devices.PICON2.Localization\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
+C:\ULA 2k17\Devices\PICON2\ULA.Devices.PICON2.Localization\obj\Debug\ULA.Devices.PICON2.Localization.Properties.Resources.resources
+C:\ULA 2k17\Devices\PICON2\ULA.Devices.PICON2.Localization\obj\Debug\ULA.Devices.PICON2.Localization.csproj.GenerateResource.Cache
+C:\ULA 2k17\Devices\PICON2\ULA.Devices.PICON2.Localization\obj\Debug\ULA.Devices.PICON2.Localization.dll
+C:\ULA 2k17\Devices\PICON2\ULA.Devices.PICON2.Localization\obj\Debug\ULA.Devices.PICON2.Localization.pdb

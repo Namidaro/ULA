@@ -1,0 +1,20 @@
+﻿ULA.Presentation
+
+
+library
+C#
+.cs
+C:\ULA 2k17\Presentation\ULA.Presentation\obj\Release\
+ULA.Presentation
+none
+false
+TRACE
+
+251463387249
+1-2138471434
+113-1120397045
+89-641897901
+Views\ConfigurationModeView.xaml;Views\FailureModeView.xaml;Views\Interactions\AboutInteractionView.xaml;Views\Interactions\BusyInteractionView.xaml;Views\Interactions\CitywideCommandsInteractionView.xaml;Views\Interactions\CommandOnTemplateInteractionView.xaml;Views\Interactions\EditTemplatesView\EditTemplateView.xaml;Views\Interactions\ErrorMessageBoxInteractionView.xaml;Views\Interactions\ExtraSettingsView.xaml;Views\Interactions\InformationMessageBoxInteractionView.xaml;Views\Interactions\LogInteractionView.xaml;Views\Interactions\ModifyDeviceInteractionView.xaml;Views\Interactions\PasswordInteractionView.xaml;Views\Interactions\QuestionMessageBoxInteractionView.xaml;Views\Interactions\SynchronizationTimeInteractionView.xaml;Views\Interactions\UpdateTimeoutInteractionView.xaml;Views\Interactions\WarningMessageBoxInteractionView.xaml;Views\LightingSheduleView.xaml;Views\ListWidgetModeConfigurationView.xaml;Views\ListWidgetModeRuntimeView.xaml;Views\Log\ApplicationLogView.xaml;Views\RootView.xaml;Views\RuntimeModeView.xaml;Views\UserControl\ConnectionErrorsView.xaml;Views\UserControl\DaySheduleView.xaml;
+
+False
+

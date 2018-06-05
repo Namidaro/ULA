@@ -1,0 +1,20 @@
+﻿ULA.Devices.Presentation
+
+
+library
+C#
+.cs
+C:\ULA 2k17\Devices\Presentation\ULA.Devices.Presentation\obj\Debug\
+ULA.Devices.Presentation
+none
+false
+DEBUG;TRACE
+
+7452739145
+
+451085149358
+831772199716
+Resources\StarterDataTemplates.xaml;Resources\DevicesResources.xaml;View\Msa961AnalogTableView.xaml;View\EnergomeraAnalogTableView.xaml;View\ChannelView.xaml;View\ResistorView.xaml;View\SchemeModeRuntimeView.xaml;
+
+False
+

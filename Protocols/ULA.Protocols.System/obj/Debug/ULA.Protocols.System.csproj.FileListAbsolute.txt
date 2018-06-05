@@ -1,0 +1,45 @@
+C:\Users\Гусачок\Desktop\ULA\Protocols\ULA.Protocols.System\bin\Debug\YP.Toolkit.System.dll.config
+C:\Users\Гусачок\Desktop\ULA\Protocols\ULA.Protocols.System\bin\Debug\YP.Toolkit.System.XML
+C:\Users\Гусачок\Desktop\ULA\Protocols\ULA.Protocols.System\bin\Debug\YP.Toolkit.System.dll
+C:\Users\Гусачок\Desktop\ULA\Protocols\ULA.Protocols.System\bin\Debug\YP.Toolkit.System.pdb
+C:\Users\Гусачок\Desktop\ULA\Protocols\ULA.Protocols.System\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Гусачок\Desktop\ULA\Protocols\ULA.Protocols.System\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\Гусачок\Desktop\ULA\Protocols\ULA.Protocols.System\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\Гусачок\Desktop\ULA\Protocols\ULA.Protocols.System\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\Users\Гусачок\Desktop\ULA\Protocols\ULA.Protocols.System\bin\Debug\Prism.dll
+C:\Users\Гусачок\Desktop\ULA\Protocols\ULA.Protocols.System\bin\Debug\Prism.Unity.Wpf.dll
+C:\Users\Гусачок\Desktop\ULA\Protocols\ULA.Protocols.System\bin\Debug\Prism.Wpf.dll
+C:\Users\Гусачок\Desktop\ULA\Protocols\ULA.Protocols.System\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Гусачок\Desktop\ULA\Protocols\ULA.Protocols.System\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\Гусачок\Desktop\ULA\Protocols\ULA.Protocols.System\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\Гусачок\Desktop\ULA\Protocols\ULA.Protocols.System\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\Гусачок\Desktop\ULA\Protocols\ULA.Protocols.System\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\Гусачок\Desktop\ULA\Protocols\ULA.Protocols.System\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
+C:\Users\Гусачок\Desktop\ULA\Protocols\ULA.Protocols.System\bin\Debug\Prism.xml
+C:\Users\Гусачок\Desktop\ULA\Protocols\ULA.Protocols.System\bin\Debug\Prism.Unity.Wpf.xml
+C:\Users\Гусачок\Desktop\ULA\Protocols\ULA.Protocols.System\bin\Debug\Prism.Wpf.xml
+C:\Users\Гусачок\Desktop\ULA\Protocols\ULA.Protocols.System\obj\Debug\YP.Toolkit.System.dll
+C:\Users\Гусачок\Desktop\ULA\Protocols\ULA.Protocols.System\obj\Debug\YP.Toolkit.System.pdb
+C:\ULA 2k17\Protocols\ULA.Protocols.System\bin\Debug\YP.Toolkit.System.dll.config
+C:\ULA 2k17\Protocols\ULA.Protocols.System\bin\Debug\YP.Toolkit.System.XML
+C:\ULA 2k17\Protocols\ULA.Protocols.System\bin\Debug\YP.Toolkit.System.dll
+C:\ULA 2k17\Protocols\ULA.Protocols.System\bin\Debug\YP.Toolkit.System.pdb
+C:\ULA 2k17\Protocols\ULA.Protocols.System\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\ULA 2k17\Protocols\ULA.Protocols.System\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\ULA 2k17\Protocols\ULA.Protocols.System\bin\Debug\Microsoft.Practices.Unity.dll
+C:\ULA 2k17\Protocols\ULA.Protocols.System\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\ULA 2k17\Protocols\ULA.Protocols.System\bin\Debug\Prism.dll
+C:\ULA 2k17\Protocols\ULA.Protocols.System\bin\Debug\Prism.Unity.Wpf.dll
+C:\ULA 2k17\Protocols\ULA.Protocols.System\bin\Debug\Prism.Wpf.dll
+C:\ULA 2k17\Protocols\ULA.Protocols.System\bin\Debug\System.Windows.Interactivity.dll
+C:\ULA 2k17\Protocols\ULA.Protocols.System\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\ULA 2k17\Protocols\ULA.Protocols.System\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\ULA 2k17\Protocols\ULA.Protocols.System\bin\Debug\Microsoft.Practices.Unity.xml
+C:\ULA 2k17\Protocols\ULA.Protocols.System\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\ULA 2k17\Protocols\ULA.Protocols.System\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
+C:\ULA 2k17\Protocols\ULA.Protocols.System\bin\Debug\Prism.xml
+C:\ULA 2k17\Protocols\ULA.Protocols.System\bin\Debug\Prism.Unity.Wpf.xml
+C:\ULA 2k17\Protocols\ULA.Protocols.System\bin\Debug\Prism.Wpf.xml
+C:\ULA 2k17\Protocols\ULA.Protocols.System\obj\Debug\YP.Toolkit.System.dll
+C:\ULA 2k17\Protocols\ULA.Protocols.System\obj\Debug\YP.Toolkit.System.pdb
+C:\ULA 2k17\Protocols\ULA.Protocols.System\obj\Debug\ULA.Protocols.System.csprojResolveAssemblyReference.cache

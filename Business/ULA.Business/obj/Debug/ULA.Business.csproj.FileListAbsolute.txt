@@ -1,0 +1,110 @@
+C:\Users\Гусачок\Desktop\ULA\Business\ULA.Business\obj\Debug\ULA.Business.csprojResolveAssemblyReference.cache
+C:\Users\Гусачок\Desktop\ULA\Business\ULA.Business\bin\Debug\NLog.config
+C:\Users\Гусачок\Desktop\ULA\Business\ULA.Business\bin\Debug\ULA.Business.dll.config
+C:\Users\Гусачок\Desktop\ULA\Business\ULA.Business\bin\Debug\ULA.Business.XML
+C:\Users\Гусачок\Desktop\ULA\Business\ULA.Business\bin\Debug\ULA.Business.dll
+C:\Users\Гусачок\Desktop\ULA\Business\ULA.Business\bin\Debug\ULA.Business.pdb
+C:\Users\Гусачок\Desktop\ULA\Business\ULA.Business\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Гусачок\Desktop\ULA\Business\ULA.Business\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\Гусачок\Desktop\ULA\Business\ULA.Business\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\Гусачок\Desktop\ULA\Business\ULA.Business\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\Users\Гусачок\Desktop\ULA\Business\ULA.Business\bin\Debug\Nito.Collections.Deque.dll
+C:\Users\Гусачок\Desktop\ULA\Business\ULA.Business\bin\Debug\NLog.dll
+C:\Users\Гусачок\Desktop\ULA\Business\ULA.Business\bin\Debug\Prism.dll
+C:\Users\Гусачок\Desktop\ULA\Business\ULA.Business\bin\Debug\Prism.Unity.Wpf.dll
+C:\Users\Гусачок\Desktop\ULA\Business\ULA.Business\bin\Debug\Prism.Wpf.dll
+C:\Users\Гусачок\Desktop\ULA\Business\ULA.Business\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Гусачок\Desktop\ULA\Business\ULA.Business\bin\Debug\ULA.AddinsHost.dll
+C:\Users\Гусачок\Desktop\ULA\Business\ULA.Business\bin\Debug\ULA.ApplicationConnectionService.dll
+C:\Users\Гусачок\Desktop\ULA\Business\ULA.Business\bin\Debug\ULA.Business.Infrastructure.dll
+C:\Users\Гусачок\Desktop\ULA\Business\ULA.Business\bin\Debug\ULA.Common.dll
+C:\Users\Гусачок\Desktop\ULA\Business\ULA.Business\bin\Debug\ULA.Interceptors.dll
+C:\Users\Гусачок\Desktop\ULA\Business\ULA.Business\bin\Debug\ULA.Localization.dll
+C:\Users\Гусачок\Desktop\ULA\Business\ULA.Business\bin\Debug\ULA.Log.dll
+C:\Users\Гусачок\Desktop\ULA\Business\ULA.Business\bin\Debug\ULA.Presentation.Infrastructure.dll
+C:\Users\Гусачок\Desktop\ULA\Business\ULA.Business\bin\Debug\YP.Toolkit.System.dll
+C:\Users\Гусачок\Desktop\ULA\Business\ULA.Business\bin\Debug\NModBus4.dll
+C:\Users\Гусачок\Desktop\ULA\Business\ULA.Business\bin\Debug\ULA.ApplicationConnectionService.pdb
+C:\Users\Гусачок\Desktop\ULA\Business\ULA.Business\bin\Debug\ULA.AddinsHost.pdb
+C:\Users\Гусачок\Desktop\ULA\Business\ULA.Business\bin\Debug\ULA.AddinsHost.xml
+C:\Users\Гусачок\Desktop\ULA\Business\ULA.Business\bin\Debug\ULA.Common.pdb
+C:\Users\Гусачок\Desktop\ULA\Business\ULA.Business\bin\Debug\ULA.Common.xml
+C:\Users\Гусачок\Desktop\ULA\Business\ULA.Business\bin\Debug\ULA.Interceptors.pdb
+C:\Users\Гусачок\Desktop\ULA\Business\ULA.Business\bin\Debug\ULA.Interceptors.xml
+C:\Users\Гусачок\Desktop\ULA\Business\ULA.Business\bin\Debug\ULA.Localization.pdb
+C:\Users\Гусачок\Desktop\ULA\Business\ULA.Business\bin\Debug\ULA.Localization.xml
+C:\Users\Гусачок\Desktop\ULA\Business\ULA.Business\bin\Debug\ULA.Presentation.Infrastructure.pdb
+C:\Users\Гусачок\Desktop\ULA\Business\ULA.Business\bin\Debug\ULA.Presentation.Infrastructure.xml
+C:\Users\Гусачок\Desktop\ULA\Business\ULA.Business\bin\Debug\YP.Toolkit.System.pdb
+C:\Users\Гусачок\Desktop\ULA\Business\ULA.Business\bin\Debug\YP.Toolkit.System.xml
+C:\Users\Гусачок\Desktop\ULA\Business\ULA.Business\bin\Debug\ULA.Log.pdb
+C:\Users\Гусачок\Desktop\ULA\Business\ULA.Business\bin\Debug\ULA.Business.Infrastructure.pdb
+C:\Users\Гусачок\Desktop\ULA\Business\ULA.Business\bin\Debug\ULA.Business.Infrastructure.xml
+C:\Users\Гусачок\Desktop\ULA\Business\ULA.Business\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\Гусачок\Desktop\ULA\Business\ULA.Business\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\Гусачок\Desktop\ULA\Business\ULA.Business\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\Гусачок\Desktop\ULA\Business\ULA.Business\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\Гусачок\Desktop\ULA\Business\ULA.Business\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
+C:\Users\Гусачок\Desktop\ULA\Business\ULA.Business\bin\Debug\Nito.Collections.Deque.xml
+C:\Users\Гусачок\Desktop\ULA\Business\ULA.Business\bin\Debug\NLog.xml
+C:\Users\Гусачок\Desktop\ULA\Business\ULA.Business\bin\Debug\Prism.xml
+C:\Users\Гусачок\Desktop\ULA\Business\ULA.Business\bin\Debug\Prism.Unity.Wpf.xml
+C:\Users\Гусачок\Desktop\ULA\Business\ULA.Business\bin\Debug\Prism.Wpf.xml
+C:\Users\Гусачок\Desktop\ULA\Business\ULA.Business\bin\Debug\NModBus4.pdb
+C:\Users\Гусачок\Desktop\ULA\Business\ULA.Business\obj\Debug\ULA.Business.dll
+C:\Users\Гусачок\Desktop\ULA\Business\ULA.Business\obj\Debug\ULA.Business.pdb
+C:\ULA 2k17\Business\ULA.Business\bin\Debug\NLog.config
+C:\ULA 2k17\Business\ULA.Business\bin\Debug\ULA.Business.dll.config
+C:\ULA 2k17\Business\ULA.Business\bin\Debug\ULA.Business.XML
+C:\ULA 2k17\Business\ULA.Business\bin\Debug\ULA.Business.dll
+C:\ULA 2k17\Business\ULA.Business\bin\Debug\ULA.Business.pdb
+C:\ULA 2k17\Business\ULA.Business\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\ULA 2k17\Business\ULA.Business\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\ULA 2k17\Business\ULA.Business\bin\Debug\Microsoft.Practices.Unity.dll
+C:\ULA 2k17\Business\ULA.Business\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\ULA 2k17\Business\ULA.Business\bin\Debug\Nito.Collections.Deque.dll
+C:\ULA 2k17\Business\ULA.Business\bin\Debug\NLog.dll
+C:\ULA 2k17\Business\ULA.Business\bin\Debug\Prism.dll
+C:\ULA 2k17\Business\ULA.Business\bin\Debug\Prism.Unity.Wpf.dll
+C:\ULA 2k17\Business\ULA.Business\bin\Debug\Prism.Wpf.dll
+C:\ULA 2k17\Business\ULA.Business\bin\Debug\System.Windows.Interactivity.dll
+C:\ULA 2k17\Business\ULA.Business\bin\Debug\ULA.AddinsHost.dll
+C:\ULA 2k17\Business\ULA.Business\bin\Debug\ULA.ApplicationConnectionService.dll
+C:\ULA 2k17\Business\ULA.Business\bin\Debug\ULA.Business.Infrastructure.dll
+C:\ULA 2k17\Business\ULA.Business\bin\Debug\ULA.Common.dll
+C:\ULA 2k17\Business\ULA.Business\bin\Debug\ULA.Interceptors.dll
+C:\ULA 2k17\Business\ULA.Business\bin\Debug\ULA.Localization.dll
+C:\ULA 2k17\Business\ULA.Business\bin\Debug\ULA.Log.dll
+C:\ULA 2k17\Business\ULA.Business\bin\Debug\ULA.Presentation.Infrastructure.dll
+C:\ULA 2k17\Business\ULA.Business\bin\Debug\YP.Toolkit.System.dll
+C:\ULA 2k17\Business\ULA.Business\bin\Debug\NModBus4.dll
+C:\ULA 2k17\Business\ULA.Business\bin\Debug\ULA.ApplicationConnectionService.pdb
+C:\ULA 2k17\Business\ULA.Business\bin\Debug\ULA.AddinsHost.pdb
+C:\ULA 2k17\Business\ULA.Business\bin\Debug\ULA.AddinsHost.xml
+C:\ULA 2k17\Business\ULA.Business\bin\Debug\ULA.Common.pdb
+C:\ULA 2k17\Business\ULA.Business\bin\Debug\ULA.Common.xml
+C:\ULA 2k17\Business\ULA.Business\bin\Debug\ULA.Interceptors.pdb
+C:\ULA 2k17\Business\ULA.Business\bin\Debug\ULA.Interceptors.xml
+C:\ULA 2k17\Business\ULA.Business\bin\Debug\ULA.Localization.pdb
+C:\ULA 2k17\Business\ULA.Business\bin\Debug\ULA.Localization.xml
+C:\ULA 2k17\Business\ULA.Business\bin\Debug\ULA.Presentation.Infrastructure.pdb
+C:\ULA 2k17\Business\ULA.Business\bin\Debug\ULA.Presentation.Infrastructure.xml
+C:\ULA 2k17\Business\ULA.Business\bin\Debug\YP.Toolkit.System.pdb
+C:\ULA 2k17\Business\ULA.Business\bin\Debug\YP.Toolkit.System.xml
+C:\ULA 2k17\Business\ULA.Business\bin\Debug\ULA.Log.pdb
+C:\ULA 2k17\Business\ULA.Business\bin\Debug\ULA.Business.Infrastructure.pdb
+C:\ULA 2k17\Business\ULA.Business\bin\Debug\ULA.Business.Infrastructure.xml
+C:\ULA 2k17\Business\ULA.Business\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\ULA 2k17\Business\ULA.Business\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\ULA 2k17\Business\ULA.Business\bin\Debug\Microsoft.Practices.Unity.xml
+C:\ULA 2k17\Business\ULA.Business\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\ULA 2k17\Business\ULA.Business\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
+C:\ULA 2k17\Business\ULA.Business\bin\Debug\Nito.Collections.Deque.xml
+C:\ULA 2k17\Business\ULA.Business\bin\Debug\NLog.xml
+C:\ULA 2k17\Business\ULA.Business\bin\Debug\Prism.xml
+C:\ULA 2k17\Business\ULA.Business\bin\Debug\Prism.Unity.Wpf.xml
+C:\ULA 2k17\Business\ULA.Business\bin\Debug\Prism.Wpf.xml
+C:\ULA 2k17\Business\ULA.Business\bin\Debug\NModBus4.pdb
+C:\ULA 2k17\Business\ULA.Business\obj\Debug\ULA.Business.csprojResolveAssemblyReference.cache
+C:\ULA 2k17\Business\ULA.Business\obj\Debug\ULA.Business.dll
+C:\ULA 2k17\Business\ULA.Business\obj\Debug\ULA.Business.pdb

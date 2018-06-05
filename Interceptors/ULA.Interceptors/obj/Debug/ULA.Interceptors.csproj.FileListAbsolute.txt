@@ -1,0 +1,47 @@
+C:\Users\Гусачок\Desktop\ULA\Interceptors\ULA.Interceptors\bin\Debug\ULA.Interceptors.dll.config
+C:\Users\Гусачок\Desktop\ULA\Interceptors\ULA.Interceptors\bin\Debug\ULA.Interceptors.XML
+C:\Users\Гусачок\Desktop\ULA\Interceptors\ULA.Interceptors\bin\Debug\ULA.Interceptors.dll
+C:\Users\Гусачок\Desktop\ULA\Interceptors\ULA.Interceptors\bin\Debug\ULA.Interceptors.pdb
+C:\Users\Гусачок\Desktop\ULA\Interceptors\ULA.Interceptors\bin\Debug\ULA.Interceptors.dll.CodeAnalysisLog.xml
+C:\Users\Гусачок\Desktop\ULA\Interceptors\ULA.Interceptors\bin\Debug\ULA.Interceptors.dll.lastcodeanalysissucceeded
+C:\Users\Гусачок\Desktop\ULA\Interceptors\ULA.Interceptors\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\Гусачок\Desktop\ULA\Interceptors\ULA.Interceptors\bin\Debug\Microsoft.Practices.Prism.dll
+C:\Users\Гусачок\Desktop\ULA\Interceptors\ULA.Interceptors\bin\Debug\Microsoft.Practices.Prism.UnityExtensions.dll
+C:\Users\Гусачок\Desktop\ULA\Interceptors\ULA.Interceptors\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Гусачок\Desktop\ULA\Interceptors\ULA.Interceptors\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\Гусачок\Desktop\ULA\Interceptors\ULA.Interceptors\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\Гусачок\Desktop\ULA\Interceptors\ULA.Interceptors\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\Users\Гусачок\Desktop\ULA\Interceptors\ULA.Interceptors\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Гусачок\Desktop\ULA\Interceptors\ULA.Interceptors\bin\Debug\Microsoft.Practices.Prism.xml
+C:\Users\Гусачок\Desktop\ULA\Interceptors\ULA.Interceptors\bin\Debug\Microsoft.Practices.Prism.UnityExtensions.xml
+C:\Users\Гусачок\Desktop\ULA\Interceptors\ULA.Interceptors\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\Гусачок\Desktop\ULA\Interceptors\ULA.Interceptors\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\Гусачок\Desktop\ULA\Interceptors\ULA.Interceptors\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\Гусачок\Desktop\ULA\Interceptors\ULA.Interceptors\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\Гусачок\Desktop\ULA\Interceptors\ULA.Interceptors\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
+C:\Users\Гусачок\Desktop\ULA\Interceptors\ULA.Interceptors\obj\Debug\ULA.Interceptors.dll
+C:\Users\Гусачок\Desktop\ULA\Interceptors\ULA.Interceptors\obj\Debug\ULA.Interceptors.pdb
+C:\Users\Гусачок\Desktop\ULA\Interceptors\ULA.Interceptors\obj\Debug\ULA.Interceptors.csprojResolveAssemblyReference.cache
+C:\ULA 2k17\Interceptors\ULA.Interceptors\bin\Debug\ULA.Interceptors.dll.config
+C:\ULA 2k17\Interceptors\ULA.Interceptors\bin\Debug\ULA.Interceptors.XML
+C:\ULA 2k17\Interceptors\ULA.Interceptors\bin\Debug\ULA.Interceptors.dll
+C:\ULA 2k17\Interceptors\ULA.Interceptors\bin\Debug\ULA.Interceptors.pdb
+C:\ULA 2k17\Interceptors\ULA.Interceptors\bin\Debug\ULA.Interceptors.dll.CodeAnalysisLog.xml
+C:\ULA 2k17\Interceptors\ULA.Interceptors\bin\Debug\ULA.Interceptors.dll.lastcodeanalysissucceeded
+C:\ULA 2k17\Interceptors\ULA.Interceptors\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\ULA 2k17\Interceptors\ULA.Interceptors\bin\Debug\Microsoft.Practices.Prism.dll
+C:\ULA 2k17\Interceptors\ULA.Interceptors\bin\Debug\Microsoft.Practices.Prism.UnityExtensions.dll
+C:\ULA 2k17\Interceptors\ULA.Interceptors\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\ULA 2k17\Interceptors\ULA.Interceptors\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\ULA 2k17\Interceptors\ULA.Interceptors\bin\Debug\Microsoft.Practices.Unity.dll
+C:\ULA 2k17\Interceptors\ULA.Interceptors\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\ULA 2k17\Interceptors\ULA.Interceptors\bin\Debug\System.Windows.Interactivity.dll
+C:\ULA 2k17\Interceptors\ULA.Interceptors\bin\Debug\Microsoft.Practices.Prism.xml
+C:\ULA 2k17\Interceptors\ULA.Interceptors\bin\Debug\Microsoft.Practices.Prism.UnityExtensions.xml
+C:\ULA 2k17\Interceptors\ULA.Interceptors\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\ULA 2k17\Interceptors\ULA.Interceptors\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\ULA 2k17\Interceptors\ULA.Interceptors\bin\Debug\Microsoft.Practices.Unity.xml
+C:\ULA 2k17\Interceptors\ULA.Interceptors\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\ULA 2k17\Interceptors\ULA.Interceptors\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
+C:\ULA 2k17\Interceptors\ULA.Interceptors\obj\Debug\ULA.Interceptors.dll
+C:\ULA 2k17\Interceptors\ULA.Interceptors\obj\Debug\ULA.Interceptors.pdb

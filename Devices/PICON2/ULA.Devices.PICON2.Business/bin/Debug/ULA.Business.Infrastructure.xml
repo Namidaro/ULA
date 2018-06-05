@@ -1,0 +1,1625 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ULA.Business.Infrastructure</name>
+    </assembly>
+    <members>
+        <member name="T:ULA.Business.Infrastructure.ApplicationModes.IConfigurationModeDevicesService">
+            <summary>
+                Exposes a configuration mode business logic facade service functionality
+            </summary>
+        </member>
+        <member name="M:ULA.Business.Infrastructure.ApplicationModes.IConfigurationModeDevicesService.GetAllDevicesAsync">
+            <summary>
+                Gets all logical devices by a criterion asynchronously
+            </summary>
+            <returns>An instance of System.Threading.Tasks.Task that represents current asynchronous operation</returns>
+        </member>
+        <member name="M:ULA.Business.Infrastructure.ApplicationModes.IConfigurationModeDevicesService.GetBackgroundPicture">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ULA.Business.Infrastructure.ApplicationModes.IConfigurationModeDevicesService.SetBackgroundPictureAsync(ULA.AddinsHost.Presentation.IBackgroundPicture)">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ULA.Business.Infrastructure.ApplicationModes.IConfigurationModeDevicesService.CreateDeviceAsync(ULA.Business.Infrastructure.DTOs.LogicalDeviceInformation)">
+            <summary>
+                Creates an instance of <see cref="T:ULA.AddinsHost.Business.Device.IConfigLogicalDevice" /> asynchronously
+            </summary>
+            <returns>An instance of System.Threading.Tasks.Task that represents current asynchronous operation</returns>
+        </member>
+        <member name="M:ULA.Business.Infrastructure.ApplicationModes.IConfigurationModeDevicesService.RemoveDeviceAsync(ULA.AddinsHost.Business.Device.IConfigLogicalDevice)">
+            <summary>
+                Removes an instance of <see cref="T:ULA.AddinsHost.Business.Device.IConfigLogicalDevice" /> from the system asynchronously
+            </summary>
+            <param name="device">
+                An instance of <see cref="T:ULA.AddinsHost.Business.Device.IConfigLogicalDevice" /> to remove
+            </param>
+            <returns>An instance of System.Threading.Tasks.Task that represents current asynchronous operation</returns>
+        </member>
+        <member name="M:ULA.Business.Infrastructure.ApplicationModes.IConfigurationModeDevicesService.UpdateDeviceAsync(ULA.Business.Infrastructure.DTOs.LogicalDeviceInformation,ULA.AddinsHost.Business.Device.IConfigLogicalDevice)">
+            <summary>
+                Updates an instance of <see cref="T:ULA.AddinsHost.Business.Device.IConfigLogicalDevice" /> in the system registry asynchronously
+            </summary>
+            <param name="device">
+                An instance of <see cref="T:ULA.Business.Infrastructure.DTOs.LogicalDeviceInformation" /> to update
+            </param>
+            <param name="editingDevice">
+                An instance of <see cref="T:ULA.AddinsHost.Business.Device.IConfigLogicalDevice" /> to update
+            </param>
+            <returns>An instance of System.Threading.Tasks.Task that represents current asynchronous operation</returns>
+        </member>
+        <member name="M:ULA.Business.Infrastructure.ApplicationModes.IConfigurationModeDevicesService.UpdateDeviceSchemeAsync(ULA.AddinsHost.Business.Device.IConfigLogicalDevice,ULA.AddinsHost.Business.Device.SchemeTable.IConfiguratedDeviceSchemeTable)">
+            <summary>
+                Updates an instance of <see cref="T:ULA.AddinsHost.Business.Device.SchemeTable.IConfiguratedDeviceSchemeTable"/> in <see cref="T:ULA.AddinsHost.Business.Device.IConfigLogicalDevice" /> in the system registry asynchronously
+            </summary>
+            <param name="device">An instance of <see cref="T:ULA.Business.Infrastructure.DTOs.LogicalDeviceInformation" /> to update</param>
+            <param name="scheme">New scheme. Instance of <see cref="T:ULA.AddinsHost.Business.Device.SchemeTable.IConfiguratedDeviceSchemeTable"/></param>
+            <returns>An instance of System.Threading.Tasks.Task that represents current asynchronous operation</returns>
+        </member>
+        <member name="M:ULA.Business.Infrastructure.ApplicationModes.IConfigurationModeDevicesService.UpdateDevicePositionAsync(ULA.AddinsHost.Business.Device.IConfigLogicalDevice,System.Int32)">
+            <summary>
+                Сохраняет новый номер позиции устройства в хранилище
+            </summary>
+            <param name="device">Устройство</param>
+            <returns>задача</returns>
+        </member>
+        <member name="T:ULA.Business.Infrastructure.ApplicationModes.IConfigurationModeDriversService">
+            <summary>
+                Exposes drivers logic service for the configuration mode
+            </summary>
+        </member>
+        <member name="M:ULA.Business.Infrastructure.ApplicationModes.IConfigurationModeDriversService.CreateDriverAsync(ULA.Business.Infrastructure.DTOs.LogicalDriverInformation)">
+            <summary>
+                Creates an instance of <see cref="T:ULA.AddinsHost.Business.Driver.IConfigLogicalDriver" /> asynchronously
+            </summary>
+            <param name="logicalDriverInformation">
+                An instance of <see cref="T:ULA.Business.Infrastructure.DTOs.LogicalDriverInformation" /> to obtain all information about deviceViewModel to create
+            </param>
+            <returns>An instance of System.Threading.Tasks.Task that represents current asynchronous operation</returns>
+        </member>
+        <member name="M:ULA.Business.Infrastructure.ApplicationModes.IConfigurationModeDriversService.GetAllDriversAsync">
+            <summary>
+                Gets all configuration logical drivers that registered in the system asynchronously
+            </summary>
+            <returns>An instance of System.Threading.Tasks.Task that represents current asynchronous operation</returns>
+        </member>
+        <member name="M:ULA.Business.Infrastructure.ApplicationModes.IConfigurationModeDriversService.GetDriverById(System.Guid)">
+            <summary>
+                Вернет драйвер по Id. Если драйвера с таким Id нет - то null
+            </summary>
+            <param name="id">Id драйвера</param>
+            <returns>Task с драйвером.</returns>
+        </member>
+        <member name="M:ULA.Business.Infrastructure.ApplicationModes.IConfigurationModeDriversService.RemoveDriverAsync(System.Guid)">
+            <summary>
+                Removes an instance of <see cref="T:ULA.AddinsHost.Business.Driver.IConfigLogicalDriver" /> from the system asynchronously
+            </summary>
+            <param name="driverId">
+                An instance of <see cref="T:ULA.AddinsHost.Business.Driver.IConfigLogicalDriver" /> to remove
+            </param>
+            <returns>An instance of System.Threading.Tasks.Task that represents current asynchronous operation</returns>
+        </member>
+        <member name="M:ULA.Business.Infrastructure.ApplicationModes.IConfigurationModeDriversService.UpdateDriverAsync(ULA.Business.Infrastructure.DTOs.LogicalDriverInformation,ULA.AddinsHost.Business.Driver.IConfigLogicalDriver)">
+            <summary>
+                Updates an instance of <see cref="T:ULA.AddinsHost.Business.Driver.IConfigLogicalDriver" /> in the system registry asynchronously
+            </summary>
+            <param name="driver">
+                An instance of <see cref="T:ULA.Business.Infrastructure.DTOs.LogicalDeviceInformation" /> to update
+            </param>
+            <param name="editingDriver">
+                An instance of <see cref="T:ULA.AddinsHost.Business.Driver.IConfigLogicalDriver" /> to update
+            </param>
+            <returns>An instance of System.Threading.Tasks.Task that represents current asynchronous operation</returns>
+        </member>
+        <member name="T:ULA.Business.Infrastructure.ApplicationModes.IRuntimeModeDevicesServices">
+            <summary>
+                Exposes a runtime mode business logic facade service functionality
+            </summary>
+        </member>
+        <member name="M:ULA.Business.Infrastructure.ApplicationModes.IRuntimeModeDevicesServices.GetAllDevicesAsync">
+            <summary>
+                Gets all logical devices by a criterion asynchronously
+            </summary>
+            <returns>An instance of System.Threading.Tasks.Task that represents current asynchronous operation</returns>
+        </member>
+        <member name="M:ULA.Business.Infrastructure.ApplicationModes.IRuntimeModeDevicesServices.GetBackgroundPicture">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:ULA.Business.Infrastructure.ApplicationModes.IRuntimeModeDriversService">
+            <summary>
+                Exposes drivers logic service for the runtime mode
+            </summary>
+        </member>
+        <member name="M:ULA.Business.Infrastructure.ApplicationModes.IRuntimeModeDriversService.GetAllDriversAsync">
+            <summary>
+                Gets all configuration logical drivers that registered in the system asynchronously
+            </summary>
+            <returns>An instance of System.Threading.Tasks.Task that represents current asynchronous operation</returns>
+        </member>
+        <member name="M:ULA.Business.Infrastructure.ApplicationModes.IRuntimeModeDriversService.GetDriverById(System.Guid)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ULA.Business.Infrastructure.BytesParsers.IRawBytesToDeviceStateParser">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:ULA.Business.Infrastructure.BytesParsers.IRawBytesToDeviceStateParser.ParseRawBytesToDeviceState(System.Byte[],ULA.Business.Infrastructure.DeviceDomain.IRuntimeDevice)">
+            <summary>
+            
+            </summary>
+            <param name="rawBytes"></param>
+            <param name="runtimeDevice"></param>
+        </member>
+        <member name="T:ULA.Business.Infrastructure.Commands.DeviceCommandData">
+            <summary>
+            данные для комманды
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Infrastructure.Commands.DeviceCommandData.StarterIndexes">
+            <summary>
+            индексы пускателей
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Infrastructure.Commands.DeviceCommandData.State">
+            <summary>
+            состояние пускателей
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Infrastructure.Commands.DeviceCommandData.Tags">
+            <summary>
+            тэги данных
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Infrastructure.Commands.DeviceCommandData.Values">
+            <summary>
+            значения данных
+            </summary>
+        </member>
+        <member name="T:ULA.Business.Infrastructure.Commands.ICommandSuccessRule">
+            <summary>
+            правило, определяющее успех выполнения комманды
+            </summary>
+        </member>
+        <member name="M:ULA.Business.Infrastructure.Commands.ICommandSuccessRule.IsCommandSucceed(ULA.AddinsHost.ViewModel.Device.IRuntimeDeviceViewModel)">
+            <summary>
+            выполнена ли комманда успешно
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ULA.Business.Infrastructure.Commands.ICommandSuccessRule.SetRuleData(System.Collections.Generic.List{System.Int32},ULA.Interceptors.CommandTypesEnum)">
+            <summary>
+            
+            </summary>
+            <param name="starterIds"></param>
+            <param name="commandType"></param>
+        </member>
+        <member name="T:ULA.Business.Infrastructure.Commands.ICommandSendingService">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:ULA.Business.Infrastructure.Commands.ICommandSendingService.TryExecuteCommand(ULA.Business.Infrastructure.DeviceDomain.IDeviceCommand,ULA.Business.Infrastructure.DeviceDomain.IRuntimeDevice)">
+            <summary>
+            попытаться выполнить команду
+            </summary>
+        </member>
+        <member name="T:ULA.Business.Infrastructure.DataServices.IDefectAcknowledgingService">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:ULA.Business.Infrastructure.DataServices.IDefectAcknowledgingService.Initialize(ULA.Business.Infrastructure.DeviceDomain.IRuntimeDevice)">
+            <summary>
+            
+            </summary>
+            <param name="runtimeDevice"></param>
+        </member>
+        <member name="M:ULA.Business.Infrastructure.DataServices.IDefectAcknowledgingService.IsFailNeedsAcknowledge">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ULA.Business.Infrastructure.DataServices.IDefectAcknowledgingService.AcknowledgeFail">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Infrastructure.DataServices.IDefectAcknowledgingService.AcknowledgeValueChanged">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:ULA.Business.Infrastructure.DataServices.IDataLoadingService">
+            <summary>
+            сервис загрузки данных из устройства
+            </summary>
+        </member>
+        <member name="M:ULA.Business.Infrastructure.DataServices.IDataLoadingService.UpdateDataFromDevicePartly(ULA.Business.Infrastructure.DeviceDomain.IRuntimeDevice)">
+            <summary>
+            обновить данные частично
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ULA.Business.Infrastructure.DataServices.IDataLoadingService.UpdateDataFromDeviceFull(ULA.Business.Infrastructure.DeviceDomain.IRuntimeDevice)">
+            <summary>
+            обновить данные полностью
+            </summary>
+            <param name="runtimeDevice"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ULA.Business.Infrastructure.DataServices.IDataLoadingService.UpdateSignalLevel(ULA.Business.Infrastructure.DeviceDomain.IRuntimeDevice)">
+            <summary>
+            
+            </summary>
+            <param name="runtimeDevice"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ULA.Business.Infrastructure.DataServices.IDataLoadingService.UpdateDeviceSignature(ULA.Business.Infrastructure.DeviceDomain.IRuntimeDevice)">
+            <summary>
+            
+            </summary>
+            <param name="runtimeDevice"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ULA.Business.Infrastructure.DataServices.IDataLoadingService.UpdateAnalogs(ULA.Business.Infrastructure.DeviceDomain.IRuntimeDevice)">
+            <summary>
+            
+            </summary>
+            <param name="runtimeDevice"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ULA.Business.Infrastructure.DataServices.IDataWritingService">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:ULA.Business.Infrastructure.DataServices.IDataWritingService.WriteValues(ULA.Business.Infrastructure.Metadata.EntityMetadata,System.String[],System.Object[])">
+            <summary>
+            записать значения по тэгам
+            </summary>
+            <param name="entityMetadata"></param>
+            <param name="tags"></param>
+            <param name="values"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ULA.Business.Infrastructure.DataServices.IDataWritingService.SetDevice(ULA.Business.Infrastructure.DeviceDomain.IRuntimeDevice)">
+            <summary>
+            
+            </summary>
+            <param name="runtimeDevice"></param>
+        </member>
+        <member name="T:ULA.Business.Infrastructure.DataServices.IDeviceCommandService">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:ULA.Business.Infrastructure.DataServices.IDeviceCommandService.AddDeviceCommandCreator(System.Func{ULA.Business.Infrastructure.DeviceDomain.IDeviceCommand},ULA.AddinsHost.ViewModel.Device.IRuntimeDeviceViewModel)">
+            <summary>
+            
+            </summary>
+            <param name="deviceCommand"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ULA.Business.Infrastructure.DataServices.IDeviceCommandService.TryExecuteCommandOnDevice(ULA.AddinsHost.ViewModel.Device.IRuntimeDeviceViewModel)">
+            <summary>
+            
+            </summary>
+            <param name="runtimeDeviceViewModel"></param>
+        </member>
+        <member name="T:ULA.Business.Infrastructure.DataServices.IDeviceDataCache">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:ULA.Business.Infrastructure.DataServices.IDeviceDataCache.GetBytesFromMetadata(ULA.Business.Infrastructure.Metadata.EntityMetadata)">
+            <summary>
+            
+            </summary>
+            <param name="entityMetadata"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ULA.Business.Infrastructure.DataServices.IDeviceDataCache.SaveBytesByMetadata(ULA.Business.Infrastructure.Metadata.EntityMetadata,System.Byte[])">
+            <summary>
+            
+            </summary>
+            <param name="entityMetadata"></param>
+            <param name="bytes"></param>
+        </member>
+        <member name="T:ULA.Business.Infrastructure.DataServices.IDeviceLogLoadingService">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:ULA.Business.Infrastructure.DataServices.IDeviceLogLoadingService.ReadNextLogFromDevice">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ULA.Business.Infrastructure.DataServices.IDeviceLogLoadingService.Initialize(ULA.Business.Infrastructure.DeviceDomain.IRuntimeDevice)">
+            <summary>
+            
+            </summary>
+            <param name="runtimeDevice"></param>
+        </member>
+        <member name="T:ULA.Business.Infrastructure.DataServices.IGlobalDefectAcknowledgingService">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:ULA.Business.Infrastructure.DataServices.IGlobalDefectAcknowledgingService.GetDefectAcknowledgingService(ULA.Business.Infrastructure.DeviceDomain.IRuntimeDevice)">
+            <summary>
+            
+            </summary>
+            <param name="runtimeDevice"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ULA.Business.Infrastructure.DataServices.IMetadataParserService">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:ULA.Business.Infrastructure.DataServices.IMetadataParserService.GetPartlyUpdateMetadata(ULA.Business.Infrastructure.DeviceDomain.IRuntimeDevice)">
+            <summary>
+            
+            </summary>
+            <param name="runtimeDevice"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ULA.Business.Infrastructure.DataServices.IMetadataParserService.GetFullUpdateMetadata(ULA.Business.Infrastructure.DeviceDomain.IRuntimeDevice)">
+            <summary>
+            
+            </summary>
+            <param name="runtimeDevice"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ULA.Business.Infrastructure.DataServices.IMetadataParserService.GetSignalUpdateMetadata(ULA.Business.Infrastructure.DeviceDomain.IRuntimeDevice)">
+            <summary>
+            
+            </summary>
+            <param name="runtimeDevice"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ULA.Business.Infrastructure.DataServices.IMetadataParserService.GetDeviceSignatureMetadata(ULA.Business.Infrastructure.DeviceDomain.IRuntimeDevice)">
+            <summary>
+            
+            </summary>
+            <param name="runtimeDevice"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ULA.Business.Infrastructure.DataServices.IMetadataParserService.GetAnalogsMetadata(ULA.Business.Infrastructure.DeviceDomain.IRuntimeDevice)">
+            <summary>
+            
+            </summary>
+            <param name="runtimeDevice"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ULA.Business.Infrastructure.DataServices.IRawBytesToDeviceStateParserService">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:ULA.Business.Infrastructure.DataServices.IRawBytesToDeviceStateParserService.ApplyReceivedBytesToDevice(ULA.Business.Infrastructure.Metadata.MetadataFromDevice,ULA.Business.Infrastructure.DeviceDomain.IRuntimeDevice,System.Byte[])">
+            <summary>
+            
+            </summary>
+            <param name="metadataFromDevice"></param>
+            <param name="runtimeDevice"></param>
+            <param name="rawBytes"></param>
+        </member>
+        <member name="T:ULA.Business.Infrastructure.DeviceDomain.IDeviceCustomItems">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:ULA.Business.Infrastructure.DeviceDomain.IIndicator">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:ULA.Business.Infrastructure.DeviceDomain.ISignal">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Infrastructure.DeviceDomain.ISignal.SignalDescription">
+            <summary>
+            описание сигнала
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Infrastructure.DeviceDomain.ISignal.SignalState">
+            <summary>
+            состояние сигнала
+            </summary>
+        </member>
+        <member name="T:ULA.Business.Infrastructure.DeviceDomain.IAnalogData">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Infrastructure.DeviceDomain.IAnalogData.SignalLevel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Infrastructure.DeviceDomain.IAnalogData.DateTimeFromDevice">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Infrastructure.DeviceDomain.IAnalogData.AnalogDataUpdated">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:ULA.Business.Infrastructure.DeviceDomain.IDefectState">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Infrastructure.DeviceDomain.IDefectState.IsManagementDefect">
+            <summary>
+            неисправность управления
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Infrastructure.DeviceDomain.IDefectState.IsManagementChainsDefect">
+            <summary>
+            неисправность цепей управления
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Infrastructure.DeviceDomain.IDefectState.IsFusesDefect">
+            <summary>
+            неисправность предохранителей
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Infrastructure.DeviceDomain.IDefectState.IsProtectionDefect">
+            <summary>
+            неисправность охраны
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Infrastructure.DeviceDomain.IDefectState.IsNoPowerDefect">
+            <summary>
+            неисправность питания
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Infrastructure.DeviceDomain.IDefectState.HasAnyDefect">
+            <summary>
+            есть ли хоть одна неисправность
+            </summary>
+        </member>
+        <member name="T:ULA.Business.Infrastructure.DeviceDomain.IResistor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Infrastructure.DeviceDomain.IResistor.ModuleNumber">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Infrastructure.DeviceDomain.IResistor.ResistorNumber">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Infrastructure.DeviceDomain.IResistor.IsDefectState">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Infrastructure.DeviceDomain.IResistor.IsOnState">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:ULA.Business.Infrastructure.DeviceDomain.IDeviceCommand">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Infrastructure.DeviceDomain.IDeviceCommand.Starters">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Infrastructure.DeviceDomain.IDeviceCommand.CommandType">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:ULA.Business.Infrastructure.DeviceDomain.IDeviceCommand.SetRule(ULA.Business.Infrastructure.Commands.ICommandSuccessRule)">
+            <summary>
+            
+            </summary>
+            <param name="rule"></param>
+        </member>
+        <member name="P:ULA.Business.Infrastructure.DeviceDomain.IDeviceCommand.CommandTags">
+            <summary>
+            тэги комманды
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Infrastructure.DeviceDomain.IDeviceCommand.CommandValues">
+            <summary>
+            значения комманды
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Infrastructure.DeviceDomain.IDeviceCommand.IsCommandSent">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Infrastructure.DeviceDomain.IDeviceCommand.IsCommandSucceed">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Infrastructure.DeviceDomain.IDeviceCommand.IsCommandStartSending">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Infrastructure.DeviceDomain.IDeviceCommand.EntityMetadata">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:ULA.Business.Infrastructure.DeviceDomain.IDeviceCommand.CheckIfCommandSucceed(ULA.AddinsHost.ViewModel.Device.IRuntimeDeviceViewModel)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Infrastructure.DeviceDomain.IDeviceCommand.CurrectCommandStateChanged">
+            <summary>
+            событие на изменение состояние текущей комманды
+            </summary>
+        </member>
+        <member name="T:ULA.Business.Infrastructure.DeviceDomain.IFeeder">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:ULA.Business.Infrastructure.DeviceDomain.IMalfunction">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:ULA.Business.Infrastructure.DeviceDomain.IRuntimeDevice">
+            <summary>
+            модель устройства в режиме реального времени
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Infrastructure.DeviceDomain.IRuntimeDevice.DeviceSignature">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Infrastructure.DeviceDomain.IRuntimeDevice.DeviceDataCache">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Infrastructure.DeviceDomain.IRuntimeDevice.DefectState">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Infrastructure.DeviceDomain.IRuntimeDevice.DeviceCustomItems">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Infrastructure.DeviceDomain.IRuntimeDevice.AnalogData">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:ULA.Business.Infrastructure.DeviceDomain.IRuntimeDevice.InitializeAsync">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:ULA.Business.Infrastructure.DeviceDomain.IRuntimeDevice.StartersOnDevice">
+            <summary>
+            пускатели на устройстве
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Infrastructure.DeviceDomain.IRuntimeDevice.ResistorsOnDevice">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Infrastructure.DeviceDomain.IRuntimeDevice.TcpDeviceConnection">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:ULA.Business.Infrastructure.DeviceDomain.IRuntimeDevice.SetUpdatingMode(System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="isFull"></param>
+        </member>
+        <member name="P:ULA.Business.Infrastructure.DeviceDomain.IRuntimeDevice.DeviceInitialized">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Infrastructure.DeviceDomain.IRuntimeDevice.DeviceValuesUpdated">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:ULA.Business.Infrastructure.DeviceDomain.IStarter">
+            <summary>
+             модель пускателя
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Infrastructure.DeviceDomain.IStarter.StarterDescription">
+            <summary>
+            описпание пускателя
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Infrastructure.DeviceDomain.IStarter.StarterNumber">
+            <summary>
+            номер пускателя
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Infrastructure.DeviceDomain.IStarter.IsInRepairState">
+            <summary>
+            режим ремонта
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Infrastructure.DeviceDomain.IStarter.IsInManualMode">
+            <summary>
+            ручной режим
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Infrastructure.DeviceDomain.IStarter.IsStarterOn">
+            <summary>
+            включенное состояние
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Infrastructure.DeviceDomain.IStarter.IsInUndefinedState">
+            <summary>
+            неопределенное состояние
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Infrastructure.DeviceDomain.IStarter.StarterLightingMode">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Infrastructure.DeviceDomain.IStarter.ManagementFuseState">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:ULA.Business.Infrastructure.DeviceStringKeys.DeviceStringKeys">
+            <summary>
+            класс для хранения ключей 
+            </summary>
+        </member>
+        <member name="F:ULA.Business.Infrastructure.DeviceStringKeys.DeviceStringKeys.NO_CONNECTION_STRING">
+            <summary>
+            нет подключения
+            </summary>
+        </member>
+        <member name="T:ULA.Business.Infrastructure.DeviceStringKeys.DeviceStringKeys.DeviceCommandsTagKeys">
+            <summary>
+            тэги для даты-времени
+            </summary>
+        </member>
+        <member name="F:ULA.Business.Infrastructure.DeviceStringKeys.DeviceStringKeys.DeviceCommandsTagKeys.COMMAND_SWITCHING_STARTER">
+            <summary>
+            команда включения первого пускателя
+            </summary>
+        </member>
+        <member name="F:ULA.Business.Infrastructure.DeviceStringKeys.DeviceStringKeys.DeviceCommandsTagKeys.COMMAND_MANUALMODE_STARTER">
+            <summary>
+            команда ручной режим первого пускателя
+            </summary>
+        </member>
+        <member name="F:ULA.Business.Infrastructure.DeviceStringKeys.DeviceStringKeys.DeviceCommandsTagKeys.COMMAND_REPAIR_STARTER">
+            <summary>
+            команда включения первого пускателя
+            </summary>
+        </member>
+        <member name="T:ULA.Business.Infrastructure.DeviceStringKeys.DeviceStringKeys.DeviceAnalogMetersTagKeys">
+            <summary>
+            тэги для счетчиков
+            </summary>
+        </member>
+        <member name="F:ULA.Business.Infrastructure.DeviceStringKeys.DeviceStringKeys.DeviceAnalogMetersTagKeys.ANALOG_METER_TIME">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:ULA.Business.Infrastructure.DeviceStringKeys.DeviceStringKeys.DeviceAnalogMetersTagKeys.ANALOG_METER_DATE">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:ULA.Business.Infrastructure.DeviceStringKeys.DeviceStringKeys.DeviceAnalogMetersTagKeys.NO">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:ULA.Business.Infrastructure.DeviceStringKeys.DeviceStringKeys.DeviceAnalogMetersTagKeys.ANALOG_TIMER">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:ULA.Business.Infrastructure.DeviceStringKeys.DeviceStringKeys.DeviceAnalogMetersTagKeys.ANALOG_ID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:ULA.Business.Infrastructure.DeviceStringKeys.DeviceStringKeys.DeviceAnalogMetersTagKeys.ENERGOMERA_METER_TYPE">
+            <summary>
+            тип счетчика
+            </summary>
+        </member>
+        <member name="F:ULA.Business.Infrastructure.DeviceStringKeys.DeviceStringKeys.DeviceAnalogMetersTagKeys.MSA_METER_TYPE">
+            <summary>
+            тип счетчика
+            </summary>
+        </member>
+        <member name="F:ULA.Business.Infrastructure.DeviceStringKeys.DeviceStringKeys.DeviceAnalogMetersTagKeys.VOLTAGE_A_MSA961">
+            <summary>
+            напряжение
+            </summary>
+        </member>
+        <member name="F:ULA.Business.Infrastructure.DeviceStringKeys.DeviceStringKeys.DeviceAnalogMetersTagKeys.VOLTAGE_B_MSA961">
+            <summary>
+            напряжение
+            </summary>
+        </member>
+        <member name="F:ULA.Business.Infrastructure.DeviceStringKeys.DeviceStringKeys.DeviceAnalogMetersTagKeys.VOLTAGE_C_MSA961">
+            <summary>
+            напряжение
+            </summary>
+        </member>
+        <member name="F:ULA.Business.Infrastructure.DeviceStringKeys.DeviceStringKeys.DeviceAnalogMetersTagKeys.CURRENT_A_MSA961">
+            <summary>
+            ток
+            </summary>
+        </member>
+        <member name="F:ULA.Business.Infrastructure.DeviceStringKeys.DeviceStringKeys.DeviceAnalogMetersTagKeys.CURRENT_B_MSA961">
+            <summary>
+            ток
+            </summary>
+        </member>
+        <member name="F:ULA.Business.Infrastructure.DeviceStringKeys.DeviceStringKeys.DeviceAnalogMetersTagKeys.CURRENT_С_MSA961">
+            <summary>
+            ток
+            </summary>
+        </member>
+        <member name="F:ULA.Business.Infrastructure.DeviceStringKeys.DeviceStringKeys.DeviceAnalogMetersTagKeys.VOLTAGE_A">
+            <summary>
+            напряжение
+            </summary>
+        </member>
+        <member name="F:ULA.Business.Infrastructure.DeviceStringKeys.DeviceStringKeys.DeviceAnalogMetersTagKeys.VOLTAGE_B">
+            <summary>
+            напряжение
+            </summary>
+        </member>
+        <member name="F:ULA.Business.Infrastructure.DeviceStringKeys.DeviceStringKeys.DeviceAnalogMetersTagKeys.VOLTAGE_C">
+            <summary>
+            напряжение
+            </summary>
+        </member>
+        <member name="F:ULA.Business.Infrastructure.DeviceStringKeys.DeviceStringKeys.DeviceAnalogMetersTagKeys.CURRENT_A">
+            <summary>
+            ток
+            </summary>
+        </member>
+        <member name="F:ULA.Business.Infrastructure.DeviceStringKeys.DeviceStringKeys.DeviceAnalogMetersTagKeys.CURRENT_B">
+            <summary>
+            ток
+            </summary>
+        </member>
+        <member name="F:ULA.Business.Infrastructure.DeviceStringKeys.DeviceStringKeys.DeviceAnalogMetersTagKeys.CURRENT_С">
+            <summary>
+            ток
+            </summary>
+        </member>
+        <member name="F:ULA.Business.Infrastructure.DeviceStringKeys.DeviceStringKeys.DeviceAnalogMetersTagKeys.POWER_A">
+            <summary>
+            мощность
+            </summary>
+        </member>
+        <member name="F:ULA.Business.Infrastructure.DeviceStringKeys.DeviceStringKeys.DeviceAnalogMetersTagKeys.POWER_B">
+            <summary>
+            мощность
+            </summary>
+        </member>
+        <member name="F:ULA.Business.Infrastructure.DeviceStringKeys.DeviceStringKeys.DeviceAnalogMetersTagKeys.POWER_C">
+            <summary>
+            мощность
+            </summary>
+        </member>
+        <member name="F:ULA.Business.Infrastructure.DeviceStringKeys.DeviceStringKeys.DeviceAnalogMetersTagKeys.STORED_ENERGY">
+            <summary>
+            накопленнная энергия
+            </summary>
+        </member>
+        <member name="F:ULA.Business.Infrastructure.DeviceStringKeys.DeviceStringKeys.DeviceAnalogMetersTagKeys.STORED_ENERGY_1">
+            <summary>
+            накопленнная энергия
+            </summary>
+        </member>
+        <member name="F:ULA.Business.Infrastructure.DeviceStringKeys.DeviceStringKeys.DeviceAnalogMetersTagKeys.STORED_ENERGY_FOR_MOUNTH">
+            <summary>
+            накопленнная энергия
+            </summary>
+        </member>
+        <member name="F:ULA.Business.Infrastructure.DeviceStringKeys.DeviceStringKeys.DeviceAnalogMetersTagKeys.STORED_ENERGY_FOR_MOUNTH_1">
+            <summary>
+            накопленнная энергия
+            </summary>
+        </member>
+        <member name="F:ULA.Business.Infrastructure.DeviceStringKeys.DeviceStringKeys.DeviceAnalogMetersTagKeys.STORED_ENERGY_FOR_DAY">
+            <summary>
+            накопленнная энергия
+            </summary>
+        </member>
+        <member name="F:ULA.Business.Infrastructure.DeviceStringKeys.DeviceStringKeys.DeviceAnalogMetersTagKeys.STORED_ENERGY_FOR_DAY_1">
+            <summary>
+            накопленнная энергия
+            </summary>
+        </member>
+        <member name="T:ULA.Business.Infrastructure.DeviceStringKeys.DeviceStringKeys.DeviceDateTimeTagKeys">
+            <summary>
+            тэги для даты-времени
+            </summary>
+        </member>
+        <member name="F:ULA.Business.Infrastructure.DeviceStringKeys.DeviceStringKeys.DeviceDateTimeTagKeys.DATETIME_YEAR">
+            <summary>
+            год
+            </summary>
+        </member>
+        <member name="F:ULA.Business.Infrastructure.DeviceStringKeys.DeviceStringKeys.DeviceDateTimeTagKeys.DATETIME_MONTH">
+            <summary>
+            месяц
+            </summary>
+        </member>
+        <member name="F:ULA.Business.Infrastructure.DeviceStringKeys.DeviceStringKeys.DeviceDateTimeTagKeys.DATETIME_DAY">
+            <summary>
+            день
+            </summary>
+        </member>
+        <member name="F:ULA.Business.Infrastructure.DeviceStringKeys.DeviceStringKeys.DeviceDateTimeTagKeys.DATETIME_DAYINWEEK">
+            <summary>
+            день в неделе
+            </summary>
+        </member>
+        <member name="F:ULA.Business.Infrastructure.DeviceStringKeys.DeviceStringKeys.DeviceDateTimeTagKeys.DATETIME_HOUR">
+            <summary>
+            час
+            </summary>
+        </member>
+        <member name="F:ULA.Business.Infrastructure.DeviceStringKeys.DeviceStringKeys.DeviceDateTimeTagKeys.DATETIME_MINUTE">
+            <summary>
+            минута
+            </summary>
+        </member>
+        <member name="F:ULA.Business.Infrastructure.DeviceStringKeys.DeviceStringKeys.DeviceDateTimeTagKeys.DATETIME_SECOND">
+            <summary>
+            секунда
+            </summary>
+        </member>
+        <member name="F:ULA.Business.Infrastructure.DeviceStringKeys.DeviceStringKeys.DeviceDateTimeTagKeys.DATETIME_MILLISECOND">
+            <summary>
+            миллисекунда
+            </summary>
+        </member>
+        <member name="T:ULA.Business.Infrastructure.DeviceStringKeys.DeviceStringKeys.DeviceBytesParsers">
+            <summary>
+            парсеры из байт в состояние устройства
+            </summary>
+        </member>
+        <member name="F:ULA.Business.Infrastructure.DeviceStringKeys.DeviceStringKeys.DeviceBytesParsers.ANALOGS_PARSER">
+            <summary>
+            парсер для отображения в режиме списка
+            </summary>
+        </member>
+        <member name="F:ULA.Business.Infrastructure.DeviceStringKeys.DeviceStringKeys.DeviceBytesParsers.PARTIAL_MODE_PARSER">
+            <summary>
+            парсер для отображения в режиме списка
+            </summary>
+        </member>
+        <member name="F:ULA.Business.Infrastructure.DeviceStringKeys.DeviceStringKeys.DeviceBytesParsers.DATETIME_PARSER">
+            <summary>
+            парсер даты и времени
+            </summary>
+        </member>
+        <member name="F:ULA.Business.Infrastructure.DeviceStringKeys.DeviceStringKeys.DeviceBytesParsers.SIGNAL_LEVEL_PARSER">
+            <summary>
+            парсер уровня сигнала
+            </summary>
+        </member>
+        <member name="F:ULA.Business.Infrastructure.DeviceStringKeys.DeviceStringKeys.DeviceBytesParsers.DEVICE_SIGNATURE_PARSER">
+            <summary>
+            парсер подписи устройства
+            </summary>
+        </member>
+        <member name="T:ULA.Business.Infrastructure.DeviceStringKeys.DeviceStringKeys.DeviceTableTagKeys">
+            <summary>
+             ключи таблиц
+            </summary>
+        </member>
+        <member name="F:ULA.Business.Infrastructure.DeviceStringKeys.DeviceStringKeys.DeviceTableTagKeys.SHEDULE1_DATA_ID_NAME">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:ULA.Business.Infrastructure.DeviceStringKeys.DeviceStringKeys.DeviceTableTagKeys.SHEDULE2_DATA_ID_NAME">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:ULA.Business.Infrastructure.DeviceStringKeys.DeviceStringKeys.DeviceTableTagKeys.SHEDULE3_DATA_ID_NAME">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:ULA.Business.Infrastructure.DeviceStringKeys.DeviceStringKeys.DeviceTableTagKeys.ACKNOWLEDGE_VALUE">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:ULA.Business.Infrastructure.DeviceStringKeys.DeviceStringKeys.DeviceTableTagKeys.COMMAND_MANAGENT_ID_NAME">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:ULA.Business.Infrastructure.DeviceStringKeys.DeviceStringKeys.DeviceTableTagKeys.DATETIME_ID_NAME">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:ULA.Business.Infrastructure.DeviceStringKeys.DeviceStringKeys.DeviceTableTagKeys.SIGNAL_LEVEL_DATA_ID_NAME">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:ULA.Business.Infrastructure.DeviceStringKeys.DeviceStringKeys.DeviceTableTagKeys.SIGNAL_LEVEL">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:ULA.Business.Infrastructure.DeviceStringKeys.DeviceStringKeys.DeviceTableTagKeys.DEVICE_SIGNATURE_DATA_ID_NAME">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:ULA.Business.Infrastructure.DeviceStringKeys.DeviceStringKeys.DeviceTableTagKeys.DEVICE_SIGNATURE">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:ULA.Business.Infrastructure.DeviceStringKeys.DeviceStringKeys.DeviceTableTagKeys.STARTER_STATE_PATTERN">
+            <summary>
+            состояние пускателя
+            </summary>
+        </member>
+        <member name="F:ULA.Business.Infrastructure.DeviceStringKeys.DeviceStringKeys.DeviceTableTagKeys.STARTER_MANAGEMENT_CONTROL">
+            <summary>
+            контроль управления первого пускателя
+            </summary>
+        </member>
+        <member name="F:ULA.Business.Infrastructure.DeviceStringKeys.DeviceStringKeys.DeviceTableTagKeys.STARTER_IS_MANUAL_MODE_PATTERN">
+            <summary>
+            авторежим пускателя
+            </summary>
+        </member>
+        <member name="F:ULA.Business.Infrastructure.DeviceStringKeys.DeviceStringKeys.DeviceTableTagKeys.STARTER_IS_REPAIR">
+            <summary>
+            режим ремонта  пускателя
+            </summary>
+        </member>
+        <member name="F:ULA.Business.Infrastructure.DeviceStringKeys.DeviceStringKeys.DeviceTableTagKeys.MANAGEMENT_CHAINS_DEFECT">
+            <summary>
+            неисправность цепей управления
+            </summary>
+        </member>
+        <member name="F:ULA.Business.Infrastructure.DeviceStringKeys.DeviceStringKeys.DeviceTableTagKeys.FUSES_DEFECT">
+            <summary>
+            неисправность предохранителей
+            </summary>
+        </member>
+        <member name="F:ULA.Business.Infrastructure.DeviceStringKeys.DeviceStringKeys.DeviceTableTagKeys.MANAGEMENT_DEFECT">
+            <summary>
+            неисправность управления
+            </summary>
+        </member>
+        <member name="F:ULA.Business.Infrastructure.DeviceStringKeys.DeviceStringKeys.DeviceTableTagKeys.PROTECTION_DEFECT">
+            <summary>
+            неисправность охраны
+            </summary>
+        </member>
+        <member name="F:ULA.Business.Infrastructure.DeviceStringKeys.DeviceStringKeys.DeviceTableTagKeys.POWER_DEFECT">
+            <summary>
+            неисправность питания
+            </summary>
+        </member>
+        <member name="F:ULA.Business.Infrastructure.DeviceStringKeys.DeviceStringKeys.DeviceTableTagKeys.CONTROL_CHANNEL_1_CONTROL_MODE">
+            <summary>
+            кунал управления 1
+            </summary>
+        </member>
+        <member name="T:ULA.Business.Infrastructure.DTOs.ILogInformation">
+            <summary>
+              Log information
+              Описывает информацию для журналирования
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Infrastructure.DTOs.ILogInformation.ActionDescription">
+            <summary>
+                Gets or sets the description action
+                Описание действия
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Infrastructure.DTOs.ILogInformation.ActionDate">
+            <summary>
+                Gets or sets thr action date
+                Дата действия
+            </summary>
+        </member>
+        <member name="T:ULA.Business.Infrastructure.DTOs.LogicalDeviceInformation">
+            <summary>
+                Represents logical deviceViewModel information structure
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Infrastructure.DTOs.LogicalDeviceInformation.DeviceName">
+            <summary>
+                Gets or sets the name of the deviceViewModel
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Infrastructure.DTOs.LogicalDeviceInformation.DeviceDescription">
+            <summary>
+                Gets or sets the desciption of the deviceViewModel
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Infrastructure.DTOs.LogicalDeviceInformation.DeviceTypeName">
+            <summary>
+                Gets or sets the name of deviceViewModel type
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Infrastructure.DTOs.LogicalDeviceInformation.AnalogMeterTypeName">
+            <summary>
+                Gets or sets the name of deviceViewModel meter type
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Infrastructure.DTOs.LogicalDeviceInformation.DriverTypeName">
+            <summary>
+                Gets or sets the name of the driver with what current deviceViewModel is associated
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Infrastructure.DTOs.LogicalDeviceInformation.DriverTcpPort">
+            <summary>
+                Gets or sets the tcp port number of a driver
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Infrastructure.DTOs.LogicalDeviceInformation.DriverTcpAddress">
+            <summary>
+                Gets or sets the tcp address of a driver
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Infrastructure.DTOs.LogicalDeviceInformation.CustomFidersOnDevice">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Infrastructure.DTOs.LogicalDeviceInformation.CustomSignalsOnDevice">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Infrastructure.DTOs.LogicalDeviceInformation.CustomIndicatorsOnDevice">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Infrastructure.DTOs.LogicalDeviceInformation.StarterDescriptions">
+            <summary>
+                Описание пускателей
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Infrastructure.DTOs.LogicalDeviceInformation.TransformKoefA">
+            <summary>
+                Gets or sets the type name of the meter of the device
+                Имя типа счетчика устройства
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Infrastructure.DTOs.LogicalDeviceInformation.TransformKoefB">
+            <summary>
+                Gets or sets the type name of the meter of the device
+                Имя типа счетчика устройства
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Infrastructure.DTOs.LogicalDeviceInformation.TransformKoefC">
+            <summary>
+                Gets or sets the type name of the meter of the device
+                Имя типа счетчика устройства
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Infrastructure.DTOs.LogicalDeviceInformation.ChannelNumberOfStarter1">
+            <summary>
+              номер канала для пускателя 1
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Infrastructure.DTOs.LogicalDeviceInformation.ChannelNumberOfStarter2">
+            <summary>
+              номер канала для пускателя 2
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Infrastructure.DTOs.LogicalDeviceInformation.ChannelNumberOfStarter3">
+            <summary>
+              номер канала для пускателя 3
+            </summary>
+        </member>
+        <member name="T:ULA.Business.Infrastructure.DTOs.LogicalDeviceStorageEntity">
+            <summary>
+                Represents deviceViewModel storage entity
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Infrastructure.DTOs.LogicalDeviceStorageEntity.Id">
+            <summary>
+                Gets or sets the unique identifier of current entity
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Infrastructure.DTOs.LogicalDeviceStorageEntity.Name">
+            <summary>
+                Gets or sets the name of current entity
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Infrastructure.DTOs.LogicalDeviceStorageEntity.Description">
+            <summary>
+                Gets or sets the description of current entity
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Infrastructure.DTOs.LogicalDeviceStorageEntity.DriverTypeName">
+            <summary>
+                Gets or sets the name of the driver that current deviceViewModel suppose to use
+            </summary>
+        </member>
+        <member name="T:ULA.Business.Infrastructure.DTOs.LogicalDriverInformation">
+            <summary>
+                Represents logical driver creation information
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Infrastructure.DTOs.LogicalDriverInformation.DriverType">
+            <summary>
+                Gets or sets the type name of the driver
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Infrastructure.DTOs.LogicalDriverInformation.DriverTcpPort">
+            <summary>
+                Gets or sets the tcp port number of the driver
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Infrastructure.DTOs.LogicalDriverInformation.DriverTcpAddress">
+            <summary>
+                Gets or sets the tcp address of the driver
+            </summary>
+        </member>
+        <member name="T:ULA.Business.Infrastructure.Enums.AnalogMetersEnum">
+            <summary>
+            перечисление возможных вариантов счетчиков
+            </summary>
+        </member>
+        <member name="F:ULA.Business.Infrastructure.Enums.AnalogMetersEnum.Энергомера">
+            <summary>
+            счетчик ээ
+            </summary>
+        </member>
+        <member name="F:ULA.Business.Infrastructure.Enums.AnalogMetersEnum.Нет">
+            <summary>
+            отсутствие модуля измерений
+            </summary>
+        </member>
+        <member name="T:ULA.Business.Infrastructure.Factories.IDeviceCommandFactory">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:ULA.Business.Infrastructure.Factories.IDeviceCommandFactory.CreateSyncTimeCommand(System.DateTime,ULA.Business.Infrastructure.DeviceDomain.IRuntimeDevice)">
+            <summary>
+            создать комманду синхранозации времени
+            </summary>
+            <param name="dateTime"></param>
+            <param name="runtimeDevice"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ULA.Business.Infrastructure.Factories.IDeviceCommandFactory.CreateRunNightlightingCommand(ULA.Business.Infrastructure.DeviceDomain.IRuntimeDevice)">
+            <summary>
+            создать комманду включения ночного освещения
+            </summary>
+            <param name="runtimeDevice"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ULA.Business.Infrastructure.Factories.IDeviceCommandFactory.CreateRunEveninglightingCommand(ULA.Business.Infrastructure.DeviceDomain.IRuntimeDevice)">
+            <summary>
+            создать комманду выключения ночного освещения
+            </summary>
+            <param name="runtimeDevice"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ULA.Business.Infrastructure.Factories.IDeviceCommandFactory.CreateStopEveninglightingCommand(ULA.Business.Infrastructure.DeviceDomain.IRuntimeDevice)">
+            <summary>
+            создать комманду выключения ночного освещения
+            </summary>
+            <param name="runtimeDevice"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ULA.Business.Infrastructure.Factories.IDeviceCommandFactory.CreateStopNightlightingCommand(ULA.Business.Infrastructure.DeviceDomain.IRuntimeDevice)">
+            <summary>
+            
+            </summary>
+            <param name="modelParentRuntimeDevice"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ULA.Business.Infrastructure.Factories.IDeviceCommandFactory.CreateRunFullLightingCommand(ULA.Business.Infrastructure.DeviceDomain.IRuntimeDevice)">
+            <summary>
+            
+            </summary>
+            <param name="modelParentRuntimeDevice"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ULA.Business.Infrastructure.Factories.IDeviceCommandFactory.CreateStopFullLightingCommand(ULA.Business.Infrastructure.DeviceDomain.IRuntimeDevice)">
+            <summary>
+            
+            </summary>
+            <param name="modelParentRuntimeDevice"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ULA.Business.Infrastructure.Factories.IDeviceCommandFactory.CreateRunBackLightLightingCommand(ULA.Business.Infrastructure.DeviceDomain.IRuntimeDevice)">
+            <summary>
+            
+            </summary>
+            <param name="modelParentRuntimeDevice"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ULA.Business.Infrastructure.Factories.IDeviceCommandFactory.CreateStopBackLightLightingCommand(ULA.Business.Infrastructure.DeviceDomain.IRuntimeDevice)">
+            <summary>
+            
+            </summary>
+            <param name="modelParentRuntimeDevice"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ULA.Business.Infrastructure.Factories.IDeviceCommandFactory.CreateRunIlluminationCommand(ULA.Business.Infrastructure.DeviceDomain.IRuntimeDevice)">
+            <summary>
+            
+            </summary>
+            <param name="modelParentRuntimeDevice"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ULA.Business.Infrastructure.Factories.IDeviceCommandFactory.CreateStopIlluminationCommand(ULA.Business.Infrastructure.DeviceDomain.IRuntimeDevice)">
+            <summary>
+            
+            </summary>
+            <param name="modelParentRuntimeDevice"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ULA.Business.Infrastructure.Factories.IDeviceCommandFactory.CreateRunAutoModeCommand(ULA.Business.Infrastructure.DeviceDomain.IRuntimeDevice)">
+            <summary>
+            
+            </summary>
+            <param name="modelParentRuntimeDevice"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ULA.Business.Infrastructure.Factories.IDeviceCommandFactory.CreateStopAutoModeCommand(ULA.Business.Infrastructure.DeviceDomain.IRuntimeDevice)">
+            <summary>
+            
+            </summary>
+            <param name="modelParentRuntimeDevice"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ULA.Business.Infrastructure.Factories.IDeviceCommandFactory.CreateStartRepairCommand(ULA.Business.Infrastructure.DeviceDomain.IRuntimeDevice)">
+            <summary>
+            
+            </summary>
+            <param name="modelParentRuntimeDevice"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ULA.Business.Infrastructure.Factories.IDeviceCommandFactory.CreateStopRepairCommand(ULA.Business.Infrastructure.DeviceDomain.IRuntimeDevice)">
+            <summary>
+            
+            </summary>
+            <param name="modelParentRuntimeDevice"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ULA.Business.Infrastructure.Factories.IDeviceCommandFactory.CreateStopAllStartersCommand(ULA.Business.Infrastructure.DeviceDomain.IRuntimeDevice)">
+            <summary>
+            
+            </summary>
+            <param name="modelParentRuntimeDevice"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ULA.Business.Infrastructure.Factories.IDeviceCommandFactory.CreateStartEnergySavingCommand(ULA.Business.Infrastructure.DeviceDomain.IRuntimeDevice)">
+            <summary>
+            
+            </summary>
+            <param name="modelParentRuntimeDevice"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ULA.Business.Infrastructure.Factories.IDeviceCommandFactory.CreateStopEnergySavingCommand(ULA.Business.Infrastructure.DeviceDomain.IRuntimeDevice)">
+            <summary>
+            
+            </summary>
+            <param name="modelParentRuntimeDevice"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ULA.Business.Infrastructure.Factories.IRawBytesToDeviceStateParserFactory">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:ULA.Business.Infrastructure.Factories.IRawBytesToDeviceStateParserFactory.CreatePartialModeParser">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ULA.Business.Infrastructure.Factories.IRawBytesToDeviceStateParserFactory.CreateDateTimeParser">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ULA.Business.Infrastructure.Factories.IRawBytesToDeviceStateParserFactory.CreateSignalLevelParser">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ULA.Business.Infrastructure.Factories.IRawBytesToDeviceStateParserFactory.CreateDeviceSignatureParser">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ULA.Business.Infrastructure.Factories.IRawBytesToDeviceStateParserFactory.CreatAnalogParser">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ULA.Business.Infrastructure.Factories.IRawBytesToDeviceStateParserFactory.CreatAnalogDateTimeParser">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:ULA.Business.Infrastructure.Factories.IResistorFactory">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:ULA.Business.Infrastructure.Factories.IStarterFactory">
+            <summary>
+            фабрика для создания пускателей
+            </summary>
+        </member>
+        <member name="M:ULA.Business.Infrastructure.Factories.IStarterFactory.CreateStarters(ULA.AddinsHost.Business.Device.Context.IDeviceContext,System.Byte[])">
+            <summary>
+            метод создания пускателей
+            </summary>
+            <param name="deviceContext"></param>
+            <param name="configDataBytes"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ULA.Business.Infrastructure.Metadata.EntityMetadata">
+            <summary>
+                Represent a metadata for work with deviceViewModel
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Infrastructure.Metadata.EntityMetadata.NumberOfPoints">
+            <summary>
+                Represent a number of points for read from deviceViewModel
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Infrastructure.Metadata.EntityMetadata.StartAddress">
+            <summary>
+                Represent a listening address
+            </summary>
+        </member>
+        <member name="M:ULA.Business.Infrastructure.Metadata.EntityMetadata.Equals(ULA.Business.Infrastructure.Metadata.EntityMetadata)">
+            <summary>
+            
+            </summary>
+            <param name="other"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ULA.Business.Infrastructure.Metadata.EntityMetadata.Equals(System.Object)">
+            <summary>
+            
+            </summary>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ULA.Business.Infrastructure.Metadata.EntityMetadata.GetHashCode">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:ULA.Business.Infrastructure.Metadata.MetadataFromDevice">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Infrastructure.Metadata.MetadataFromDevice.Tag">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Infrastructure.Metadata.MetadataFromDevice.MetadataForTag">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Infrastructure.Metadata.MetadataFromDevice.DeviceId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Infrastructure.Metadata.MetadataFromDevice.DriverId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Infrastructure.Metadata.MetadataFromDevice.DriverDataId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Infrastructure.Metadata.MetadataFromDevice.RawBytesToDeviceStateParser">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:ULA.Business.Infrastructure.PersistanceServices.IDevicePersistableContext">
+            <summary>
+                Exposes deviceViewModel persisting context functionality
+            </summary>
+        </member>
+        <member name="M:ULA.Business.Infrastructure.PersistanceServices.IDevicePersistableContext.SaveDeviceMomentoAsync(ULA.AddinsHost.Business.Device.IDeviceMomento)">
+            <summary>
+                Saves deviceViewModel momento asynchronously
+            </summary>
+            <param name="deviceMomento">
+                An instance of <see cref="T:ULA.AddinsHost.Business.Device.IDeviceMomento" /> that represents deviceViewModel momento
+            </param>
+            <returns>An instance of System.Threading.Tasks.Task that represents current synchronous operation</returns>
+        </member>
+        <member name="M:ULA.Business.Infrastructure.PersistanceServices.IDevicePersistableContext.GetMomentoAsync">
+            <summary>
+                Gets current deviceViewModel momento asynchronously
+            </summary>
+            <returns>An instance of System.Threading.Tasks.Task that represents current synchronous operation</returns>
+        </member>
+        <member name="T:ULA.Business.Infrastructure.PersistanceServices.IDriverPersistableContext">
+            <summary>
+                Exposes driver persisting context functionality
+            </summary>
+        </member>
+        <member name="M:ULA.Business.Infrastructure.PersistanceServices.IDriverPersistableContext.SaveDriverMomentoAsync(ULA.AddinsHost.Business.Driver.IDriverMomento)">
+            <summary>
+                Saves an instance of <see cref="T:ULA.AddinsHost.Business.Driver.IDriverMomento" /> that represents drivers state asynchronously
+            </summary>
+            <param name="driverMomento">
+                An instance of <see cref="T:ULA.AddinsHost.Business.Driver.IDriverMomento" /> to save
+            </param>
+            <returns>An instance of System.Threading.Tasks.Task that represents current asynchronous operation</returns>
+        </member>
+        <member name="M:ULA.Business.Infrastructure.PersistanceServices.IDriverPersistableContext.GetDriverMomentoAsync">
+            <summary>
+                Restores an instance of <see cref="T:ULA.AddinsHost.Business.Driver.IDriverMomento" /> that reporesents drivber's state
+            </summary>
+            <returns>An instance of System.Threading.Tasks.Task that represents current asynchronous operation</returns>
+        </member>
+        <member name="T:ULA.Business.Infrastructure.PersistanceServices.IPersistanceService">
+            <summary>
+                Exposes logical deviceViewModel persistance functionality
+            </summary>
+        </member>
+        <member name="M:ULA.Business.Infrastructure.PersistanceServices.IPersistanceService.GetDevicePersistableContextsAsync">
+            <summary>
+                Gets a collection of all deviceViewModel persistable contexts
+            </summary>
+            <returns>An instance of System.Threading.Tasks.Task that represents current synchronous operation</returns>
+        </member>
+        <member name="M:ULA.Business.Infrastructure.PersistanceServices.IPersistanceService.GetDevicePersistableContextAsync(System.Guid)">
+            <summary>
+                Gets an instance of <see cref="T:ULA.Business.Infrastructure.PersistanceServices.IDevicePersistableContext" /> that represents persisting context for a deviceViewModel asynchronously
+            </summary>
+            <param name="deviceId">
+                An instance of <see cref="T:System.Guid" /> that represents current deviceViewModel unique identifier
+            </param>
+            <returns>An instance of System.Threading.Tasks.Task that represents current synchronous operation</returns>
+        </member>
+        <member name="M:ULA.Business.Infrastructure.PersistanceServices.IPersistanceService.GetDriversPersistableContextAsynk">
+            <summary>
+                Gets a collection of all drivers persistable contexts
+            </summary>
+            <returns>An instance of System.Threading.Tasks.Task that represents current synchronous operation</returns>
+        </member>
+        <member name="M:ULA.Business.Infrastructure.PersistanceServices.IPersistanceService.GetDriverPersistableContextAsync(System.Guid)">
+            <summary>
+                Gets an instance of <see cref="T:ULA.Business.Infrastructure.PersistanceServices.IDriverPersistableContext" /> that represents persisting context for a driver asynchronously
+            </summary>
+            <param name="driverId">
+                An instance of <see cref="T:System.Guid" /> that represents current driver unique identifier
+            </param>
+            <returns>An instance of System.Threading.Tasks.Task that represents current synchronous operation</returns>
+        </member>
+        <member name="M:ULA.Business.Infrastructure.PersistanceServices.IPersistanceService.RemoveDevicePersistanbleContextAsync(System.Guid)">
+            <summary>
+                Remove deviceViewModel from persistable context asynchronously
+            </summary>
+            <param name="deviceId">
+                An instance of <see cref="T:System.Guid" /> that represents current deviceViewModel unique identifier
+            </param>
+            <returns>An instance of System.Threading.Tasks.Task that represents current synchronous operation</returns>
+        </member>
+        <member name="M:ULA.Business.Infrastructure.PersistanceServices.IPersistanceService.RemoveDriverPersistableContextAsynk(System.Guid)">
+            <summary>
+                Remove driver from persistable context asynchronously
+            </summary>
+            <param name="driverId">A instance of <see cref="T:System.Guid"/> that represents current deviceViewModel unique identifier</param>
+            <returns>An instance of System.Threading.Tasks.Task that represents current synchronous operation</returns>
+        </member>
+        <member name="T:ULA.Business.Infrastructure.TimerInterrogation.ITimerInterrigationService">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Infrastructure.TimerInterrogation.ITimerInterrigationService.IsInterrogationInProcess">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:ULA.Business.Infrastructure.TimerInterrogation.ITimerInterrigationService.StartInterrogation">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ULA.Business.Infrastructure.TimerInterrogation.ITimerInterrigationService.StopInterrogation">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Infrastructure.TimerInterrogation.ITimerInterrigationService.InterrogationCycleComplete">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:ULA.Business.Infrastructure.TimerInterrogation.ITimerInterrigationService.SetDeviceForInterrogation(ULA.Business.Infrastructure.DeviceDomain.IRuntimeDevice)">
+            <summary>
+            
+            </summary>
+            <param name="runtimeDevice"></param>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,20 @@
+﻿ULA.Devices.PICON2.Presentation
+
+
+library
+C#
+.cs
+C:\ULA 2k17\Devices\PICON2\ULA.Devices.PICON2.Presentation\obj\Debug\
+ULA.Devices.PICON2.Presentation
+none
+false
+DEBUG;TRACE
+
+6-2027341849
+1-2138471434
+16-1368021719
+81-80498904
+Resources\Picon2Resources.xaml;Views\PICON2ConfigurationModeView.xaml;Views\Picon2LightingSheduleView.xaml;Views\Picon2ModuleInfoView.xaml;Views\UserControls\DaySheduleView.xaml;Views\UserControls\PICON2ConfigCheckBoxControlView.xaml;
+
+False
+

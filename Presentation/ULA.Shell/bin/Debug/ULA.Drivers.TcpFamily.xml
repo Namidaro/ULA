@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ULA.Drivers.TcpFamily</name>
+    </assembly>
+    <members>
+        <member name="T:ULA.Drivers.TcpFamily.Module.TcpModbusDriverModule">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:ULA.Drivers.TcpFamily.Module.TcpModbusDriverModule.#ctor(Microsoft.Practices.Unity.IUnityContainer)">
+            <summary>
+            
+            </summary>
+            <param name="container"></param>
+        </member>
+        <member name="M:ULA.Drivers.TcpFamily.Module.TcpModbusDriverModule.Initialize">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:ULA.Drivers.TcpFamily.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:ULA.Drivers.TcpFamily.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:ULA.Drivers.TcpFamily.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="T:ULA.Drivers.TcpFamily.TcpModbus.TcpModbusDriver">
+            <summary>
+                Represents tcp modbus driver functionality
+                Представляет функциональность Modbus драйвера
+            </summary>
+        </member>
+        <member name="M:ULA.Drivers.TcpFamily.TcpModbus.TcpModbusDriver.CreateDataTableRowType">
+            <summary>
+                Creates an instance of <see cref="T:ULA.Common.AOM.AomEntityType" /> that represents current driver data table row template
+                Создает AomEntityType представляющий шаблон строки данных для modbus драйвера
+                (см. AOM паттерн)
+            </summary>
+            <returns>
+                Created instance of <see cref="T:ULA.Common.AOM.AomEntityType" /> that represents current driver data table row template
+            </returns>
+        </member>
+        <member name="T:ULA.Drivers.TcpFamily.TcpModbus.TcpModbusDriverFactory">
+            <summary>
+                Represents tcp modbus driver factory
+                Фабрика Modbus драйверов для разных режимов работы
+            </summary>
+        </member>
+        <member name="M:ULA.Drivers.TcpFamily.TcpModbus.TcpModbusDriverFactory.#ctor(ULA.Interceptors.IoC.IIoCContainer)">
+            <summary>
+                Creates an instance of <see cref="T:ULA.Drivers.TcpFamily.TcpModbus.TcpModbusDriverFactory" />
+            </summary>
+            <param name="container">
+                An instanc of <see cref="T:ULA.Interceptors.IoC.IIoCContainer" /> to use
+            </param>
+        </member>
+        <member name="M:ULA.Drivers.TcpFamily.TcpModbus.TcpModbusDriverFactory.CreateConfigLogicalDriver">
+            <summary>
+                Creates an instance of <see cref="T:ULA.AddinsHost.Business.Driver.ConfigLogicalDriverBase" /> that represents basic configuration logical driver functionality
+            </summary>
+            <returns>
+                Created instance of <see cref="T:ULA.AddinsHost.Business.Driver.ConfigLogicalDriverBase" /> that represents basic configuration logical driver functionality
+            </returns>
+        </member>
+        <member name="M:ULA.Drivers.TcpFamily.TcpModbus.TcpModbusDriverFactory.CreateRuntimeLogicalDriver">
+            <summary>
+                Creates an instance of <see cref="T:ULA.AddinsHost.Business.Driver.RuntimeLogicalDriverBase" /> that represents basic runtime logical driver functionality
+            </summary>
+            <returns>
+                Created instance of <see cref="T:ULA.AddinsHost.Business.Driver.RuntimeLogicalDriverBase" /> that represents basic runtime logical driver functionality
+            </returns>
+        </member>
+    </members>
+</doc>

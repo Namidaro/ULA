@@ -1,0 +1,9 @@
+C:\Users\Гусачок\Desktop\ULA\NModBus4\bin\Release\NModBus4.dll
+C:\Users\Гусачок\Desktop\ULA\NModBus4\bin\Release\NModBus4.pdb
+C:\Users\Гусачок\Desktop\ULA\NModBus4\obj\Release\NModBus4.csprojResolveAssemblyReference.cache
+C:\Users\Гусачок\Desktop\ULA\NModBus4\obj\Release\NModBus4.dll
+C:\Users\Гусачок\Desktop\ULA\NModBus4\obj\Release\NModBus4.pdb
+C:\ULA 2k17\NModBus4\bin\Release\NModBus4.dll
+C:\ULA 2k17\NModBus4\bin\Release\NModBus4.pdb
+C:\ULA 2k17\NModBus4\obj\Release\NModBus4.dll
+C:\ULA 2k17\NModBus4\obj\Release\NModBus4.pdb

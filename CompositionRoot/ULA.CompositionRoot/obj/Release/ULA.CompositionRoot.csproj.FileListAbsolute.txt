@@ -1,0 +1,188 @@
+C:\Users\Гусачок\Desktop\ULA\CompositionRoot\ULA.CompositionRoot\obj\Release\ULA.CompositionRoot.csprojResolveAssemblyReference.cache
+C:\Users\Гусачок\Desktop\ULA\CompositionRoot\ULA.CompositionRoot\obj\Release\ULA.CompositionRoot.Properties.Resources.resources
+C:\Users\Гусачок\Desktop\ULA\CompositionRoot\ULA.CompositionRoot\obj\Release\ULA.CompositionRoot.csproj.GenerateResource.cache
+C:\Users\Гусачок\Desktop\ULA\CompositionRoot\ULA.CompositionRoot\bin\Release\Files\ULA.chm
+C:\Users\Гусачок\Desktop\ULA\CompositionRoot\ULA.CompositionRoot\bin\Release\NLog.config
+C:\Users\Гусачок\Desktop\ULA\CompositionRoot\ULA.CompositionRoot\bin\Release\ULA.CompositionRoot.dll.config
+C:\Users\Гусачок\Desktop\ULA\CompositionRoot\ULA.CompositionRoot\bin\Release\ULA.CompositionRoot.dll
+C:\Users\Гусачок\Desktop\ULA\CompositionRoot\ULA.CompositionRoot\bin\Release\ULA.CompositionRoot.pdb
+C:\Users\Гусачок\Desktop\ULA\CompositionRoot\ULA.CompositionRoot\bin\Release\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Гусачок\Desktop\ULA\CompositionRoot\ULA.CompositionRoot\bin\Release\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\Гусачок\Desktop\ULA\CompositionRoot\ULA.CompositionRoot\bin\Release\Microsoft.Practices.Unity.dll
+C:\Users\Гусачок\Desktop\ULA\CompositionRoot\ULA.CompositionRoot\bin\Release\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\Users\Гусачок\Desktop\ULA\CompositionRoot\ULA.CompositionRoot\bin\Release\Prism.dll
+C:\Users\Гусачок\Desktop\ULA\CompositionRoot\ULA.CompositionRoot\bin\Release\Prism.Unity.Wpf.dll
+C:\Users\Гусачок\Desktop\ULA\CompositionRoot\ULA.CompositionRoot\bin\Release\Prism.Wpf.dll
+C:\Users\Гусачок\Desktop\ULA\CompositionRoot\ULA.CompositionRoot\bin\Release\System.Windows.Interactivity.dll
+C:\Users\Гусачок\Desktop\ULA\CompositionRoot\ULA.CompositionRoot\bin\Release\ULA.AddinsHost.dll
+C:\Users\Гусачок\Desktop\ULA\CompositionRoot\ULA.CompositionRoot\bin\Release\ULA.ApplicationConnectionService.dll
+C:\Users\Гусачок\Desktop\ULA\CompositionRoot\ULA.CompositionRoot\bin\Release\ULA.Business.dll
+C:\Users\Гусачок\Desktop\ULA\CompositionRoot\ULA.CompositionRoot\bin\Release\ULA.Business.Infrastructure.dll
+C:\Users\Гусачок\Desktop\ULA\CompositionRoot\ULA.CompositionRoot\bin\Release\ULA.Common.dll
+C:\Users\Гусачок\Desktop\ULA\CompositionRoot\ULA.CompositionRoot\bin\Release\ULA.Devices.PICON2.Business.dll
+C:\Users\Гусачок\Desktop\ULA\CompositionRoot\ULA.CompositionRoot\bin\Release\ULA.Devices.PICON2.Presentation.dll
+C:\Users\Гусачок\Desktop\ULA\CompositionRoot\ULA.CompositionRoot\bin\Release\ULA.Devices.PICONGS.Business.dll
+C:\Users\Гусачок\Desktop\ULA\CompositionRoot\ULA.CompositionRoot\bin\Release\ULA.Devices.PICONGS.Presentation.dll
+C:\Users\Гусачок\Desktop\ULA\CompositionRoot\ULA.CompositionRoot\bin\Release\ULA.Devices.Presentation.dll
+C:\Users\Гусачок\Desktop\ULA\CompositionRoot\ULA.CompositionRoot\bin\Release\ULA.Devices.Runo3.Business.dll
+C:\Users\Гусачок\Desktop\ULA\CompositionRoot\ULA.CompositionRoot\bin\Release\ULA.Devices.Runo3.Presentation.dll
+C:\Users\Гусачок\Desktop\ULA\CompositionRoot\ULA.CompositionRoot\bin\Release\ULA.Drivers.TcpFamily.dll
+C:\Users\Гусачок\Desktop\ULA\CompositionRoot\ULA.CompositionRoot\bin\Release\ULA.Interceptors.dll
+C:\Users\Гусачок\Desktop\ULA\CompositionRoot\ULA.CompositionRoot\bin\Release\ULA.Presentation.dll
+C:\Users\Гусачок\Desktop\ULA\CompositionRoot\ULA.CompositionRoot\bin\Release\ULA.Presentation.Infrastructure.dll
+C:\Users\Гусачок\Desktop\ULA\CompositionRoot\ULA.CompositionRoot\bin\Release\YP.Toolkit.System.dll
+C:\Users\Гусачок\Desktop\ULA\CompositionRoot\ULA.CompositionRoot\bin\Release\NModBus4.dll
+C:\Users\Гусачок\Desktop\ULA\CompositionRoot\ULA.CompositionRoot\bin\Release\NLog.dll
+C:\Users\Гусачок\Desktop\ULA\CompositionRoot\ULA.CompositionRoot\bin\Release\ULA.Log.dll
+C:\Users\Гусачок\Desktop\ULA\CompositionRoot\ULA.CompositionRoot\bin\Release\ULA.Localization.dll
+C:\Users\Гусачок\Desktop\ULA\CompositionRoot\ULA.CompositionRoot\bin\Release\ULA.Devices.PICON2.Localization.dll
+C:\Users\Гусачок\Desktop\ULA\CompositionRoot\ULA.CompositionRoot\bin\Release\ULA.Presentation.SharedResourses.dll
+C:\Users\Гусачок\Desktop\ULA\CompositionRoot\ULA.CompositionRoot\bin\Release\FluentValidation.dll
+C:\Users\Гусачок\Desktop\ULA\CompositionRoot\ULA.CompositionRoot\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\Гусачок\Desktop\ULA\CompositionRoot\ULA.CompositionRoot\bin\Release\FirstFloor.ModernUI.dll
+C:\Users\Гусачок\Desktop\ULA\CompositionRoot\ULA.CompositionRoot\bin\Release\Microsoft.Practices.Unity.Interception.dll
+C:\Users\Гусачок\Desktop\ULA\CompositionRoot\ULA.CompositionRoot\bin\Release\ULA.ApplicationConnectionService.pdb
+C:\Users\Гусачок\Desktop\ULA\CompositionRoot\ULA.CompositionRoot\bin\Release\ULA.Business.Infrastructure.pdb
+C:\Users\Гусачок\Desktop\ULA\CompositionRoot\ULA.CompositionRoot\bin\Release\ULA.Business.pdb
+C:\Users\Гусачок\Desktop\ULA\CompositionRoot\ULA.CompositionRoot\bin\Release\ULA.Devices.PICON2.Business.pdb
+C:\Users\Гусачок\Desktop\ULA\CompositionRoot\ULA.CompositionRoot\bin\Release\ULA.Devices.PICON2.Presentation.pdb
+C:\Users\Гусачок\Desktop\ULA\CompositionRoot\ULA.CompositionRoot\bin\Release\ULA.Devices.PICONGS.Business.pdb
+C:\Users\Гусачок\Desktop\ULA\CompositionRoot\ULA.CompositionRoot\bin\Release\ULA.Devices.PICONGS.Presentation.pdb
+C:\Users\Гусачок\Desktop\ULA\CompositionRoot\ULA.CompositionRoot\bin\Release\ULA.Devices.Presentation.pdb
+C:\Users\Гусачок\Desktop\ULA\CompositionRoot\ULA.CompositionRoot\bin\Release\ULA.Devices.Runo3.Business.pdb
+C:\Users\Гусачок\Desktop\ULA\CompositionRoot\ULA.CompositionRoot\bin\Release\ULA.Devices.Runo3.Presentation.pdb
+C:\Users\Гусачок\Desktop\ULA\CompositionRoot\ULA.CompositionRoot\bin\Release\ULA.Drivers.TcpFamily.pdb
+C:\Users\Гусачок\Desktop\ULA\CompositionRoot\ULA.CompositionRoot\bin\Release\ULA.AddinsHost.pdb
+C:\Users\Гусачок\Desktop\ULA\CompositionRoot\ULA.CompositionRoot\bin\Release\ULA.Common.pdb
+C:\Users\Гусачок\Desktop\ULA\CompositionRoot\ULA.CompositionRoot\bin\Release\ULA.Interceptors.pdb
+C:\Users\Гусачок\Desktop\ULA\CompositionRoot\ULA.CompositionRoot\bin\Release\ULA.Presentation.Infrastructure.pdb
+C:\Users\Гусачок\Desktop\ULA\CompositionRoot\ULA.CompositionRoot\bin\Release\ULA.Presentation.pdb
+C:\Users\Гусачок\Desktop\ULA\CompositionRoot\ULA.CompositionRoot\bin\Release\YP.Toolkit.System.pdb
+C:\Users\Гусачок\Desktop\ULA\CompositionRoot\ULA.CompositionRoot\bin\Release\YP.Toolkit.System.xml
+C:\Users\Гусачок\Desktop\ULA\CompositionRoot\ULA.CompositionRoot\bin\Release\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\Гусачок\Desktop\ULA\CompositionRoot\ULA.CompositionRoot\bin\Release\Microsoft.Practices.ServiceLocation.xml
+C:\Users\Гусачок\Desktop\ULA\CompositionRoot\ULA.CompositionRoot\bin\Release\Microsoft.Practices.Unity.xml
+C:\Users\Гусачок\Desktop\ULA\CompositionRoot\ULA.CompositionRoot\bin\Release\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\Гусачок\Desktop\ULA\CompositionRoot\ULA.CompositionRoot\bin\Release\Microsoft.Practices.Unity.RegistrationByConvention.xml
+C:\Users\Гусачок\Desktop\ULA\CompositionRoot\ULA.CompositionRoot\bin\Release\Prism.xml
+C:\Users\Гусачок\Desktop\ULA\CompositionRoot\ULA.CompositionRoot\bin\Release\Prism.Unity.Wpf.xml
+C:\Users\Гусачок\Desktop\ULA\CompositionRoot\ULA.CompositionRoot\bin\Release\Prism.Wpf.xml
+C:\Users\Гусачок\Desktop\ULA\CompositionRoot\ULA.CompositionRoot\bin\Release\NModBus4.pdb
+C:\Users\Гусачок\Desktop\ULA\CompositionRoot\ULA.CompositionRoot\bin\Release\NLog.xml
+C:\Users\Гусачок\Desktop\ULA\CompositionRoot\ULA.CompositionRoot\bin\Release\ULA.Log.pdb
+C:\Users\Гусачок\Desktop\ULA\CompositionRoot\ULA.CompositionRoot\bin\Release\ULA.Localization.pdb
+C:\Users\Гусачок\Desktop\ULA\CompositionRoot\ULA.CompositionRoot\bin\Release\ULA.Devices.PICON2.Localization.pdb
+C:\Users\Гусачок\Desktop\ULA\CompositionRoot\ULA.CompositionRoot\bin\Release\ULA.Presentation.SharedResourses.pdb
+C:\Users\Гусачок\Desktop\ULA\CompositionRoot\ULA.CompositionRoot\bin\Release\FluentValidation.pdb
+C:\Users\Гусачок\Desktop\ULA\CompositionRoot\ULA.CompositionRoot\bin\Release\FluentValidation.xml
+C:\Users\Гусачок\Desktop\ULA\CompositionRoot\ULA.CompositionRoot\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Users\Гусачок\Desktop\ULA\CompositionRoot\ULA.CompositionRoot\bin\Release\FirstFloor.ModernUI.xml
+C:\Users\Гусачок\Desktop\ULA\CompositionRoot\ULA.CompositionRoot\bin\Release\Microsoft.Practices.Unity.Interception.xml
+C:\Users\Гусачок\Desktop\ULA\CompositionRoot\ULA.CompositionRoot\bin\Release\de\FluentValidation.resources.dll
+C:\Users\Гусачок\Desktop\ULA\CompositionRoot\ULA.CompositionRoot\bin\Release\es\FluentValidation.resources.dll
+C:\Users\Гусачок\Desktop\ULA\CompositionRoot\ULA.CompositionRoot\bin\Release\fi\FluentValidation.resources.dll
+C:\Users\Гусачок\Desktop\ULA\CompositionRoot\ULA.CompositionRoot\bin\Release\fr\FluentValidation.resources.dll
+C:\Users\Гусачок\Desktop\ULA\CompositionRoot\ULA.CompositionRoot\bin\Release\it\FluentValidation.resources.dll
+C:\Users\Гусачок\Desktop\ULA\CompositionRoot\ULA.CompositionRoot\bin\Release\ko\FluentValidation.resources.dll
+C:\Users\Гусачок\Desktop\ULA\CompositionRoot\ULA.CompositionRoot\bin\Release\nl\FluentValidation.resources.dll
+C:\Users\Гусачок\Desktop\ULA\CompositionRoot\ULA.CompositionRoot\bin\Release\pl\FluentValidation.resources.dll
+C:\Users\Гусачок\Desktop\ULA\CompositionRoot\ULA.CompositionRoot\bin\Release\pt\FluentValidation.resources.dll
+C:\Users\Гусачок\Desktop\ULA\CompositionRoot\ULA.CompositionRoot\bin\Release\ru\FluentValidation.resources.dll
+C:\Users\Гусачок\Desktop\ULA\CompositionRoot\ULA.CompositionRoot\bin\Release\sv\FluentValidation.resources.dll
+C:\Users\Гусачок\Desktop\ULA\CompositionRoot\ULA.CompositionRoot\bin\Release\tr\FluentValidation.resources.dll
+C:\Users\Гусачок\Desktop\ULA\CompositionRoot\ULA.CompositionRoot\obj\Release\ULA.CompositionRoot.dll
+C:\Users\Гусачок\Desktop\ULA\CompositionRoot\ULA.CompositionRoot\obj\Release\ULA.CompositionRoot.pdb
+c:\ULA 2k17\CompositionRoot\ULA.CompositionRoot\bin\Release\Files\ULA.chm
+c:\ULA 2k17\CompositionRoot\ULA.CompositionRoot\bin\Release\NLog.config
+c:\ULA 2k17\CompositionRoot\ULA.CompositionRoot\bin\Release\ULA.CompositionRoot.dll.config
+c:\ULA 2k17\CompositionRoot\ULA.CompositionRoot\bin\Release\ULA.CompositionRoot.dll
+c:\ULA 2k17\CompositionRoot\ULA.CompositionRoot\bin\Release\ULA.CompositionRoot.pdb
+c:\ULA 2k17\CompositionRoot\ULA.CompositionRoot\bin\Release\Microsoft.Practices.ServiceLocation.dll
+c:\ULA 2k17\CompositionRoot\ULA.CompositionRoot\bin\Release\Microsoft.Practices.Unity.Configuration.dll
+c:\ULA 2k17\CompositionRoot\ULA.CompositionRoot\bin\Release\Microsoft.Practices.Unity.dll
+c:\ULA 2k17\CompositionRoot\ULA.CompositionRoot\bin\Release\Microsoft.Practices.Unity.RegistrationByConvention.dll
+c:\ULA 2k17\CompositionRoot\ULA.CompositionRoot\bin\Release\Prism.dll
+c:\ULA 2k17\CompositionRoot\ULA.CompositionRoot\bin\Release\Prism.Unity.Wpf.dll
+c:\ULA 2k17\CompositionRoot\ULA.CompositionRoot\bin\Release\Prism.Wpf.dll
+c:\ULA 2k17\CompositionRoot\ULA.CompositionRoot\bin\Release\System.Windows.Interactivity.dll
+c:\ULA 2k17\CompositionRoot\ULA.CompositionRoot\bin\Release\ULA.AddinsHost.dll
+c:\ULA 2k17\CompositionRoot\ULA.CompositionRoot\bin\Release\ULA.ApplicationConnectionService.dll
+c:\ULA 2k17\CompositionRoot\ULA.CompositionRoot\bin\Release\ULA.Business.dll
+c:\ULA 2k17\CompositionRoot\ULA.CompositionRoot\bin\Release\ULA.Business.Infrastructure.dll
+c:\ULA 2k17\CompositionRoot\ULA.CompositionRoot\bin\Release\ULA.Common.dll
+c:\ULA 2k17\CompositionRoot\ULA.CompositionRoot\bin\Release\ULA.Devices.PICON2.Business.dll
+c:\ULA 2k17\CompositionRoot\ULA.CompositionRoot\bin\Release\ULA.Devices.PICON2.Presentation.dll
+c:\ULA 2k17\CompositionRoot\ULA.CompositionRoot\bin\Release\ULA.Devices.PICONGS.Business.dll
+c:\ULA 2k17\CompositionRoot\ULA.CompositionRoot\bin\Release\ULA.Devices.PICONGS.Presentation.dll
+c:\ULA 2k17\CompositionRoot\ULA.CompositionRoot\bin\Release\ULA.Devices.Presentation.dll
+c:\ULA 2k17\CompositionRoot\ULA.CompositionRoot\bin\Release\ULA.Devices.Runo3.Business.dll
+c:\ULA 2k17\CompositionRoot\ULA.CompositionRoot\bin\Release\ULA.Devices.Runo3.Presentation.dll
+c:\ULA 2k17\CompositionRoot\ULA.CompositionRoot\bin\Release\ULA.Drivers.TcpFamily.dll
+c:\ULA 2k17\CompositionRoot\ULA.CompositionRoot\bin\Release\ULA.Interceptors.dll
+c:\ULA 2k17\CompositionRoot\ULA.CompositionRoot\bin\Release\ULA.Presentation.dll
+c:\ULA 2k17\CompositionRoot\ULA.CompositionRoot\bin\Release\ULA.Presentation.Infrastructure.dll
+c:\ULA 2k17\CompositionRoot\ULA.CompositionRoot\bin\Release\YP.Toolkit.System.dll
+c:\ULA 2k17\CompositionRoot\ULA.CompositionRoot\bin\Release\NModBus4.dll
+c:\ULA 2k17\CompositionRoot\ULA.CompositionRoot\bin\Release\NLog.dll
+c:\ULA 2k17\CompositionRoot\ULA.CompositionRoot\bin\Release\ULA.Log.dll
+c:\ULA 2k17\CompositionRoot\ULA.CompositionRoot\bin\Release\ULA.Localization.dll
+c:\ULA 2k17\CompositionRoot\ULA.CompositionRoot\bin\Release\ULA.Devices.PICON2.Localization.dll
+c:\ULA 2k17\CompositionRoot\ULA.CompositionRoot\bin\Release\ULA.Presentation.SharedResourses.dll
+c:\ULA 2k17\CompositionRoot\ULA.CompositionRoot\bin\Release\FluentValidation.dll
+c:\ULA 2k17\CompositionRoot\ULA.CompositionRoot\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+c:\ULA 2k17\CompositionRoot\ULA.CompositionRoot\bin\Release\FirstFloor.ModernUI.dll
+c:\ULA 2k17\CompositionRoot\ULA.CompositionRoot\bin\Release\Microsoft.Practices.Unity.Interception.dll
+c:\ULA 2k17\CompositionRoot\ULA.CompositionRoot\bin\Release\ULA.ApplicationConnectionService.pdb
+c:\ULA 2k17\CompositionRoot\ULA.CompositionRoot\bin\Release\ULA.Business.Infrastructure.pdb
+c:\ULA 2k17\CompositionRoot\ULA.CompositionRoot\bin\Release\ULA.Business.pdb
+c:\ULA 2k17\CompositionRoot\ULA.CompositionRoot\bin\Release\ULA.Devices.PICON2.Business.pdb
+c:\ULA 2k17\CompositionRoot\ULA.CompositionRoot\bin\Release\ULA.Devices.PICON2.Presentation.pdb
+c:\ULA 2k17\CompositionRoot\ULA.CompositionRoot\bin\Release\ULA.Devices.PICONGS.Business.pdb
+c:\ULA 2k17\CompositionRoot\ULA.CompositionRoot\bin\Release\ULA.Devices.PICONGS.Presentation.pdb
+c:\ULA 2k17\CompositionRoot\ULA.CompositionRoot\bin\Release\ULA.Devices.Presentation.pdb
+c:\ULA 2k17\CompositionRoot\ULA.CompositionRoot\bin\Release\ULA.Devices.Runo3.Business.pdb
+c:\ULA 2k17\CompositionRoot\ULA.CompositionRoot\bin\Release\ULA.Devices.Runo3.Presentation.pdb
+c:\ULA 2k17\CompositionRoot\ULA.CompositionRoot\bin\Release\ULA.Drivers.TcpFamily.pdb
+c:\ULA 2k17\CompositionRoot\ULA.CompositionRoot\bin\Release\ULA.AddinsHost.pdb
+c:\ULA 2k17\CompositionRoot\ULA.CompositionRoot\bin\Release\ULA.Common.pdb
+c:\ULA 2k17\CompositionRoot\ULA.CompositionRoot\bin\Release\ULA.Interceptors.pdb
+c:\ULA 2k17\CompositionRoot\ULA.CompositionRoot\bin\Release\ULA.Presentation.Infrastructure.pdb
+c:\ULA 2k17\CompositionRoot\ULA.CompositionRoot\bin\Release\ULA.Presentation.pdb
+c:\ULA 2k17\CompositionRoot\ULA.CompositionRoot\bin\Release\YP.Toolkit.System.pdb
+c:\ULA 2k17\CompositionRoot\ULA.CompositionRoot\bin\Release\YP.Toolkit.System.xml
+c:\ULA 2k17\CompositionRoot\ULA.CompositionRoot\bin\Release\Microsoft.Practices.ServiceLocation.pdb
+c:\ULA 2k17\CompositionRoot\ULA.CompositionRoot\bin\Release\Microsoft.Practices.ServiceLocation.xml
+c:\ULA 2k17\CompositionRoot\ULA.CompositionRoot\bin\Release\Microsoft.Practices.Unity.xml
+c:\ULA 2k17\CompositionRoot\ULA.CompositionRoot\bin\Release\Microsoft.Practices.Unity.Configuration.xml
+c:\ULA 2k17\CompositionRoot\ULA.CompositionRoot\bin\Release\Microsoft.Practices.Unity.RegistrationByConvention.xml
+c:\ULA 2k17\CompositionRoot\ULA.CompositionRoot\bin\Release\Prism.xml
+c:\ULA 2k17\CompositionRoot\ULA.CompositionRoot\bin\Release\Prism.Unity.Wpf.xml
+c:\ULA 2k17\CompositionRoot\ULA.CompositionRoot\bin\Release\Prism.Wpf.xml
+c:\ULA 2k17\CompositionRoot\ULA.CompositionRoot\bin\Release\NModBus4.pdb
+c:\ULA 2k17\CompositionRoot\ULA.CompositionRoot\bin\Release\NLog.xml
+c:\ULA 2k17\CompositionRoot\ULA.CompositionRoot\bin\Release\ULA.Log.pdb
+c:\ULA 2k17\CompositionRoot\ULA.CompositionRoot\bin\Release\ULA.Localization.pdb
+c:\ULA 2k17\CompositionRoot\ULA.CompositionRoot\bin\Release\ULA.Devices.PICON2.Localization.pdb
+c:\ULA 2k17\CompositionRoot\ULA.CompositionRoot\bin\Release\ULA.Presentation.SharedResourses.pdb
+c:\ULA 2k17\CompositionRoot\ULA.CompositionRoot\bin\Release\FluentValidation.pdb
+c:\ULA 2k17\CompositionRoot\ULA.CompositionRoot\bin\Release\FluentValidation.xml
+c:\ULA 2k17\CompositionRoot\ULA.CompositionRoot\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.xml
+c:\ULA 2k17\CompositionRoot\ULA.CompositionRoot\bin\Release\FirstFloor.ModernUI.xml
+c:\ULA 2k17\CompositionRoot\ULA.CompositionRoot\bin\Release\Microsoft.Practices.Unity.Interception.xml
+c:\ULA 2k17\CompositionRoot\ULA.CompositionRoot\bin\Release\de\FluentValidation.resources.dll
+c:\ULA 2k17\CompositionRoot\ULA.CompositionRoot\bin\Release\es\FluentValidation.resources.dll
+c:\ULA 2k17\CompositionRoot\ULA.CompositionRoot\bin\Release\fi\FluentValidation.resources.dll
+c:\ULA 2k17\CompositionRoot\ULA.CompositionRoot\bin\Release\fr\FluentValidation.resources.dll
+c:\ULA 2k17\CompositionRoot\ULA.CompositionRoot\bin\Release\it\FluentValidation.resources.dll
+c:\ULA 2k17\CompositionRoot\ULA.CompositionRoot\bin\Release\ko\FluentValidation.resources.dll
+c:\ULA 2k17\CompositionRoot\ULA.CompositionRoot\bin\Release\nl\FluentValidation.resources.dll
+c:\ULA 2k17\CompositionRoot\ULA.CompositionRoot\bin\Release\pl\FluentValidation.resources.dll
+c:\ULA 2k17\CompositionRoot\ULA.CompositionRoot\bin\Release\pt\FluentValidation.resources.dll
+c:\ULA 2k17\CompositionRoot\ULA.CompositionRoot\bin\Release\ru\FluentValidation.resources.dll
+c:\ULA 2k17\CompositionRoot\ULA.CompositionRoot\bin\Release\sv\FluentValidation.resources.dll
+c:\ULA 2k17\CompositionRoot\ULA.CompositionRoot\bin\Release\tr\FluentValidation.resources.dll
+c:\ULA 2k17\CompositionRoot\ULA.CompositionRoot\obj\Release\ULA.CompositionRoot.csprojResolveAssemblyReference.cache
+c:\ULA 2k17\CompositionRoot\ULA.CompositionRoot\obj\Release\ULA.CompositionRoot.Properties.Resources.resources
+c:\ULA 2k17\CompositionRoot\ULA.CompositionRoot\obj\Release\ULA.CompositionRoot.csproj.GenerateResource.Cache
+c:\ULA 2k17\CompositionRoot\ULA.CompositionRoot\obj\Release\ULA.CompositionRoot.dll
+c:\ULA 2k17\CompositionRoot\ULA.CompositionRoot\obj\Release\ULA.CompositionRoot.pdb

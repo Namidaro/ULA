@@ -1,0 +1,1865 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ULA.Presentation.Infrastructure</name>
+    </assembly>
+    <members>
+        <member name="T:ULA.Presentation.Infrastructure.ApplicationGlobalNames">
+            <summary>
+                Represents a storage entity for holding global application names
+            </summary>
+        </member>
+        <member name="F:ULA.Presentation.Infrastructure.ApplicationGlobalNames.COMMAND_ON_TEMPLATES_VIEW_NAME">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:ULA.Presentation.Infrastructure.ApplicationGlobalNames.WidgetListColumnCount">
+            <summary>
+                Показывает количество колонок в сетке листа устройств
+            </summary>
+        </member>
+        <member name="F:ULA.Presentation.Infrastructure.ApplicationGlobalNames.WidgetListRowCount">
+            <summary>
+                Показывает количество строк в сетке листа устройств
+            </summary>
+        </member>
+        <member name="F:ULA.Presentation.Infrastructure.ApplicationGlobalNames.CREATE_NEW_DEVICE_VIEW_NAME">
+            <summary>
+                Gets the name of the system create new device view
+            </summary>
+        </member>
+        <member name="F:ULA.Presentation.Infrastructure.ApplicationGlobalNames.CREATE_NEW_DEVICE_PROVIDER_NAME">
+            <summary>
+                Gets the name of the system create new device request provider
+            </summary>
+        </member>
+        <member name="F:ULA.Presentation.Infrastructure.ApplicationGlobalNames.BUSY_INTERACTION_PROVIDER_NAME">
+            <summary>
+                Gets the name of the system busy interaction request provider
+            </summary>
+        </member>
+        <member name="F:ULA.Presentation.Infrastructure.ApplicationGlobalNames.EXTRASETTINGS_INTERACTION_PROVIDER_NAME">
+            <summary>
+                Gets the name of the system busy interaction request provider
+            </summary>
+        </member>
+        <member name="F:ULA.Presentation.Infrastructure.ApplicationGlobalNames.ERROR_MESSAGEBOX_INTERACTION_PROVIDER_NAME">
+            <summary>
+                Gets the name of the system error messagebox interaction request provider
+            </summary>
+        </member>
+        <member name="F:ULA.Presentation.Infrastructure.ApplicationGlobalNames.INFORMATION_MESSAGEBOX_INTERACTION_PROVIDER_NAME">
+            <summary>
+                Gets the name of the system information messagebox interaction request provider
+            </summary>
+        </member>
+        <member name="F:ULA.Presentation.Infrastructure.ApplicationGlobalNames.QUESTION_MESSAGEBOX_INTERACTION_PROVIDER_NAME">
+            <summary>
+                Gets the name of the system question messagebox interaction request provider
+            </summary>
+        </member>
+        <member name="F:ULA.Presentation.Infrastructure.ApplicationGlobalNames.WARNING_MESSAGEBOX_INTERACTION_PROVIDER_NAME">
+            <summary>
+                Gets the name of the system warning messagebox interaction request provider
+            </summary>
+        </member>
+        <member name="F:ULA.Presentation.Infrastructure.ApplicationGlobalNames.CITYWIDE_COMMANDS_INTERACTION_PROVIDER_NAME">
+            <summary>
+                Gets the name of the citywide commands interaction request provider
+            </summary>
+        </member>
+        <member name="F:ULA.Presentation.Infrastructure.ApplicationGlobalNames.COMMAND_ON_TEMPLATES_INTERACTION_PROVIDER_NAME">
+            <summary>
+                Gets the name of the citywide commands interaction request provider
+            </summary>
+        </member>
+        <member name="F:ULA.Presentation.Infrastructure.ApplicationGlobalNames.ABOUT_INTERACTION_PROVIDER_NAME">
+            <summary>
+                Gets the name of the about interaction request provider
+            </summary>
+        </member>
+        <member name="F:ULA.Presentation.Infrastructure.ApplicationGlobalNames.UPDATE_TIMEOUT_PROVIDER_NAME">
+            <summary>
+                Gets the name of the update timeout request provider
+            </summary>
+        </member>
+        <member name="F:ULA.Presentation.Infrastructure.ApplicationGlobalNames.LOG_INTERACTION_PROVIDER_NAME">
+            <summary>
+                Gets the name of the log interaction request provider
+            </summary>
+        </member>
+        <member name="F:ULA.Presentation.Infrastructure.ApplicationGlobalNames.SYNCHRONIZATION_TIME_PROVIDER_NAME">
+            <summary>
+                Gets the name of the synchronization time interaction request provider
+            </summary>
+        </member>
+        <member name="F:ULA.Presentation.Infrastructure.ApplicationGlobalNames.PASSWORD_INTERACTION_PROVIDER_NAME">
+            <summary>
+                Gets the name of password interaction request provider
+            </summary>
+        </member>
+        <member name="F:ULA.Presentation.Infrastructure.ApplicationGlobalNames.FAILURE_MODE_VIEW_MODEL_NAME">
+            <summary>
+                Gets the name of the failure application mode view model
+            </summary>
+        </member>
+        <member name="F:ULA.Presentation.Infrastructure.ApplicationGlobalNames.RUNTIME_MODE_VIEW_MODEL_NAME">
+            <summary>
+                Gets the name of the application runtime mode view model
+            </summary>
+        </member>
+        <member name="F:ULA.Presentation.Infrastructure.ApplicationGlobalNames.ROOT_VIEW_NAME">
+            <summary>
+                Gets the name of the root view
+            </summary>
+        </member>
+        <member name="F:ULA.Presentation.Infrastructure.ApplicationGlobalNames.CONFIGURATION_MODE_VIEW_MODEL_NAME">
+            <summary>
+                Gets the name of the application configuration mode view model
+            </summary>
+        </member>
+        <member name="F:ULA.Presentation.Infrastructure.ApplicationGlobalNames.BUSY_INTERACTION_VIEW_NAME">
+            <summary>
+                Gets the name of the application busy dialog view
+            </summary>
+        </member>
+        <member name="F:ULA.Presentation.Infrastructure.ApplicationGlobalNames.EXTRASETTINGS_INTERACTION_VIEW_NAME">
+            <summary>
+                Gets the name of the application busy dialog view
+            </summary>
+        </member>
+        <member name="F:ULA.Presentation.Infrastructure.ApplicationGlobalNames.ERROR_MESSAGEBOX_VIEW_NAME">
+            <summary>
+                Gets the name of the error messagebox dialog view
+            </summary>
+        </member>
+        <member name="F:ULA.Presentation.Infrastructure.ApplicationGlobalNames.INFORMATION_MESSAGEBOX_VIEW_NAME">
+            <summary>
+                Gets the name of the information messagebox dialog view
+            </summary>
+        </member>
+        <member name="F:ULA.Presentation.Infrastructure.ApplicationGlobalNames.QUESTION_MESSAGEBOX_VIEW_NAME">
+            <summary>
+                Gets the name of the question messagebox dialog view
+            </summary>
+        </member>
+        <member name="F:ULA.Presentation.Infrastructure.ApplicationGlobalNames.WARNING_MESSAGEBOX_VIEW_NAME">
+            <summary>
+                Gets the name of the warning messagebox dialog view
+            </summary>
+        </member>
+        <member name="F:ULA.Presentation.Infrastructure.ApplicationGlobalNames.CITYWIDE_COMMANDS_VIEW_NAME">
+            <summary>
+                Gets the name of the citywide commands dialog view
+            </summary>
+        </member>
+        <member name="F:ULA.Presentation.Infrastructure.ApplicationGlobalNames.ABOUT_VIEW_NAME">
+            <summary>
+                Gets the name of the about program dialog view
+            </summary>
+        </member>
+        <member name="F:ULA.Presentation.Infrastructure.ApplicationGlobalNames.UPDATE_TIMEOUT_VIEW_NAME">
+            <summary>
+                Gets the name of the update timeout dialog view
+            </summary>
+        </member>
+        <member name="F:ULA.Presentation.Infrastructure.ApplicationGlobalNames.LOG_VIEW_NAME">
+            <summary>
+                Gets the name of the log dialog view
+            </summary>
+        </member>
+        <member name="F:ULA.Presentation.Infrastructure.ApplicationGlobalNames.SYNCHRONIZATION_TIME_VIEW_NAME">
+            <summary>
+                Gets the name of the synchronization time dialog view
+            </summary>
+        </member>
+        <member name="F:ULA.Presentation.Infrastructure.ApplicationGlobalNames.LIST_WIDGET_RUNTIME_VIEW_NAME">
+            <summary>
+                Gets the name of the list widget view in runtime mode
+            </summary>
+        </member>
+        <member name="F:ULA.Presentation.Infrastructure.ApplicationGlobalNames.LIST_WIDGET_CONFIGURATION_VIEW_NAME">
+            <summary>
+                Gets the name of the list widget view in configuration mode
+            </summary>
+        </member>
+        <member name="F:ULA.Presentation.Infrastructure.ApplicationGlobalNames.SCHEME_RUNTIME_VIEW_NAME">
+            <summary>
+                Gets the name of the scheme view in runtime mode
+            </summary>
+        </member>
+        <member name="F:ULA.Presentation.Infrastructure.ApplicationGlobalNames.CURRENT_DEVICE_VIEW_MODEL">
+            <summary>
+                Gets the name of the scheme view in runtime mode
+            </summary>
+        </member>
+        <member name="F:ULA.Presentation.Infrastructure.ApplicationGlobalNames.SCHEME_CONFIGURATION_VIEW_NAME">
+            <summary>
+                Gets the name of the scheme view in configuration mode
+            </summary>
+        </member>
+        <member name="F:ULA.Presentation.Infrastructure.ApplicationGlobalNames.CONFIGURATION_VIEW_NAME">
+            <summary>
+                Gets the name of the confugurate runo view name
+            </summary>
+        </member>
+        <member name="F:ULA.Presentation.Infrastructure.ApplicationGlobalNames.RUNO_CONFIGURATION_VIEWMODEL_NAME">
+            <summary>
+                Gets the name of the confugurate runo viewmodel name
+            </summary>
+        </member>
+        <member name="F:ULA.Presentation.Infrastructure.ApplicationGlobalNames.LIGHTING_SHEDULER_VIEW_NAME">
+            <summary>
+                Gets the name of the lighting shedule view name
+            </summary>
+        </member>
+        <member name="F:ULA.Presentation.Infrastructure.ApplicationGlobalNames.PICON2LIGHTING_SHEDULER_VIEW_NAME">
+            <summary>
+                Gets the name of the lighting shedule view name
+            </summary>
+        </member>
+        <member name="F:ULA.Presentation.Infrastructure.ApplicationGlobalNames.PICON2_MODULE_INFO_VIEW_NAME">
+            <summary>
+                Gets the name of the picon2 module info
+            </summary>
+        </member>
+        <member name="F:ULA.Presentation.Infrastructure.ApplicationGlobalNames.LIGHTING_SHEDULER_VIEWMODEL_NAME">
+            <summary>
+                Gets the name of the lighting shedule viewmodel name
+            </summary>
+        </member>
+        <member name="F:ULA.Presentation.Infrastructure.ApplicationGlobalNames.PICON2LIGHTING_SHEDULER_VIEWMODEL_NAME">
+            <summary>
+                Gets the name of the lighting shedule view name
+            </summary>
+        </member>
+        <member name="F:ULA.Presentation.Infrastructure.ApplicationGlobalNames.PASSWORD_VIEW_NAME">
+            <summary>
+                Gets the name of the password interaction view name
+            </summary>
+        </member>
+        <member name="F:ULA.Presentation.Infrastructure.ApplicationGlobalNames.CONFIGURATION_REGION_NAME">
+            <summary>
+                Gets the name of the region in the Configuration mode
+            </summary>
+        </member>
+        <member name="F:ULA.Presentation.Infrastructure.ApplicationGlobalNames.RUNTIME_REGION_NAME">
+            <summary>
+                Gets the name of the region in the Runtime mode
+            </summary>
+        </member>
+        <member name="F:ULA.Presentation.Infrastructure.ApplicationGlobalNames.MODIFY_STARTER_VIEW_NAME">
+            <summary>
+                Gets the name of the modify starter view
+            </summary>
+        </member>
+        <member name="F:ULA.Presentation.Infrastructure.ApplicationGlobalNames.MODIFY_STARTER_PROVIDER_NAME">
+            <summary>
+                Get the name of modify starter provider
+            </summary>
+        </member>
+        <member name="F:ULA.Presentation.Infrastructure.ApplicationGlobalNames.MODIFY_RESISTOR_PROVIDER_NAME">
+            <summary>
+                Get the name modify resistor provider
+            </summary>
+        </member>
+        <member name="F:ULA.Presentation.Infrastructure.ApplicationGlobalNames.MODIFY_RESISTOR_VIEW_NAME">
+            <summary>
+                Get the name modify resistor view
+            </summary>
+        </member>
+        <member name="F:ULA.Presentation.Infrastructure.ApplicationGlobalNames.PICONGS_CONFIGURATION_VIEW_NAME">
+            <summary>
+                Get the name PICONGS configuration view
+            </summary>
+        </member>
+        <member name="F:ULA.Presentation.Infrastructure.ApplicationGlobalNames.PICONGS_CONFIGURATION_VIEWMODEL_NAME">
+            <summary>
+                Get the name PICONGS configuration viewmodel
+            </summary>
+        </member>
+        <member name="F:ULA.Presentation.Infrastructure.ApplicationGlobalNames.PICON2_CONFIGURATION_VIEW_NAME">
+            <summary>
+                Get the name PICON2 configuration view
+            </summary>
+        </member>
+        <member name="F:ULA.Presentation.Infrastructure.ApplicationGlobalNames.PICON2_CONFIGURATION_VIEWMODEL_NAME">
+            <summary>
+                Get the name PICON2 configuration viewmodel
+            </summary>
+        </member>
+        <member name="T:ULA.Presentation.Infrastructure.DTOs.DeviceModel">
+            <summary>
+                Represetns default device data transfer object model
+                Представляет модель данных для устройства
+            </summary>
+        </member>
+        <member name="M:ULA.Presentation.Infrastructure.DTOs.DeviceModel.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.DTOs.DeviceModel.Name">
+            <summary>
+                Gets or sets the name of the device
+                Имя устройства
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.DTOs.DeviceModel.Description">
+            <summary>
+                Gets or sets the description of the device
+                Описание устройства
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.DTOs.DeviceModel.TcpAddress">
+            <summary>
+                Gets or sets the tcp-ip address of the remote device
+                TCP/IP адрес устройства
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.DTOs.DeviceModel.TcpPort">
+            <summary>
+                Gets or sets the tcp-ip port of the remote device
+                TCP порт устройства
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.DTOs.DeviceModel.DeviceFactoryTypeName">
+            <summary>
+                Gets or sets the type name of the device
+                Имя типа устройства
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.DTOs.DeviceModel.AnalogMeterTypeName">
+            <summary>
+                Gets or sets the type name of the meter of the device
+                Имя типа счетчика устройства
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.DTOs.DeviceModel.TransformKoefA">
+            <summary>
+                Gets or sets the type name of the meter of the device
+                Имя типа счетчика устройства
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.DTOs.DeviceModel.TransformKoefB">
+            <summary>
+                Gets or sets the type name of the meter of the device
+                Имя типа счетчика устройства
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.DTOs.DeviceModel.TransformKoefC">
+            <summary>
+                Gets or sets the type name of the meter of the device
+                Имя типа счетчика устройства
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.DTOs.DeviceModel.DriverFactoryTypeName">
+            <summary>
+                Gets or sets the type name of the driver that current device is going to consume
+                Имя типа драйвера
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.DTOs.DeviceModel.StarterDescriptions">
+            <summary>
+            Описание стартеров
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.DTOs.DeviceModel.CustomFidersOnDevice">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.DTOs.DeviceModel.CustomIndicatorsOnDevice">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.DTOs.DeviceModel.CustomSignalsOnDevice">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.DTOs.DeviceModel.ChannelNumberOfStarter1">
+            <summary>
+              номер канала для пускателя 1
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.DTOs.DeviceModel.ChannelNumberOfStarter2">
+            <summary>
+              номер канала для пускателя 2
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.DTOs.DeviceModel.ChannelNumberOfStarter3">
+            <summary>
+              номер канала для пускателя 3
+            </summary>
+        </member>
+        <member name="T:ULA.Presentation.Infrastructure.DTOs.DeviceTypeEnum">
+            <summary>
+                Represents a type of device
+            </summary>
+        </member>
+        <member name="F:ULA.Presentation.Infrastructure.DTOs.DeviceTypeEnum.PICONGS">
+            <summary>
+                Represent PICONGS device type
+            </summary>
+        </member>
+        <member name="F:ULA.Presentation.Infrastructure.DTOs.DeviceTypeEnum.RUNO">
+            <summary>
+                Represent PICONGS device type
+            </summary>
+        </member>
+        <member name="F:ULA.Presentation.Infrastructure.DTOs.DeviceTypeEnum.PICON2">
+            <summary>
+                Represent PICONGS device type
+            </summary>
+        </member>
+        <member name="F:ULA.Presentation.Infrastructure.DTOs.DeviceTypeEnum.UNKNOWN">
+            <summary>
+                Represent UNKNOWN device type
+            </summary>
+        </member>
+        <member name="T:ULA.Presentation.Infrastructure.Factories.IFiderViewModelFactory">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:ULA.Presentation.Infrastructure.Factories.IFiderViewModelFactory.CreateFiderDefinitionsViewModel(ULA.AddinsHost.Business.Device.SchemeTable.CustomTableItems.ICustomFider)">
+            <summary>
+            
+            </summary>
+            <param name="customFider"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ULA.Presentation.Infrastructure.Factories.ICascadeViewModelFactory.CreateCascadeDefinitionsViewModel(ULA.AddinsHost.Business.Device.SchemeTable.CustomTableItems.ICascadeIndicator)">
+            <summary>
+            
+            </summary>
+            <param name="cascadeIndicator"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ULA.Presentation.Infrastructure.Factories.IIndicatorViewModelFactory.CreateIndicatorDefinitionsViewModel(ULA.AddinsHost.Business.Device.SchemeTable.CustomTableItems.ICustomIndicator)">
+            <summary>
+            
+            </summary>
+            <param name="customFider"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ULA.Presentation.Infrastructure.Factories.ISignalViewModelFactory.CreateSignalDefinitionsViewModel(ULA.AddinsHost.Business.Device.SchemeTable.CustomTableItems.ICustomSignal)">
+            <summary>
+            
+            </summary>
+            <param name="customFider"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ULA.Presentation.Infrastructure.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="T:ULA.Presentation.Infrastructure.Services.Interactions.IInteractionInterceptorsInvoker">
+            <summary>
+                Exposes an interaction request invokers registry functionality
+            </summary>
+        </member>
+        <member name="M:ULA.Presentation.Infrastructure.Services.Interactions.IInteractionInterceptorsInvoker.InvokeBeforeInitialization(System.Object)">
+            <summary>
+                Invokes an action that represents before initialization request phase
+            </summary>
+            <param name="viewModel">An instance of current request's view model</param>
+        </member>
+        <member name="M:ULA.Presentation.Infrastructure.Services.Interactions.IInteractionInterceptorsInvoker.InvokeAfterInitialization(System.Object)">
+            <summary>
+                Invokes an action that represents after initialization request phase
+            </summary>
+            <param name="viewModel">An instance of current request's view model</param>
+        </member>
+        <member name="M:ULA.Presentation.Infrastructure.Services.Interactions.IInteractionInterceptorsInvoker.InvokeBeforeUnInitialization(System.Object)">
+            <summary>
+                Invokes an action that represents before un-initialization request phase
+            </summary>
+            <param name="viewModel">An instance of current request's view model</param>
+        </member>
+        <member name="M:ULA.Presentation.Infrastructure.Services.Interactions.IInteractionInterceptorsInvoker.InvokeAfterUnInitialization(System.Object)">
+            <summary>
+                Invokes an action that represents after un-initialization request phase
+            </summary>
+            <param name="viewModel">An instance of current request's view model</param>
+        </member>
+        <member name="T:ULA.Presentation.Infrastructure.Services.Interactions.IInteractionProvidersRegistry">
+            <summary>
+                Exposes an interaction providers registry functionality
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.Services.Interactions.IInteractionProvidersRegistry.BusyInteractionProvider">
+            <summary>
+                Gets an instance of <see cref="T:ULA.Presentation.Infrastructure.Services.Interactions.IInteractionProvider`1" /> that represents the system defined busy
+                interaction provider
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.Services.Interactions.IInteractionProvidersRegistry.ErrorMessageBoxInteractionProvider">
+            <summary>
+                Gets an instance of <see cref="T:ULA.Presentation.Infrastructure.Services.Interactions.IInteractionProvider`1" /> that represents the system defined error
+                messagebox interaction provider
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.Services.Interactions.IInteractionProvidersRegistry.InformationMessageBoxInteractionProvider">
+            <summary>
+                Gets an instance of <see cref="T:ULA.Presentation.Infrastructure.Services.Interactions.IInteractionProvider`1" /> that represents the system defined
+                information messagebox interaction provider
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.Services.Interactions.IInteractionProvidersRegistry.QuestionMessageBoxInteractionProvider">
+            <summary>
+                Gets an instance of <see cref="T:ULA.Presentation.Infrastructure.Services.Interactions.IInteractionProvider`1" /> that represents the system defined
+                question messagebox interaction provider
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.Services.Interactions.IInteractionProvidersRegistry.WarningMessageBoxInteractionProvider">
+            <summary>
+                Gets an instance of <see cref="T:ULA.Presentation.Infrastructure.Services.Interactions.IInteractionProvider`1" /> that represents the system defined
+                warning messagebox interaction provider
+            </summary>
+        </member>
+        <member name="T:ULA.Presentation.Infrastructure.Services.Interactions.IInteractionProvider`1">
+            <summary>
+                Represents generic version of <see cref="T:ULA.Presentation.Infrastructure.Services.Interactions.IInteractionProvider" />
+            </summary>
+            <typeparam name="TViewModel"><see cref="T:System.Type" /> that repersents interaction view model functionality</typeparam>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.Services.Interactions.IInteractionProvider`1.InteractionViewModel">
+            <summary>
+                Gets an instance of view model that exposes current interaction view model functionality
+            </summary>
+            <returns>An instance of view model that exposes current interaction view model functionality</returns>
+        </member>
+        <member name="T:ULA.Presentation.Infrastructure.Services.Interactions.IInteractionProvider">
+            <summary>
+                An interaction provider functionality.
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.Services.Interactions.IInteractionProvider.InteractionView">
+            <summary>
+                Gets an instance of <see cref="T:ULA.Presentation.Infrastructure.Views.IInteractionView" /> that exposes current interaction view functionality
+            </summary>
+            <returns>An instance of <see cref="T:ULA.Presentation.Infrastructure.Views.IInteractionView" /> that exposes current interaction view functionality</returns>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.Services.Interactions.IInteractionProvider.InteractionViewModel">
+            <summary>
+                Gets an instance of <see cref="T:ULA.Presentation.Infrastructure.ViewModels.Interactions.IInteractionViewModel" /> that exposes current interaction view model functionality
+            </summary>
+            <returns>An instance of <see cref="T:ULA.Presentation.Infrastructure.ViewModels.Interactions.IInteractionViewModel" /> that exposes current interaction view model functionality</returns>
+        </member>
+        <member name="T:ULA.Presentation.Infrastructure.Services.Interactions.IInteractionToken">
+            <summary>
+                Exposes an interaction token functionality
+            </summary>
+        </member>
+        <member name="T:ULA.Presentation.Infrastructure.Services.Interactions.InteractionInterceptor`1">
+            <summary>
+                Represents default interaction interceptors registry functionality
+            </summary>
+            <typeparam name="TViewModel"><see cref="T:System.Type" /> that represents current interaction view model</typeparam>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.Services.Interactions.InteractionInterceptor`1.OnBeforeInitialization">
+            <summary>
+                Gets or sets an instance of <see cref="T:System.Action`1" /> that represents an intercaption method that will be invoked
+                before interaction request initialization phase
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.Services.Interactions.InteractionInterceptor`1.OnAfterInitialization">
+            <summary>
+                Gets or sets an instance of <see cref="T:System.Action`1" /> that represents an intercaption method that will be invoked
+                after interaction request initialization phase
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.Services.Interactions.InteractionInterceptor`1.OnBeforeUnInitialization">
+            <summary>
+                Gets or sets an instance of <see cref="T:System.Action`1" /> that represents an intercaption method that will be invoked
+                before interaction request un-initialization phase
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.Services.Interactions.InteractionInterceptor`1.OnAfterUnInitialization">
+            <summary>
+                Gets or sets an instance of <see cref="T:System.Action`1" /> that represents an intercaption method that will be invoked
+                after interaction request un-initialization phase
+            </summary>
+        </member>
+        <member name="T:ULA.Presentation.Infrastructure.Services.IInteractionService">
+            <summary>
+                Exposes an interaction service functionality
+            </summary>
+        </member>
+        <member name="M:ULA.Presentation.Infrastructure.Services.IInteractionService.Interact``1(ULA.Presentation.Infrastructure.Services.Interactions.IInteractionProvider{``0},ULA.Presentation.Infrastructure.Services.Interactions.InteractionInterceptor{``0})">
+            <summary>
+                Sends an interaction request to a user
+            </summary>
+            <typeparam name="TViewModel"><see cref="T:System.Type" /> that represents the view model of the interaction request</typeparam>
+            <param name="provider">
+                An instance of <see cref="T:ULA.Presentation.Infrastructure.Services.Interactions.IInteractionProvider`1" /> that represents current
+                interaction request provider
+            </param>
+            <param name="interactionInterceptor">An instance of <see cref="T:ULA.Presentation.Infrastructure.Services.Interactions.InteractionInterceptor`1" /> to use</param>
+            <returns>An instance of <see cref="T:ULA.Presentation.Infrastructure.Services.Interactions.IInteractionToken" /> that represents interaction request token</returns>
+        </member>
+        <member name="M:ULA.Presentation.Infrastructure.Services.IInteractionService.Interact``1(ULA.Presentation.Infrastructure.Services.Interactions.IInteractionProvider{``0},System.Action{``0},System.Action{``0})">
+            <summary>
+                Sends an interaction request to a user
+            </summary>
+            <typeparam name="TViewModel"><see cref="T:System.Type" /> that represents the view model of the interaction request</typeparam>
+            <param name="provider">
+                An instance of <see cref="T:ULA.Presentation.Infrastructure.Services.Interactions.IInteractionProvider`1" /> that represents current
+                interaction request provider
+            </param>
+            <param name="onInitialized">An instance of <see cref="T:System.Action`1" /> that represents an initialization callback</param>
+            <param name="onUninitialized">An instance of <see cref="T:System.Action`1" /> that represents an uninitialization callback</param>
+            <returns>An instance of <see cref="T:ULA.Presentation.Infrastructure.Services.Interactions.IInteractionToken" /> that represents interaction request token</returns>
+        </member>
+        <member name="T:ULA.Presentation.Infrastructure.Services.IResourcesService">
+            <summary>
+                Exposes global resources service
+            </summary>
+        </member>
+        <member name="M:ULA.Presentation.Infrastructure.Services.IResourcesService.AddResourceAsGlobal(System.String,System.Reflection.Assembly)">
+            <summary>
+                Injects a resource into a system
+            </summary>
+            <param name="filePath"></param>
+            <param name="sourceAssembly"></param>
+        </member>
+        <member name="T:ULA.Presentation.Infrastructure.Services.ISoundNotificationsService">
+            <summary>
+            сервис звуков
+            </summary>
+        </member>
+        <member name="M:ULA.Presentation.Infrastructure.Services.ISoundNotificationsService.SetNotificationSource(System.Object)">
+            <summary>
+            добавить объект
+            </summary>
+            <param name="notifyingObject"></param>
+        </member>
+        <member name="M:ULA.Presentation.Infrastructure.Services.ISoundNotificationsService.ReleaseNotificationSource(System.Object)">
+            <summary>
+            освободить объект
+            </summary>
+            <param name="notifyingObject"></param>
+        </member>
+        <member name="M:ULA.Presentation.Infrastructure.Services.ISoundNotificationsService.ReleaseAllAndStopSound">
+            <summary>
+            прекратить воспроизведение всех звуков
+            </summary>
+        </member>
+        <member name="T:ULA.Presentation.Infrastructure.ViewModels.CustomItems.IFiderDefinitionsViewModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.CustomItems.IFiderDefinitionsViewModel.TagName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.CustomItems.IFiderDefinitionsViewModel.IsEnabledResistor1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.CustomItems.IFiderDefinitionsViewModel.IsEnabledResistor2">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.CustomItems.IFiderDefinitionsViewModel.IsEnabledResistor3">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.CustomItems.IFiderDefinitionsViewModel.ModuleResistor1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.CustomItems.IFiderDefinitionsViewModel.ModuleResistor2">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.CustomItems.IFiderDefinitionsViewModel.ModuleResistor3">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.CustomItems.IFiderDefinitionsViewModel.NumberResistor1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.CustomItems.IFiderDefinitionsViewModel.NumberResistor2">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.CustomItems.IFiderDefinitionsViewModel.NumberResistor3">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.CustomItems.IFiderDefinitionsViewModel.FiderDefinitionModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:ULA.Presentation.Infrastructure.ViewModels.IApplicationConfigurationModeViewModel">
+            <summary>
+                Exposes an application configuration mode view model functionality
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.IApplicationConfigurationModeViewModel.CreateNewVirtualDeviceCommand">
+            <summary>
+                Gets an instance of <see cref="T:System.Windows.Input.ICommand" /> that represents create new virtual device command
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.IApplicationConfigurationModeViewModel.EditCurrentDeviceCommand">
+            <summary>
+                Gets an instance of <see cref="T:System.Windows.Input.ICommand" /> that represents edit current virtual device command
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.IApplicationConfigurationModeViewModel.DeleteCurrentDeviceCommand">
+            <summary>
+                Gets an instance of <see cref="T:System.Windows.Input.ICommand" /> that represents delete virtual device command
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.IApplicationConfigurationModeViewModel.NavigateToAboutCommand">
+            <summary>
+                Gets an instance of <see cref="T:System.Windows.Input.ICommand" /> that represents navigate to about view command
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.IApplicationConfigurationModeViewModel.NaigateToEditPassword">
+            <summary>
+                Команда навигации на вьюшку изменения пароля привелигированного доступа
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.IApplicationConfigurationModeViewModel.AddImageCommand">
+            <summary>
+            коммандан на добавление картинки
+            </summary>
+        </member>
+        <member name="T:ULA.Presentation.Infrastructure.ViewModels.IApplicationModeViewModel">
+            <summary>
+                Exposes an application mode basic view model functionality
+            </summary>
+        </member>
+        <member name="M:ULA.Presentation.Infrastructure.ViewModels.IApplicationModeViewModel.InitializeAsync">
+            <summary>
+                Initializes current application mode asynchronously
+            </summary>
+            <returns>
+                An instance of System.Threading.Tasks.Task that represents current asynchronous operation
+            </returns>
+        </member>
+        <member name="M:ULA.Presentation.Infrastructure.ViewModels.IApplicationModeViewModel.UninitializeAsync">
+            <summary>
+                Un-initializes current application mode asynchronously
+            </summary>
+            <returns>
+                An instance of System.Threading.Tasks.Task that represents current asynchronous operation
+            </returns>
+        </member>
+        <member name="M:ULA.Presentation.Infrastructure.ViewModels.IApplicationModeViewModel.OnInitialized">
+            <summary>
+                Invokes when initialization process is over
+            </summary>
+        </member>
+        <member name="T:ULA.Presentation.Infrastructure.ViewModels.IApplicationModeViewModelFactory">
+            <summary>
+                Exposes application mode view model factory functionality
+            </summary>
+        </member>
+        <member name="M:ULA.Presentation.Infrastructure.ViewModels.IApplicationModeViewModelFactory.CreateConfigurationModeViewModel">
+            <summary>
+                Creates an instance of <see cref="T:ULA.Presentation.Infrastructure.ViewModels.IApplicationConfigurationModeViewModel" />
+            </summary>
+            <returns>Created instance of <see cref="T:ULA.Presentation.Infrastructure.ViewModels.IApplicationConfigurationModeViewModel" /></returns>
+        </member>
+        <member name="M:ULA.Presentation.Infrastructure.ViewModels.IApplicationModeViewModelFactory.CreateRuntimeModeViewModel">
+            <summary>
+                Creates an instance of <see cref="T:ULA.Presentation.Infrastructure.ViewModels.IApplicationRuntimeModeViewModel" />
+            </summary>
+            <returns>Created instance of <see cref="T:ULA.Presentation.Infrastructure.ViewModels.IApplicationRuntimeModeViewModel" /></returns>
+        </member>
+        <member name="M:ULA.Presentation.Infrastructure.ViewModels.IApplicationModeViewModelFactory.CreateFailureModeViewModel(System.Exception)">
+            <summary>
+                Creates an instance of <see cref="T:ULA.Presentation.Infrastructure.ViewModels.IApplicationFailureModeViewModel" />
+            </summary>
+            <param name="failure">An instance of <see cref="T:System.Exception" /> that represents current mode failure</param>
+            <returns>Created instance of <see cref="T:ULA.Presentation.Infrastructure.ViewModels.IApplicationFailureModeViewModel" /></returns>
+        </member>
+        <member name="T:ULA.Presentation.Infrastructure.ViewModels.IApplicationRuntimeModeViewModel">
+            <summary>
+                Exposes an application runtime mode view model functionality
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.IApplicationRuntimeModeViewModel.ChangeModeToScheme">
+            <summary>
+                Command represents action of changing mode to SchemeMode
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.IApplicationRuntimeModeViewModel.ChangeModeToListWidget">
+            <summary>
+                Command represents action of changing mode to ListWidgetModeMode
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.IApplicationRuntimeModeViewModel.NavigateToJournalOfSystemCommand">
+            <summary>
+                Gets an instance of <see cref="T:System.Windows.Input.ICommand" /> that represents navigate to journal of system view command
+            </summary>
+        </member>
+        <member name="T:ULA.Presentation.Infrastructure.ViewModels.IApplicationFailureModeViewModel">
+            <summary>
+                Exposes an application failure mode view model functionality
+            </summary>
+        </member>
+        <member name="M:ULA.Presentation.Infrastructure.ViewModels.IApplicationFailureModeViewModel.SetFailure(System.Exception)">
+            <summary>
+                Sets an instance of <see cref="T:System.Exception" /> that represents application mode changing failure
+            </summary>
+            <param name="failure">An instance of <see cref="T:System.Exception" /> that represents application mode changing failure</param>
+        </member>
+        <member name="T:ULA.Presentation.Infrastructure.ViewModels.IConfigurationModeViewModel">
+            <summary>
+               Интерфейс Вью-модели для режима конфигурации руно
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.IConfigurationModeViewModel.DeviceName">
+            <summary>
+                Gets device name/ Имя устройства
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.IConfigurationModeViewModel.SendConfiguration">
+            <summary>
+                Представляет команду отправки конфигурационных данных на устройство
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.IConfigurationModeViewModel.GetConfiguration">
+            <summary>
+                Представляет команду считывания конфигурационных данных с устройства
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.IConfigurationModeViewModel.BackToSchemeCommand">
+            <summary>
+                Команда навигации назад на схему устройства
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.IConfigurationModeViewModel.GetConfigurationFromFileCommand">
+            <summary>
+                Загружает конфигурацию из файла
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.IConfigurationModeViewModel.SaveConfigurationInFileCommand">
+            <summary>
+                Сохраняет конфигурацию в файл
+            </summary>
+        </member>
+        <member name="T:ULA.Presentation.Infrastructure.ViewModels.ILightingSheduleViewModel">
+            <summary>
+                Описывает вью-модель графика освещения
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.ILightingSheduleViewModel.DeviceName">
+            <summary>
+                Свойство представляющие имя устройства, для которого производится конфигурация
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.ILightingSheduleViewModel.SendLightingShedule">
+            <summary>
+                 Представляет команду отправки конфигурационных данных на устройство
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.ILightingSheduleViewModel.GetLightingShedule">
+            <summary>
+                Представляет команду считывания графика освещения с устройства
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.ILightingSheduleViewModel.BackToSchemeCommand">
+            <summary>
+                Команда навигации назад на схему устройства
+            </summary>
+        </member>
+        <member name="T:ULA.Presentation.Infrastructure.ViewModels.Interactions.CitywideCommandResult">
+            <summary>
+                Result of CitywideInteraction
+            </summary>
+        </member>
+        <member name="F:ULA.Presentation.Infrastructure.ViewModels.Interactions.CitywideCommandResult.Cancel">
+            <summary>
+                CancelCommand
+            </summary>
+        </member>
+        <member name="F:ULA.Presentation.Infrastructure.ViewModels.Interactions.CitywideCommandResult.OnNighlight">
+            <summary>
+            Ночное вкл
+            </summary>
+        </member>
+        <member name="F:ULA.Presentation.Infrastructure.ViewModels.Interactions.CitywideCommandResult.OffNighlight">
+            <summary>
+            Ночное откл
+            </summary>
+        </member>
+        <member name="F:ULA.Presentation.Infrastructure.ViewModels.Interactions.CitywideCommandResult.OnEvening">
+            <summary>
+            Вечернее вкл
+            </summary>
+        </member>
+        <member name="F:ULA.Presentation.Infrastructure.ViewModels.Interactions.CitywideCommandResult.OffEvening">
+            <summary>
+            Вечернее откл
+            </summary>
+        </member>
+        <member name="F:ULA.Presentation.Infrastructure.ViewModels.Interactions.CitywideCommandResult.OnFull">
+            <summary>
+            Run полное
+            </summary>
+        </member>
+        <member name="F:ULA.Presentation.Infrastructure.ViewModels.Interactions.CitywideCommandResult.OffFull">
+            <summary>
+            Srop полное
+            </summary>
+        </member>
+        <member name="F:ULA.Presentation.Infrastructure.ViewModels.Interactions.CitywideCommandResult.OnBacklight">
+            <summary>
+            Run подсветка
+            </summary>
+        </member>
+        <member name="F:ULA.Presentation.Infrastructure.ViewModels.Interactions.CitywideCommandResult.OffBacklight">
+            <summary>
+            Srop подсветка
+            </summary>
+        </member>
+        <member name="F:ULA.Presentation.Infrastructure.ViewModels.Interactions.CitywideCommandResult.OnIllumination">
+            <summary>
+            Иллюминация вкл
+            </summary>
+        </member>
+        <member name="F:ULA.Presentation.Infrastructure.ViewModels.Interactions.CitywideCommandResult.OffIllumination">
+            <summary>
+            Иллюминация откл
+            </summary>
+        </member>
+        <member name="F:ULA.Presentation.Infrastructure.ViewModels.Interactions.CitywideCommandResult.OnStoregEnergy">
+            <summary>
+            Энергосережение вкл
+            </summary>
+        </member>
+        <member name="F:ULA.Presentation.Infrastructure.ViewModels.Interactions.CitywideCommandResult.OffStoregEnergy">
+            <summary>
+            Энергосбережение откл
+            </summary>
+        </member>
+        <member name="F:ULA.Presentation.Infrastructure.ViewModels.Interactions.CitywideCommandResult.AutoAll">
+            <summary>
+                Start automode all devices
+            </summary>
+        </member>
+        <member name="F:ULA.Presentation.Infrastructure.ViewModels.Interactions.CitywideCommandResult.ManualModeAll">
+            <summary>
+            Ручной режим, off automode all devices
+            </summary>
+        </member>
+        <member name="T:ULA.Presentation.Infrastructure.ViewModels.Interactions.IAboutInteractionViewModel">
+            <summary>
+                Represents a about interaction view model functionally
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.IAboutInteractionViewModel.Title">
+            <summary>
+                Gets or sets the title of current interaction request
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.IAboutInteractionViewModel.Message">
+            <summary>
+                Gets or sets the message of current interaction request
+            </summary>
+        </member>
+        <member name="T:ULA.Presentation.Infrastructure.ViewModels.Interactions.ICitywideCommandsInteractionViewModel">
+            <summary>
+                Represents a citywide commands interaction view model functionality
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.ICitywideCommandsInteractionViewModel.Title">
+            <summary>
+                Gets or sets the title of current interaction request
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.ICitywideCommandsInteractionViewModel.Message">
+            <summary>
+                Gets or sets the message of current interaction request
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.ICitywideCommandsInteractionViewModel.Result">
+            <summary>
+                Get a result a citywide interaction
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.ICitywideCommandsInteractionViewModel.RunNightLightCommand">
+            <summary>
+                Включить ночное освещение
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.ICitywideCommandsInteractionViewModel.StopNightLightCommand">
+            <summary>
+                Отключить ночное освещение
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.ICitywideCommandsInteractionViewModel.RunEveningCommand">
+            <summary>
+                Включить вечернее освещение
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.ICitywideCommandsInteractionViewModel.StopEveningCommand">
+            <summary>
+                Отключить вечернее освещение
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.ICitywideCommandsInteractionViewModel.RunFullCommand">
+            <summary>
+                Включить полное освещение
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.ICitywideCommandsInteractionViewModel.StopFullCommand">
+            <summary>
+                Отключить полное освещение
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.ICitywideCommandsInteractionViewModel.RunBacklightCommand">
+            <summary>
+                Включить подсветку
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.ICitywideCommandsInteractionViewModel.StopBacklightCommand">
+            <summary>
+                Отключить подсветку
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.ICitywideCommandsInteractionViewModel.RunIlluminationCommand">
+            <summary>
+                Включить иллюминацию
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.ICitywideCommandsInteractionViewModel.StopIlluminationCommand">
+            <summary>
+                Отключить иллюминацию
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.ICitywideCommandsInteractionViewModel.RunStoregEnergyCommand">
+            <summary>
+                Включить энергосбережение
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.ICitywideCommandsInteractionViewModel.StopStoregEnergyCommand">
+            <summary>
+                Отключить энергосбережение
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.ICitywideCommandsInteractionViewModel.AutoAllCommand">
+            <summary>
+                Represent run auto mode all devices action
+                Авторежим
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.ICitywideCommandsInteractionViewModel.ManualModeAllCommand">
+            <summary>
+            Run manual mode on all devices (Ручной режим)
+            </summary>
+        </member>
+        <member name="T:ULA.Presentation.Infrastructure.ViewModels.Interactions.IExtraSettingsViewModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.IExtraSettingsViewModel.Title">
+            <summary>
+                Gets or sets the title of current interaction request
+                Заголовок
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.IExtraSettingsViewModel.FullTimeout">
+            <summary>
+                Описывает задержку в схеме в сукундах, которую будет выбирать пользователь
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.IExtraSettingsViewModel.PartialTimeout">
+            <summary>
+                Описывает задержку в списке в сукундах, которую будет выбирать пользователь
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.IExtraSettingsViewModel.QueryTimeout">
+            <summary>
+                Описывает таймаут обменов, который будет выбирать пользователь
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.IExtraSettingsViewModel.FullMinValue">
+            <summary>
+                Минимальное значение для обновления в схеме
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.IExtraSettingsViewModel.FullMaxValue">
+            <summary>
+                Максимальное значение для обновления в схеме
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.IExtraSettingsViewModel.PartialMinValue">
+            <summary>
+                Минимальное значение для обновления в списке
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.IExtraSettingsViewModel.PartialMaxValue">
+            <summary>
+                Максимальное значение для обновления в списке
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.IExtraSettingsViewModel.QueryMinValue">
+            <summary>
+                Минимальное значение для таймаута обменов
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.IExtraSettingsViewModel.QueryMaxValue">
+            <summary>
+                Максимальное значение для таймаута обменов
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.IExtraSettingsViewModel.NumberOfLightingCommandRepeat">
+            <summary>
+            повторения комманд освещения
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.IExtraSettingsViewModel.MinuteRepeatInterval">
+            <summary>
+             интервал повторения комманд освещения
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.IExtraSettingsViewModel.MaxNumberOfLightingCommandRepeat">
+            <summary>
+            повторения комманд освещения
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.IExtraSettingsViewModel.MaxMinuteRepeatInterval">
+            <summary>
+             интервал повторения комманд освещения
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.IExtraSettingsViewModel.MinNumberOfLightingCommandRepeat">
+            <summary>
+            повторения комманд освещения
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.IExtraSettingsViewModel.MinMinuteRepeatInterval">
+            <summary>
+             интервал повторения комманд освещения
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.IExtraSettingsViewModel.AcknowledgeEnabled">
+            <summary>
+            автоквитирование
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.IExtraSettingsViewModel.Result">
+            <summary>
+                Результат завершения вызова вьюшки
+            </summary>
+        </member>
+        <member name="T:ULA.Presentation.Infrastructure.ViewModels.Interactions.ILogInteractionViewModel">
+            <summary>
+                Represents a log interaction view model functionally
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.ILogInteractionViewModel.Title">
+            <summary>
+                Gets or sets the title of current interaction request
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.ILogInteractionViewModel.LogCollection">
+            <summary>
+                Gets or sets the log collection interaction request
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.ILogInteractionViewModel.RefreshCommand">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.ILogInteractionViewModel.DescriptionFilter">
+            <summary>
+                Gets an instance of <see cref="T:System.String" /> that represents description filter
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.ILogInteractionViewModel.DateFromFilter">
+            <summary>
+                Gets an instance of <see cref="T:System.DateTime" /> that represents from date and time filter
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.ILogInteractionViewModel.DateToFilter">
+            <summary>
+                Gets an instance of <see cref="T:System.DateTime" /> that represents to date and time filter
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.ILogInteractionViewModel.IsLoadingInProcess">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:ULA.Presentation.Infrastructure.ViewModels.Interactions.ILogInteractionViewModel.OpenDeviceLog(ULA.AddinsHost.ViewModel.Device.IRuntimeDeviceViewModel)">
+            <summary>
+            
+            </summary>
+            <param name="runtimeDeviceViewModel"></param>
+        </member>
+        <member name="T:ULA.Presentation.Infrastructure.ViewModels.Interactions.IModifyDeviceViewModel">
+            <summary>
+                Exposes a view model functionality for the create new device interaction request
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.IModifyDeviceViewModel.IsCanceled">
+            <summary>
+                Gets a value that indicates whether the dialog was canceled by a user
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.IModifyDeviceViewModel.ResultedDeviceModel">
+            <summary>
+                Gets an instance of <see cref="T:ULA.Presentation.Infrastructure.DTOs.DeviceModel" /> that represents a model for the device that should be created
+            </summary>
+        </member>
+        <member name="M:ULA.Presentation.Infrastructure.ViewModels.Interactions.IModifyDeviceViewModel.SetEditingContext(ULA.Presentation.Infrastructure.DTOs.DeviceModel,System.Collections.Generic.IEnumerable{System.String})">
+            <summary>
+                Sets a device for editing
+            </summary>
+            <param name="deviceModel">Device for editing.</param>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.IModifyDeviceViewModel.FiderDefinitionsViewModels">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.IModifyDeviceViewModel.AddFiderCommand">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.IModifyDeviceViewModel.DeleteFiderCommand">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.IModifyDeviceViewModel.IsFiderOrganization">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.IModifyDeviceViewModel.AddSignalCommand">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.IModifyDeviceViewModel.DeleteSignalCommand">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.IModifyDeviceViewModel.IsSignalsEnabled">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.IModifyDeviceViewModel.AddIndicatorCommand">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.IModifyDeviceViewModel.DeleteIndicatorCommand">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.IModifyDeviceViewModel.IsIndicatorsEnabled">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.IModifyDeviceViewModel.AddCascadeCommand">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.IModifyDeviceViewModel.DeleteCascadeCommand">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.IModifyDeviceViewModel.IsCascadeEnabled">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.IModifyDeviceViewModel.DeviceName">
+            <summary>
+                Gets or sets the name of currently modified deviceViewModel
+                Имя устройства
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.IModifyDeviceViewModel.DeviceType">
+            <summary>
+                Gets or sets the name of currently modified deviceViewModel
+                Имя устройства
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.IModifyDeviceViewModel.Description">
+            <summary>
+                Gets or sets the description of currently modified deviceViewModel
+                Описание устройства
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.IModifyDeviceViewModel.TcpIpAddress">
+            <summary>
+                Gets or sets the Tcp-ip address of currently modified deviceViewModel
+                Ip адрес устройства
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.IModifyDeviceViewModel.TcpIpPort">
+            <summary>
+                Gets or sets the Tcp-ip port of currently modified deviceViewModel
+                Tcp  порт устройства
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.IModifyDeviceViewModel.TransformKoefA">
+            <summary>
+               коэффициент для счетчиков A
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.IModifyDeviceViewModel.TransformKoefB">
+            <summary>
+               коэффициент для счетчиков B
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.IModifyDeviceViewModel.TransformKoefC">
+            <summary>
+               коэффициент для счетчиков C
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.IModifyDeviceViewModel.StarterDescriptions">
+            <summary>
+                Описание стартеров
+            </summary>
+        </member>
+        <member name="T:ULA.Presentation.Infrastructure.ViewModels.Interactions.IErrorMessageBoxInteractionViewModel">
+            <summary>
+                Exposes system ErrorMessageBox interaction view model functionality
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.IErrorMessageBoxInteractionViewModel.Title">
+            <summary>
+                Gets or sets the title of current interaction request
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.IErrorMessageBoxInteractionViewModel.Message">
+            <summary>
+                Gets or sets the message of current interaction request
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.IErrorMessageBoxInteractionViewModel.Result">
+            <summary>
+                Gets a value that indicates result of interaction with user
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.IErrorMessageBoxInteractionViewModel.ButtonType">
+            <summary>
+                Gets a type byttons for interaction with user
+            </summary>
+        </member>
+        <member name="T:ULA.Presentation.Infrastructure.ViewModels.Interactions.IInformationMessageBoxInteractionViewModel">
+            <summary>
+                Exposes information message box interaction view model functionality
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.IInformationMessageBoxInteractionViewModel.Title">
+            <summary>
+                Gets or sets the title of current interaction request
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.IInformationMessageBoxInteractionViewModel.Message">
+            <summary>
+                Gets or sets the message of current interaction request
+            </summary>
+        </member>
+        <member name="T:ULA.Presentation.Infrastructure.ViewModels.Interactions.IPasswordInteractionViewModel">
+            <summary>
+                Интерфейс вью-модели окна ввода пароля
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.IPasswordInteractionViewModel.Result">
+            <summary>
+                Результат завершения вызова вьюшки
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.IPasswordInteractionViewModel.Password">
+            <summary>
+                Свойство представляющее пароль введенный пользователем
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.IPasswordInteractionViewModel.Title">
+            <summary>
+                Gets or sets the title of current interaction request
+                Заголовок
+            </summary>
+        </member>
+        <member name="T:ULA.Presentation.Infrastructure.ViewModels.Interactions.IQuestionMessageBoxInteractionViewModel">
+            <summary>
+                Exposes question message box interaction view model functionality
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.IQuestionMessageBoxInteractionViewModel.Title">
+            <summary>
+                Gets or sets the title of current interaction request
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.IQuestionMessageBoxInteractionViewModel.Message">
+            <summary>
+                Gets or sets the message of current interaction request
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.IQuestionMessageBoxInteractionViewModel.Result">
+            <summary>
+                Gets a value that indicates result of interaction with user
+            </summary>
+        </member>
+        <member name="T:ULA.Presentation.Infrastructure.ViewModels.Interactions.ISynchronizationTimeInteractionViewModel">
+            <summary>
+                Represents a syncronization time interaction view model functionally
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.ISynchronizationTimeInteractionViewModel.DateTime">
+            <summary>
+                Gets the date time of current interaction request
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.ISynchronizationTimeInteractionViewModel.Hour">
+            <summary>
+                Gets the Hour of current interaction request
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.ISynchronizationTimeInteractionViewModel.Minute">
+            <summary>
+                Gets  the Minute of current interaction request
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.ISynchronizationTimeInteractionViewModel.Second">
+            <summary>
+                Gets  the Second of current interaction request
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.ISynchronizationTimeInteractionViewModel.SystemTimeCommand">
+            <summary>
+                Gets the system time command of current interaction request
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.ISynchronizationTimeInteractionViewModel.IncreaseSecondCommand">
+            <summary>
+                Gets the increase second command of current interaction request
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.ISynchronizationTimeInteractionViewModel.IncreaseMinuteCommand">
+            <summary>
+                Gets the increase minute command of current interaction request
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.ISynchronizationTimeInteractionViewModel.IncreaseHourCommand">
+            <summary>
+                Gets the increase hour command of current interaction request
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.ISynchronizationTimeInteractionViewModel.ReduceSecondCommand">
+            <summary>
+                Gets the reduce second command of current interaction request
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.ISynchronizationTimeInteractionViewModel.ReduceMinuteCommand">
+            <summary>
+                Gets the reduce minute command of current interaction request
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.ISynchronizationTimeInteractionViewModel.ReduceHourCommand">
+            <summary>
+                Gets the reduce hour command of current interaction request
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.ISynchronizationTimeInteractionViewModel.Result">
+            <summary>
+                Gets  the result of current interaction request
+            </summary>
+        </member>
+        <member name="T:ULA.Presentation.Infrastructure.ViewModels.Interactions.IUpdateTimeoutInteractionViewModel">
+            <summary>
+                Описывает функциональность вью-модели окна установки таймаута
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.IUpdateTimeoutInteractionViewModel.Result">
+            <summary>
+                Gets  the result of current interaction request
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.IUpdateTimeoutInteractionViewModel.Timeout">
+            <summary>
+                Описывает задержку в сукундах, которую будет выбирать пользователь
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.IUpdateTimeoutInteractionViewModel.MinValue">
+            <summary>
+                Минимальное значение для обновления
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.IUpdateTimeoutInteractionViewModel.MaxValue">
+            <summary>
+                Максимальное значение для обновления
+            </summary>
+        </member>
+        <member name="T:ULA.Presentation.Infrastructure.ViewModels.Interactions.IWarningMessageBoxInteractionViewModel">
+            <summary>
+                Exposes warning message box interaction view model functionality
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.IWarningMessageBoxInteractionViewModel.Title">
+            <summary>
+                Gets or sets the title of current interaction request
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.IWarningMessageBoxInteractionViewModel.Message">
+            <summary>
+                Gets or sets the message of current interaction request
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.IWarningMessageBoxInteractionViewModel.Result">
+            <summary>
+                Gets a value that indicates result of interaction with user
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.IWarningMessageBoxInteractionViewModel.ButtonType">
+            <summary>
+                Gets a type byttons for interaction with user
+            </summary>
+        </member>
+        <member name="T:ULA.Presentation.Infrastructure.ViewModels.Interactions.IInteractionViewModel">
+            <summary>
+                Exposes interaction view model functionality
+            </summary>
+        </member>
+        <member name="E:ULA.Presentation.Infrastructure.ViewModels.Interactions.IInteractionViewModel.OnInteractionComplete">
+            <summary>
+                Gets an ivent that will be fired if user canceled interaction request
+            </summary>
+        </member>
+        <member name="T:ULA.Presentation.Infrastructure.ViewModels.Interactions.IBusyInteractionViewModel">
+            <summary>
+                Exposes system busy interaction view model functionality
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.IBusyInteractionViewModel.Title">
+            <summary>
+                Gets or sets the title of current interaction request
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.IBusyInteractionViewModel.Message">
+            <summary>
+                Gets or sets the message of current interaction request
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.Interactions.IBusyInteractionViewModel.ButtonVisible">
+            <summary>
+                Is button visible
+            </summary>
+        </member>
+        <member name="T:ULA.Presentation.Infrastructure.ViewModels.ISchemeModeRuntimeViewModel">
+            <summary>
+                Represents a interface of Scheme viewModel in Runtie mode
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.ISchemeModeRuntimeViewModel.Starter1ToResistorsLink">
+            <summary>
+                Показывает существет ли связь между первым(левым на схеме) пускателем и предохранителями(0-7)
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.ISchemeModeRuntimeViewModel.Starter2ToResistorsLink">
+            <summary>
+                Показывает существет ли связь между вторым(правым на схеме) пускателем и предохранителями(0-7)
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.ISchemeModeRuntimeViewModel.BackToListWidgetCommand">
+            <summary>
+                Command represents action of changing mode to ListWidgetModeMode
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.ISchemeModeRuntimeViewModel.NavigateToConfigurationCommand">
+            <summary>
+                Команды навигации на вьюху конфигуратора руно
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.ISchemeModeRuntimeViewModel.NavigateToLightingShedulerCommand">
+            <summary>
+                Команда навигации на вьюху графика освещения
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.ISchemeModeRuntimeViewModel.ShowAnalogDataCommand">
+            <summary>
+                открывает окно с данными аналогов
+            </summary>
+        </member>
+        <member name="T:ULA.Presentation.Infrastructure.ViewModels.MessageBoxButtonType">
+            <summary>
+                Represents a message box buttons enumeration
+            </summary>
+        </member>
+        <member name="F:ULA.Presentation.Infrastructure.ViewModels.MessageBoxButtonType.OK">
+            <summary>
+                Represents a message box with OK button
+            </summary>
+        </member>
+        <member name="F:ULA.Presentation.Infrastructure.ViewModels.MessageBoxButtonType.YES_NO">
+            <summary>
+                Represents a message box with yes and no buttons
+            </summary>
+        </member>
+        <member name="F:ULA.Presentation.Infrastructure.ViewModels.MessageBoxButtonType.OK_CANCEL">
+            <summary>
+                Represents a message box with ok and cancel buttons
+            </summary>
+        </member>
+        <member name="T:ULA.Presentation.Infrastructure.ViewModels.MessageBoxResult">
+            <summary>
+                Represents message box result enumeration
+            </summary>
+        </member>
+        <member name="F:ULA.Presentation.Infrastructure.ViewModels.MessageBoxResult.OK">
+            <summary>
+                Represents a message box OK button clicked
+            </summary>
+        </member>
+        <member name="F:ULA.Presentation.Infrastructure.ViewModels.MessageBoxResult.CANCEL">
+            <summary>
+                Represents a message box Cancel button clicked
+            </summary>
+        </member>
+        <member name="F:ULA.Presentation.Infrastructure.ViewModels.MessageBoxResult.YES">
+            <summary>
+                Represents a message box yes button clicked
+            </summary>
+        </member>
+        <member name="F:ULA.Presentation.Infrastructure.ViewModels.MessageBoxResult.NO">
+            <summary>
+                Represents a message box no button clicked
+            </summary>
+        </member>
+        <member name="T:ULA.Presentation.Infrastructure.ViewModels.UserControl.IConfigCheckBoxControlViewModel">
+            <summary>
+                Представляет вью-модель для контрола с чекбоксами(Будет использоваться в конфигурации
+                устройства)
+            </summary>
+        </member>
+        <member name="M:ULA.Presentation.Infrastructure.ViewModels.UserControl.IConfigCheckBoxControlViewModel.GetCheckBoxBytes">
+            <summary>
+                Вернет булевый масив как результаты чекбоксов
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.UserControl.IConfigCheckBoxControlViewModel.CheckBoxResult">
+            <summary>
+                Дает коллекцию с битовыми представлениями чекбоксов
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.UserControl.IConfigCheckBoxControlViewModel.Item(System.Int32)">
+            <summary>
+                Индексатор для коллекция представляющей результаты чекбоксов
+            </summary>
+            <param name="index"></param>
+            <returns></returns>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.UserControl.IConfigCheckBoxControlViewModel.IsAtLeastOneSelected">
+            <summary>
+            показывает, выдерен ли хоть один чекбокс
+            </summary>
+        </member>
+        <member name="T:ULA.Presentation.Infrastructure.ViewModels.UserControl.IDaySheduleViewModel">
+            <summary>
+               Описывает вью-модель дня для графиуа освещения
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.UserControl.IDaySheduleViewModel.IsEconomy">
+            <summary>
+            относится ли этот график к экономии
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.UserControl.IDaySheduleViewModel.Month">
+            <summary>
+                месяц к которому относится день
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.UserControl.IDaySheduleViewModel.DayNumber">
+            <summary>
+                Календарное число месяца
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.UserControl.IDaySheduleViewModel.StartHour">
+            <summary>
+                Время включения в часах
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.UserControl.IDaySheduleViewModel.StartMinute">
+            <summary>
+                Время включения в минутах
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.UserControl.IDaySheduleViewModel.StopHour">
+            <summary>
+                Время отключения в часах
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.UserControl.IDaySheduleViewModel.StopMinute">
+            <summary>
+                Время отключения в минутах
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.UserControl.IDaySheduleViewModel.RangeHour">
+            <summary>
+                Свойство с диапазоном часов [0-23]
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.UserControl.IDaySheduleViewModel.RangeMinute">
+            <summary>
+                Свойство с диапазоном минут [0-59]
+            </summary>
+        </member>
+        <member name="T:ULA.Presentation.Infrastructure.ViewModels.IRootViewModel">
+            <summary>
+                Exposes a root view model functionality
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.IRootViewModel.ChangeModeToConfigurationCommand">
+            <summary>
+                Gets an istance of <see cref="T:System.Windows.Input.ICommand" /> that represents an action of changing current application mode to
+                configuration mode
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.IRootViewModel.ChangeModeToRuntimeCommand">
+            <summary>
+                Gets an instance of <see cref="T:System.Windows.Input.ICommand" /> that represent an action of changing current application mode top
+                runtime mode
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.IRootViewModel.InitializeCommand">
+            <summary>
+                Gets an instance of <see cref="T:System.Windows.Input.ICommand" /> that represents an initialization action
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.ViewModels.IRootViewModel.ImageZIndex">
+            <summary>
+            положение картинки поверх или под остальным
+            </summary>
+        </member>
+        <member name="T:ULA.Presentation.Infrastructure.ViewModels.ViewModelBase">
+            <summary>
+                Represents a basic view model functionality
+            </summary>
+        </member>
+        <member name="E:ULA.Presentation.Infrastructure.ViewModels.ViewModelBase.PropertyChanged">
+            <summary>
+                Occurs when a property value changes.
+            </summary>
+        </member>
+        <member name="E:ULA.Presentation.Infrastructure.ViewModels.ViewModelBase.PropertyChanging">
+            <summary>
+                Occurs when a property value is changing.
+            </summary>
+        </member>
+        <member name="M:ULA.Presentation.Infrastructure.ViewModels.ViewModelBase.OnPropertyChanged(System.String)">
+            <summary>
+                Notifies property changed
+            </summary>
+            <param name="propertyName">The name of the property that has been changed</param>
+        </member>
+        <member name="M:ULA.Presentation.Infrastructure.ViewModels.ViewModelBase.OnPropertyChanging(System.String)">
+            <summary>
+                Notifies property changing
+            </summary>
+            <param name="propertyName">The name of the property that is being changed</param>
+        </member>
+        <member name="T:ULA.Presentation.Infrastructure.Views.IInteractionView">
+            <summary>
+                Exposes an interaction view functionality
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.Views.IInteractionView.DataContext">
+            <summary>
+                Gets or sets an instance of <see cref="T:System.Object" /> that represents current view's data context
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.Views.IInteractionView.Title">
+            <summary>
+                Gets or sets an instance of <see cref="T:System.String" /> that represents current interaction view's title
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.Views.IInteractionView.OkButtonTitle">
+            <summary>
+             Gets or sets an instance of <see cref="T:System.String" /> that represents current interaction view's okButtonTitle
+            </summary>
+        </member>
+        <member name="T:ULA.Presentation.Infrastructure.Views.InteractionViewBase">
+            <summary>
+                Represents base entity for the all interaction request views
+            </summary>
+        </member>
+        <member name="F:ULA.Presentation.Infrastructure.Views.InteractionViewBase.TitleProperty">
+            <summary>
+                Gets a TitleProperty metadata
+            </summary>
+        </member>
+        <member name="F:ULA.Presentation.Infrastructure.Views.InteractionViewBase.OkButtonTitleProperty">
+            <summary>
+             Gets a OkButtonTitleProperty metadata
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.Views.InteractionViewBase.Title">
+            <summary>
+                Gets or sets the title of current interaction request view
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.Views.InteractionViewBase.OkButtonTitle">
+            <summary>
+                Gets or sets the okButtonTitle of current interaction request view
+            </summary>
+        </member>
+        <member name="T:ULA.Presentation.Infrastructure.Views.MainContentView">
+            <summary>
+                Represents the main content view control
+                Представляет общие данные вьюшки
+            </summary>
+        </member>
+        <member name="F:ULA.Presentation.Infrastructure.Views.MainContentView.TitleProperty">
+            <summary>
+                Gets a TitleProperty metadata
+            </summary>
+        </member>
+        <member name="P:ULA.Presentation.Infrastructure.Views.MainContentView.Title">
+            <summary>
+                Gets or sets the title of current main content view
+            </summary>
+        </member>
+    </members>
+</doc>

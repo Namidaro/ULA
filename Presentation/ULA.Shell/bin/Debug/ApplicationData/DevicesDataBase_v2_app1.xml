@@ -1,0 +1,405 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content>
+  <!--Application storage space-->
+  <devices>
+    <!--Devices tables-->
+    <deviceViewModel id="31ef29cc-3a94-4be0-9603-62680bbdd440">
+      <state type="ULA.AddinsHost.Business.Device.DefaultConfigLogicalDeviceMomento, ULA.AddinsHost, Version=4.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <DefaultConfigLogicalDeviceMomento xmlns="http://schemas.datacontract.org/2004/07/ULA.AddinsHost.Business.Device" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+          <deviceContext i:type="a:AomDeviceContextEntity" xmlns:a="http://schemas.datacontract.org/2004/07/ULA.AddinsHost.Business.Device.Context">
+            <properties xmlns="http://schemas.datacontract.org/2004/07/ULA.Common.AOM">
+              <property>
+                <propertyName>DeviceName</propertyName>
+                <propertyValue>
+                  <type>
+                    <name>DeviceName</name>
+                    <type>System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</type>
+                  </type>
+                  <value i:type="b:string" xmlns:b="http://www.w3.org/2001/XMLSchema">runo 230</value>
+                </propertyValue>
+              </property>
+              <property>
+                <propertyName>DeviceDescription</propertyName>
+                <propertyValue>
+                  <type>
+                    <name>DeviceDescription</name>
+                    <type>System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</type>
+                  </type>
+                  <value i:type="b:string" xmlns:b="http://www.w3.org/2001/XMLSchema">Описание устройства</value>
+                </propertyValue>
+              </property>
+              <property>
+                <propertyName>DeviceType</propertyName>
+                <propertyValue>
+                  <type>
+                    <name>DeviceType</name>
+                    <type>System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</type>
+                  </type>
+                  <value i:type="b:string" xmlns:b="http://www.w3.org/2001/XMLSchema">RUNO</value>
+                </propertyValue>
+              </property>
+              <property>
+                <propertyName>AnalogMeterType</propertyName>
+                <propertyValue>
+                  <type>
+                    <name>AnalogMeterType</name>
+                    <type>System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</type>
+                  </type>
+                  <value i:type="b:string" xmlns:b="http://www.w3.org/2001/XMLSchema">No</value>
+                </propertyValue>
+              </property>
+              <property>
+                <propertyName>RelatedDriverId</propertyName>
+                <propertyValue>
+                  <type>
+                    <name>RelatedDriverId</name>
+                    <type>System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</type>
+                  </type>
+                  <value i:type="b:string" xmlns:b="http://www.w3.org/2001/XMLSchema">aaa8cc55-1933-4b9b-839d-53e94f807c71</value>
+                </propertyValue>
+              </property>
+              <property>
+                <propertyName>DeviceNumber</propertyName>
+                <propertyValue>
+                  <type>
+                    <name>DeviceNumber</name>
+                    <type>System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</type>
+                  </type>
+                  <value i:type="b:string" xmlns:b="http://www.w3.org/2001/XMLSchema">1</value>
+                </propertyValue>
+              </property>
+              <property>
+                <propertyName>Starter1Description</propertyName>
+                <propertyValue>
+                  <type>
+                    <name>Starter1Description</name>
+                    <type>System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</type>
+                  </type>
+                  <value i:type="b:string" xmlns:b="http://www.w3.org/2001/XMLSchema" />
+                </propertyValue>
+              </property>
+              <property>
+                <propertyName>Starter2Description</propertyName>
+                <propertyValue>
+                  <type>
+                    <name>Starter2Description</name>
+                    <type>System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</type>
+                  </type>
+                  <value i:type="b:string" xmlns:b="http://www.w3.org/2001/XMLSchema" />
+                </propertyValue>
+              </property>
+              <property>
+                <propertyName>Starter3Description</propertyName>
+                <propertyValue>
+                  <type>
+                    <name>Starter3Description</name>
+                    <type>System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</type>
+                  </type>
+                  <value i:type="b:string" xmlns:b="http://www.w3.org/2001/XMLSchema" />
+                </propertyValue>
+              </property>
+              <property>
+                <propertyName>TransformKoefA</propertyName>
+                <propertyValue>
+                  <type>
+                    <name>TransformKoefA</name>
+                    <type>System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</type>
+                  </type>
+                  <value i:type="b:string" xmlns:b="http://www.w3.org/2001/XMLSchema">100</value>
+                </propertyValue>
+              </property>
+              <property>
+                <propertyName>TransformKoefB</propertyName>
+                <propertyValue>
+                  <type>
+                    <name>TransformKoefB</name>
+                    <type>System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</type>
+                  </type>
+                  <value i:type="b:string" xmlns:b="http://www.w3.org/2001/XMLSchema">100</value>
+                </propertyValue>
+              </property>
+              <property>
+                <propertyName>TransformKoefC</propertyName>
+                <propertyValue>
+                  <type>
+                    <name>TransformKoefC</name>
+                    <type>System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</type>
+                  </type>
+                  <value i:type="b:string" xmlns:b="http://www.w3.org/2001/XMLSchema">100</value>
+                </propertyValue>
+              </property>
+              <property>
+                <propertyName>ChannelNumberOfStarter1</propertyName>
+                <propertyValue>
+                  <type>
+                    <name>ChannelNumberOfStarter1</name>
+                    <type>System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</type>
+                  </type>
+                  <value i:type="b:string" xmlns:b="http://www.w3.org/2001/XMLSchema">1</value>
+                </propertyValue>
+              </property>
+              <property>
+                <propertyName>ChannelNumberOfStarter2</propertyName>
+                <propertyValue>
+                  <type>
+                    <name>ChannelNumberOfStarter2</name>
+                    <type>System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</type>
+                  </type>
+                  <value i:type="b:string" xmlns:b="http://www.w3.org/2001/XMLSchema">2</value>
+                </propertyValue>
+              </property>
+              <property>
+                <propertyName>ChannelNumberOfStarter3</propertyName>
+                <propertyValue>
+                  <type>
+                    <name>ChannelNumberOfStarter3</name>
+                    <type>System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</type>
+                  </type>
+                  <value i:type="b:string" xmlns:b="http://www.w3.org/2001/XMLSchema">3</value>
+                </propertyValue>
+              </property>
+            </properties>
+            <type xmlns="http://schemas.datacontract.org/2004/07/ULA.Common.AOM">
+              <propertyTypes>
+                <propertyType>
+                  <propertyName>DeviceName</propertyName>
+                  <propertyTypeMetadata>
+                    <name>DeviceName</name>
+                    <type>System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</type>
+                  </propertyTypeMetadata>
+                </propertyType>
+                <propertyType>
+                  <propertyName>DeviceDescription</propertyName>
+                  <propertyTypeMetadata>
+                    <name>DeviceDescription</name>
+                    <type>System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</type>
+                  </propertyTypeMetadata>
+                </propertyType>
+                <propertyType>
+                  <propertyName>DeviceType</propertyName>
+                  <propertyTypeMetadata>
+                    <name>DeviceType</name>
+                    <type>System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</type>
+                  </propertyTypeMetadata>
+                </propertyType>
+                <propertyType>
+                  <propertyName>AnalogMeterType</propertyName>
+                  <propertyTypeMetadata>
+                    <name>AnalogMeterType</name>
+                    <type>System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</type>
+                  </propertyTypeMetadata>
+                </propertyType>
+                <propertyType>
+                  <propertyName>RelatedDriverId</propertyName>
+                  <propertyTypeMetadata>
+                    <name>RelatedDriverId</name>
+                    <type>System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</type>
+                  </propertyTypeMetadata>
+                </propertyType>
+                <propertyType>
+                  <propertyName>DeviceNumber</propertyName>
+                  <propertyTypeMetadata>
+                    <name>DeviceNumber</name>
+                    <type>System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</type>
+                  </propertyTypeMetadata>
+                </propertyType>
+                <propertyType>
+                  <propertyName>Starter1Description</propertyName>
+                  <propertyTypeMetadata>
+                    <name>Starter1Description</name>
+                    <type>System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</type>
+                  </propertyTypeMetadata>
+                </propertyType>
+                <propertyType>
+                  <propertyName>Starter2Description</propertyName>
+                  <propertyTypeMetadata>
+                    <name>Starter2Description</name>
+                    <type>System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</type>
+                  </propertyTypeMetadata>
+                </propertyType>
+                <propertyType>
+                  <propertyName>Starter3Description</propertyName>
+                  <propertyTypeMetadata>
+                    <name>Starter3Description</name>
+                    <type>System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</type>
+                  </propertyTypeMetadata>
+                </propertyType>
+              </propertyTypes>
+              <type>ULA.AddinsHost.Business.Device.Context.AomDeviceContextEntity, ULA.AddinsHost, Version=4.0.0.0, Culture=neutral, PublicKeyToken=null</type>
+            </type>
+            <a:CustomDeviceSchemeTable i:type="b:CustomDeviceSchemeTable" xmlns:b="http://schemas.datacontract.org/2004/07/ULA.AddinsHost.Business.Device.SchemeTable">
+              <properties xmlns="http://schemas.datacontract.org/2004/07/ULA.Common.AOM">
+                <property>
+                  <propertyName>fidersTable</propertyName>
+                  <propertyValue>
+                    <type>
+                      <name>fidersTable</name>
+                      <type>ULA.AddinsHost.Business.Device.SchemeTable.CustomCollections.CustomFidersCollection, ULA.AddinsHost, Version=4.0.0.0, Culture=neutral, PublicKeyToken=null</type>
+                    </type>
+                    <value i:type="c:CustomFidersCollection" xmlns:c="http://schemas.datacontract.org/2004/07/ULA.AddinsHost.Business.Device.SchemeTable.CustomCollections">
+                      <properties />
+                      <type>
+                        <propertyTypes />
+                        <type>ULA.AddinsHost.Business.Device.Context.AomDeviceContextEntity, ULA.AddinsHost, Version=4.0.0.0, Culture=neutral, PublicKeyToken=null</type>
+                      </type>
+                    </value>
+                  </propertyValue>
+                </property>
+                <property>
+                  <propertyName>signalsTable</propertyName>
+                  <propertyValue>
+                    <type>
+                      <name>signalsTable</name>
+                      <type>ULA.AddinsHost.Business.Device.SchemeTable.CustomCollections.CustomSignalsCollection, ULA.AddinsHost, Version=4.0.0.0, Culture=neutral, PublicKeyToken=null</type>
+                    </type>
+                    <value i:type="c:CustomSignalsCollection" xmlns:c="http://schemas.datacontract.org/2004/07/ULA.AddinsHost.Business.Device.SchemeTable.CustomCollections">
+                      <properties />
+                      <type>
+                        <propertyTypes />
+                        <type>ULA.AddinsHost.Business.Device.Context.AomDeviceContextEntity, ULA.AddinsHost, Version=4.0.0.0, Culture=neutral, PublicKeyToken=null</type>
+                      </type>
+                    </value>
+                  </propertyValue>
+                </property>
+                <property>
+                  <propertyName>indicatorsTable</propertyName>
+                  <propertyValue>
+                    <type>
+                      <name>indicatorsTable</name>
+                      <type>ULA.AddinsHost.Business.Device.SchemeTable.CustomCollections.CustomIndicatorsCollections, ULA.AddinsHost, Version=4.0.0.0, Culture=neutral, PublicKeyToken=null</type>
+                    </type>
+                    <value i:type="c:CustomIndicatorsCollections" xmlns:c="http://schemas.datacontract.org/2004/07/ULA.AddinsHost.Business.Device.SchemeTable.CustomCollections">
+                      <properties />
+                      <type>
+                        <propertyTypes />
+                        <type>ULA.AddinsHost.Business.Device.Context.AomDeviceContextEntity, ULA.AddinsHost, Version=4.0.0.0, Culture=neutral, PublicKeyToken=null</type>
+                      </type>
+                    </value>
+                  </propertyValue>
+                </property>
+                <property>
+                  <propertyName>cascadeTable</propertyName>
+                  <propertyValue>
+                    <type>
+                      <name>cascadeTable</name>
+                      <type>ULA.AddinsHost.Business.Device.SchemeTable.CustomCollections.CascadeIndicatorCollection, ULA.AddinsHost, Version=4.0.0.0, Culture=neutral, PublicKeyToken=null</type>
+                    </type>
+                    <value i:type="c:CascadeIndicatorCollection" xmlns:c="http://schemas.datacontract.org/2004/07/ULA.AddinsHost.Business.Device.SchemeTable.CustomCollections">
+                      <properties />
+                      <type>
+                        <propertyTypes />
+                        <type>ULA.AddinsHost.Business.Device.Context.AomDeviceContextEntity, ULA.AddinsHost, Version=4.0.0.0, Culture=neutral, PublicKeyToken=null</type>
+                      </type>
+                    </value>
+                  </propertyValue>
+                </property>
+              </properties>
+              <type xmlns="http://schemas.datacontract.org/2004/07/ULA.Common.AOM">
+                <propertyTypes>
+                  <propertyType>
+                    <propertyName>fidersTable</propertyName>
+                    <propertyTypeMetadata>
+                      <name>fidersTable</name>
+                      <type>ULA.AddinsHost.Business.Device.SchemeTable.CustomCollections.CustomFidersCollection, ULA.AddinsHost, Version=4.0.0.0, Culture=neutral, PublicKeyToken=null</type>
+                    </propertyTypeMetadata>
+                  </propertyType>
+                  <propertyType>
+                    <propertyName>signalsTable</propertyName>
+                    <propertyTypeMetadata>
+                      <name>signalsTable</name>
+                      <type>ULA.AddinsHost.Business.Device.SchemeTable.CustomCollections.CustomSignalsCollection, ULA.AddinsHost, Version=4.0.0.0, Culture=neutral, PublicKeyToken=null</type>
+                    </propertyTypeMetadata>
+                  </propertyType>
+                  <propertyType>
+                    <propertyName>indicatorsTable</propertyName>
+                    <propertyTypeMetadata>
+                      <name>indicatorsTable</name>
+                      <type>ULA.AddinsHost.Business.Device.SchemeTable.CustomCollections.CustomIndicatorsCollections, ULA.AddinsHost, Version=4.0.0.0, Culture=neutral, PublicKeyToken=null</type>
+                    </propertyTypeMetadata>
+                  </propertyType>
+                  <propertyType>
+                    <propertyName>cascadeTable</propertyName>
+                    <propertyTypeMetadata>
+                      <name>cascadeTable</name>
+                      <type>ULA.AddinsHost.Business.Device.SchemeTable.CustomCollections.CascadeIndicatorCollection, ULA.AddinsHost, Version=4.0.0.0, Culture=neutral, PublicKeyToken=null</type>
+                    </propertyTypeMetadata>
+                  </propertyType>
+                </propertyTypes>
+                <type>ULA.AddinsHost.Business.Device.Context.AomDeviceContextEntity, ULA.AddinsHost, Version=4.0.0.0, Culture=neutral, PublicKeyToken=null</type>
+              </type>
+            </a:CustomDeviceSchemeTable>
+          </deviceContext>
+        </DefaultConfigLogicalDeviceMomento>
+      </state>
+    </deviceViewModel>
+  </devices>
+  <drivers>
+    <!--Drivers tables-->
+    <driver id="aaa8cc55-1933-4b9b-839d-53e94f807c71">
+      <state type="ULA.AddinsHost.Business.Driver.DefaultConfigLogicalDriverMomento, ULA.AddinsHost, Version=4.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <DefaultConfigLogicalDriverMomento xmlns="http://schemas.datacontract.org/2004/07/ULA.AddinsHost.Business.Driver" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+          <driverContext i:type="a:tcpDriverContext" xmlns:a="http://schemas.datacontract.org/2004/07/ULA.AddinsHost.Business.Driver.Context">
+            <properties xmlns="http://schemas.datacontract.org/2004/07/ULA.Common.AOM">
+              <property>
+                <propertyName>TcpAddress</propertyName>
+                <propertyValue>
+                  <type>
+                    <name>TcpAddress</name>
+                    <type>System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</type>
+                  </type>
+                  <value i:type="b:string" xmlns:b="http://www.w3.org/2001/XMLSchema">10.12.179.230</value>
+                </propertyValue>
+              </property>
+              <property>
+                <propertyName>TcpPortNumber</propertyName>
+                <propertyValue>
+                  <type>
+                    <name>TcpPortNumber</name>
+                    <type>System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</type>
+                  </type>
+                  <value i:type="b:int" xmlns:b="http://www.w3.org/2001/XMLSchema">4444</value>
+                </propertyValue>
+              </property>
+              <property>
+                <propertyName>DeviceType</propertyName>
+                <propertyValue>
+                  <type>
+                    <name>DeviceType</name>
+                    <type>System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</type>
+                  </type>
+                  <value i:type="b:string" xmlns:b="http://www.w3.org/2001/XMLSchema">TCP_MB</value>
+                </propertyValue>
+              </property>
+            </properties>
+            <type xmlns="http://schemas.datacontract.org/2004/07/ULA.Common.AOM">
+              <propertyTypes>
+                <propertyType>
+                  <propertyName>TcpAddress</propertyName>
+                  <propertyTypeMetadata>
+                    <name>TcpAddress</name>
+                    <type>System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</type>
+                  </propertyTypeMetadata>
+                </propertyType>
+                <propertyType>
+                  <propertyName>TcpPortNumber</propertyName>
+                  <propertyTypeMetadata>
+                    <name>TcpPortNumber</name>
+                    <type>System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</type>
+                  </propertyTypeMetadata>
+                </propertyType>
+                <propertyType>
+                  <propertyName>DeviceType</propertyName>
+                  <propertyTypeMetadata>
+                    <name>DeviceType</name>
+                    <type>System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</type>
+                  </propertyTypeMetadata>
+                </propertyType>
+              </propertyTypes>
+              <type>ULA.AddinsHost.Business.Device.Context.AomDeviceContextEntity, ULA.AddinsHost, Version=4.0.0.0, Culture=neutral, PublicKeyToken=null</type>
+            </type>
+          </driverContext>
+        </DefaultConfigLogicalDriverMomento>
+      </state>
+    </driver>
+  </drivers>
+</Content>

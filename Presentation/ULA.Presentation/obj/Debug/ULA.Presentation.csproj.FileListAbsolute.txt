@@ -1,0 +1,296 @@
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\obj\Debug\ULA.Presentation.csprojResolveAssemblyReference.cache
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\obj\Debug\Views\UserControl\DaySheduleView.baml
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\obj\Debug\Views\LightingSheduleView.g.cs
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\obj\Debug\Views\ListWidgetModeConfigurationView.g.cs
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\obj\Debug\Views\ListWidgetModeRuntimeView.g.cs
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\obj\Debug\Views\UserControl\ConnectionErrorsView.g.cs
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\obj\Debug\Views\UserControl\DaySheduleView.g.cs
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\obj\Debug\ULA.Presentation_MarkupCompile.cache
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\obj\Debug\ULA.Presentation_MarkupCompile.lref
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\bin\Debug\Files\ULA.chm
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\bin\Debug\NLog.config
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\bin\Debug\ULA.Presentation.dll.config
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\bin\Debug\ULA.Presentation.XML
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\bin\Debug\ULA.Presentation.dll
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\bin\Debug\ULA.Presentation.pdb
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\bin\Debug\FirstFloor.ModernUI.dll
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\bin\Debug\FluentValidation.dll
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\bin\Debug\Microsoft.Practices.Unity.Interception.Configuration.dll
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\bin\Debug\NLog.dll
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\bin\Debug\Prism.dll
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\bin\Debug\Prism.Unity.Wpf.dll
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\bin\Debug\Prism.Wpf.dll
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\bin\Debug\ULA.AddinsHost.dll
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\bin\Debug\ULA.ApplicationConnectionService.dll
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\bin\Debug\ULA.Business.dll
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\bin\Debug\ULA.Business.Infrastructure.dll
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\bin\Debug\ULA.Common.dll
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\bin\Debug\ULA.Interceptors.dll
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\bin\Debug\ULA.Localization.dll
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\bin\Debug\ULA.Log.dll
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\bin\Debug\ULA.Presentation.Infrastructure.dll
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\bin\Debug\ULA.Presentation.SharedResourses.dll
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\bin\Debug\YP.Toolkit.System.dll
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\bin\Debug\NModBus4.dll
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\bin\Debug\ULA.ApplicationConnectionService.pdb
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\bin\Debug\ULA.Business.Infrastructure.pdb
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\bin\Debug\ULA.Business.Infrastructure.xml
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\bin\Debug\ULA.Business.pdb
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\bin\Debug\ULA.Business.xml
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\bin\Debug\ULA.AddinsHost.pdb
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\bin\Debug\ULA.AddinsHost.xml
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\bin\Debug\ULA.Common.pdb
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\bin\Debug\ULA.Common.xml
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\bin\Debug\ULA.Interceptors.pdb
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\bin\Debug\ULA.Interceptors.xml
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\bin\Debug\ULA.Localization.pdb
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\bin\Debug\ULA.Localization.xml
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\bin\Debug\YP.Toolkit.System.pdb
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\bin\Debug\YP.Toolkit.System.xml
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\bin\Debug\ULA.Log.pdb
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\bin\Debug\ULA.Presentation.Infrastructure.pdb
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\bin\Debug\ULA.Presentation.Infrastructure.xml
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\bin\Debug\ULA.Presentation.SharedResourses.pdb
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\bin\Debug\ULA.Presentation.SharedResourses.xml
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\bin\Debug\FirstFloor.ModernUI.xml
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\bin\Debug\FluentValidation.pdb
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\bin\Debug\FluentValidation.xml
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\bin\Debug\Microsoft.Expression.Interactions.xml
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\bin\Debug\Microsoft.Practices.Unity.Interception.xml
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\bin\Debug\Microsoft.Practices.Unity.Interception.Configuration.xml
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\bin\Debug\NLog.xml
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\bin\Debug\Prism.xml
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\bin\Debug\Prism.Unity.Wpf.xml
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\bin\Debug\Prism.Wpf.xml
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\bin\Debug\NModBus4.pdb
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\bin\Debug\de\FluentValidation.resources.dll
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\bin\Debug\es\FluentValidation.resources.dll
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\bin\Debug\fi\FluentValidation.resources.dll
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\bin\Debug\fr\FluentValidation.resources.dll
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\bin\Debug\it\FluentValidation.resources.dll
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\bin\Debug\ko\FluentValidation.resources.dll
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\bin\Debug\nl\FluentValidation.resources.dll
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\bin\Debug\pl\FluentValidation.resources.dll
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\bin\Debug\pt\FluentValidation.resources.dll
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\bin\Debug\ru\FluentValidation.resources.dll
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\bin\Debug\sv\FluentValidation.resources.dll
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\bin\Debug\tr\FluentValidation.resources.dll
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\bin\Debug\de\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\bin\Debug\en\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\bin\Debug\es\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\bin\Debug\fr\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\bin\Debug\it\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\bin\Debug\ja\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\bin\Debug\ko\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\bin\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\bin\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\obj\Debug\Views\FailureModeView.baml
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\obj\Debug\Views\Interactions\AboutInteractionView.baml
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\obj\Debug\Views\Interactions\BusyInteractionView.baml
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\obj\Debug\Views\Interactions\CitywideCommandsInteractionView.baml
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\obj\Debug\Views\Interactions\ErrorMessageBoxInteractionView.baml
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\obj\Debug\Views\Interactions\InformationMessageBoxInteractionView.baml
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\obj\Debug\Views\Interactions\LogInteractionView.baml
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\obj\Debug\Views\Interactions\QuestionMessageBoxInteractionView.baml
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\obj\Debug\Views\Interactions\SynchronizationTimeInteractionView.baml
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\obj\Debug\Views\Interactions\UpdateTimeoutInteractionView.baml
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\obj\Debug\Views\Interactions\WarningMessageBoxInteractionView.baml
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\obj\Debug\Views\ConfigurationModeView.g.cs
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\obj\Debug\Views\FailureModeView.g.cs
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\obj\Debug\Views\Interactions\AboutInteractionView.g.cs
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\obj\Debug\Views\Interactions\BusyInteractionView.g.cs
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\obj\Debug\Views\Interactions\CitywideCommandsInteractionView.g.cs
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\obj\Debug\Views\Interactions\ErrorMessageBoxInteractionView.g.cs
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\obj\Debug\Views\Interactions\ExtraSettingsView.g.cs
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\obj\Debug\Views\Interactions\InformationMessageBoxInteractionView.g.cs
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\obj\Debug\Views\Interactions\LogInteractionView.g.cs
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\obj\Debug\Views\Interactions\ModifyDeviceInteractionView.g.cs
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\obj\Debug\Views\Interactions\PasswordInteractionView.g.cs
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\obj\Debug\Views\Interactions\QuestionMessageBoxInteractionView.g.cs
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\obj\Debug\Views\Interactions\SynchronizationTimeInteractionView.g.cs
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\obj\Debug\Views\Interactions\UpdateTimeoutInteractionView.g.cs
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\obj\Debug\Views\Interactions\WarningMessageBoxInteractionView.g.cs
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\obj\Debug\Views\Log\ApplicationLogView.g.cs
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\obj\Debug\Views\RootView.g.cs
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\obj\Debug\Views\RuntimeModeView.g.cs
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\obj\Debug\Views\ConfigurationModeView.baml
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\obj\Debug\Views\Interactions\ExtraSettingsView.baml
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\obj\Debug\Views\Interactions\ModifyDeviceInteractionView.baml
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\obj\Debug\Views\Interactions\PasswordInteractionView.baml
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\obj\Debug\Views\LightingSheduleView.baml
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\obj\Debug\Views\ListWidgetModeConfigurationView.baml
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\obj\Debug\Views\ListWidgetModeRuntimeView.baml
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\obj\Debug\Views\Log\ApplicationLogView.baml
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\obj\Debug\Views\RootView.baml
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\obj\Debug\Views\RuntimeModeView.baml
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\obj\Debug\Views\UserControl\ConnectionErrorsView.baml
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\obj\Debug\ULA.Presentation.g.resources
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\obj\Debug\ULA.Presentation.Properties.Resources.resources
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\obj\Debug\ULA.Presentation.csproj.GenerateResource.Cache
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\obj\Debug\ULA.Presentation.dll
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation\obj\Debug\ULA.Presentation.pdb
+C:\ULA 2k17\Presentation\ULA.Presentation\bin\Debug\Files\ULA.chm
+C:\ULA 2k17\Presentation\ULA.Presentation\bin\Debug\NLog.config
+C:\ULA 2k17\Presentation\ULA.Presentation\bin\Debug\ULA.Presentation.dll.config
+C:\ULA 2k17\Presentation\ULA.Presentation\bin\Debug\ULA.Presentation.XML
+C:\ULA 2k17\Presentation\ULA.Presentation\bin\Debug\ULA.Presentation.dll
+C:\ULA 2k17\Presentation\ULA.Presentation\bin\Debug\ULA.Presentation.pdb
+C:\ULA 2k17\Presentation\ULA.Presentation\bin\Debug\FirstFloor.ModernUI.dll
+C:\ULA 2k17\Presentation\ULA.Presentation\bin\Debug\FluentValidation.dll
+C:\ULA 2k17\Presentation\ULA.Presentation\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\ULA 2k17\Presentation\ULA.Presentation\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\ULA 2k17\Presentation\ULA.Presentation\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\ULA 2k17\Presentation\ULA.Presentation\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\ULA 2k17\Presentation\ULA.Presentation\bin\Debug\Microsoft.Practices.Unity.dll
+C:\ULA 2k17\Presentation\ULA.Presentation\bin\Debug\Microsoft.Practices.Unity.Interception.Configuration.dll
+C:\ULA 2k17\Presentation\ULA.Presentation\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+C:\ULA 2k17\Presentation\ULA.Presentation\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\ULA 2k17\Presentation\ULA.Presentation\bin\Debug\NLog.dll
+C:\ULA 2k17\Presentation\ULA.Presentation\bin\Debug\Prism.dll
+C:\ULA 2k17\Presentation\ULA.Presentation\bin\Debug\Prism.Unity.Wpf.dll
+C:\ULA 2k17\Presentation\ULA.Presentation\bin\Debug\Prism.Wpf.dll
+C:\ULA 2k17\Presentation\ULA.Presentation\bin\Debug\System.Windows.Interactivity.dll
+C:\ULA 2k17\Presentation\ULA.Presentation\bin\Debug\ULA.AddinsHost.dll
+C:\ULA 2k17\Presentation\ULA.Presentation\bin\Debug\ULA.ApplicationConnectionService.dll
+C:\ULA 2k17\Presentation\ULA.Presentation\bin\Debug\ULA.Business.dll
+C:\ULA 2k17\Presentation\ULA.Presentation\bin\Debug\ULA.Business.Infrastructure.dll
+C:\ULA 2k17\Presentation\ULA.Presentation\bin\Debug\ULA.Common.dll
+C:\ULA 2k17\Presentation\ULA.Presentation\bin\Debug\ULA.Interceptors.dll
+C:\ULA 2k17\Presentation\ULA.Presentation\bin\Debug\ULA.Localization.dll
+C:\ULA 2k17\Presentation\ULA.Presentation\bin\Debug\ULA.Log.dll
+C:\ULA 2k17\Presentation\ULA.Presentation\bin\Debug\ULA.Presentation.Infrastructure.dll
+C:\ULA 2k17\Presentation\ULA.Presentation\bin\Debug\ULA.Presentation.SharedResourses.dll
+C:\ULA 2k17\Presentation\ULA.Presentation\bin\Debug\YP.Toolkit.System.dll
+C:\ULA 2k17\Presentation\ULA.Presentation\bin\Debug\NModBus4.dll
+C:\ULA 2k17\Presentation\ULA.Presentation\bin\Debug\ULA.ApplicationConnectionService.pdb
+C:\ULA 2k17\Presentation\ULA.Presentation\bin\Debug\ULA.Business.Infrastructure.pdb
+C:\ULA 2k17\Presentation\ULA.Presentation\bin\Debug\ULA.Business.Infrastructure.xml
+C:\ULA 2k17\Presentation\ULA.Presentation\bin\Debug\ULA.Business.pdb
+C:\ULA 2k17\Presentation\ULA.Presentation\bin\Debug\ULA.Business.xml
+C:\ULA 2k17\Presentation\ULA.Presentation\bin\Debug\ULA.AddinsHost.pdb
+C:\ULA 2k17\Presentation\ULA.Presentation\bin\Debug\ULA.AddinsHost.xml
+C:\ULA 2k17\Presentation\ULA.Presentation\bin\Debug\ULA.Common.pdb
+C:\ULA 2k17\Presentation\ULA.Presentation\bin\Debug\ULA.Common.xml
+C:\ULA 2k17\Presentation\ULA.Presentation\bin\Debug\ULA.Interceptors.pdb
+C:\ULA 2k17\Presentation\ULA.Presentation\bin\Debug\ULA.Interceptors.xml
+C:\ULA 2k17\Presentation\ULA.Presentation\bin\Debug\ULA.Localization.pdb
+C:\ULA 2k17\Presentation\ULA.Presentation\bin\Debug\ULA.Localization.xml
+C:\ULA 2k17\Presentation\ULA.Presentation\bin\Debug\YP.Toolkit.System.pdb
+C:\ULA 2k17\Presentation\ULA.Presentation\bin\Debug\YP.Toolkit.System.xml
+C:\ULA 2k17\Presentation\ULA.Presentation\bin\Debug\ULA.Log.pdb
+C:\ULA 2k17\Presentation\ULA.Presentation\bin\Debug\ULA.Presentation.Infrastructure.pdb
+C:\ULA 2k17\Presentation\ULA.Presentation\bin\Debug\ULA.Presentation.Infrastructure.xml
+C:\ULA 2k17\Presentation\ULA.Presentation\bin\Debug\ULA.Presentation.SharedResourses.pdb
+C:\ULA 2k17\Presentation\ULA.Presentation\bin\Debug\ULA.Presentation.SharedResourses.xml
+C:\ULA 2k17\Presentation\ULA.Presentation\bin\Debug\FirstFloor.ModernUI.xml
+C:\ULA 2k17\Presentation\ULA.Presentation\bin\Debug\FluentValidation.pdb
+C:\ULA 2k17\Presentation\ULA.Presentation\bin\Debug\FluentValidation.xml
+C:\ULA 2k17\Presentation\ULA.Presentation\bin\Debug\Microsoft.Expression.Interactions.xml
+C:\ULA 2k17\Presentation\ULA.Presentation\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\ULA 2k17\Presentation\ULA.Presentation\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\ULA 2k17\Presentation\ULA.Presentation\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\ULA 2k17\Presentation\ULA.Presentation\bin\Debug\Microsoft.Practices.Unity.xml
+C:\ULA 2k17\Presentation\ULA.Presentation\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\ULA 2k17\Presentation\ULA.Presentation\bin\Debug\Microsoft.Practices.Unity.Interception.xml
+C:\ULA 2k17\Presentation\ULA.Presentation\bin\Debug\Microsoft.Practices.Unity.Interception.Configuration.xml
+C:\ULA 2k17\Presentation\ULA.Presentation\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
+C:\ULA 2k17\Presentation\ULA.Presentation\bin\Debug\NLog.xml
+C:\ULA 2k17\Presentation\ULA.Presentation\bin\Debug\Prism.xml
+C:\ULA 2k17\Presentation\ULA.Presentation\bin\Debug\Prism.Unity.Wpf.xml
+C:\ULA 2k17\Presentation\ULA.Presentation\bin\Debug\Prism.Wpf.xml
+C:\ULA 2k17\Presentation\ULA.Presentation\bin\Debug\NModBus4.pdb
+C:\ULA 2k17\Presentation\ULA.Presentation\bin\Debug\de\FluentValidation.resources.dll
+C:\ULA 2k17\Presentation\ULA.Presentation\bin\Debug\es\FluentValidation.resources.dll
+C:\ULA 2k17\Presentation\ULA.Presentation\bin\Debug\fi\FluentValidation.resources.dll
+C:\ULA 2k17\Presentation\ULA.Presentation\bin\Debug\fr\FluentValidation.resources.dll
+C:\ULA 2k17\Presentation\ULA.Presentation\bin\Debug\it\FluentValidation.resources.dll
+C:\ULA 2k17\Presentation\ULA.Presentation\bin\Debug\ko\FluentValidation.resources.dll
+C:\ULA 2k17\Presentation\ULA.Presentation\bin\Debug\nl\FluentValidation.resources.dll
+C:\ULA 2k17\Presentation\ULA.Presentation\bin\Debug\pl\FluentValidation.resources.dll
+C:\ULA 2k17\Presentation\ULA.Presentation\bin\Debug\pt\FluentValidation.resources.dll
+C:\ULA 2k17\Presentation\ULA.Presentation\bin\Debug\ru\FluentValidation.resources.dll
+C:\ULA 2k17\Presentation\ULA.Presentation\bin\Debug\sv\FluentValidation.resources.dll
+C:\ULA 2k17\Presentation\ULA.Presentation\bin\Debug\tr\FluentValidation.resources.dll
+C:\ULA 2k17\Presentation\ULA.Presentation\bin\Debug\de\Microsoft.Expression.Interactions.resources.dll
+C:\ULA 2k17\Presentation\ULA.Presentation\bin\Debug\en\Microsoft.Expression.Interactions.resources.dll
+C:\ULA 2k17\Presentation\ULA.Presentation\bin\Debug\es\Microsoft.Expression.Interactions.resources.dll
+C:\ULA 2k17\Presentation\ULA.Presentation\bin\Debug\fr\Microsoft.Expression.Interactions.resources.dll
+C:\ULA 2k17\Presentation\ULA.Presentation\bin\Debug\it\Microsoft.Expression.Interactions.resources.dll
+C:\ULA 2k17\Presentation\ULA.Presentation\bin\Debug\ja\Microsoft.Expression.Interactions.resources.dll
+C:\ULA 2k17\Presentation\ULA.Presentation\bin\Debug\ko\Microsoft.Expression.Interactions.resources.dll
+C:\ULA 2k17\Presentation\ULA.Presentation\bin\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+C:\ULA 2k17\Presentation\ULA.Presentation\bin\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+C:\ULA 2k17\Presentation\ULA.Presentation\obj\Debug\ULA.Presentation.csprojResolveAssemblyReference.cache
+C:\ULA 2k17\Presentation\ULA.Presentation\obj\Debug\Views\FailureModeView.baml
+C:\ULA 2k17\Presentation\ULA.Presentation\obj\Debug\Views\Interactions\AboutInteractionView.baml
+C:\ULA 2k17\Presentation\ULA.Presentation\obj\Debug\Views\Interactions\BusyInteractionView.baml
+C:\ULA 2k17\Presentation\ULA.Presentation\obj\Debug\Views\Interactions\CitywideCommandsInteractionView.baml
+C:\ULA 2k17\Presentation\ULA.Presentation\obj\Debug\Views\Interactions\ErrorMessageBoxInteractionView.baml
+C:\ULA 2k17\Presentation\ULA.Presentation\obj\Debug\Views\Interactions\InformationMessageBoxInteractionView.baml
+C:\ULA 2k17\Presentation\ULA.Presentation\obj\Debug\Views\Interactions\LogInteractionView.baml
+C:\ULA 2k17\Presentation\ULA.Presentation\obj\Debug\Views\Interactions\QuestionMessageBoxInteractionView.baml
+C:\ULA 2k17\Presentation\ULA.Presentation\obj\Debug\Views\Interactions\SynchronizationTimeInteractionView.baml
+C:\ULA 2k17\Presentation\ULA.Presentation\obj\Debug\Views\Interactions\UpdateTimeoutInteractionView.baml
+C:\ULA 2k17\Presentation\ULA.Presentation\obj\Debug\Views\Interactions\WarningMessageBoxInteractionView.baml
+C:\ULA 2k17\Presentation\ULA.Presentation\obj\Debug\Views\UserControl\DaySheduleView.baml
+C:\ULA 2k17\Presentation\ULA.Presentation\obj\Debug\Views\ConfigurationModeView.g.cs
+C:\ULA 2k17\Presentation\ULA.Presentation\obj\Debug\Views\FailureModeView.g.cs
+C:\ULA 2k17\Presentation\ULA.Presentation\obj\Debug\Views\Interactions\AboutInteractionView.g.cs
+C:\ULA 2k17\Presentation\ULA.Presentation\obj\Debug\Views\Interactions\BusyInteractionView.g.cs
+C:\ULA 2k17\Presentation\ULA.Presentation\obj\Debug\Views\Interactions\CitywideCommandsInteractionView.g.cs
+C:\ULA 2k17\Presentation\ULA.Presentation\obj\Debug\Views\Interactions\ErrorMessageBoxInteractionView.g.cs
+C:\ULA 2k17\Presentation\ULA.Presentation\obj\Debug\Views\Interactions\ExtraSettingsView.g.cs
+C:\ULA 2k17\Presentation\ULA.Presentation\obj\Debug\Views\Interactions\InformationMessageBoxInteractionView.g.cs
+C:\ULA 2k17\Presentation\ULA.Presentation\obj\Debug\Views\Interactions\LogInteractionView.g.cs
+C:\ULA 2k17\Presentation\ULA.Presentation\obj\Debug\Views\Interactions\ModifyDeviceInteractionView.g.cs
+C:\ULA 2k17\Presentation\ULA.Presentation\obj\Debug\Views\Interactions\PasswordInteractionView.g.cs
+C:\ULA 2k17\Presentation\ULA.Presentation\obj\Debug\Views\Interactions\QuestionMessageBoxInteractionView.g.cs
+C:\ULA 2k17\Presentation\ULA.Presentation\obj\Debug\Views\Interactions\SynchronizationTimeInteractionView.g.cs
+C:\ULA 2k17\Presentation\ULA.Presentation\obj\Debug\Views\Interactions\UpdateTimeoutInteractionView.g.cs
+C:\ULA 2k17\Presentation\ULA.Presentation\obj\Debug\Views\Interactions\WarningMessageBoxInteractionView.g.cs
+C:\ULA 2k17\Presentation\ULA.Presentation\obj\Debug\Views\LightingSheduleView.g.cs
+C:\ULA 2k17\Presentation\ULA.Presentation\obj\Debug\Views\ListWidgetModeConfigurationView.g.cs
+C:\ULA 2k17\Presentation\ULA.Presentation\obj\Debug\Views\ListWidgetModeRuntimeView.g.cs
+C:\ULA 2k17\Presentation\ULA.Presentation\obj\Debug\Views\Log\ApplicationLogView.g.cs
+C:\ULA 2k17\Presentation\ULA.Presentation\obj\Debug\Views\RootView.g.cs
+C:\ULA 2k17\Presentation\ULA.Presentation\obj\Debug\Views\RuntimeModeView.g.cs
+C:\ULA 2k17\Presentation\ULA.Presentation\obj\Debug\Views\UserControl\ConnectionErrorsView.g.cs
+C:\ULA 2k17\Presentation\ULA.Presentation\obj\Debug\Views\UserControl\DaySheduleView.g.cs
+C:\ULA 2k17\Presentation\ULA.Presentation\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\ULA 2k17\Presentation\ULA.Presentation\obj\Debug\ULA.Presentation_MarkupCompile.cache
+C:\ULA 2k17\Presentation\ULA.Presentation\obj\Debug\ULA.Presentation_MarkupCompile.lref
+C:\ULA 2k17\Presentation\ULA.Presentation\obj\Debug\Views\ConfigurationModeView.baml
+C:\ULA 2k17\Presentation\ULA.Presentation\obj\Debug\Views\Interactions\ExtraSettingsView.baml
+C:\ULA 2k17\Presentation\ULA.Presentation\obj\Debug\Views\Interactions\ModifyDeviceInteractionView.baml
+C:\ULA 2k17\Presentation\ULA.Presentation\obj\Debug\Views\Interactions\PasswordInteractionView.baml
+C:\ULA 2k17\Presentation\ULA.Presentation\obj\Debug\Views\LightingSheduleView.baml
+C:\ULA 2k17\Presentation\ULA.Presentation\obj\Debug\Views\ListWidgetModeConfigurationView.baml
+C:\ULA 2k17\Presentation\ULA.Presentation\obj\Debug\Views\ListWidgetModeRuntimeView.baml
+C:\ULA 2k17\Presentation\ULA.Presentation\obj\Debug\Views\Log\ApplicationLogView.baml
+C:\ULA 2k17\Presentation\ULA.Presentation\obj\Debug\Views\RootView.baml
+C:\ULA 2k17\Presentation\ULA.Presentation\obj\Debug\Views\RuntimeModeView.baml
+C:\ULA 2k17\Presentation\ULA.Presentation\obj\Debug\Views\UserControl\ConnectionErrorsView.baml
+C:\ULA 2k17\Presentation\ULA.Presentation\obj\Debug\ULA.Presentation.g.resources
+C:\ULA 2k17\Presentation\ULA.Presentation\obj\Debug\ULA.Presentation.Properties.Resources.resources
+C:\ULA 2k17\Presentation\ULA.Presentation\obj\Debug\ULA.Presentation.csproj.GenerateResource.Cache
+C:\ULA 2k17\Presentation\ULA.Presentation\obj\Debug\ULA.Presentation.dll
+C:\ULA 2k17\Presentation\ULA.Presentation\obj\Debug\ULA.Presentation.pdb
+C:\ULA 2k17\Presentation\ULA.Presentation\obj\Debug\Views\Interactions\CommandOnTemplateInteractionView.g.cs
+C:\ULA 2k17\Presentation\ULA.Presentation\obj\Debug\Views\Interactions\CommandOnTemplateInteractionView.baml
+C:\ULA 2k17\Presentation\ULA.Presentation\obj\Debug\Views\Interactions\EditTemplatesView\EditTemplateView.g.cs
+C:\ULA 2k17\Presentation\ULA.Presentation\obj\Debug\Views\Interactions\EditTemplatesView\EditTemplateView.baml

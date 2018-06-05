@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<ExtraSettingsEntity xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <AcknowledgeEnabled>false</AcknowledgeEnabled>
+  <FullTimeoutPeriod>5</FullTimeoutPeriod>
+  <PartialTimeoutPeriod>40</PartialTimeoutPeriod>
+  <QueryTimeoutPeriod>10</QueryTimeoutPeriod>
+  <NumberOfLightingCommandRepeat>0</NumberOfLightingCommandRepeat>
+  <MillisecondRepeatInterval>60000</MillisecondRepeatInterval>
+</ExtraSettingsEntity>

@@ -1,0 +1,124 @@
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation.SharedResourses\obj\Debug\ULA.Presentation.SharedResourses.csprojResolveAssemblyReference.cache
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation.SharedResourses\obj\Debug\UI\Generic.baml
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation.SharedResourses\obj\Debug\UI\Colors.baml
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation.SharedResourses\obj\Debug\UI\Icons.baml
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation.SharedResourses\obj\Debug\UI\Buttons.baml
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation.SharedResourses\obj\Debug\UI\Menus.baml
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation.SharedResourses\obj\Debug\UI\Text.baml
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation.SharedResourses\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation.SharedResourses\obj\Debug\ULA.Presentation.SharedResourses_MarkupCompile.cache
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation.SharedResourses\obj\Debug\ULA.Presentation.SharedResourses_MarkupCompile.lref
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation.SharedResourses\bin\Debug\ULA.Presentation.SharedResourses.dll.config
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation.SharedResourses\bin\Debug\ULA.Presentation.SharedResourses.XML
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation.SharedResourses\bin\Debug\ULA.Presentation.SharedResourses.dll
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation.SharedResourses\bin\Debug\ULA.Presentation.SharedResourses.pdb
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation.SharedResourses\bin\Debug\FirstFloor.ModernUI.dll
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation.SharedResourses\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation.SharedResourses\bin\Debug\Microsoft.Practices.Prism.dll
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation.SharedResourses\bin\Debug\Microsoft.Practices.Prism.UnityExtensions.dll
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation.SharedResourses\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation.SharedResourses\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation.SharedResourses\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation.SharedResourses\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation.SharedResourses\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation.SharedResourses\bin\Debug\ULA.Interceptors.dll
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation.SharedResourses\bin\Debug\ULA.Localization.dll
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation.SharedResourses\bin\Debug\ULA.Presentation.Infrastructure.dll
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation.SharedResourses\bin\Debug\YP.Toolkit.System.dll
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation.SharedResourses\bin\Debug\Prism.dll
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation.SharedResourses\bin\Debug\ULA.AddinsHost.dll
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation.SharedResourses\bin\Debug\Prism.Wpf.dll
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation.SharedResourses\bin\Debug\ULA.Common.dll
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation.SharedResourses\bin\Debug\ULA.Interceptors.pdb
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation.SharedResourses\bin\Debug\ULA.Interceptors.xml
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation.SharedResourses\bin\Debug\ULA.Localization.pdb
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation.SharedResourses\bin\Debug\ULA.Localization.xml
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation.SharedResourses\bin\Debug\YP.Toolkit.System.pdb
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation.SharedResourses\bin\Debug\YP.Toolkit.System.xml
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation.SharedResourses\bin\Debug\ULA.Presentation.Infrastructure.pdb
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation.SharedResourses\bin\Debug\ULA.Presentation.Infrastructure.xml
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation.SharedResourses\bin\Debug\FirstFloor.ModernUI.xml
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation.SharedResourses\bin\Debug\Microsoft.Practices.Prism.xml
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation.SharedResourses\bin\Debug\Microsoft.Practices.Prism.UnityExtensions.xml
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation.SharedResourses\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation.SharedResourses\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation.SharedResourses\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation.SharedResourses\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation.SharedResourses\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation.SharedResourses\bin\Debug\Prism.xml
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation.SharedResourses\bin\Debug\ULA.AddinsHost.pdb
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation.SharedResourses\bin\Debug\ULA.AddinsHost.xml
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation.SharedResourses\bin\Debug\Prism.Wpf.xml
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation.SharedResourses\bin\Debug\ULA.Common.pdb
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation.SharedResourses\bin\Debug\ULA.Common.xml
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation.SharedResourses\obj\Debug\UI\MainView.baml
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation.SharedResourses\obj\Debug\UI\InteractionViewContent.baml
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation.SharedResourses\obj\Debug\UI\ProgressRing.baml
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation.SharedResourses\obj\Debug\UI\TextBoxs.baml
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation.SharedResourses\obj\Debug\ULA.Presentation.SharedResourses.g.resources
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation.SharedResourses\obj\Debug\ULA.Presentation.SharedResourses.Properties.Resources.resources
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation.SharedResourses\obj\Debug\ULA.Presentation.SharedResourses.csproj.GenerateResource.Cache
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation.SharedResourses\obj\Debug\ULA.Presentation.SharedResourses.dll
+C:\Users\Гусачок\Desktop\ULA\Presentation\ULA.Presentation.SharedResourses\obj\Debug\ULA.Presentation.SharedResourses.pdb
+C:\ULA 2k17\Presentation\ULA.Presentation.SharedResourses\bin\Debug\ULA.Presentation.SharedResourses.dll.config
+C:\ULA 2k17\Presentation\ULA.Presentation.SharedResourses\bin\Debug\ULA.Presentation.SharedResourses.XML
+C:\ULA 2k17\Presentation\ULA.Presentation.SharedResourses\bin\Debug\ULA.Presentation.SharedResourses.dll
+C:\ULA 2k17\Presentation\ULA.Presentation.SharedResourses\bin\Debug\ULA.Presentation.SharedResourses.pdb
+C:\ULA 2k17\Presentation\ULA.Presentation.SharedResourses\bin\Debug\FirstFloor.ModernUI.dll
+C:\ULA 2k17\Presentation\ULA.Presentation.SharedResourses\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\ULA 2k17\Presentation\ULA.Presentation.SharedResourses\bin\Debug\Microsoft.Practices.Prism.dll
+C:\ULA 2k17\Presentation\ULA.Presentation.SharedResourses\bin\Debug\Microsoft.Practices.Prism.UnityExtensions.dll
+C:\ULA 2k17\Presentation\ULA.Presentation.SharedResourses\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\ULA 2k17\Presentation\ULA.Presentation.SharedResourses\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\ULA 2k17\Presentation\ULA.Presentation.SharedResourses\bin\Debug\Microsoft.Practices.Unity.dll
+C:\ULA 2k17\Presentation\ULA.Presentation.SharedResourses\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\ULA 2k17\Presentation\ULA.Presentation.SharedResourses\bin\Debug\System.Windows.Interactivity.dll
+C:\ULA 2k17\Presentation\ULA.Presentation.SharedResourses\bin\Debug\ULA.Interceptors.dll
+C:\ULA 2k17\Presentation\ULA.Presentation.SharedResourses\bin\Debug\ULA.Localization.dll
+C:\ULA 2k17\Presentation\ULA.Presentation.SharedResourses\bin\Debug\ULA.Presentation.Infrastructure.dll
+C:\ULA 2k17\Presentation\ULA.Presentation.SharedResourses\bin\Debug\YP.Toolkit.System.dll
+C:\ULA 2k17\Presentation\ULA.Presentation.SharedResourses\bin\Debug\Prism.dll
+C:\ULA 2k17\Presentation\ULA.Presentation.SharedResourses\bin\Debug\ULA.AddinsHost.dll
+C:\ULA 2k17\Presentation\ULA.Presentation.SharedResourses\bin\Debug\Prism.Wpf.dll
+C:\ULA 2k17\Presentation\ULA.Presentation.SharedResourses\bin\Debug\ULA.Common.dll
+C:\ULA 2k17\Presentation\ULA.Presentation.SharedResourses\bin\Debug\ULA.Interceptors.pdb
+C:\ULA 2k17\Presentation\ULA.Presentation.SharedResourses\bin\Debug\ULA.Interceptors.xml
+C:\ULA 2k17\Presentation\ULA.Presentation.SharedResourses\bin\Debug\ULA.Localization.pdb
+C:\ULA 2k17\Presentation\ULA.Presentation.SharedResourses\bin\Debug\ULA.Localization.xml
+C:\ULA 2k17\Presentation\ULA.Presentation.SharedResourses\bin\Debug\YP.Toolkit.System.pdb
+C:\ULA 2k17\Presentation\ULA.Presentation.SharedResourses\bin\Debug\YP.Toolkit.System.xml
+C:\ULA 2k17\Presentation\ULA.Presentation.SharedResourses\bin\Debug\ULA.Presentation.Infrastructure.pdb
+C:\ULA 2k17\Presentation\ULA.Presentation.SharedResourses\bin\Debug\ULA.Presentation.Infrastructure.xml
+C:\ULA 2k17\Presentation\ULA.Presentation.SharedResourses\bin\Debug\FirstFloor.ModernUI.xml
+C:\ULA 2k17\Presentation\ULA.Presentation.SharedResourses\bin\Debug\Microsoft.Practices.Prism.xml
+C:\ULA 2k17\Presentation\ULA.Presentation.SharedResourses\bin\Debug\Microsoft.Practices.Prism.UnityExtensions.xml
+C:\ULA 2k17\Presentation\ULA.Presentation.SharedResourses\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\ULA 2k17\Presentation\ULA.Presentation.SharedResourses\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\ULA 2k17\Presentation\ULA.Presentation.SharedResourses\bin\Debug\Microsoft.Practices.Unity.xml
+C:\ULA 2k17\Presentation\ULA.Presentation.SharedResourses\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\ULA 2k17\Presentation\ULA.Presentation.SharedResourses\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
+C:\ULA 2k17\Presentation\ULA.Presentation.SharedResourses\bin\Debug\Prism.xml
+C:\ULA 2k17\Presentation\ULA.Presentation.SharedResourses\bin\Debug\ULA.AddinsHost.pdb
+C:\ULA 2k17\Presentation\ULA.Presentation.SharedResourses\bin\Debug\ULA.AddinsHost.xml
+C:\ULA 2k17\Presentation\ULA.Presentation.SharedResourses\bin\Debug\Prism.Wpf.xml
+C:\ULA 2k17\Presentation\ULA.Presentation.SharedResourses\bin\Debug\ULA.Common.pdb
+C:\ULA 2k17\Presentation\ULA.Presentation.SharedResourses\bin\Debug\ULA.Common.xml
+C:\ULA 2k17\Presentation\ULA.Presentation.SharedResourses\obj\Debug\ULA.Presentation.SharedResourses.csprojResolveAssemblyReference.cache
+C:\ULA 2k17\Presentation\ULA.Presentation.SharedResourses\obj\Debug\UI\Generic.baml
+C:\ULA 2k17\Presentation\ULA.Presentation.SharedResourses\obj\Debug\UI\Colors.baml
+C:\ULA 2k17\Presentation\ULA.Presentation.SharedResourses\obj\Debug\UI\Icons.baml
+C:\ULA 2k17\Presentation\ULA.Presentation.SharedResourses\obj\Debug\UI\Buttons.baml
+C:\ULA 2k17\Presentation\ULA.Presentation.SharedResourses\obj\Debug\UI\Menus.baml
+C:\ULA 2k17\Presentation\ULA.Presentation.SharedResourses\obj\Debug\UI\Text.baml
+C:\ULA 2k17\Presentation\ULA.Presentation.SharedResourses\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\ULA 2k17\Presentation\ULA.Presentation.SharedResourses\obj\Debug\ULA.Presentation.SharedResourses_MarkupCompile.cache
+C:\ULA 2k17\Presentation\ULA.Presentation.SharedResourses\obj\Debug\ULA.Presentation.SharedResourses_MarkupCompile.lref
+C:\ULA 2k17\Presentation\ULA.Presentation.SharedResourses\obj\Debug\UI\MainView.baml
+C:\ULA 2k17\Presentation\ULA.Presentation.SharedResourses\obj\Debug\UI\InteractionViewContent.baml
+C:\ULA 2k17\Presentation\ULA.Presentation.SharedResourses\obj\Debug\UI\ProgressRing.baml
+C:\ULA 2k17\Presentation\ULA.Presentation.SharedResourses\obj\Debug\UI\TextBoxs.baml
+C:\ULA 2k17\Presentation\ULA.Presentation.SharedResourses\obj\Debug\ULA.Presentation.SharedResourses.g.resources
+C:\ULA 2k17\Presentation\ULA.Presentation.SharedResourses\obj\Debug\ULA.Presentation.SharedResourses.Properties.Resources.resources
+C:\ULA 2k17\Presentation\ULA.Presentation.SharedResourses\obj\Debug\ULA.Presentation.SharedResourses.csproj.GenerateResource.Cache
+C:\ULA 2k17\Presentation\ULA.Presentation.SharedResourses\obj\Debug\ULA.Presentation.SharedResourses.dll
+C:\ULA 2k17\Presentation\ULA.Presentation.SharedResourses\obj\Debug\ULA.Presentation.SharedResourses.pdb

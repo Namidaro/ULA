@@ -1,0 +1,14 @@
+C:\Users\Гусачок\Desktop\ULA\ULA.Log\bin\Release\ULA.Log.dll
+C:\Users\Гусачок\Desktop\ULA\ULA.Log\bin\Release\ULA.Log.pdb
+C:\Users\Гусачок\Desktop\ULA\ULA.Log\bin\Release\NLog.dll
+C:\Users\Гусачок\Desktop\ULA\ULA.Log\bin\Release\NLog.xml
+C:\Users\Гусачок\Desktop\ULA\ULA.Log\obj\Release\ULA.Log.csprojResolveAssemblyReference.cache
+C:\Users\Гусачок\Desktop\ULA\ULA.Log\obj\Release\ULA.Log.dll
+C:\Users\Гусачок\Desktop\ULA\ULA.Log\obj\Release\ULA.Log.pdb
+C:\ULA 2k17\ULA.Log\bin\Release\ULA.Log.dll
+C:\ULA 2k17\ULA.Log\bin\Release\ULA.Log.pdb
+C:\ULA 2k17\ULA.Log\bin\Release\NLog.dll
+C:\ULA 2k17\ULA.Log\bin\Release\NLog.xml
+C:\ULA 2k17\ULA.Log\obj\Release\ULA.Log.dll
+C:\ULA 2k17\ULA.Log\obj\Release\ULA.Log.pdb
+C:\ULA 2k17\ULA.Log\obj\Release\ULA.Log.csprojResolveAssemblyReference.cache

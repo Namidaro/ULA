@@ -1,0 +1,45 @@
+C:\Users\Гусачок\Desktop\ULA\Protocols\ULA.Protocols.System\bin\Release\YP.Toolkit.System.dll.config
+C:\Users\Гусачок\Desktop\ULA\Protocols\ULA.Protocols.System\bin\Release\YP.Toolkit.System.XML
+C:\Users\Гусачок\Desktop\ULA\Protocols\ULA.Protocols.System\bin\Release\YP.Toolkit.System.dll
+C:\Users\Гусачок\Desktop\ULA\Protocols\ULA.Protocols.System\bin\Release\YP.Toolkit.System.pdb
+C:\Users\Гусачок\Desktop\ULA\Protocols\ULA.Protocols.System\bin\Release\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Гусачок\Desktop\ULA\Protocols\ULA.Protocols.System\bin\Release\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\Гусачок\Desktop\ULA\Protocols\ULA.Protocols.System\bin\Release\Microsoft.Practices.Unity.dll
+C:\Users\Гусачок\Desktop\ULA\Protocols\ULA.Protocols.System\bin\Release\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\Users\Гусачок\Desktop\ULA\Protocols\ULA.Protocols.System\bin\Release\Prism.dll
+C:\Users\Гусачок\Desktop\ULA\Protocols\ULA.Protocols.System\bin\Release\Prism.Unity.Wpf.dll
+C:\Users\Гусачок\Desktop\ULA\Protocols\ULA.Protocols.System\bin\Release\Prism.Wpf.dll
+C:\Users\Гусачок\Desktop\ULA\Protocols\ULA.Protocols.System\bin\Release\System.Windows.Interactivity.dll
+C:\Users\Гусачок\Desktop\ULA\Protocols\ULA.Protocols.System\bin\Release\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\Гусачок\Desktop\ULA\Protocols\ULA.Protocols.System\bin\Release\Microsoft.Practices.ServiceLocation.xml
+C:\Users\Гусачок\Desktop\ULA\Protocols\ULA.Protocols.System\bin\Release\Microsoft.Practices.Unity.xml
+C:\Users\Гусачок\Desktop\ULA\Protocols\ULA.Protocols.System\bin\Release\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\Гусачок\Desktop\ULA\Protocols\ULA.Protocols.System\bin\Release\Microsoft.Practices.Unity.RegistrationByConvention.xml
+C:\Users\Гусачок\Desktop\ULA\Protocols\ULA.Protocols.System\bin\Release\Prism.xml
+C:\Users\Гусачок\Desktop\ULA\Protocols\ULA.Protocols.System\bin\Release\Prism.Unity.Wpf.xml
+C:\Users\Гусачок\Desktop\ULA\Protocols\ULA.Protocols.System\bin\Release\Prism.Wpf.xml
+C:\Users\Гусачок\Desktop\ULA\Protocols\ULA.Protocols.System\obj\Release\ULA.Protocols.System.csprojResolveAssemblyReference.cache
+C:\Users\Гусачок\Desktop\ULA\Protocols\ULA.Protocols.System\obj\Release\YP.Toolkit.System.dll
+C:\Users\Гусачок\Desktop\ULA\Protocols\ULA.Protocols.System\obj\Release\YP.Toolkit.System.pdb
+C:\ULA 2k17\Protocols\ULA.Protocols.System\bin\Release\YP.Toolkit.System.dll.config
+C:\ULA 2k17\Protocols\ULA.Protocols.System\bin\Release\YP.Toolkit.System.XML
+C:\ULA 2k17\Protocols\ULA.Protocols.System\bin\Release\YP.Toolkit.System.dll
+C:\ULA 2k17\Protocols\ULA.Protocols.System\bin\Release\YP.Toolkit.System.pdb
+C:\ULA 2k17\Protocols\ULA.Protocols.System\bin\Release\Microsoft.Practices.ServiceLocation.dll
+C:\ULA 2k17\Protocols\ULA.Protocols.System\bin\Release\Microsoft.Practices.Unity.Configuration.dll
+C:\ULA 2k17\Protocols\ULA.Protocols.System\bin\Release\Microsoft.Practices.Unity.dll
+C:\ULA 2k17\Protocols\ULA.Protocols.System\bin\Release\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\ULA 2k17\Protocols\ULA.Protocols.System\bin\Release\Prism.dll
+C:\ULA 2k17\Protocols\ULA.Protocols.System\bin\Release\Prism.Unity.Wpf.dll
+C:\ULA 2k17\Protocols\ULA.Protocols.System\bin\Release\Prism.Wpf.dll
+C:\ULA 2k17\Protocols\ULA.Protocols.System\bin\Release\System.Windows.Interactivity.dll
+C:\ULA 2k17\Protocols\ULA.Protocols.System\bin\Release\Microsoft.Practices.ServiceLocation.pdb
+C:\ULA 2k17\Protocols\ULA.Protocols.System\bin\Release\Microsoft.Practices.ServiceLocation.xml
+C:\ULA 2k17\Protocols\ULA.Protocols.System\bin\Release\Microsoft.Practices.Unity.xml
+C:\ULA 2k17\Protocols\ULA.Protocols.System\bin\Release\Microsoft.Practices.Unity.Configuration.xml
+C:\ULA 2k17\Protocols\ULA.Protocols.System\bin\Release\Microsoft.Practices.Unity.RegistrationByConvention.xml
+C:\ULA 2k17\Protocols\ULA.Protocols.System\bin\Release\Prism.xml
+C:\ULA 2k17\Protocols\ULA.Protocols.System\bin\Release\Prism.Unity.Wpf.xml
+C:\ULA 2k17\Protocols\ULA.Protocols.System\bin\Release\Prism.Wpf.xml
+C:\ULA 2k17\Protocols\ULA.Protocols.System\obj\Release\YP.Toolkit.System.dll
+C:\ULA 2k17\Protocols\ULA.Protocols.System\obj\Release\YP.Toolkit.System.pdb

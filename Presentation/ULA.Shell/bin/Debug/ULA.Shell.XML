@@ -1,0 +1,251 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ULA.Shell</name>
+    </assembly>
+    <members>
+        <member name="T:ULA.Shell.App">
+            <summary>
+                Interaction logic for App.xaml
+            </summary>
+            <summary>
+            App
+            </summary>
+        </member>
+        <member name="M:ULA.Shell.App.OnStartup(System.Windows.StartupEventArgs)">
+            <summary>
+                Raises the <see cref="E:System.Windows.Application.Startup" /> event.
+            </summary>
+            <param name="e">
+                A <see cref="T:System.Windows.StartupEventArgs" /> that contains the event data.
+            </param>
+        </member>
+        <member name="M:ULA.Shell.App.OnExit(System.Windows.ExitEventArgs)">
+            <summary>
+                Raises the <see cref="E:System.Windows.Application.Exit" /> event.
+            </summary>
+            <param name="e">
+                An <see cref="T:System.Windows.ExitEventArgs" /> that contains the event data.
+            </param>
+        </member>
+        <member name="M:ULA.Shell.App.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="M:ULA.Shell.App.Main">
+            <summary>
+            Application Entry Point.
+            </summary>
+        </member>
+        <member name="T:ULA.Shell.ApplicationLevelServices.ApplicationSettingsService">
+            <summary>
+                Represents an application settings facade service functionality
+                Представляет фасад для сервиса настроек
+            </summary>
+        </member>
+        <member name="P:ULA.Shell.ApplicationLevelServices.ApplicationSettingsService.DevicesStoragePath">
+            <summary>
+                Gets a full path of the devices storage file
+                Получает путь к хранилищу устройств
+            </summary>
+        </member>
+        <member name="P:ULA.Shell.ApplicationLevelServices.ApplicationSettingsService.ApplicationNumber">
+            <summary>
+                Описывает номер экземпляра программы
+            </summary>
+        </member>
+        <member name="P:ULA.Shell.ApplicationLevelServices.ApplicationSettingsService.SettingsPath">
+            <summary>
+                Возвращает путь к файлу с данными о найстройках
+            </summary>
+        </member>
+        <member name="P:ULA.Shell.ApplicationLevelServices.ApplicationSettingsService.JournalFilePath">
+            <summary>
+                Возвращает путь к файлу журнала
+            </summary>
+        </member>
+        <member name="P:ULA.Shell.ApplicationLevelServices.ApplicationSettingsService.AcknowledgeEnabled">
+            <summary>
+            автоквитировнаие
+            </summary>
+        </member>
+        <member name="P:ULA.Shell.ApplicationLevelServices.ApplicationSettingsService.FullTimeoutPeriod">
+            <summary>
+            период обновления на схеме
+            </summary>
+        </member>
+        <member name="P:ULA.Shell.ApplicationLevelServices.ApplicationSettingsService.PartialTimeoutPeriod">
+            <summary>
+            период обновления в списке
+            </summary>
+        </member>
+        <member name="P:ULA.Shell.ApplicationLevelServices.ApplicationSettingsService.QueryTimeoutPeriod">
+            <summary>
+            таймаут обменов
+            </summary>
+        </member>
+        <member name="P:ULA.Shell.ApplicationLevelServices.ApplicationSettingsService.NumberOfLightingCommandRepeat">
+            <summary>
+            повторения комманд освещения
+            </summary>
+        </member>
+        <member name="P:ULA.Shell.ApplicationLevelServices.ApplicationSettingsService.MillisecondRepeatInterval">
+            <summary>
+            интервал повторения комманд освещения
+            </summary>
+        </member>
+        <member name="M:ULA.Shell.ApplicationLevelServices.ApplicationSettingsService.Load">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:ULA.Shell.ApplicationLevelServices.ApplicationSettingsService.Save">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:ULA.Shell.ApplicationLevelServices.DefaultResourceService">
+            <summary>
+                Represents system default resource service functionality
+                Сервис ресурсов
+            </summary>
+        </member>
+        <member name="M:ULA.Shell.ApplicationLevelServices.DefaultResourceService.AddResourceAsGlobal(System.String,System.Reflection.Assembly)">
+            <summary>
+            
+            </summary>
+            <param name="filePath"></param>
+            <param name="sourceAssembly"></param>
+            <exception cref="T:System.NotImplementedException"></exception>
+        </member>
+        <member name="T:ULA.Shell.ApplicationLevelServices.ExtraSettingsEntity">
+            <summary>
+            сущность найстроек для сохранения
+            </summary>
+        </member>
+        <member name="P:ULA.Shell.ApplicationLevelServices.ExtraSettingsEntity.AcknowledgeEnabled">
+            <summary>
+            автоквитировнаие
+            </summary>
+        </member>
+        <member name="P:ULA.Shell.ApplicationLevelServices.ExtraSettingsEntity.FullTimeoutPeriod">
+            <summary>
+            период обновления на схеме
+            </summary>
+        </member>
+        <member name="P:ULA.Shell.ApplicationLevelServices.ExtraSettingsEntity.PartialTimeoutPeriod">
+            <summary>
+            период обновления в списке
+            </summary>
+        </member>
+        <member name="P:ULA.Shell.ApplicationLevelServices.ExtraSettingsEntity.QueryTimeoutPeriod">
+            <summary>
+            таймаут обменов
+            </summary>
+        </member>
+        <member name="P:ULA.Shell.ApplicationLevelServices.ExtraSettingsEntity.NumberOfLightingCommandRepeat">
+            <summary>
+            повторения комманд освещения
+            </summary>
+        </member>
+        <member name="P:ULA.Shell.ApplicationLevelServices.ExtraSettingsEntity.MillisecondRepeatInterval">
+            <summary>
+            интервал повторения комманд освещения
+            </summary>
+        </member>
+        <member name="T:ULA.Shell.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:ULA.Shell.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:ULA.Shell.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:ULA.Shell.Properties.Resources.AddressesPICON2">
+            <summary>
+              Looks up a localized resource of type System.Byte[].
+            </summary>
+        </member>
+        <member name="P:ULA.Shell.Properties.Resources.AddressesPICONGS">
+            <summary>
+              Looks up a localized resource of type System.Byte[].
+            </summary>
+        </member>
+        <member name="P:ULA.Shell.Properties.Resources.AddressesRUNO">
+            <summary>
+              Looks up a localized resource of type System.Byte[].
+            </summary>
+        </member>
+        <member name="T:ULA.Shell.Shell">
+            <summary>
+                Interaction logic for Shell.xaml
+            </summary>
+            <summary>
+            Shell
+            </summary>
+        </member>
+        <member name="M:ULA.Shell.Shell.#ctor(ULA.Presentation.Services.InteractionService,ULA.Interceptors.Application.IApplicationSettingsService)">
+            <summary>
+                Creates an instance of <see cref="T:ULA.Shell.Shell" />
+            </summary>
+        </member>
+        <member name="M:ULA.Shell.Shell.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:ULA.Shell.Bootstrapping.ApplicationBootstrapper">
+            <summary>
+                Represents the application bootstrapper
+                Представляет бутстрапер приложения
+            </summary>
+        </member>
+        <member name="M:ULA.Shell.Bootstrapping.ApplicationBootstrapper.#ctor(ULA.Interceptors.Application.IApplicationStateManager)">
+            <summary>
+                Creates an instance of <see cref="T:ULA.Shell.Bootstrapping.ApplicationBootstrapper" />
+            </summary>
+            <param name="currentApplicationStateManager">
+                An instance of <see cref="T:ULA.Interceptors.Application.IApplicationStateManager" /> that represents application management functionality
+            </param>
+        </member>
+        <member name="P:ULA.Shell.Bootstrapping.ApplicationBootstrapper.CurrentShell">
+            <summary>
+                Gets an instanhce of <see cref="T:System.Windows.DependencyObject" /> that represents current shell
+            </summary>
+        </member>
+        <member name="M:ULA.Shell.Bootstrapping.ApplicationBootstrapper.CreateShell">
+            <summary>
+                Creates the shell or main window of the application.
+            </summary>
+            <returns>
+                The shell of the application.
+            </returns>
+            <remarks>
+                If the returned instance is a <see cref="T:System.Windows.DependencyObject" />, the
+                <see cref="T:Microsoft.Practices.Prism.Bootstrapper" /> will attach the default
+                <seealso cref="T:Microsoft.Practices.Prism.Regions.IRegionManager" /> of
+                the application in its <see cref="F:Microsoft.Practices.Prism.Regions.RegionManager.RegionManagerProperty" />
+                attached property
+                in order to be able to add regions by using the
+                <seealso cref="F:Microsoft.Practices.Prism.Regions.RegionManager.RegionNameProperty" />
+                attached property from XAML.
+            </remarks>
+        </member>
+        <member name="M:ULA.Shell.Bootstrapping.ApplicationBootstrapper.ConfigureContainer">
+            <summary>
+                Configures the <see cref="T:Microsoft.Practices.Unity.IUnityContainer" />. May be overwritten in a derived class to
+                add specific
+                type mappings required by the application.
+            </summary>
+        </member>
+    </members>
+</doc>

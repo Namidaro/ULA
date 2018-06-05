@@ -1,0 +1,80 @@
+C:\Users\Гусачок\Desktop\ULA\Drivers\ModbusFamily\ULA.Drivers.TcpFamily\bin\Debug\ULA.Drivers.TcpFamily.dll.config
+C:\Users\Гусачок\Desktop\ULA\Drivers\ModbusFamily\ULA.Drivers.TcpFamily\bin\Debug\ULA.Drivers.TcpFamily.XML
+C:\Users\Гусачок\Desktop\ULA\Drivers\ModbusFamily\ULA.Drivers.TcpFamily\bin\Debug\ULA.Drivers.TcpFamily.dll
+C:\Users\Гусачок\Desktop\ULA\Drivers\ModbusFamily\ULA.Drivers.TcpFamily\bin\Debug\ULA.Drivers.TcpFamily.pdb
+C:\Users\Гусачок\Desktop\ULA\Drivers\ModbusFamily\ULA.Drivers.TcpFamily\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Гусачок\Desktop\ULA\Drivers\ModbusFamily\ULA.Drivers.TcpFamily\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\Гусачок\Desktop\ULA\Drivers\ModbusFamily\ULA.Drivers.TcpFamily\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\Гусачок\Desktop\ULA\Drivers\ModbusFamily\ULA.Drivers.TcpFamily\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\Users\Гусачок\Desktop\ULA\Drivers\ModbusFamily\ULA.Drivers.TcpFamily\bin\Debug\Prism.dll
+C:\Users\Гусачок\Desktop\ULA\Drivers\ModbusFamily\ULA.Drivers.TcpFamily\bin\Debug\Prism.Unity.Wpf.dll
+C:\Users\Гусачок\Desktop\ULA\Drivers\ModbusFamily\ULA.Drivers.TcpFamily\bin\Debug\Prism.Wpf.dll
+C:\Users\Гусачок\Desktop\ULA\Drivers\ModbusFamily\ULA.Drivers.TcpFamily\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Гусачок\Desktop\ULA\Drivers\ModbusFamily\ULA.Drivers.TcpFamily\bin\Debug\ULA.AddinsHost.dll
+C:\Users\Гусачок\Desktop\ULA\Drivers\ModbusFamily\ULA.Drivers.TcpFamily\bin\Debug\ULA.Common.dll
+C:\Users\Гусачок\Desktop\ULA\Drivers\ModbusFamily\ULA.Drivers.TcpFamily\bin\Debug\ULA.Interceptors.dll
+C:\Users\Гусачок\Desktop\ULA\Drivers\ModbusFamily\ULA.Drivers.TcpFamily\bin\Debug\ULA.Localization.dll
+C:\Users\Гусачок\Desktop\ULA\Drivers\ModbusFamily\ULA.Drivers.TcpFamily\bin\Debug\YP.Toolkit.System.dll
+C:\Users\Гусачок\Desktop\ULA\Drivers\ModbusFamily\ULA.Drivers.TcpFamily\bin\Debug\ULA.AddinsHost.pdb
+C:\Users\Гусачок\Desktop\ULA\Drivers\ModbusFamily\ULA.Drivers.TcpFamily\bin\Debug\ULA.AddinsHost.xml
+C:\Users\Гусачок\Desktop\ULA\Drivers\ModbusFamily\ULA.Drivers.TcpFamily\bin\Debug\ULA.Common.pdb
+C:\Users\Гусачок\Desktop\ULA\Drivers\ModbusFamily\ULA.Drivers.TcpFamily\bin\Debug\ULA.Common.xml
+C:\Users\Гусачок\Desktop\ULA\Drivers\ModbusFamily\ULA.Drivers.TcpFamily\bin\Debug\ULA.Interceptors.pdb
+C:\Users\Гусачок\Desktop\ULA\Drivers\ModbusFamily\ULA.Drivers.TcpFamily\bin\Debug\ULA.Interceptors.xml
+C:\Users\Гусачок\Desktop\ULA\Drivers\ModbusFamily\ULA.Drivers.TcpFamily\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\Гусачок\Desktop\ULA\Drivers\ModbusFamily\ULA.Drivers.TcpFamily\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\Гусачок\Desktop\ULA\Drivers\ModbusFamily\ULA.Drivers.TcpFamily\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\Гусачок\Desktop\ULA\Drivers\ModbusFamily\ULA.Drivers.TcpFamily\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\Гусачок\Desktop\ULA\Drivers\ModbusFamily\ULA.Drivers.TcpFamily\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
+C:\Users\Гусачок\Desktop\ULA\Drivers\ModbusFamily\ULA.Drivers.TcpFamily\bin\Debug\Prism.xml
+C:\Users\Гусачок\Desktop\ULA\Drivers\ModbusFamily\ULA.Drivers.TcpFamily\bin\Debug\Prism.Unity.Wpf.xml
+C:\Users\Гусачок\Desktop\ULA\Drivers\ModbusFamily\ULA.Drivers.TcpFamily\bin\Debug\Prism.Wpf.xml
+C:\Users\Гусачок\Desktop\ULA\Drivers\ModbusFamily\ULA.Drivers.TcpFamily\bin\Debug\ULA.Localization.pdb
+C:\Users\Гусачок\Desktop\ULA\Drivers\ModbusFamily\ULA.Drivers.TcpFamily\bin\Debug\ULA.Localization.xml
+C:\Users\Гусачок\Desktop\ULA\Drivers\ModbusFamily\ULA.Drivers.TcpFamily\bin\Debug\YP.Toolkit.System.pdb
+C:\Users\Гусачок\Desktop\ULA\Drivers\ModbusFamily\ULA.Drivers.TcpFamily\bin\Debug\YP.Toolkit.System.xml
+C:\Users\Гусачок\Desktop\ULA\Drivers\ModbusFamily\ULA.Drivers.TcpFamily\obj\Debug\ULA.Drivers.TcpFamily.csprojResolveAssemblyReference.cache
+C:\Users\Гусачок\Desktop\ULA\Drivers\ModbusFamily\ULA.Drivers.TcpFamily\obj\Debug\ULA.Drivers.TcpFamily.Properties.Resources.resources
+C:\Users\Гусачок\Desktop\ULA\Drivers\ModbusFamily\ULA.Drivers.TcpFamily\obj\Debug\ULA.Drivers.TcpFamily.csproj.GenerateResource.Cache
+C:\Users\Гусачок\Desktop\ULA\Drivers\ModbusFamily\ULA.Drivers.TcpFamily\obj\Debug\ULA.Drivers.TcpFamily.dll
+C:\Users\Гусачок\Desktop\ULA\Drivers\ModbusFamily\ULA.Drivers.TcpFamily\obj\Debug\ULA.Drivers.TcpFamily.pdb
+C:\ULA 2k17\Drivers\ModbusFamily\ULA.Drivers.TcpFamily\bin\Debug\ULA.Drivers.TcpFamily.dll.config
+C:\ULA 2k17\Drivers\ModbusFamily\ULA.Drivers.TcpFamily\bin\Debug\ULA.Drivers.TcpFamily.XML
+C:\ULA 2k17\Drivers\ModbusFamily\ULA.Drivers.TcpFamily\bin\Debug\ULA.Drivers.TcpFamily.dll
+C:\ULA 2k17\Drivers\ModbusFamily\ULA.Drivers.TcpFamily\bin\Debug\ULA.Drivers.TcpFamily.pdb
+C:\ULA 2k17\Drivers\ModbusFamily\ULA.Drivers.TcpFamily\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\ULA 2k17\Drivers\ModbusFamily\ULA.Drivers.TcpFamily\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\ULA 2k17\Drivers\ModbusFamily\ULA.Drivers.TcpFamily\bin\Debug\Microsoft.Practices.Unity.dll
+C:\ULA 2k17\Drivers\ModbusFamily\ULA.Drivers.TcpFamily\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\ULA 2k17\Drivers\ModbusFamily\ULA.Drivers.TcpFamily\bin\Debug\Prism.dll
+C:\ULA 2k17\Drivers\ModbusFamily\ULA.Drivers.TcpFamily\bin\Debug\Prism.Unity.Wpf.dll
+C:\ULA 2k17\Drivers\ModbusFamily\ULA.Drivers.TcpFamily\bin\Debug\Prism.Wpf.dll
+C:\ULA 2k17\Drivers\ModbusFamily\ULA.Drivers.TcpFamily\bin\Debug\System.Windows.Interactivity.dll
+C:\ULA 2k17\Drivers\ModbusFamily\ULA.Drivers.TcpFamily\bin\Debug\ULA.AddinsHost.dll
+C:\ULA 2k17\Drivers\ModbusFamily\ULA.Drivers.TcpFamily\bin\Debug\ULA.Common.dll
+C:\ULA 2k17\Drivers\ModbusFamily\ULA.Drivers.TcpFamily\bin\Debug\ULA.Interceptors.dll
+C:\ULA 2k17\Drivers\ModbusFamily\ULA.Drivers.TcpFamily\bin\Debug\ULA.Localization.dll
+C:\ULA 2k17\Drivers\ModbusFamily\ULA.Drivers.TcpFamily\bin\Debug\YP.Toolkit.System.dll
+C:\ULA 2k17\Drivers\ModbusFamily\ULA.Drivers.TcpFamily\bin\Debug\ULA.AddinsHost.pdb
+C:\ULA 2k17\Drivers\ModbusFamily\ULA.Drivers.TcpFamily\bin\Debug\ULA.AddinsHost.xml
+C:\ULA 2k17\Drivers\ModbusFamily\ULA.Drivers.TcpFamily\bin\Debug\ULA.Common.pdb
+C:\ULA 2k17\Drivers\ModbusFamily\ULA.Drivers.TcpFamily\bin\Debug\ULA.Common.xml
+C:\ULA 2k17\Drivers\ModbusFamily\ULA.Drivers.TcpFamily\bin\Debug\ULA.Interceptors.pdb
+C:\ULA 2k17\Drivers\ModbusFamily\ULA.Drivers.TcpFamily\bin\Debug\ULA.Interceptors.xml
+C:\ULA 2k17\Drivers\ModbusFamily\ULA.Drivers.TcpFamily\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\ULA 2k17\Drivers\ModbusFamily\ULA.Drivers.TcpFamily\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\ULA 2k17\Drivers\ModbusFamily\ULA.Drivers.TcpFamily\bin\Debug\Microsoft.Practices.Unity.xml
+C:\ULA 2k17\Drivers\ModbusFamily\ULA.Drivers.TcpFamily\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\ULA 2k17\Drivers\ModbusFamily\ULA.Drivers.TcpFamily\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
+C:\ULA 2k17\Drivers\ModbusFamily\ULA.Drivers.TcpFamily\bin\Debug\Prism.xml
+C:\ULA 2k17\Drivers\ModbusFamily\ULA.Drivers.TcpFamily\bin\Debug\Prism.Unity.Wpf.xml
+C:\ULA 2k17\Drivers\ModbusFamily\ULA.Drivers.TcpFamily\bin\Debug\Prism.Wpf.xml
+C:\ULA 2k17\Drivers\ModbusFamily\ULA.Drivers.TcpFamily\bin\Debug\ULA.Localization.pdb
+C:\ULA 2k17\Drivers\ModbusFamily\ULA.Drivers.TcpFamily\bin\Debug\ULA.Localization.xml
+C:\ULA 2k17\Drivers\ModbusFamily\ULA.Drivers.TcpFamily\bin\Debug\YP.Toolkit.System.pdb
+C:\ULA 2k17\Drivers\ModbusFamily\ULA.Drivers.TcpFamily\bin\Debug\YP.Toolkit.System.xml
+C:\ULA 2k17\Drivers\ModbusFamily\ULA.Drivers.TcpFamily\obj\Debug\ULA.Drivers.TcpFamily.csprojResolveAssemblyReference.cache
+C:\ULA 2k17\Drivers\ModbusFamily\ULA.Drivers.TcpFamily\obj\Debug\ULA.Drivers.TcpFamily.Properties.Resources.resources
+C:\ULA 2k17\Drivers\ModbusFamily\ULA.Drivers.TcpFamily\obj\Debug\ULA.Drivers.TcpFamily.csproj.GenerateResource.Cache
+C:\ULA 2k17\Drivers\ModbusFamily\ULA.Drivers.TcpFamily\obj\Debug\ULA.Drivers.TcpFamily.dll
+C:\ULA 2k17\Drivers\ModbusFamily\ULA.Drivers.TcpFamily\obj\Debug\ULA.Drivers.TcpFamily.pdb

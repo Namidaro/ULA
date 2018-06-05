@@ -1,0 +1,2 @@
+C:\ULA 2k17\ULA.Setup\bin\Release\ru-ru\SUNO.Setup.msi
+C:\ULA 2k17\ULA.Setup\bin\Release\ru-ru\SUNO.Setup.wixpdb

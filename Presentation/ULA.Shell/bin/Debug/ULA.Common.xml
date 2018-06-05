@@ -1,0 +1,712 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ULA.Common</name>
+    </assembly>
+    <members>
+        <member name="T:ULA.Common.AOM.AomEntity">
+            <summary>
+                Represents an entity in AOM notation
+                Сущность в AOM нотации
+            </summary>
+        </member>
+        <member name="P:ULA.Common.AOM.AomEntity.EntityTypeOf">
+            <summary>
+                Gets an instance of <see cref="T:ULA.Common.AOM.AomEntityType" /> that represents the type of current instance
+                Тип AOM сущности
+            </summary>
+        </member>
+        <member name="P:ULA.Common.AOM.AomEntity.Properties">
+            <summary>
+                Gets an instance of <see cref="T:ULA.Common.AOM.AomPropertyCollection" /> that represents a collection of properties that this entity has
+                коллекция свойств AOM сущности
+            </summary>
+        </member>
+        <member name="M:ULA.Common.AOM.AomEntity.#ctor">
+            <summary>
+                Creates an instance of <see cref="T:ULA.Common.AOM.AomEntity" />. It is used ONLY for deserialization purpose.
+            </summary>
+        </member>
+        <member name="M:ULA.Common.AOM.AomEntity.#ctor(ULA.Common.AOM.AomEntityType)">
+            <summary>
+                Creates an instance of <see cref="T:ULA.Common.AOM.AomEntity" />.
+            </summary>
+            <param name="type">
+                An instance of <see cref="T:ULA.Common.AOM.AomEntityType" /> that represetns the type of current entity
+            </param>
+        </member>
+        <member name="T:ULA.Common.AOM.AomEntityType">
+            <summary>
+                Represents an entity type in AOM notation
+                Представляет тип AOM сущности в AOM нотации
+            </summary>
+        </member>
+        <member name="P:ULA.Common.AOM.AomEntityType.Name">
+            <summary>
+                Gets the name of current entity type
+                Имя типа
+            </summary>
+        </member>
+        <member name="P:ULA.Common.AOM.AomEntityType.TypeOf">
+            <summary>
+                Gets an instance of <see cref="T:System.Type" /> that represents the type of current entity
+                Тип сущности
+            </summary>
+        </member>
+        <member name="P:ULA.Common.AOM.AomEntityType.Properties">
+            <summary>
+                Gets an instance of <see cref="T:ULA.Common.AOM.AomPropertyTypeCollection" /> that represents a collection of properties for current entity type
+                Свойства типа сущности
+            </summary>
+        </member>
+        <member name="M:ULA.Common.AOM.AomEntityType.#ctor">
+            <summary>
+                Creates an instance of <see cref="T:ULA.Common.AOM.AomEntityType" />. It is used ONLY for deserialization purpose.
+            </summary>
+        </member>
+        <member name="M:ULA.Common.AOM.AomEntityType.#ctor(System.Type,ULA.Common.AOM.AomPropertyTypeCollection)">
+            <summary>
+                Creates an instance of <see cref="T:ULA.Common.AOM.AomEntityType" />
+            </summary>
+            <param name="type">
+                An instance of <see cref="T:System.Type" /> that represents current entity
+            </param>
+            <param name="properties">
+                An instance of <see cref="T:ULA.Common.AOM.AomPropertyTypeCollection" /> that represetns a collection of properties that this entity has
+            </param>
+        </member>
+        <member name="T:ULA.Common.AOM.AomProperty">
+            <summary>
+                Represents a property instance in AOM notation
+                Представляет свойство в AOM нотации
+            </summary>
+        </member>
+        <member name="P:ULA.Common.AOM.AomProperty.Value">
+            <summary>
+                Gets or sets the value of the property
+                Значение 
+            </summary>
+        </member>
+        <member name="P:ULA.Common.AOM.AomProperty.TypeOf">
+            <summary>
+                Gets the type of the property
+                Тип
+            </summary>
+        </member>
+        <member name="M:ULA.Common.AOM.AomProperty.#ctor">
+            <summary>
+                Creates an instance of <see cref="T:ULA.Common.AOM.AomProperty" />. It is used ONLY for deserialization purpose.
+            </summary>
+        </member>
+        <member name="M:ULA.Common.AOM.AomProperty.#ctor(ULA.Common.AOM.AomPropertyType)">
+            <summary>
+                Creates an instance of <see cref="T:ULA.Common.AOM.AomProperty" />.
+            </summary>
+            <param name="type">
+                An instance of <see cref="T:ULA.Common.AOM.AomPropertyType" /> that represents the type of the property
+            </param>
+        </member>
+        <member name="M:ULA.Common.AOM.AomProperty.#ctor(ULA.Common.AOM.AomPropertyType,System.Object)">
+            <summary>
+                Creates an instance of <see cref="T:ULA.Common.AOM.AomProperty" />
+                
+            </summary>
+            <param name="type">
+                An instance of <see cref="T:ULA.Common.AOM.AomPropertyType" /> that represents the type of the property
+            </param>
+            <param name="value">The value of the property</param>
+        </member>
+        <member name="T:ULA.Common.AOM.AomPropertyCollection">
+            <summary>
+                Represents a collection of properties in AOM notation
+                Представляет коллекцию свойств в AOM нотации
+            </summary>
+        </member>
+        <member name="M:ULA.Common.AOM.AomPropertyCollection.#ctor">
+            <summary>
+                Creates an instance of <see cref="T:ULA.Common.AOM.AomPropertyCollection" />. It is used ONLY for deserialization purpose.
+            </summary>
+        </member>
+        <member name="M:ULA.Common.AOM.AomPropertyCollection.#ctor(System.Collections.Generic.IDictionary{System.String,ULA.Common.AOM.AomProperty})">
+            <summary>
+                Creates an instance of <see cref="T:ULA.Common.AOM.AomPropertyCollection" />
+            </summary>
+            <param name="collection">
+                A map for <see cref="T:ULA.Common.AOM.AomProperty" />
+            </param>
+        </member>
+        <member name="T:ULA.Common.AOM.AomPropertyType">
+            <summary>
+                Represents an entity that describes property in AOM notation
+                Представляет сущность типа которая описывает свойство в AOM нотации
+            </summary>
+        </member>
+        <member name="P:ULA.Common.AOM.AomPropertyType.Name">
+            <summary>
+                Gets the name of a property that this entity describes
+                Имя свойства(типа) описывающего сущность
+            </summary>
+        </member>
+        <member name="P:ULA.Common.AOM.AomPropertyType.TypeOf">
+            <summary>
+                Gets an instance of <see cref="T:System.Type" /> that represents the type of the described property
+                Тип описывающий свойство
+            </summary>
+        </member>
+        <member name="M:ULA.Common.AOM.AomPropertyType.#ctor">
+            <summary>
+                Creates an instance of <see cref="T:ULA.Common.AOM.AomPropertyType" />. It is used ONLY for deserialization purpose
+            </summary>
+        </member>
+        <member name="M:ULA.Common.AOM.AomPropertyType.#ctor(System.String,System.Type)">
+            <summary>
+                Creates an instance of <see cref="T:ULA.Common.AOM.AomPropertyType" />
+            </summary>
+            <param name="name">The name of a property that this entity describes</param>
+            <param name="propertyValueType">
+                An instance of <see cref="T:System.Type" /> that represents the type of the described property
+            </param>
+        </member>
+        <member name="T:ULA.Common.AOM.AomPropertyTypeCollection">
+            <summary>
+                Represents a hash map for <see cref="T:ULA.Common.AOM.AomPropertyType" /> in AOM notation
+                Представляет Hashmap для <see cref="T:ULA.Common.AOM.AomPropertyType" /> в AOM нотации
+            </summary>
+        </member>
+        <member name="M:ULA.Common.AOM.AomPropertyTypeCollection.#ctor">
+            <summary>
+                Creates an instance of <see cref="T:ULA.Common.AOM.AomPropertyTypeCollection" />. It is used ONLY for deserialization purpose
+            </summary>
+        </member>
+        <member name="M:ULA.Common.AOM.AomPropertyTypeCollection.#ctor(System.Collections.Generic.IEnumerable{ULA.Common.AOM.AomPropertyType})">
+            <summary>
+                Creates an instance of <see cref="T:ULA.Common.AOM.AomPropertyTypeCollection" />
+            </summary>
+            <param name="collection">
+                An collection of <see cref="T:ULA.Common.AOM.AomPropertyType" />
+            </param>
+        </member>
+        <member name="T:ULA.Common.AOM.ITagNamedObject">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.Common.AOM.ITagNamedObject.Tag">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:ULA.Common.AsyncServices.AsyncInitialization">
+            <summary>
+                Represents a helper class that aggregates async initializations
+                Представляет класс асинхронной инициализации
+            </summary>
+        </member>
+        <member name="M:ULA.Common.AsyncServices.AsyncInitialization.EnsureInitializedAsync(System.Collections.Generic.IEnumerable{System.Object})">
+            <summary>
+                Ensures that all instance of <see cref="T:ULA.Common.AsyncServices.IAsyncInitializationService" /> are initializing
+                
+            </summary>
+            <param name="instances">
+                A collection of <see cref="T:System.Object" /> that exposes <see cref="T:ULA.Common.AsyncServices.IAsyncInitializationService" />
+            </param>
+            functionality
+            <returns>An instance of System.Threading.Tasks.Task that represents current asynchronous operation</returns>
+        </member>
+        <member name="M:ULA.Common.AsyncServices.AsyncInitialization.EnsureInitializedAsync(System.Object[])">
+            <summary>
+                Ensures that all instance of <see cref="T:ULA.Common.AsyncServices.IAsyncInitializationService" /> are initializing
+            </summary>
+            <param name="instances">
+                A collection of <see cref="T:System.Object" /> that exposes <see cref="T:ULA.Common.AsyncServices.IAsyncInitializationService" />
+            </param>
+            <returns>An instance of System.Threading.Tasks.Task that represents current asynchronous operation</returns>
+        </member>
+        <member name="T:ULA.Common.AsyncServices.IAsyncInitializationService">
+            <summary>
+                Exposes asynchronous service functionality
+                Описывает сервис асинхронной инициализации
+            </summary>
+        </member>
+        <member name="P:ULA.Common.AsyncServices.IAsyncInitializationService.Initialization">
+            <summary>
+                Gets an instance of System.Threading.Tasks.Task that represents asynchronous initialization strategy
+                Таска асинхронной инициализации
+            </summary>
+        </member>
+        <member name="T:ULA.Common.ByteConverters.BytesToStringConverter">
+            <summary>
+            класс конверитования информации из байтов
+            </summary>
+        </member>
+        <member name="M:ULA.Common.ByteConverters.BytesToStringConverter.GetStringFromBytes(System.Byte[])">
+            <summary>
+            
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ULA.Common.DispatchService">
+            <summary>
+            сервис для вызова в потоке контрола
+            </summary>
+        </member>
+        <member name="M:ULA.Common.DispatchService.Invoke(System.Action)">
+            <summary>
+            вызова в потоке контрола
+            </summary>
+            <param name="action"></param>
+        </member>
+        <member name="T:ULA.Common.Formatters.BinaryFormatterBase">
+            <summary>
+                Represents basic binary value formatting functionality
+                Описывает базовый бинарный форматер
+            </summary>
+        </member>
+        <member name="M:ULA.Common.Formatters.BinaryFormatterBase.Format(System.Object)">
+            <summary>
+                Provedes formatting action over value
+                Метод форматирования значения(предварительная обработка)
+            </summary>
+            <param name="value">Value to format</param>
+            <returns>Resulted formatted value</returns>
+        </member>
+        <member name="M:ULA.Common.Formatters.BinaryFormatterBase.FormatBack(System.Object,System.Object)">
+            <summary>
+                Provides backward formatting action over value
+                Метод обратного форматирования(предварительная обработка)
+            </summary>
+            <param name="value">Value to format backward</param>
+            <param name="currentValue">Value to apply formatting to</param>
+            <returns>Resulted formatted value</returns>
+        </member>
+        <member name="M:ULA.Common.Formatters.BinaryFormatterBase.OnFormatBack(System.Object,System.Byte[])">
+            <summary>
+                Provides backward formatting action over value
+                Сам функционал обратного форматирования
+            </summary>
+            <param name="value">Value to format backward</param>
+            <param name="currentValue">Value to apply formatting to</param>
+            <returns>Resulted formatted value</returns>
+        </member>
+        <member name="M:ULA.Common.Formatters.BinaryFormatterBase.OnFormat(System.Byte[])">
+            <summary>
+                Provedes formatting action over value
+                Сам функционал форматирования
+            </summary>
+            <param name="value">Value to format</param>
+            <returns>Resulted formatted value</returns>
+        </member>
+        <member name="T:ULA.Common.Formatters.BytesToBooleanFormatter">
+            <summary>
+                Represents transformation form bynary array to <see cref="T:System.Boolean" />
+                ПРедставляет форматер байтового массива в <see cref="T:System.Boolean" />
+            </summary>
+        </member>
+        <member name="M:ULA.Common.Formatters.BytesToBooleanFormatter.#ctor">
+            <summary>
+                Creates an instance of <see cref="T:ULA.Common.Formatters.BytesToBooleanFormatter" />. It is used ONLY for deserialization purpose.
+            </summary>
+        </member>
+        <member name="M:ULA.Common.Formatters.BytesToBooleanFormatter.#ctor(System.Int32,System.Int32)">
+            <summary>
+                Creates an instance of <see cref="T:ULA.Common.Formatters.BytesToBooleanFormatter" />
+            </summary>
+            <param name="index">номер байта</param>
+            <param name="bitNumber">номер бита</param>
+        </member>
+        <member name="M:ULA.Common.Formatters.BytesToBooleanFormatter.OnFormatBack(System.Object,System.Byte[])">
+            <summary>
+                Provides backward formatting action over value
+                Значение currentValue будет поставлено по нужному месту в массив байт value
+            </summary>
+            <param name="value">Value to format backward</param>
+            <param name="currentValue">Value to apply formatting to</param>
+            <returns>Resulted formatted value</returns>
+        </member>
+        <member name="M:ULA.Common.Formatters.BytesToBooleanFormatter.OnFormat(System.Byte[])">
+            <summary>
+                Provedes formatting action over value
+                Форматирование из массива байт в bool значение
+            </summary>
+            <param name="value">Value to format</param>
+            <returns>Resulted formatted value</returns>
+        </member>
+        <member name="T:ULA.Common.Formatters.BytesToByteFormatter">
+            <summary>
+                Represents transformation form bynary array to <see cref="T:System.Byte" />  
+                Представляет форматирование массива байт в один байт
+            </summary>
+        </member>
+        <member name="M:ULA.Common.Formatters.BytesToByteFormatter.#ctor">
+            <summary>
+                Creates an instance of <see cref="T:ULA.Common.Formatters.BytesToByteFormatter" />. It is used ONLY for deserialization purpose.
+            </summary>
+        </member>
+        <member name="M:ULA.Common.Formatters.BytesToByteFormatter.#ctor(System.Int32,System.Int32)">
+            <summary>
+                Creates an instance of <see cref="T:ULA.Common.Formatters.BytesToByteFormatter" />
+            </summary>
+            <param name="index"></param>
+            <param name="bitNumber"></param>
+        </member>
+        <member name="M:ULA.Common.Formatters.BytesToByteFormatter.OnFormatBack(System.Object,System.Byte[])">
+            <summary>
+                Provides backward formatting action over value
+            </summary>
+            <param name="value">Value to format backward</param>
+            <param name="currentValue">Value to apply formatting to</param>
+            <returns>Resulted formatted value</returns>
+        </member>
+        <member name="M:ULA.Common.Formatters.BytesToByteFormatter.OnFormat(System.Byte[])">
+            <summary>
+                Provedes formatting action over value
+            </summary>
+            <param name="value">Value to format</param>
+            <returns>Resulted formatted value</returns>
+        </member>
+        <member name="T:ULA.Common.Formatters.BytesToFailAckFormatter">
+            <summary>
+            получение из двух байт слово для квитирования неисправностей
+            </summary>  
+        </member>
+        <member name="M:ULA.Common.Formatters.BytesToFailAckFormatter.#ctor">
+            <summary>
+                Creates an instance of <see cref="T:ULA.Common.Formatters.BytesToFailAckFormatter" />. It is used ONLY for deserialization purpose.
+            </summary>
+        </member>
+        <member name="M:ULA.Common.Formatters.BytesToFailAckFormatter.#ctor(System.Int32)">
+            <summary>
+                Creates an instance of <see cref="T:ULA.Common.Formatters.BytesToFailAckFormatter" />
+            </summary>
+            <param name="index">номер байта</param>
+        </member>
+        <member name="M:ULA.Common.Formatters.BytesToFailAckFormatter.OnFormatBack(System.Object,System.Byte[])">
+            <summary>
+                Provides backward formatting action over value
+            </summary>
+            <param name="value">Value to format backward</param>
+            <param name="currentValue">Value to apply formatting to</param>
+            <returns>Resulted formatted value</returns>
+        </member>
+        <member name="M:ULA.Common.Formatters.BytesToFailAckFormatter.OnFormat(System.Byte[])">
+            <summary>
+                Provedes formatting action over value
+            </summary>
+            <param name="value">Value to format</param>
+            <returns>Resulted formatted value</returns>
+        </member>
+        <member name="T:ULA.Common.Formatters.BytesToInt16Formatter">
+            <summary>
+                Represents transformation form bynary array to <see cref="T:System.Int16" />
+                Перевод массива байт в short
+            </summary>
+        </member>
+        <member name="M:ULA.Common.Formatters.BytesToInt16Formatter.#ctor">
+            <summary>
+                Creates an instance of <see cref="T:ULA.Common.Formatters.BytesToInt16Formatter" />. It is used ONLY for deserialization purpose.
+            </summary>
+        </member>
+        <member name="M:ULA.Common.Formatters.BytesToInt16Formatter.#ctor(System.Int32,System.Int32)">
+            <summary>
+                Creates an instance of <see cref="T:ULA.Common.Formatters.BytesToInt16Formatter" />
+            </summary>
+            <param name="index"></param>
+            <param name="bitNumber"></param>
+        </member>
+        <member name="M:ULA.Common.Formatters.BytesToInt16Formatter.OnFormatBack(System.Object,System.Byte[])">
+            <summary>
+                Provides backward formatting action over value
+            </summary>
+            <param name="value">Value to format backward</param>
+            <param name="currentValue">Value to apply formatting to</param>
+            <returns>Resulted formatted value</returns>
+        </member>
+        <member name="M:ULA.Common.Formatters.BytesToInt16Formatter.OnFormat(System.Byte[])">
+            <summary>
+                Provedes formatting action over value
+            </summary>
+            <param name="value">Value to format</param>
+            <returns>Resulted formatted value</returns>
+        </member>
+        <member name="T:ULA.Common.Formatters.BytesToInt16FormatterForPicon2">
+            <summary>
+                Represents transformation form bynary array to <see cref="T:System.Int16" />
+                Перевод массива байт в short
+            </summary>
+        </member>
+        <member name="M:ULA.Common.Formatters.BytesToInt16FormatterForPicon2.#ctor">
+            <summary>
+                Creates an instance of <see cref="T:ULA.Common.Formatters.BytesToInt16FormatterForPicon2" />. It is used ONLY for deserialization purpose.
+            </summary>
+        </member>
+        <member name="M:ULA.Common.Formatters.BytesToInt16FormatterForPicon2.#ctor(System.Int32,System.Int32)">
+            <summary>
+                Creates an instance of <see cref="T:ULA.Common.Formatters.BytesToInt16FormatterForPicon2" />
+            </summary>
+            <param name="index"></param>
+            <param name="bitNumber"></param>
+        </member>
+        <member name="M:ULA.Common.Formatters.BytesToInt16FormatterForPicon2.OnFormatBack(System.Object,System.Byte[])">
+            <summary>
+                Provides backward formatting action over value
+            </summary>
+            <param name="value">Value to format backward</param>
+            <param name="currentValue">Value to apply formatting to</param>
+            <returns>Resulted formatted value</returns>
+        </member>
+        <member name="M:ULA.Common.Formatters.BytesToInt16FormatterForPicon2.OnFormat(System.Byte[])">
+            <summary>
+                Provedes formatting action over value
+            </summary>
+            <param name="value">Value to format</param>
+            <returns>Resulted formatted value</returns>
+        </member>
+        <member name="T:ULA.Common.Formatters.BytesToIntCurrentFormatter">
+            <summary>
+                Represents transformation form bynary array to <see cref="T:System.Int32" />
+                Форматирует байты аналогов в значение Энергии для счетчика
+            </summary>
+        </member>
+        <member name="M:ULA.Common.Formatters.BytesToIntCurrentFormatter.#ctor">
+            <summary>
+                Creates an instance of <see cref="T:ULA.Common.Formatters.BytesToIntVoltageFormatter" />. It is used ONLY for deserialization purpose.
+            </summary>
+        </member>
+        <member name="M:ULA.Common.Formatters.BytesToIntCurrentFormatter.#ctor(System.Int32,System.Int32)">
+            <summary>
+                Creates an instance of <see cref="T:ULA.Common.Formatters.BytesToIntVoltageFormatter" />
+            </summary>
+            <param name="index"></param>
+            <param name="bitNumber"></param>
+        </member>
+        <member name="M:ULA.Common.Formatters.BytesToIntCurrentFormatter.OnFormatBack(System.Object,System.Byte[])">
+            <summary>
+                Provides backward formatting action over value
+            </summary>
+            <param name="value">Value to format backward</param>
+            <param name="currentValue">Value to apply formatting to</param>
+            <returns>Resulted formatted value</returns>
+        </member>
+        <member name="M:ULA.Common.Formatters.BytesToIntCurrentFormatter.OnFormat(System.Byte[])">
+            <summary>
+                Provedes formatting action over value
+            </summary>
+            <param name="value">Value to format</param>
+            <returns>Resulted formatted value</returns>
+        </member>
+        <member name="T:ULA.Common.Formatters.BytesToIntEnergyFormatter">
+            <summary>
+                Represents transformation form bynary array to <see cref="T:System.Int32" />
+                Форматирует байты аналогов в значение Энергии для счетчика
+            </summary>
+        </member>
+        <member name="M:ULA.Common.Formatters.BytesToIntEnergyFormatter.#ctor">
+            <summary>
+                Creates an instance of <see cref="T:ULA.Common.Formatters.BytesToIntVoltageFormatter" />. It is used ONLY for deserialization purpose.
+            </summary>
+        </member>
+        <member name="M:ULA.Common.Formatters.BytesToIntEnergyFormatter.#ctor(System.Int32,System.Int32)">
+            <summary>
+                Creates an instance of <see cref="T:ULA.Common.Formatters.BytesToIntVoltageFormatter" />
+            </summary>
+            <param name="index"></param>
+            <param name="bitNumber"></param>
+        </member>
+        <member name="M:ULA.Common.Formatters.BytesToIntEnergyFormatter.OnFormatBack(System.Object,System.Byte[])">
+            <summary>
+                Provides backward formatting action over value
+            </summary>
+            <param name="value">Value to format backward</param>
+            <param name="currentValue">Value to apply formatting to</param>
+            <returns>Resulted formatted value</returns>
+        </member>
+        <member name="M:ULA.Common.Formatters.BytesToIntEnergyFormatter.OnFormat(System.Byte[])">
+            <summary>
+                Provedes formatting action over value
+            </summary>
+            <param name="value">Value to format</param>
+            <returns>Resulted formatted value</returns>
+        </member>
+        <member name="T:ULA.Common.Formatters.BytesToIntEnergyFormatterForPicon2">
+            <summary>
+                Represents transformation form bynary array to <see cref="T:System.Int32" />
+                Форматирует байты аналогов в значение Энергии для счетчика
+            </summary>
+        </member>
+        <member name="M:ULA.Common.Formatters.BytesToIntEnergyFormatterForPicon2.#ctor">
+            <summary>
+                Creates an instance of <see cref="T:ULA.Common.Formatters.BytesToIntVoltageFormatter" />. It is used ONLY for deserialization purpose.
+            </summary>
+        </member>
+        <member name="M:ULA.Common.Formatters.BytesToIntEnergyFormatterForPicon2.#ctor(System.Int32,System.Int32)">
+            <summary>
+                Creates an instance of <see cref="T:ULA.Common.Formatters.BytesToIntVoltageFormatter" />
+            </summary>
+            <param name="index"></param>
+            <param name="bitNumber"></param>
+        </member>
+        <member name="M:ULA.Common.Formatters.BytesToIntEnergyFormatterForPicon2.OnFormatBack(System.Object,System.Byte[])">
+            <summary>
+                Provides backward formatting action over value
+            </summary>
+            <param name="value">Value to format backward</param>
+            <param name="currentValue">Value to apply formatting to</param>
+            <returns>Resulted formatted value</returns>
+        </member>
+        <member name="M:ULA.Common.Formatters.BytesToIntEnergyFormatterForPicon2.OnFormat(System.Byte[])">
+            <summary>
+                Provedes formatting action over value
+            </summary>
+            <param name="value">Value to format</param>
+            <returns>Resulted formatted value</returns>
+        </member>
+        <member name="T:ULA.Common.Formatters.BytesToIntPowerFormatter">
+            <summary>
+                Represents transformation form bynary array to <see cref="T:System.Int32" />
+                Форматирует байты аналогов в значение Мощности для счетчика
+            </summary>
+        </member>
+        <member name="M:ULA.Common.Formatters.BytesToIntPowerFormatter.#ctor">
+            <summary>
+                Creates an instance of <see cref="T:ULA.Common.Formatters.BytesToIntVoltageFormatter" />. It is used ONLY for deserialization purpose.
+            </summary>
+        </member>
+        <member name="M:ULA.Common.Formatters.BytesToIntPowerFormatter.#ctor(System.Int32,System.Int32)">
+            <summary>
+                Creates an instance of <see cref="T:ULA.Common.Formatters.BytesToIntVoltageFormatter" />
+            </summary>
+            <param name="index"></param>
+            <param name="bitNumber"></param>
+        </member>
+        <member name="M:ULA.Common.Formatters.BytesToIntPowerFormatter.OnFormatBack(System.Object,System.Byte[])">
+            <summary>
+                Provides backward formatting action over value
+            </summary>
+            <param name="value">Value to format backward</param>
+            <param name="currentValue">Value to apply formatting to</param>
+            <returns>Resulted formatted value</returns>
+        </member>
+        <member name="M:ULA.Common.Formatters.BytesToIntPowerFormatter.OnFormat(System.Byte[])">
+            <summary>
+                Provedes formatting action over value
+            </summary>
+            <param name="value">Value to format</param>
+            <returns>Resulted formatted value</returns>
+        </member>
+        <member name="T:ULA.Common.Formatters.BytesToIntVoltageFormatter">
+            <summary>
+                Represents transformation form bynary array to <see cref="T:System.Int32" />
+                Форматирует байты аналогов в значение Вольт для счетчика
+            </summary>
+        </member>
+        <member name="M:ULA.Common.Formatters.BytesToIntVoltageFormatter.#ctor">
+            <summary>
+                Creates an instance of <see cref="T:ULA.Common.Formatters.BytesToIntVoltageFormatter" />. It is used ONLY for deserialization purpose.
+            </summary>
+        </member>
+        <member name="M:ULA.Common.Formatters.BytesToIntVoltageFormatter.#ctor(System.Int32,System.Int32)">
+            <summary>
+                Creates an instance of <see cref="T:ULA.Common.Formatters.BytesToIntVoltageFormatter" />
+            </summary>
+            <param name="index"></param>
+            <param name="bitNumber"></param>
+        </member>
+        <member name="M:ULA.Common.Formatters.BytesToIntVoltageFormatter.OnFormatBack(System.Object,System.Byte[])">
+            <summary>
+                Provides backward formatting action over value
+            </summary>
+            <param name="value">Value to format backward</param>
+            <param name="currentValue">Value to apply formatting to</param>
+            <returns>Resulted formatted value</returns>
+        </member>
+        <member name="M:ULA.Common.Formatters.BytesToIntVoltageFormatter.OnFormat(System.Byte[])">
+            <summary>
+                Provedes formatting action over value
+            </summary>
+            <param name="value">Value to format</param>
+            <returns>Resulted formatted value</returns>
+        </member>
+        <member name="T:ULA.Common.Formatters.BytesToStringFormatter">
+            <summary>
+            Форматирование строк
+            </summary>
+        </member>
+        <member name="M:ULA.Common.Formatters.BytesToStringFormatter.OnFormatBack(System.Object,System.Byte[])">
+            <summary>
+            
+            </summary>
+            <param name="currentValue"></param>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ULA.Common.Formatters.BytesToStringFormatter.OnFormat(System.Byte[])">
+            <summary>
+            
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ULA.Common.Formatters.IValueFormatter">
+            <summary>
+                Exposes value formatting functionality
+                Описывает функционал форматеров
+            </summary>
+        </member>
+        <member name="M:ULA.Common.Formatters.IValueFormatter.Format(System.Object)">
+            <summary>
+                Provedes formatting action over value
+            </summary>
+            <param name="value">Value to format</param>
+            <returns>Resulted formatted value</returns>
+        </member>
+        <member name="M:ULA.Common.Formatters.IValueFormatter.FormatBack(System.Object,System.Object)">
+            <summary>
+                Provides backward formatting action over value
+            </summary>
+            <param name="value">Value to format backward</param>
+            <param name="currentValue">Value to apply formatting to</param>
+            <returns>Resulted formatted value</returns>
+        </member>
+        <member name="T:ULA.Common.Formatters.StringFormatter">
+            <summary>
+            Форматирование строк
+            </summary>
+        </member>
+        <member name="M:ULA.Common.Formatters.StringFormatter.#ctor">
+            <summary>
+            Без параметров
+            </summary>
+        </member>
+        <member name="M:ULA.Common.Formatters.StringFormatter.#ctor(System.Int32,System.Int32)">
+            <summary>
+            Передаем индекс, если надо номер бита, для определения значения из массива
+            </summary>
+            <param name="index"></param>
+            <param name="bitNumber"></param>
+        </member>
+        <member name="M:ULA.Common.Formatters.StringFormatter.OnFormatBack(System.Object,System.Byte[])">
+            <summary>
+            Не используется!!
+            </summary>
+            <param name="currentValue"></param>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ULA.Common.Formatters.StringFormatter.OnFormat(System.Byte[])">
+            <summary>
+            Форматирование строки даты и время счетчика
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ULA.Common.Formatters.StringFormatter.TOWORD(System.Byte,System.Byte)">
+            <summary>
+            Изменение последовательности байт с преобразованием в слова
+            </summary>
+            <param name="high"></param>
+            <param name="low"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,1216 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ULA.Business</name>
+    </assembly>
+    <members>
+        <member name="T:ULA.Business.AddressesContainer.AddressesContainer">
+            <summary>
+            класс для хранения адресов для различных устройств
+            </summary>
+        </member>
+        <member name="P:ULA.Business.AddressesContainer.AddressesContainer.FailsContainer">
+            <summary>
+            контейнер для неисправностей
+            </summary>
+        </member>
+        <member name="P:ULA.Business.AddressesContainer.AddressesContainer.DateTimeContainer">
+            <summary>
+            контейнер для даты и времени
+            </summary>
+        </member>
+        <member name="P:ULA.Business.AddressesContainer.AddressesContainer.StatesContainer">
+            <summary>
+            контейнер для неисправностей
+            </summary>
+        </member>
+        <member name="M:ULA.Business.AddressesContainer.AddressesContainer.GetAllAddressData">
+            <summary>
+            получить все адреса данных всех контейнеров
+            </summary>
+        </member>
+        <member name="T:ULA.Business.AddressesContainer.AddressesContainerManager">
+            <summary>
+            класс для управления и извлечения адресов из файла
+            </summary>
+        </member>
+        <member name="M:ULA.Business.AddressesContainer.AddressesContainerManager.Load(System.String)">
+            <summary>
+            класс для управления и извлечения адресов из файла
+            </summary>
+        </member>
+        <member name="T:ULA.Business.AddressesContainer.Entities.AddressData">
+            <summary>
+            определяет данные адреса через стрингу, смещение байта и бита
+            </summary>
+        </member>
+        <member name="P:ULA.Business.AddressesContainer.Entities.AddressData.Name">
+            <summary>
+            наименование элемента, к которому относится адрес
+            </summary>
+        </member>
+        <member name="P:ULA.Business.AddressesContainer.Entities.AddressData.ByteIndex">
+            <summary>
+            индекс байта
+            </summary>
+        </member>
+        <member name="P:ULA.Business.AddressesContainer.Entities.AddressData.BitIndex">
+            <summary>
+            индекс бита
+            </summary>
+        </member>
+        <member name="P:ULA.Business.AddressesContainer.Entities.AddressData.Number">
+            <summary>
+            номер в памяти
+            </summary>
+        </member>
+        <member name="T:ULA.Business.AddressesContainer.Entities.AddressDataInFile">
+            <summary>
+            класс, определяющий адресс для конкретного устройства
+            </summary>
+        </member>
+        <member name="P:ULA.Business.AddressesContainer.Entities.AddressDataInFile.Modul">
+            <summary>
+            модуль
+            </summary>
+        </member>
+        <member name="P:ULA.Business.AddressesContainer.Entities.AddressDataInFile.Diskret">
+            <summary>
+            дискрет
+            </summary>
+        </member>
+        <member name="P:ULA.Business.AddressesContainer.Entities.AddressDataInFile.Value">
+            <summary>
+            Значение адреса
+            </summary>
+        </member>
+        <member name="T:ULA.Business.AddressesContainer.Entities.FailsContainer">
+            <summary>
+            контейнер для неисправностей
+            </summary>
+        </member>
+        <member name="M:ULA.Business.AddressesContainer.Entities.FailsContainer.#ctor">
+            <summary>
+            контейнер для неисправностей
+            </summary>
+        </member>
+        <member name="P:ULA.Business.AddressesContainer.Entities.FailsContainer.Addresses">
+            <summary>
+            Варианты адресов
+            </summary>
+        </member>
+        <member name="T:ULA.Business.AddressesContainer.Entities.DateTimeContainer">
+            <summary>
+            контейнер для адресов состояний
+            </summary>
+        </member>
+        <member name="M:ULA.Business.AddressesContainer.Entities.DateTimeContainer.#ctor">
+            <summary>
+            контейнер для адресов состояний
+            </summary>
+        </member>
+        <member name="P:ULA.Business.AddressesContainer.Entities.DateTimeContainer.Addresses">
+            <summary>
+            Варианты адресов
+            </summary>
+        </member>
+        <member name="P:ULA.Business.AddressesContainer.Entities.DateTimeContainer.Value">
+            <summary>
+            Значение адреса напрямую
+            </summary>
+        </member>
+        <member name="T:ULA.Business.AddressesContainer.Entities.StatesContainer">
+            <summary>
+            контейнер для адресов состояний
+            </summary>
+        </member>
+        <member name="M:ULA.Business.AddressesContainer.Entities.StatesContainer.#ctor">
+            <summary>
+            контейнер для адресов состояний
+            </summary>
+        </member>
+        <member name="P:ULA.Business.AddressesContainer.Entities.StatesContainer.Addresses">
+            <summary>
+            Варианты адресов
+            </summary>
+        </member>
+        <member name="T:ULA.Business.AddressesContainer.Interfaces.IDataObjectContainer">
+            <summary>
+            интерфейс, описывающий контейнеры для объектов данных адресов
+            </summary>
+        </member>
+        <member name="P:ULA.Business.AddressesContainer.Interfaces.IDataObjectContainer.Addresses">
+            <summary>
+            содержащиеся обхекты данных адресов
+            </summary>
+        </member>
+        <member name="T:ULA.Business.ApplicationModeServices.DefaultConfigurationModeDevicesService">
+            <summary>
+                Represents a default configuration mode facade service functionaltiy
+                Представляет сервис(фасад) для устройств в режиме конфигурации. 
+                Основная цель CRUD устройств в xml (дал конфига).
+            </summary>
+        </member>
+        <member name="M:ULA.Business.ApplicationModeServices.DefaultConfigurationModeDevicesService.#ctor(ULA.Business.Infrastructure.PersistanceServices.IPersistanceService,ULA.Business.Infrastructure.ApplicationModes.IConfigurationModeDriversService,Microsoft.Practices.Unity.IUnityContainer)">
+            <summary>
+                Creates an instance of <see cref="T:ULA.Business.ApplicationModeServices.DefaultConfigurationModeDevicesService" />
+            </summary>
+            <param name="persistanceService">
+                An instance of <see cref="T:ULA.Business.Infrastructure.PersistanceServices.IPersistanceService" /> to use
+            </param>
+            <param name="driversService">
+                An instance of <see cref="T:ULA.Business.Infrastructure.ApplicationModes.IConfigurationModeDriversService" /> to use
+            </param>
+            <param name="container"></param>
+            Конструктор.
+        </member>
+        <member name="P:ULA.Business.ApplicationModeServices.DefaultConfigurationModeDevicesService.Initialization">
+            <summary>
+                Gets an instance of System.Threading.Tasks.Task that represents asynchronous initialization strategy
+            </summary>
+            Таска для асинхронной иницмализации
+        </member>
+        <member name="M:ULA.Business.ApplicationModeServices.DefaultConfigurationModeDevicesService.GetAllDevicesAsync">
+            <summary>
+                Gets all logical devices by a criterion asynchronously
+                Асинхронно вренет все конфиг устройства из xml
+            </summary>
+            <returns>An instance of System.Threading.Tasks.Task that represents current asynchronous operation</returns>
+        </member>
+        <member name="M:ULA.Business.ApplicationModeServices.DefaultConfigurationModeDevicesService.GetBackgroundPicture">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ULA.Business.ApplicationModeServices.DefaultConfigurationModeDevicesService.SetBackgroundPictureAsync(ULA.AddinsHost.Presentation.IBackgroundPicture)">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ULA.Business.ApplicationModeServices.DefaultConfigurationModeDevicesService.CreateDeviceAsync(ULA.Business.Infrastructure.DTOs.LogicalDeviceInformation)">
+            <summary>
+                Creates an instance of <see cref="T:ULA.AddinsHost.Business.Device.IConfigLogicalDevice" /> asynchronously
+            Создает новое устройство на основе информации о нём полученной в параметрах
+            </summary>
+            <returns>An instance of System.Threading.Tasks.Task that represents current asynchronous operation</returns>
+        </member>
+        <member name="M:ULA.Business.ApplicationModeServices.DefaultConfigurationModeDevicesService.RemoveDeviceAsync(ULA.AddinsHost.Business.Device.IConfigLogicalDevice)">
+            <summary>
+                Removes an instance of <see cref="T:ULA.AddinsHost.Business.Device.IConfigLogicalDevice" /> from the system asynchronously
+            Асинхронно Удаляет устройство из xml
+            </summary>
+            <param name="device">
+                An instance of <see cref="T:ULA.AddinsHost.Business.Device.IConfigLogicalDevice" /> to remove. Use DeviceId only.
+                Сущность конфиг устройства, которая будет удалена.(Вместе с драйвером этого устройства)
+            </param>
+            <returns>An instance of System.Threading.Tasks.Task that represents current asynchronous operation</returns>
+        </member>
+        <member name="M:ULA.Business.ApplicationModeServices.DefaultConfigurationModeDevicesService.UpdateDeviceAsync(ULA.Business.Infrastructure.DTOs.LogicalDeviceInformation,ULA.AddinsHost.Business.Device.IConfigLogicalDevice)">
+            <summary>
+                Updates an instance of <see cref="T:ULA.AddinsHost.Business.Device.IConfigLogicalDevice" /> in the system registry asynchronously
+            Обновит данное устройство.
+            </summary>
+            <param name="deviceInfo">
+                An instance of <see cref="T:ULA.Business.Infrastructure.DTOs.LogicalDeviceInformation" /> with data to update
+            Новые данные для обновляемого устройства
+            </param>
+            <param name="editingDevice">
+                An instance of <see cref="T:ULA.AddinsHost.Business.Device.IConfigLogicalDevice" /> to update
+            Устройство, которое будет обновляться
+            </param>
+            <returns>An instance of System.Threading.Tasks.Task that represents current asynchronous operation</returns>
+        </member>
+        <member name="M:ULA.Business.ApplicationModeServices.DefaultConfigurationModeDevicesService.UpdateDeviceSchemeAsync(ULA.AddinsHost.Business.Device.IConfigLogicalDevice,ULA.AddinsHost.Business.Device.SchemeTable.IConfiguratedDeviceSchemeTable)">
+            <summary>
+                Updates an instance of <see cref="T:ULA.AddinsHost.Business.Device.SchemeTable.IConfiguratedDeviceSchemeTable"/> in <see cref="T:ULA.AddinsHost.Business.Device.IConfigLogicalDevice" /> in the system registry asynchronously
+            Асинхронно обновляет схему устройства
+            </summary>
+            <param name="device">An instance of <see cref="T:ULA.Business.Infrastructure.DTOs.LogicalDeviceInformation" /> to update. 
+            Устройство в котором будет обновляться схема</param>
+            <param name="scheme">New scheme. Instance of <see cref="T:ULA.AddinsHost.Business.Device.SchemeTable.IConfiguratedDeviceSchemeTable"/>
+            Новая схема для устройства</param>
+            <returns>An instance of System.Threading.Tasks.Task that represents current asynchronous operation</returns>
+        </member>
+        <member name="M:ULA.Business.ApplicationModeServices.DefaultConfigurationModeDevicesService.UpdateDevicePositionAsync(ULA.AddinsHost.Business.Device.IConfigLogicalDevice,System.Int32)">
+            <summary>
+                Сохраняет новый номер позиции устройства в хранилище
+            </summary>
+            <param name="device">Устройство</param>
+            <returns>задача</returns>
+        </member>
+        <member name="M:ULA.Business.ApplicationModeServices.DefaultConfigurationModeDevicesService.OnDisposing">
+            <summary>
+                Does actual explicit disposal of available managed resources
+            </summary>
+        </member>
+        <member name="M:ULA.Business.ApplicationModeServices.DefaultConfigurationModeDevicesService.RemoveDriver(System.Guid)">
+            <summary>
+                Асинхронно удаляет драйвер из xml.
+            </summary>
+            <param name="guid">GUid драйвера</param>
+        </member>
+        <member name="M:ULA.Business.ApplicationModeServices.DefaultConfigurationModeDevicesService.OnDispose">
+            <summary>
+            Освобождаем ресурсы
+            </summary>
+        </member>
+        <member name="M:ULA.Business.ApplicationModeServices.DefaultConfigurationModeDevicesService.OnInitializating">
+            <summary>
+                Инициализация
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ULA.Business.ApplicationModeServices.DefaultConfigurationModeDevicesService.UpdateCacheInternalAsync(System.Collections.Generic.IDictionary{System.Guid,ULA.AddinsHost.Business.Device.IConfigLogicalDevice})">
+            <summary>
+                Перенос устройств с xml в кэш этого класса
+            </summary>
+            <param name="devicesCache">Кэш</param>
+            <returns></returns>
+        </member>
+        <member name="M:ULA.Business.ApplicationModeServices.DefaultConfigurationModeDevicesService.RestoreDeviceFromMomentoAsync(System.Guid,ULA.AddinsHost.Business.Device.IDeviceMomento)">
+            <summary>
+                Создает устройство на основе данных из xml по Id-ку и инициализирует его состояние данных
+            </summary>
+            <param name="deviceId">ID-шник устройства</param>
+            <param name="deviceMomento">Состояние(данные) устройство (Можешь почитать про шаблон Momento)</param>
+            <returns></returns>
+        </member>
+        <member name="M:ULA.Business.ApplicationModeServices.DefaultConfigurationModeDevicesService.CreateLogicalDeviceInternalAsync(ULA.Business.Infrastructure.DTOs.LogicalDeviceInformation,System.Nullable{System.Guid})">
+            <summary>
+                Создает устройство на основе данных о нем
+            </summary>
+            <param name="deviceInfo">Инфа о устростве</param>
+            <param name="driverId">Id-шник драйвера данного устройства устройства (Если есть)</param>
+            <returns></returns>
+        </member>
+        <member name="T:ULA.Business.ApplicationModeServices.DefaultConfigurationModeDriversService">
+            <summary>
+                Represents default drivers logic service functionality
+                Представляет сервис(фасад) для драйверов устройств в режиме конфигурации. 
+                Основная цель CRUD драйверов в xml (дал конфига).
+            </summary>
+        </member>
+        <member name="M:ULA.Business.ApplicationModeServices.DefaultConfigurationModeDriversService.#ctor(ULA.Business.Infrastructure.PersistanceServices.IPersistanceService,Microsoft.Practices.Unity.IUnityContainer)">
+            <summary>
+                Creates an instance of <see cref="T:ULA.Business.ApplicationModeServices.DefaultConfigurationModeDriversService" />
+            </summary>
+            <param name="persistanceService">
+                An instance of <see cref="T:ULA.Business.Infrastructure.PersistanceServices.IPersistanceService" /> to use
+            </param>
+            <param name="container"></param>
+        </member>
+        <member name="P:ULA.Business.ApplicationModeServices.DefaultConfigurationModeDriversService.Initialization">
+            <summary>
+                Gets an instance of System.Threading.Tasks.Task that represents asynchronous initialization strategy
+            </summary>
+            Таска для асинхронной иницмализации
+        </member>
+        <member name="M:ULA.Business.ApplicationModeServices.DefaultConfigurationModeDriversService.GetAllDriversAsync">
+            <summary>
+                Gets all configuration logical drivers that registered in the system asynchronously
+            </summary>
+            <returns>An instance of System.Threading.Tasks.Task that represents current asynchronous operation</returns>
+            Асинхронно вренет все драйвера из xml
+        </member>
+        <member name="M:ULA.Business.ApplicationModeServices.DefaultConfigurationModeDriversService.GetDriverById(System.Guid)">
+            <summary>
+                Вернет драйвер по Id. Если драйвера с таким Id нет - то null
+            </summary>
+            <param name="id">Id драйвера</param>
+            <returns>Task с драйвером.</returns>
+        </member>
+        <member name="M:ULA.Business.ApplicationModeServices.DefaultConfigurationModeDriversService.CreateDriverAsync(ULA.Business.Infrastructure.DTOs.LogicalDriverInformation)">
+            <summary>
+                Creates an instance of <see cref="T:ULA.AddinsHost.Business.Driver.IConfigLogicalDriver" /> asynchronously
+            </summary>
+            <param name="logicalDriverInformation">
+                An instance of <see cref="T:ULA.Business.Infrastructure.DTOs.LogicalDriverInformation" /> to obtain all information about deviceViewModel to create
+            Инфа о драйвере
+            </param>
+            <returns>An instance of System.Threading.Tasks.Task that represents current asynchronous operation
+            Таска с драйвером</returns>
+            Созданёт драйвер устройства и сохраняет его в xml
+        </member>
+        <member name="M:ULA.Business.ApplicationModeServices.DefaultConfigurationModeDriversService.RemoveDriverAsync(System.Guid)">
+            <summary>
+                Removes an instance of <see cref="T:ULA.AddinsHost.Business.Driver.IConfigLogicalDriver" /> from the system asynchronously
+            </summary>
+            <param name="driverId">
+                An instance of <see cref="T:ULA.AddinsHost.Business.Driver.IConfigLogicalDriver" /> to remove
+            </param>
+            <returns>An instance of System.Threading.Tasks.Task that represents current asynchronous operation</returns>
+            Удаляет драйвер
+        </member>
+        <member name="M:ULA.Business.ApplicationModeServices.DefaultConfigurationModeDriversService.UpdateDriverAsync(ULA.Business.Infrastructure.DTOs.LogicalDriverInformation,ULA.AddinsHost.Business.Driver.IConfigLogicalDriver)">
+            <summary>
+                Updates an instance of <see cref="T:ULA.AddinsHost.Business.Driver.IConfigLogicalDriver" /> in the system registry asynchronously
+            </summary>
+            <param name="driverInfo">
+                An instance of <see cref="T:ULA.Business.Infrastructure.DTOs.LogicalDeviceInformation" /> to update
+            </param>
+            <param name="editingDriver">
+                An instance of <see cref="T:ULA.AddinsHost.Business.Driver.IConfigLogicalDriver" /> to update
+            </param>
+            <returns>An instance of System.Threading.Tasks.Task that represents current asynchronous operation</returns>
+            Обновляет драйвер
+        </member>
+        <member name="M:ULA.Business.ApplicationModeServices.DefaultConfigurationModeDriversService.OnDisposing">
+            <summary>
+                Does actual explicit disposal of available managed resources
+            </summary>
+        </member>
+        <member name="M:ULA.Business.ApplicationModeServices.DefaultConfigurationModeDriversService.MapDriverInfoToDriverContext(ULA.Business.Infrastructure.DTOs.LogicalDriverInformation)">
+            <summary>
+                создаёт контекст драйвера и инициализирует его
+            </summary>
+            <param name="driverInfo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ULA.Business.ApplicationModeServices.DefaultConfigurationModeDriversService.UpdateCacheInternalAsynk(System.Collections.Generic.IDictionary{System.Guid,ULA.AddinsHost.Business.Driver.IConfigLogicalDriver})">
+            <summary>
+                Инициализирует кэш этого сервиса на основе xml конфига
+            </summary>
+            <param name="paramDriversCache">наш кэш</param>
+            <returns>таска</returns>
+        </member>
+        <member name="M:ULA.Business.ApplicationModeServices.DefaultConfigurationModeDriversService.RestoreDriverFromMomento(System.Guid,ULA.AddinsHost.Business.Driver.IDriverMomento)">
+            <summary>
+                На основе id-ка достает и хранителя(Momento) создает новыё драйвер
+            </summary>
+            <param name="driverId"></param>
+            <param name="driverMomento"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ULA.Business.ApplicationModeServices.DefaultRuntimeModeDevicesService">
+            <summary>
+                Represents a default runtime mode facade service functionaltiy
+            Смотреть описание <see cref="T:ULA.Business.ApplicationModeServices.DefaultConfigurationModeDevicesService"/> - тот же функционал, только для Runtime девайса
+            </summary>
+        </member>
+        <member name="M:ULA.Business.ApplicationModeServices.DefaultRuntimeModeDevicesService.#ctor(ULA.Business.Infrastructure.PersistanceServices.IPersistanceService,Microsoft.Practices.Unity.IUnityContainer,ULA.Business.Infrastructure.ApplicationModes.IRuntimeModeDriversService)">
+            <summary>
+                Creates an instance of <see cref="T:ULA.Business.ApplicationModeServices.DefaultRuntimeModeDevicesService" />
+            </summary>
+            <param name="persistanceService">
+                An instance of <see cref="T:ULA.Business.Infrastructure.PersistanceServices.IPersistanceService" /> to use
+            </param>
+            <param name="container"></param>
+            <param name="driversService">
+                An instance of <see cref="T:ULA.Business.ApplicationModeServices.DefaultRuntimeModeDevicesService" /> to use
+            </param>
+        </member>
+        <member name="P:ULA.Business.ApplicationModeServices.DefaultRuntimeModeDevicesService.Initialization">
+            <summary>
+                Gets an instance of System.Threading.Tasks.Task that represents asynchronous initialization strategy
+            </summary>
+        </member>
+        <member name="M:ULA.Business.ApplicationModeServices.DefaultRuntimeModeDevicesService.GetAllDevicesAsync">
+            <summary>
+                Gets all logical devices by a criterion asynchronously
+            </summary>
+            <returns>An instance of System.Threading.Tasks.Task that represents current asynchronous operation</returns>
+        </member>
+        <member name="M:ULA.Business.ApplicationModeServices.DefaultRuntimeModeDevicesService.GetBackgroundPicture">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ULA.Business.ApplicationModeServices.DefaultRuntimeModeDevicesService.OnDisposing">
+            <summary>
+                Does actual explicit disposal of available managed resources
+            </summary>
+        </member>
+        <member name="T:ULA.Business.ApplicationModeServices.DefaultRuntimeModeDriversService">
+            <summary>
+                Represents default drivers logic service functionality in runtime mode
+            Смотреть описание <see cref="T:ULA.Business.ApplicationModeServices.DefaultConfigurationModeDriversService"/> - тот же функционал, только для Runtime драйвера
+            </summary>
+        </member>
+        <member name="M:ULA.Business.ApplicationModeServices.DefaultRuntimeModeDriversService.#ctor(ULA.Business.Infrastructure.PersistanceServices.IPersistanceService,Microsoft.Practices.Unity.IUnityContainer)">
+            <summary>
+                Creates an instance of <see cref="T:ULA.Business.ApplicationModeServices.DefaultRuntimeModeDriversService" />
+            </summary>
+            <param name="persistanceService">
+                An instance of <see cref="T:ULA.Business.Infrastructure.PersistanceServices.IPersistanceService" /> to use
+            </param>
+            <param name="container"></param>
+        </member>
+        <member name="P:ULA.Business.ApplicationModeServices.DefaultRuntimeModeDriversService.Initialization">
+            <summary>
+                Gets an instance of System.Threading.Tasks.Task that represents asynchronous initialization strategy
+            </summary>
+        </member>
+        <member name="M:ULA.Business.ApplicationModeServices.DefaultRuntimeModeDriversService.GetAllDriversAsync">
+            <summary>
+                Gets all runtime logical drivers that registered in the system asynchronously
+            </summary>
+            <returns>An instance of System.Threading.Tasks.Task that represents current asynchronous operation</returns>
+        </member>
+        <member name="M:ULA.Business.ApplicationModeServices.DefaultRuntimeModeDriversService.OnDisposing">
+            <summary>
+                Does actual explicit disposal of available managed resources
+            </summary>
+        </member>
+        <member name="M:ULA.Business.DataServices.DataWritingService.WriteValues(ULA.Business.Infrastructure.Metadata.EntityMetadata,System.String[],System.Object[])">
+            <summary>
+            
+            </summary>
+            <param name="currentBytes"></param>
+            <param name="entityMetadata"></param>
+            <param name="tags"></param>
+            <param name="values"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ULA.Business.DataServices.DeviceDataCache.GetBytesFromMetadata(ULA.Business.Infrastructure.Metadata.EntityMetadata)">
+            <summary>
+            
+            </summary>
+            <param name="entityMetadata"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ULA.Business.DataServices.DeviceDataCache.SaveBytesByMetadata(ULA.Business.Infrastructure.Metadata.EntityMetadata,System.Byte[])">
+            <summary>
+            
+            </summary>
+            <param name="entityMetadata"></param>
+            <param name="bytes"></param>
+        </member>
+        <member name="T:ULA.Business.DataServices.GlobalDefectAcknowledgingService">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:ULA.Business.DataServices.RawBytesToDeviceStateParserService.ApplyReceivedBytesToDevice(ULA.Business.Infrastructure.Metadata.MetadataFromDevice,ULA.Business.Infrastructure.DeviceDomain.IRuntimeDevice,System.Byte[])">
+            <summary>
+            
+            </summary>
+            <param name="metadataFromDevice"></param>
+            <param name="runtimeDevice"></param>
+            <param name="rawBytes"></param>
+        </member>
+        <member name="T:ULA.Business.DataServices.MetadataParserService">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:ULA.Business.DataServices.MetadataParserService.GetPartlyUpdateMetadata(ULA.Business.Infrastructure.DeviceDomain.IRuntimeDevice)">
+            <summary>
+            
+            </summary>
+            <param name="runtimeDevice"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ULA.Business.DataServices.MetadataParserService.GetFullUpdateMetadata(ULA.Business.Infrastructure.DeviceDomain.IRuntimeDevice)">
+            <summary>
+            
+            </summary>
+            <param name="runtimeDevice"></param>
+            <returns></returns>
+        </member>
+        <member name="P:ULA.Business.DeviceDomain.Commands.DeviceCommandBase.IsCommandStartSending">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:ULA.Business.DeviceDomain.Commands.SyncTimeDeviceCommand.SetValue(System.DateTime)">
+            <summary>
+            
+            </summary>
+            <param name="dateTime"></param>
+        </member>
+        <member name="P:ULA.Business.DeviceDomain.DefectState.HasAnyDefect">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:ULA.Business.DeviceDomain.Resistor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:ULA.Business.CommandSendingService">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:ULA.Business.ConfigLogicalDevice.ConfigLogicalDevice">
+            <summary>
+                Represents basic configuration logical deviceViewModel functionality
+                Представляет базовый функционал устройства в режиме реального времени
+            </summary>
+        </member>
+        <member name="M:ULA.Business.ConfigLogicalDevice.ConfigLogicalDevice.#ctor(ULA.Business.Infrastructure.PersistanceServices.IPersistanceService)">
+            <summary>
+            
+            </summary>
+            <param name="persistanceService"></param>
+        </member>
+        <member name="P:ULA.Business.ConfigLogicalDevice.ConfigLogicalDevice.DeviceContext">
+            <summary>
+                Gets an instance of <see cref="T:ULA.AddinsHost.Business.IDataContentContainer" /> that represents current deviceViewModel data container
+                Контейнер специфичных данных устройства
+            </summary>
+        </member>
+        <member name="P:ULA.Business.ConfigLogicalDevice.ConfigLogicalDevice.SchemeTable">
+            <summary>
+                Gets an instance of <see cref="T:ULA.AddinsHost.Business.Device.SchemeTable.IConfiguratedDeviceSchemeTable"/> that represents current deviceViewModel scheme table
+                Таблица схемы устройства
+            </summary>
+        </member>
+        <member name="P:ULA.Business.ConfigLogicalDevice.ConfigLogicalDevice.ULA#AddinsHost#Business#Device#ILogicalDevice#DeviceId">
+            <summary>
+                Gets or sets an instance of <see cref="T:System.Guid" /> that represents deviceViewModel unique identifier
+                Id устройства
+            </summary>
+        </member>
+        <member name="P:ULA.Business.ConfigLogicalDevice.ConfigLogicalDevice.DeviceName">
+            <summary>
+                Gets the name of the deviceViewModel
+                Имя устройства
+            </summary>
+        </member>
+        <member name="P:ULA.Business.ConfigLogicalDevice.ConfigLogicalDevice.DeviceDescription">
+            <summary>
+                Gets or sets the desciption of the deviceViewModel
+                Описание устройства 
+            </summary>
+        </member>
+        <member name="M:ULA.Business.ConfigLogicalDevice.ConfigLogicalDevice.CreateMomento">
+            <summary>
+                Creates an instance of <see cref="T:ULA.AddinsHost.Business.Device.IDeviceMomento" /> that reprents current deviceViewModel state momento
+                Вернет состояние устройства
+            </summary>
+            <returns>
+                An instance of <see cref="T:ULA.AddinsHost.Business.Device.IDeviceMomento" /> that represents current deviceViewModel state momento
+            </returns>
+        </member>
+        <member name="M:ULA.Business.ConfigLogicalDevice.ConfigLogicalDevice.SetMomentoAsync(ULA.AddinsHost.Business.Device.IDeviceMomento)">
+            <summary>
+                Sets an instance of <see cref="T:ULA.AddinsHost.Business.Device.IDeviceMomento" /> that represents current deviceViewModel state momento asynchronously
+                Сохраняет состояние устройства
+            </summary>
+            <param name="momento">
+                An instance of <see cref="T:ULA.AddinsHost.Business.Device.IDeviceMomento" /> to restore current deviceViewModel state from
+            </param>
+            <returns>An instance of System.Threading.Tasks.Task that represents cyrrent asynchronous operation</returns>
+        </member>
+        <member name="P:ULA.Business.ConfigLogicalDevice.ConfigLogicalDevice.RestoreDataTableFromMemento">
+            <summary>
+                Пытается достать DeviceDataTable. Сокращает (CreateMomento().State.DataTable) 
+            </summary>
+        </member>
+        <member name="P:ULA.Business.ConfigLogicalDevice.ConfigLogicalDevice.AnalogMeterType">
+            <summary>
+               Даст тип счетчика устройства
+            </summary>
+        </member>
+        <member name="M:ULA.Business.ConfigLogicalDevice.ConfigLogicalDevice.InitializeAsync(ULA.AddinsHost.Business.Device.Context.IDeviceContext)">
+            <summary>
+                Initialize current deviceViewModel asynchronously
+                Асинхронно инициализирует устройство
+            </summary>
+            <param name="context">
+                An instance of <see cref="T:ULA.AddinsHost.Business.Device.Context.IDeviceContext" /> that represents current deviceViewModel context
+            </param>
+            <returns>An instance of System.Threading.Tasks.Task that represents current asynchronous operation</returns>
+        </member>
+        <member name="M:ULA.Business.ConfigLogicalDevice.ConfigLogicalDevice.SeedingAsync">
+            <summary>
+                Seeds current deviceViewModel with data asynchronously
+                Заполняет устройство тех данными
+            </summary>
+        </member>
+        <member name="M:ULA.Business.ConfigLogicalDevice.ConfigLogicalDevice.AddDataRow(System.String,System.Guid,ULA.Common.Formatters.BinaryFormatterBase)">
+            <summary>
+                Добавляет с таблицу данных устройства новую строку.
+            </summary>
+            <param name="tag">Тэг строки данных</param>
+            <param name="driverDataId">Ссылка на Id блока данных в таблице драйвера</param>
+            <param name="formatter">Объект конвертирующий данные между байтовым(как хранится в устройстве) и исходным
+            (представленным в программе) типом данным</param>
+        </member>
+        <member name="M:ULA.Business.ConfigLogicalDevice.ConfigLogicalDevice.SetMomento(ULA.AddinsHost.Business.Device.IDeviceMomento)">
+            <summary>
+                Sets an instance of <see cref="T:ULA.AddinsHost.Business.Device.IDeviceMomento" /> that represents current deviceViewModel state momento
+                Сохраняет состояние устройства
+            </summary>
+            <param name="momento">
+                An instance of <see cref="T:ULA.AddinsHost.Business.Device.IDeviceMomento" /> to restore current deviceViewModel state from
+            </param>
+        </member>
+        <member name="E:ULA.Business.ConfigLogicalDevice.ConfigLogicalDevice.PropertyChanged">
+            <summary>
+                Occurs when a property value changes.
+            </summary>
+        </member>
+        <member name="M:ULA.Business.ConfigLogicalDevice.ConfigLogicalDevice.OnPropertyChanged(System.String)">
+            <summary>
+            реализация INotifyPropertyChanged
+            </summary>
+            <param name="propertyName"></param>
+        </member>
+        <member name="T:ULA.Business.Exceptions.LogicalDeviceAlreadyExistsException">
+            <summary>
+                Represents an application exception that occured when trying to create a deviceViewModel with dublicate name
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Exceptions.LogicalDeviceAlreadyExistsException.DeviceInfo">
+            <summary>
+                Gets an instance of <see cref="T:ULA.Business.Infrastructure.DTOs.LogicalDeviceInformation" /> that represents a failed deviceViewModel information
+            </summary>
+        </member>
+        <member name="M:ULA.Business.Exceptions.LogicalDeviceAlreadyExistsException.#ctor(ULA.Business.Infrastructure.DTOs.LogicalDeviceInformation)">
+            <summary>
+                Creates an instance of <see cref="T:ULA.Business.Exceptions.LogicalDeviceAlreadyExistsException" />
+            </summary>
+            <param name="deviceInfo">
+                An instance of <see cref="T:ULA.Business.Infrastructure.DTOs.LogicalDeviceInformation" /> that represents the failed deviceViewModel information
+            </param>
+        </member>
+        <member name="P:ULA.Business.Exceptions.LogicalDeviceAlreadyExistsException.Message">
+            <summary>
+                Gets a message that describes the current exception.
+            </summary>
+            <returns>
+                The error message that explains the reason for the exception, or an empty string("").
+            </returns>
+            <filterpriority>1</filterpriority>
+        </member>
+        <member name="T:ULA.Business.Exceptions.LogicalDeviceException">
+            <summary>
+                Represents common deviceViewModel exception
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Exceptions.LogicalDeviceException.DeviceInfo">
+            <summary>
+                Gets an instance of <see cref="T:ULA.Business.Infrastructure.DTOs.LogicalDeviceInformation" /> that represents information about failed deviceViewModel
+            </summary>
+        </member>
+        <member name="M:ULA.Business.Exceptions.LogicalDeviceException.#ctor(ULA.Business.Infrastructure.DTOs.LogicalDeviceInformation,System.String,System.Exception)">
+            <summary>
+                Creates an instance of <see cref="T:ULA.Business.Exceptions.LogicalDeviceException" />
+            </summary>
+            <param name="deviceInfo">
+                An instance of <see cref="T:ULA.Business.Infrastructure.DTOs.LogicalDeviceInformation" /> to use
+            </param>
+            <param name="message">An optional parameter that represents the message of the exception</param>
+            <param name="innerException">
+                An instance of <see cref="T:System.Exception" /> that represents inner exception information
+            </param>
+        </member>
+        <member name="M:ULA.Business.Exceptions.LogicalDeviceException.#ctor(System.String,System.Exception)">
+            <summary>
+                Creates an instance of <see cref="T:ULA.Business.Exceptions.LogicalDeviceException" />
+            </summary>
+            <param name="message">An optional parameter that represents the message of the exception</param>
+            <param name="innerException">
+                An instance of <see cref="T:System.Exception" /> that represents inner exception information
+            </param>
+        </member>
+        <member name="P:ULA.Business.Exceptions.LogicalDeviceException.Message">
+            <summary>
+                Gets a message that describes the current exception.
+            </summary>
+            <returns>
+                The error message that explains the reason for the exception, or an empty string("").
+            </returns>
+            <filterpriority>1</filterpriority>
+        </member>
+        <member name="T:ULA.Business.Exceptions.LogicalDriverAlreadyExistsExcetpion">
+            <summary>
+                Represents a logical driver exception that will be thrown when another deviceViewModel with the same characteristics already exists
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Exceptions.LogicalDriverAlreadyExistsExcetpion.LogicalDriverInformation">
+            <summary>
+                Gets an instance of <see cref="P:ULA.Business.Exceptions.LogicalDriverAlreadyExistsExcetpion.LogicalDriverInformation" /> that represents failed driver/>
+            </summary>
+        </member>
+        <member name="M:ULA.Business.Exceptions.LogicalDriverAlreadyExistsExcetpion.#ctor(ULA.Business.Infrastructure.DTOs.LogicalDriverInformation)">
+            <summary>
+                Creates an instance of <see cref="T:ULA.Business.Exceptions.LogicalDriverAlreadyExistsExcetpion" />
+            </summary>
+            <param name="logicalDriverInformation">
+                An instance of <see cref="P:ULA.Business.Exceptions.LogicalDriverAlreadyExistsExcetpion.LogicalDriverInformation" /> that represents failed driver
+            </param>
+        </member>
+        <member name="P:ULA.Business.Exceptions.LogicalDriverAlreadyExistsExcetpion.Message">
+            <summary>
+                Gets a message that describes the current exception.
+            </summary>
+            <returns>
+                The error message that explains the reason for the exception, or an empty string("").
+            </returns>
+            <filterpriority>1</filterpriority>
+        </member>
+        <member name="T:ULA.Business.Exceptions.LogicalDriverCreationException">
+            <summary>
+                Represents logical driver exception wht will be thrown when an unexpected exception is occured during driver creation process
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Exceptions.LogicalDriverCreationException.DriverInfo">
+            <summary>
+                Gets an instance of <see cref="T:ULA.Business.Infrastructure.DTOs.LogicalDriverInformation" /> that failed to be created
+            </summary>
+        </member>
+        <member name="M:ULA.Business.Exceptions.LogicalDriverCreationException.#ctor(ULA.Business.Infrastructure.DTOs.LogicalDriverInformation,System.String,System.Exception)">
+            <summary>
+                Creates an instance of <see cref="T:ULA.Business.Exceptions.LogicalDriverCreationException" />
+            </summary>
+            <param name="driverInfo">
+                An instance of <see cref="T:ULA.Business.Infrastructure.DTOs.LogicalDriverInformation" /> that failed to be createde
+            </param>
+            <param name="message">n optional parameter that represents the message of the exception</param>
+            <param name="innerException"> An instance of <see cref="T:System.Exception" /> that represents inner exception information</param>
+        </member>
+        <member name="P:ULA.Business.Exceptions.LogicalDriverCreationException.Message">
+            <summary>
+                Gets a message that describes the current exception.
+            </summary>
+            <returns>
+                The error message that explains the reason for the exception, or an empty string("").
+            </returns>
+            <filterpriority>1</filterpriority>
+        </member>
+        <member name="T:ULA.Business.Exceptions.PersistanceServiceFileFormatException">
+            <summary>
+                Represents persistance service exception that will be thrown when an exception occures durin application data storing file parsing
+            </summary>
+        </member>
+        <member name="M:ULA.Business.Exceptions.PersistanceServiceFileFormatException.#ctor(System.Exception)">
+            <summary>
+                Creates an instance of <see cref="T:ULA.Business.Exceptions.PersistanceServiceFileFormatException" />
+            </summary>
+            <param name="exception">
+                Anh instance of <see cref="T:System.Exception" /> that represents inner exception
+            </param>
+        </member>
+        <member name="M:ULA.Business.Exceptions.PersistanceServiceFileFormatException.#ctor">
+            <summary>
+                Creates an instance of <see cref="T:ULA.Business.Exceptions.PersistanceServiceFileFormatException" />
+            </summary>
+        </member>
+        <member name="T:ULA.Business.Exceptions.PersistanceServiceFileNotFoundException">
+            <summary>
+                Represents persistance service exception that will be thrown when no application file for data storing is found
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Exceptions.PersistanceServiceFileNotFoundException.Message">
+            <summary>
+                Gets a message that describes the current exception.
+            </summary>
+            <returns>
+                The error message that explains the reason for the exception, or an empty string("").
+            </returns>
+            <filterpriority>1</filterpriority>
+        </member>
+        <member name="T:ULA.Business.Exceptions.UnknownLogicalDeviceTypeException">
+            <summary>
+                Represents an application exception that occures when the system can't resolve the type of a deviceViewModel factory
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Exceptions.UnknownLogicalDeviceTypeException.DeviceFactoryTypeName">
+            <summary>
+                Gets the name of deviceViewModel factory that wasn't resolved
+            </summary>
+        </member>
+        <member name="M:ULA.Business.Exceptions.UnknownLogicalDeviceTypeException.#ctor(System.String)">
+            <summary>
+                Creates an instance of <see cref="T:ULA.Business.Exceptions.UnknownLogicalDeviceTypeException" />
+            </summary>
+            <param name="deviceFactoryTypeName">The name of failed deviceViewModel factory</param>
+        </member>
+        <member name="P:ULA.Business.Exceptions.UnknownLogicalDeviceTypeException.Message">
+            <summary>
+                Gets a message that describes the current exception.
+            </summary>
+            <returns>
+                The error message that explains the reason for the exception, or an empty string("").
+            </returns>
+            <filterpriority>1</filterpriority>
+        </member>
+        <member name="T:ULA.Business.Exceptions.UnknownLogicalDriverTypeException">
+            <summary>
+                Represents an application exception that occures when the system can't resolve the type of a driver factory
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Exceptions.UnknownLogicalDriverTypeException.DriverType">
+            <summary>
+                Gets the name of driver factory that wasn't resolved
+            </summary>
+        </member>
+        <member name="M:ULA.Business.Exceptions.UnknownLogicalDriverTypeException.#ctor(System.String)">
+            <summary>
+                Creates an instance of <see cref="T:ULA.Business.Exceptions.UnknownLogicalDriverTypeException" />
+            </summary>
+            <param name="driverType">The name of failed driver factory</param>
+        </member>
+        <member name="P:ULA.Business.Exceptions.UnknownLogicalDriverTypeException.Message">
+            <summary>
+                Gets a message that describes the current exception.
+            </summary>
+            <returns>
+                The error message that explains the reason for the exception, or an empty string("").
+            </returns>
+            <filterpriority>1</filterpriority>
+        </member>
+        <member name="M:ULA.Business.Factories.DeviceCommandFactory.CreateStopNightlightingCommand(ULA.Business.Infrastructure.DeviceDomain.IRuntimeDevice)">
+            <summary>
+            
+            </summary>
+            <param name="runtimeDevice"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ULA.Business.Factories.DeviceCommandFactory.CreateRunEveninglightingCommand(ULA.Business.Infrastructure.DeviceDomain.IRuntimeDevice)">
+            <summary>
+            
+            </summary>
+            <param name="runtimeDevice"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ULA.Business.Image.BackgroundPicture">
+            <summary>
+            Изображение на фоне
+            </summary>
+        </member>
+        <member name="M:ULA.Business.Image.BackgroundPicture.#ctor">
+            <summary>
+            Изображение на фоне
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Image.BackgroundPicture.BackgroundImageSource">
+            <summary>
+            Сама картинка
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Image.BackgroundPicture.ImagePath">
+            <summary>
+            Путь к файлу картинки
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Image.BackgroundPicture.ZIndexValue">
+            <summary>
+            Положение картинки поверх или под остаными частями приложения
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Image.BackgroundPicture.IsEditMode">
+            <summary>
+            Показывает находится ли картинка в режиме редактирования (если нет, то ее z-индекс нулевой)
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Image.BackgroundPicture.CanvasTop">
+            <summary>
+            Позиция картинки по верхнему краю канваса
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Image.BackgroundPicture.CanvasLeft">
+            <summary>
+            Позиция картинки по левому краю канваса
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Image.BackgroundPicture.ImageHeight">
+            <summary>
+            Позиция картинки по нижнему краю канваса
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Image.BackgroundPicture.ImageWidth">
+            <summary>
+            Позиция картинки по правому краю канваса
+            </summary>
+        </member>
+        <member name="M:ULA.Business.Image.BackgroundPicture.Load">
+            <summary>
+            Загрузить картинку
+            </summary>
+        </member>
+        <member name="M:ULA.Business.Image.BackgroundPicture.Save(System.Boolean)">
+            <summary>
+            Сохранить картинку
+            </summary>
+        </member>
+        <member name="M:ULA.Business.Image.BackgroundPicture.InitImageFromPath(System.String)">
+            <summary>
+            инициализировать изображение из файла картинки
+            </summary>
+            <param name="fileName"></param>
+        </member>
+        <member name="M:ULA.Business.Infrastructure.LoggerServices.StarterLoggerService.StarterStateChanged(NLog.Logger,System.Boolean,System.Int32)">
+            <summary>
+            событие изменения свойства
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="T:ULA.Business.Module.BusinessLogicModule">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:ULA.Business.Module.BusinessLogicModule.#ctor(Microsoft.Practices.Unity.IUnityContainer)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:ULA.Business.Module.BusinessLogicModule.Initialize">
+            <summary>
+            
+            </summary>
+            <exception cref="T:System.NotImplementedException"></exception>
+        </member>
+        <member name="T:ULA.Business.PersistanceServices.LogicalDeviceXmlPersistableContext">
+            <summary>
+                Represents xml-based deviceViewModel persisting context functionality
+            Класс-сервис для работы c xml контекстом устройств
+            </summary>
+        </member>
+        <member name="M:ULA.Business.PersistanceServices.LogicalDeviceXmlPersistableContext.#ctor(System.Xml.Linq.XElement,System.Func{System.Threading.Tasks.Task})">
+            <summary>
+                Creates an instance of <see cref="T:ULA.Business.PersistanceServices.LogicalDeviceXmlPersistableContext" />
+            </summary>
+            <param name="root">
+                An instance of <see cref="T:System.Xml.Linq.XElement" /> that represents current deviceViewModel xml node
+            </param>
+            <param name="saveRootAsync">
+                An instance of <see cref="T:System.Func`1" /> that represents asynchronous save template method
+            </param>
+        </member>
+        <member name="M:ULA.Business.PersistanceServices.LogicalDeviceXmlPersistableContext.SaveDeviceMomentoAsync(ULA.AddinsHost.Business.Device.IDeviceMomento)">
+            <summary>
+                Saves deviceViewModel momento asynchronously
+            Метод сохраняет дынные (о) устройство в xml
+            </summary>
+            <param name="deviceMomento">
+                An instance of <see cref="T:ULA.AddinsHost.Business.Device.IDeviceMomento" /> that represents deviceViewModel momento
+            </param>
+            <returns>An instance of System.Threading.Tasks.Task that represents current synchronous operation</returns>
+        </member>
+        <member name="M:ULA.Business.PersistanceServices.LogicalDeviceXmlPersistableContext.GetMomentoAsync">
+            <summary>
+                Gets current deviceViewModel momento asynchronously
+            Вернет данные о устройстве из xml
+            </summary>
+            <returns>An instance of System.Threading.Tasks.Task that represents current synchronous operation</returns>
+        </member>
+        <member name="M:ULA.Business.PersistanceServices.LogicalDeviceXmlPersistableContext.OnDisposing">
+            <summary>
+                Does actual explicit disposal of available managed resources
+            </summary>
+        </member>
+        <member name="T:ULA.Business.PersistanceServices.LogicalDriverXmlPersistableContext">
+            <summary>
+                Represents xml-based driver persisting context functionality
+            То же, что и <see cref="T:ULA.Business.PersistanceServices.LogicalDeviceXmlPersistableContext"/> только для драйвера
+            </summary>
+        </member>
+        <member name="M:ULA.Business.PersistanceServices.LogicalDriverXmlPersistableContext.#ctor(System.Xml.Linq.XElement,System.Func{System.Threading.Tasks.Task})">
+            <summary>
+                Creates an instance of <see cref="T:ULA.Business.PersistanceServices.LogicalDriverXmlPersistableContext" />
+            </summary>
+            <param name="root">
+                An instance of <see cref="T:System.Xml.Linq.XElement" /> that represents current context root
+            </param>
+            <param name="saveRootAsync">
+                An instance of <see cref="T:System.Func`1" /> that represents asynchronous save template method
+            </param>
+        </member>
+        <member name="M:ULA.Business.PersistanceServices.LogicalDriverXmlPersistableContext.SaveDriverMomentoAsync(ULA.AddinsHost.Business.Driver.IDriverMomento)">
+            <summary>
+                Saves an instance of <see cref="T:ULA.AddinsHost.Business.Driver.IDriverMomento" /> that represents drivers state asynchronously
+            </summary>
+            <param name="driverMomento">
+                An instance of <see cref="T:ULA.AddinsHost.Business.Driver.IDriverMomento" /> to save
+            </param>
+            <returns>An instance of System.Threading.Tasks.Task that represents current asynchronous operation</returns>
+        </member>
+        <member name="M:ULA.Business.PersistanceServices.LogicalDriverXmlPersistableContext.GetDriverMomentoAsync">
+            <summary>
+                Restores an instance of <see cref="T:ULA.AddinsHost.Business.Driver.IDriverMomento" /> that reporesents drivber's state
+            </summary>
+            <returns>An instance of System.Threading.Tasks.Task that represents current asynchronous operation</returns>
+        </member>
+        <member name="M:ULA.Business.PersistanceServices.LogicalDriverXmlPersistableContext.OnDisposing">
+            <summary>
+                Does actual explicit disposal of available managed resources
+            </summary>
+        </member>
+        <member name="T:ULA.Business.PersistanceServices.XmlPersistanceService">
+            <summary>
+                Represents default logical devices persistance service functionality
+                Сервис работы с xml
+            </summary>
+        </member>
+        <member name="M:ULA.Business.PersistanceServices.XmlPersistanceService.#ctor(ULA.Interceptors.Application.IApplicationSettingsService)">
+            <summary>
+                Creates an instance of <see cref="T:ULA.Business.PersistanceServices.XmlPersistanceService" />
+            </summary>
+        </member>
+        <member name="P:ULA.Business.PersistanceServices.XmlPersistanceService.Initialization">
+            <summary>
+                Gets an instance of System.Threading.Tasks.Task that represents asynchronous initialization strategy
+            Таска инициализации сервиса
+            </summary>
+        </member>
+        <member name="M:ULA.Business.PersistanceServices.XmlPersistanceService.GetDevicePersistableContextsAsync">
+            <summary>
+                Gets a collection of all deviceViewModel persistable contexts
+            Вернет весь сохраненный в xml контекст(дынные) устройств
+            </summary>
+            <returns>An instance of System.Threading.Tasks.Task that represents current synchronous operation</returns>
+        </member>
+        <member name="M:ULA.Business.PersistanceServices.XmlPersistanceService.GetDevicePersistableContextAsync(System.Guid)">
+            <summary>
+                Gets an instance of <see cref="T:ULA.Business.Infrastructure.PersistanceServices.IDevicePersistableContext" /> that represents persisting context for a deviceViewModel asynchronously
+            Вернет контекст устройства по id-ку из xml
+            </summary>
+            <param name="deviceId">
+                An instance of <see cref="T:System.Guid" /> that represents current deviceViewModel unique identifier
+            </param>
+            <returns>An instance of System.Threading.Tasks.Task that represents current synchronous operation</returns>
+        </member>
+        <member name="M:ULA.Business.PersistanceServices.XmlPersistanceService.GetDriverPersistableContextAsync(System.Guid)">
+            <summary>
+                Gets an instance of <see cref="T:ULA.Business.Infrastructure.PersistanceServices.IDriverPersistableContext" /> that represents persisting context for a driver asynchronously
+            Вернет контекст драйвера по id-ку из xml
+            </summary>
+            <param name="driverId">
+                An instance of <see cref="T:System.Guid" /> that represents current driver unique identifier
+            </param>
+            <returns>An instance of System.Threading.Tasks.Task that represents current synchronous operation</returns>
+        </member>
+        <member name="M:ULA.Business.PersistanceServices.XmlPersistanceService.GetDriversPersistableContextAsynk">
+            <summary>
+                Gets a collection of all drivers persistable contexts
+            Вернет контекс для драйверов из xml
+            </summary>
+            <returns>An instance of System.Threading.Tasks.Task that represents current synchronous operation</returns>
+        </member>
+        <member name="M:ULA.Business.PersistanceServices.XmlPersistanceService.RemoveDevicePersistanbleContextAsync(System.Guid)">
+            <summary>
+                Remove deviceViewModel from XML persistable context asynchronously
+            Удалит  из xml-ны контекст устройства с id, переданным в параметрах
+            </summary>
+            <param name="deviceId">
+                An instance of <see cref="T:System.Guid" /> that represents current deviceViewModel unique identifier
+            </param>
+            <returns>An instance of System.Threading.Tasks.Task that represents current synchronous operation</returns>
+        </member>
+        <member name="M:ULA.Business.PersistanceServices.XmlPersistanceService.RemoveDriverPersistableContextAsynk(System.Guid)">
+            <summary>
+                Remove driver from persistable context asynchronously
+            Удалит  из xml-ны контекст драйвера с id, переданным в параметрах
+            </summary>
+            <param name="driverId">A instance of <see cref="T:System.Guid"/> that represents current deviceViewModel unique identifier</param>
+            <returns>An instance of System.Threading.Tasks.Task that represents current synchronous operation</returns>
+        </member>
+        <member name="M:ULA.Business.PersistanceServices.XmlPersistanceService.OnDisposing">
+            <summary>
+                Does actual explicit disposal of available managed resources
+            </summary>
+        </member>
+        <member name="T:ULA.Business.RuntimeDeviceBase">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:ULA.Business.RuntimeDeviceBase.#ctor(ULA.Interceptors.Application.IApplicationSettingsService,ULA.Business.Infrastructure.ApplicationModes.IRuntimeModeDriversService,ULA.ApplicationConnectionService.ApplicationConnectionService,ULA.Business.Infrastructure.TimerInterrogation.IDeviceTimerInterrogationService,ULA.Business.Infrastructure.DeviceDomain.IDefectState,ULA.Business.Infrastructure.DataServices.IDeviceDataCache,ULA.Business.Infrastructure.DeviceDomain.IAnalogData,ULA.Business.Infrastructure.Factories.IResistorFactory,ULA.Business.Infrastructure.Factories.ICustomItemsFactory,ULA.Business.LoggerServices.ConnectionLogger)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.Business.RuntimeDeviceBase.DeviceDataCache">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.Business.RuntimeDeviceBase.DefectState">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:ULA.Business.RuntimeDeviceBase.InitializeAsync">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:ULA.Business.RuntimeDeviceBase.StartersOnDevice">
+            <summary>
+            пускатели на устройстве
+            </summary>
+        </member>
+        <member name="T:ULA.Business.Starter">
+            <summary>
+             модель пускателя
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Starter.StarterDescription">
+            <summary>
+            описпание пускателя
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Starter.StarterNumber">
+            <summary>
+            номер пускателя
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Starter.IsInRepairState">
+            <summary>
+            режим ремонта
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Starter.IsInManualMode">
+            <summary>
+            ручной режим
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Starter.IsStarterOn">
+            <summary>
+            включенное состояние
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Starter.IsInUndefinedState">
+            <summary>
+            неопределенное состояние
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Starter.StarterLightingMode">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.Business.Starter.ManagementFuseState">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:ULA.Business.TimerInterrogation.TimerInterrigationService">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ULA.Business.TimerInterrogation.TimerInterrigationService.IsInterrogationInProcess">
+            <summary>
+            происходит ли опрос в данный момент
+            </summary>
+        </member>
+        <member name="M:ULA.Business.TimerInterrogation.TimerInterrigationService.StartInterrogation">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ULA.Business.TimerInterrogation.TimerInterrigationService.StopInterrogation">
+            <summary>
+            остановка опроса
+            </summary>
+        </member>
+        <member name="P:ULA.Business.TimerInterrogation.TimerInterrigationService.InterrogationCycleComplete">
+            <summary>
+            
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,20 @@
+﻿ULA.Devices.Presentation
+
+
+library
+C#
+.cs
+C:\ULA 2k17\Devices\Presentation\ULA.Devices.Presentation\obj\Release\
+ULA.Devices.Presentation
+none
+false
+TRACE
+
+7452739145
+
+49-465527551
+83-108436157
+Resources\StarterDataTemplates.xaml;Resources\DevicesResources.xaml;View\Msa961AnalogTableView.xaml;View\EnergomeraAnalogTableView.xaml;View\ChannelView.xaml;View\ResistorView.xaml;View\SchemeModeRuntimeView.xaml;
+
+False
+

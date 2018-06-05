@@ -1,0 +1,9 @@
+c:\ULA 2k17\ULA.Setup\bin\Release\ru-ru\SUNO.Setup.msi
+c:\ULA 2k17\ULA.Setup\bin\Release\ru-ru\SUNO.Setup.wixpdb
+obj\Release\CustomDialog.wixobj
+obj\Release\Files.wixobj
+obj\Release\Product.wixobj
+obj\Release\Shortcuts.wixobj
+obj\Release\SUNO.Setup.wixproj.BindContentsFileListru-ru.txt
+obj\Release\SUNO.Setup.wixproj.BindOutputsFileListru-ru.txt
+obj\Release\SUNO.Setup.wixproj.BindBuiltOutputsFileListru-ru.txt

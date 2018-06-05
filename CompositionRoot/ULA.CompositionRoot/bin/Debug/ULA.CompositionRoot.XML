@@ -1,0 +1,198 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ULA.CompositionRoot</name>
+    </assembly>
+    <members>
+        <member name="T:ULA.CompositionRoot.ApplicationContentContainer">
+            <summary>
+                Represents current application content container
+            </summary>
+        </member>
+        <member name="M:ULA.CompositionRoot.ApplicationContentContainer.#ctor(Microsoft.Practices.Unity.IUnityContainer)">
+            <summary>
+                Creates an instance of <see cref="T:ULA.CompositionRoot.ApplicationContentContainer" />
+            </summary>
+            <param name="container">
+                An instance of <see cref="T:Microsoft.Practices.Unity.IUnityContainer" /> that represents current application IoC Container
+            </param>
+        </member>
+        <member name="M:ULA.CompositionRoot.ApplicationContentContainer.OnDisposing">
+            <summary>
+                Does actual explicit disposal of available managed resources
+            </summary>
+        </member>
+        <member name="T:ULA.CompositionRoot.Bootstrapping.Bootstrapper">
+            <summary>
+                Represents composition root bootstrapper that is based on <see cref="T:Prism.Unity.UnityBootstrapper" />
+            </summary>
+        </member>
+        <member name="P:ULA.CompositionRoot.Bootstrapping.Bootstrapper.ContentContainer">
+            <summary>
+                Gets an instance of <see cref="T:ULA.CompositionRoot.IApplicationContentContainer" /> that represents current appplication content
+            </summary>
+        </member>
+        <member name="M:ULA.CompositionRoot.Bootstrapping.Bootstrapper.#ctor(ULA.Interceptors.Application.IApplicationStateManager)">
+            <summary>
+                Initializes an instance of <see cref="T:ULA.CompositionRoot.Bootstrapping.Bootstrapper" />
+            </summary>
+            <param name="currentApplicationStateManager">
+                An instance of <see cref="T:ULA.Interceptors.Application.IApplicationStateManager" /> that represents application management functionality
+            </param>
+        </member>
+        <member name="M:ULA.CompositionRoot.Bootstrapping.Bootstrapper.Run(System.Boolean)">
+            <summary>
+                Run the bootstrapper process.
+            </summary>
+            <param name="runWithDefaultConfiguration">
+                If <see langword="true" />, registers default Composite Application Library services in the container. This is the default behavior.
+            </param>
+        </member>
+        <member name="M:ULA.CompositionRoot.Bootstrapping.Bootstrapper.ConfigureContainer">
+            <summary>
+                Configures the <see cref="T:Microsoft.Practices.Unity.IUnityContainer" />. May be overwritten in a derived class to
+                add specific
+                type mappings required by the application.
+            </summary>
+        </member>
+        <member name="M:ULA.CompositionRoot.Bootstrapping.Bootstrapper.ConfigureModuleCatalog">
+            <summary>
+            настройка каталога модулей
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ULA.CompositionRoot.Bootstrapping.Bootstrapper.InitializeModules">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:ULA.CompositionRoot.IApplicationContentContainer">
+            <summary>
+                Exposes current application content container
+            </summary>
+        </member>
+        <member name="T:ULA.CompositionRoot.IoC.ApplicationStateLifetimeManager">
+            <summary>
+                Represents application state lifetime manager
+            </summary>
+        </member>
+        <member name="M:ULA.CompositionRoot.IoC.ApplicationStateLifetimeManager.#ctor(ULA.Interceptors.Application.IApplicationState)">
+            <summary>
+                Creates an instance of <see cref="T:ULA.CompositionRoot.IoC.ApplicationStateLifetimeManager" />
+            </summary>
+            <param name="applicationState">
+                An instance of <see cref="T:ULA.Interceptors.Application.IApplicationState" /> to use
+            </param>
+        </member>
+        <member name="M:ULA.CompositionRoot.IoC.ApplicationStateLifetimeManager.GetValue">
+            <summary>
+                Retrieve a value from the backing store associated with this Lifetime policy.
+            </summary>
+            <returns>
+                the object desired, or null if no such object is currently stored.
+            </returns>
+        </member>
+        <member name="M:ULA.CompositionRoot.IoC.ApplicationStateLifetimeManager.SetValue(System.Object)">
+            <summary>
+                Stores the given value into backing store for retrieval later.
+            </summary>
+            <param name="newValue">The object being stored.</param>
+        </member>
+        <member name="M:ULA.CompositionRoot.IoC.ApplicationStateLifetimeManager.RemoveValue">
+            <summary>
+                Remove the given object from backing store.
+            </summary>
+        </member>
+        <member name="M:ULA.CompositionRoot.IoC.ApplicationStateLifetimeManager.Recover">
+            <summary>
+                A method that does whatever is needed to clean up
+                as part of cleaning up after an exception.
+            </summary>
+            <remarks>
+                Don't do anything that could throw in this method,
+                it will cause later recover operations to get skipped
+                and play real havoc with the stack trace.
+            </remarks>
+        </member>
+        <member name="T:ULA.CompositionRoot.IoC.UnityIoCRootWrapper">
+            <summary>
+                Represents a unity container wrapper
+            </summary>
+        </member>
+        <member name="M:ULA.CompositionRoot.IoC.UnityIoCRootWrapper.#ctor(Microsoft.Practices.Unity.IUnityContainer)">
+            <summary>
+                Creates an instance of <see cref="T:ULA.CompositionRoot.IoC.UnityIoCRootWrapper" />
+            </summary>
+            <param name="container">
+                An instance of <see cref="T:Microsoft.Practices.Unity.IUnityContainer" /> to use
+            </param>
+        </member>
+        <member name="M:ULA.CompositionRoot.IoC.UnityIoCRootWrapper.RegisterType``2(System.String,System.Boolean)">
+            <summary>
+                Registers an instance mapping in an IoC Container
+            </summary>
+            <typeparam name="TMapTo">
+                <see cref="T:System.Type" /> to map tp
+            </typeparam>
+            <typeparam name="TMapFrom">
+                <see cref="T:System.Type" /> to map from
+            </typeparam>
+            <param name="name">The name of the mapping</param>
+            <param name="isSingleton">A value that indicates whether creating an instance of TMapFrom should be occured only once</param>
+        </member>
+        <member name="M:ULA.CompositionRoot.IoC.UnityIoCRootWrapper.RegisterType``2(System.Boolean)">
+            <summary>
+                Registers an instance mapping in an IoC Container
+            </summary>
+            <typeparam name="TMapTo">
+                <see cref="T:System.Type" /> to map tp
+            </typeparam>
+            <typeparam name="TMapFrom">
+                <see cref="T:System.Type" /> to map from
+            </typeparam>
+            <param name="isSingleton">A value that indicates whether creating an instance of TMapFrom should be occured only once</param>
+        </member>
+        <member name="T:ULA.CompositionRoot.IoC.UnityIoCWrapper">
+            <summary>
+                Represents a wrapper for <see cref="T:ULA.Interceptors.IoC.IIoCContainer" /> that consumes <see cref="T:Microsoft.Practices.Unity.IUnityContainer" /> functionality
+            </summary>
+        </member>
+        <member name="M:ULA.CompositionRoot.IoC.UnityIoCWrapper.#ctor(Microsoft.Practices.Unity.IUnityContainer)">
+            <summary>
+                Creates an instance of <see cref="T:ULA.CompositionRoot.IoC.UnityIoCWrapper" />
+            </summary>
+            <param name="container">An instance of <see cref="T:Microsoft.Practices.Unity.IUnityContainer" /> to wrap</param>
+        </member>
+        <member name="M:ULA.CompositionRoot.IoC.UnityIoCWrapper.Resolve``1(System.String)">
+            <summary>
+                Resolves a <see cref="T:System.Type" /> by the name of the mapping
+            </summary>
+            <typeparam name="T"><see cref="T:System.Type" /> to resolve</typeparam>
+            <param name="mappingKey">The name of the mapping to resolve an instance with</param>
+            <returns>An instance of retrieved object</returns>
+        </member>
+        <member name="M:ULA.CompositionRoot.IoC.UnityIoCWrapper.Resolve``1">
+            <summary>
+                Resolves a <see cref="T:System.Type" /> by the name of the mapping
+            </summary>
+            <typeparam name="T"><see cref="T:System.Type" /> to resolve</typeparam>
+            <returns>An instance of the retrieved object</returns>
+        </member>
+        <member name="T:ULA.CompositionRoot.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:ULA.CompositionRoot.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:ULA.CompositionRoot.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+    </members>
+</doc>
