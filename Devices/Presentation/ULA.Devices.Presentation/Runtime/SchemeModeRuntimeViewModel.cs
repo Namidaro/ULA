@@ -591,17 +591,17 @@ namespace ULA.Devices.Presentation.Runtime
                 return;
             }
 
-            if (CheckRepair())
-            {
-                this._interactionService.Interact(
-                    ApplicationInteractionProviders.InformationMessageBoxInteractionProvider,
-                    viewModel =>
-                    {
-                        viewModel.Title = LocalizationResources.Instance.RepairDefandTitle;
-                        viewModel.Message = Localization.LocalizationResources.Instance.RepairDefand;
-                    });
-                return;
-            }
+            //if (CheckRepair())
+            //{
+            //    this._interactionService.Interact(
+            //        ApplicationInteractionProviders.InformationMessageBoxInteractionProvider,
+            //        viewModel =>
+            //        {
+            //            viewModel.Title = LocalizationResources.Instance.RepairDefandTitle;
+            //            viewModel.Message = Localization.LocalizationResources.Instance.RepairDefand;
+            //        });
+            //    return;
+            //}
 
             _logInteractionViewModel.OpenDeviceLog(_currentDeviceViewModel);
 
@@ -651,17 +651,17 @@ namespace ULA.Devices.Presentation.Runtime
 
         private void OnNavigateToConfiguration()
         {
-            if (CheckRepair())
-            {
-                this._interactionService.Interact(
-                    ApplicationInteractionProviders.InformationMessageBoxInteractionProvider,
-                    viewModel =>
-                    {
-                        viewModel.Title = LocalizationResources.Instance.RepairDefandTitle;
-                        viewModel.Message = Localization.LocalizationResources.Instance.RepairDefand;
-                    });
-                return;
-            }
+            //if (CheckRepair())
+            //{
+            //    this._interactionService.Interact(
+            //        ApplicationInteractionProviders.InformationMessageBoxInteractionProvider,
+            //        viewModel =>
+            //        {
+            //            viewModel.Title = LocalizationResources.Instance.RepairDefandTitle;
+            //            viewModel.Message = Localization.LocalizationResources.Instance.RepairDefand;
+            //        });
+            //    return;
+            //}
             InvokeActionAfterCheckingPassword((() =>
             {
                 var regionManager = ServiceLocator.Current.GetInstance<IRegionManager>();
@@ -721,17 +721,17 @@ namespace ULA.Devices.Presentation.Runtime
 
         private void OnNavigateToLightingShedule()
         {
-            if (CheckRepair())
-            {
-                this._interactionService.Interact(
-                    ApplicationInteractionProviders.InformationMessageBoxInteractionProvider,
-                    viewModel =>
-                    {
-                        viewModel.Title = LocalizationResources.Instance.RepairDefandTitle;
-                        viewModel.Message = Localization.LocalizationResources.Instance.RepairDefand;
-                    });
-                return;
-            }
+            //if (CheckRepair())
+            //{
+            //    this._interactionService.Interact(
+            //        ApplicationInteractionProviders.InformationMessageBoxInteractionProvider,
+            //        viewModel =>
+            //        {
+            //            viewModel.Title = LocalizationResources.Instance.RepairDefandTitle;
+            //            viewModel.Message = Localization.LocalizationResources.Instance.RepairDefand;
+            //        });
+            //    return;
+            //}
 
             InvokeActionAfterCheckingPassword((() =>
             {

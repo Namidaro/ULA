@@ -1258,6 +1258,18 @@ namespace ULA.Devices.PICON2.Presentation.ViewModels
 
         private async void OnSendConfiguration()
         {
+            if (CheckRepair())
+            {
+                this._interactionService.Interact(
+                    ApplicationInteractionProviders.InformationMessageBoxInteractionProvider,
+                    viewModel =>
+                    {
+                        viewModel.Title = LocalizationResources.Instance.RepairDefandTitle;
+                        viewModel.Message = Localization.LocalizationResources.Instance.RepairDefand;
+                    });
+                return;
+            }
+
             var busyToken = this.InteractWithBusy();
             try
             {
@@ -1584,6 +1596,14 @@ namespace ULA.Devices.PICON2.Presentation.ViewModels
 
         }
 
+
+        private bool CheckRepair()
+        {
+            return (_currentDeviceViewModel.Model as IRuntimeDevice).StartersOnDevice.Any((starter =>
+            {
+                return starter.IsInRepairState != null && starter.IsInRepairState.Value;
+            }));
+        }
         #endregion [Help Members]
 
         #region [Help Fault Validation]

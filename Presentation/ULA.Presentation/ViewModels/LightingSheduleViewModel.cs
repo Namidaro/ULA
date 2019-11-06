@@ -965,6 +965,17 @@ namespace ULA.Presentation.ViewModels
 
         private async void OnSendLightingShedule()
         {
+            if (CheckRepair())
+            {
+                this._interactionService.Interact(
+                    ApplicationInteractionProviders.InformationMessageBoxInteractionProvider,
+                    viewModel =>
+                    {
+                        viewModel.Title = LocalizationResources.Instance.RepairDefandTitle;
+                        viewModel.Message = Localization.LocalizationResources.Instance.RepairDefand;
+                    });
+                return;
+            }
             var busyToken = this.InteractWithBusy();
             try
             {
@@ -1216,6 +1227,13 @@ namespace ULA.Presentation.ViewModels
                     });
         }
 
+        private bool CheckRepair()
+        {
+            return (_currentDeviceViewModel.Model as IRuntimeDevice).StartersOnDevice.Any((starter =>
+            {
+                return starter.IsInRepairState != null && starter.IsInRepairState.Value;
+            }));
+        }
         #endregion
 
         #region [Navigate]

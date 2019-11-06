@@ -58,6 +58,54 @@ namespace ULA.Presentation.ViewModels.Interactions
             this.DateFromFilter = DateTime.Today.AddDays(-14);
             this.DateToFilter = DateTime.Today;
             RefreshCommand = new DelegateCommand(OnRefreshExecute);
+            SaveJournalToFileCommand = new DelegateCommand(OnSaveJournalToFileExecute);
+        }
+
+        private void OnSaveJournalToFileExecute()
+        {
+            using (System.Windows.Forms.SaveFileDialog sfd = new System.Windows.Forms.SaveFileDialog())
+            {
+                sfd.Filter = "txt files (*.txt)|*.txt|All files (*.*)|*.*";
+                sfd.RestoreDirectory = false;
+                sfd.FileName = DateTime.Now.ToShortDateString() + " " + this._runtimeDeviceViewModel.Model.DeviceDescription;
+                if (sfd.ShowDialog() == System.Windows.Forms.DialogResult.OK)
+                {
+                    try
+                    {
+                        using (System.IO.StreamWriter writer = new System.IO.StreamWriter(new System.IO.FileStream(sfd.FileName, System.IO.FileMode.OpenOrCreate)))
+                        {
+                            
+                                foreach (var item in this.LogCollection.SourceCollection)
+                                {
+                                    writer.Write((item as ILogInformation).ActionDate.ToString() + " ");
+                                    writer.WriteLine((item as ILogInformation).ActionDescription);
+                                }
+                            writer.Close();
+                        }
+                        this._interactionService
+                        .Interact(ApplicationInteractionProviders.WarningMessageBoxInteractionProvider,
+                        viewModel =>
+                        {
+                            viewModel.ButtonType = Infrastructure.ViewModels.MessageBoxButtonType.OK;
+                            viewModel.Title = "Информация";
+                            viewModel.Message = "Журнал сохранен";
+                        },
+                        viewModel => { });
+                    }
+                    catch (Exception)
+                    {
+                        this._interactionService
+                        .Interact(ApplicationInteractionProviders.WarningMessageBoxInteractionProvider,
+                        viewModel =>
+                        {
+                            viewModel.ButtonType = Infrastructure.ViewModels.MessageBoxButtonType.OK;
+                            viewModel.Title = "Информация";
+                            viewModel.Message = "При сохранении журнала возникла ошибка";
+                        },
+                        viewModel => { });
+                    }
+                }
+            }
         }
 
         private async void OnRefreshExecute()
@@ -163,6 +211,10 @@ namespace ULA.Presentation.ViewModels.Interactions
         /// 
         /// </summary>
         public ICommand RefreshCommand { get; }
+        /// <summary>
+        /// 
+        /// </summary>
+        public ICommand SaveJournalToFileCommand { get; }
 
         /// <summary>
         ///     Gets an instance of <see cref="string" /> that represents description filter

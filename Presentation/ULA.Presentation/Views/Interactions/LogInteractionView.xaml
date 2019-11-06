@@ -119,7 +119,12 @@
                     Content="Перечитать"
                     IsEnabled="{Binding IsLoadingInProcess,Converter={StaticResource BoolReverseConverter}}"
                     Style="{DynamicResource DialogButtonStyle}" />
-
+            <Button Margin="4, 24, 4, 0"
+                    HorizontalAlignment="Right"
+                    VerticalAlignment="Bottom"
+                    Command="{Binding SaveJournalToFileCommand}"
+                    Content="Сохранить"
+                    Style="{DynamicResource DialogButtonStyle}" />
 
             <Button Margin="4, 24, 4, 0"
                     HorizontalAlignment="Right"
